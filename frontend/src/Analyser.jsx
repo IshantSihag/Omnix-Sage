@@ -1,0 +1,51 @@
+import React, { useState } from 'react';
+import './Analyser.css'; // Import CSS for styling
+
+function Analyser() {
+  const [query, setQuery] = useState('');
+  const [suggestions, setSuggestions] = useState([]);
+
+  const handleInputChange = async (event) => {
+    const value = event.target.value;
+    setQuery(value);
+
+    if (value.length > 0) {
+      try {
+        const response = await fetch(`http://127.0.0.1:8000/api/search/?company=${value}`);
+        const data = await response.json();
+        setSuggestions(data); // Update the suggestions state with the API response
+      } catch (error) {
+        console.error('Error fetching suggestions:', error);
+        setSuggestions([]);
+      }
+    } else {
+      setSuggestions([]);
+    }
+  };
+
+  return (
+    <div className="analyser-container">
+      <h2>Analyser Page</h2>
+      <div className="search-bar-container">
+        <input
+          type="text"
+          value={query}
+          onChange={handleInputChange}
+          placeholder="Search for a company..."
+          className="search-bar"
+        />
+        <ul className="suggestions-list">
+          {suggestions.map((suggestion) => (
+            <li key={suggestion.id}>
+              <a href={`http://127.0.0.1:8000/api/analysis?company=${suggestion.url}`} target="_blank" rel="noopener noreferrer">
+                {suggestion.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Analyser;
