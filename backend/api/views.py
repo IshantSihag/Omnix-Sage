@@ -21,7 +21,10 @@ class AnalysisView(APIView):
         company = request.query_params.get('company')
         company = company.replace('/company/', '')
         company_name = company.split('/')[0]
-        isConsolidated = True if company.split('/')[1] == 'consolidated' else False
+        try:
+            isConsolidated = True if company.split('/')[1] == 'consolidated' else False
+        except:
+            isConsolidated = False
         data = {'company': company, 'company_name': company_name, 'isConsolidated': isConsolidated}
         screener_url = f'https://www.screener.in/company/{company_name}/' + ('consolidated/' if isConsolidated else '')
         screener_resp = requests.get(screener_url).content
@@ -122,7 +125,7 @@ class AnalysisView(APIView):
         cash_from_investing_list = []
         for i in cash_from_investing.json()['Fixed assets purchased'].values():
             try:
-                cash_from_investing_list.append(float(i.replace(',', '')))
+                cash_from_investing_list.append(-(float(i.replace(',', ''))))
             except:
                 pass
         balance_sheet = financial_statement[6].to_dict()
@@ -351,8 +354,8 @@ class AnalysisView(APIView):
         operating_cash_flow = []
         for i in range(years):
             operating_cash_flow.append(net_profit_list[i] + depreciation_list[i])
+        
         price_to_operating_cash_flow = price_list[-1] / operating_cash_flow[-1]
-
 
         data = {
             'company': company,
