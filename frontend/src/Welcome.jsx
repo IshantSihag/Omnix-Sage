@@ -13,7 +13,7 @@ const App = () => {
         </div>
         <nav className="navbar">
           <a href="#portfolio" className="nav-item">Core Portfolio</a>
-          <Link to="/analyser" className="nav-item">Analyser</Link>
+          <Link to="/analyser" className="nav-item">Slipstream Finder</Link>
           <a href="#positions" className="nav-item">Positions</a>
           <a href="#positions" className="nav-item">Sattelite Portfolio</a>
           <a href="#lookthrough" className="nav-item">Lookthrough</a>
