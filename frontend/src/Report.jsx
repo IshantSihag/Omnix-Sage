@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ClipLoader } from 'react-spinners';
 import { Line, Bar } from 'react-chartjs-2';
+import { Rating } from 'react-simple-star-rating';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -31,6 +32,48 @@ function Report() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [ratings, setRatings] = useState({
+    revenue: 0,
+    percentChangeRevenue: 0,
+    expenses: 0,
+    materialCost: 0,
+    manufacturingCost: 0,
+    grossExpense: 0,
+    grossProfitMargin: 0,
+    operatingProfit: 0,
+    opm: 0,
+    interest: 0,
+    interestByRevenue: 0,
+    depreciation: 0,
+    depreciationByRevenue: 0,
+    netProfit: 0,
+    netProfitByRevenue: 0,
+    totalAssets: 0,
+    returnOnAssets: 0,
+    equity: 0,
+    returnOnEquity: 0,
+    cashEquivalents: 0,
+    cashEquivalentsByTotalAssets: 0,
+    tradeReceivables: 0,
+    tradeReceivablesByTotalAssets: 0,
+    borrowings: 0,
+    debtToEquity: 0,
+    capexbyincomeinpercentage: 0,
+    cashFromOperations: 0,
+    cashFromInvesting: 0,
+    freeCashFlow: 0,
+    promoterHolding: 0,
+    cashConversionCycle: 0,
+    roce: 0,
+    peRatio: 0,
+    epsValues: 0,
+  });
+  const [totalRating, setTotalRating] = useState(0);
+  useEffect(() => {
+    // Calculate the total rating whenever the ratings array changes
+    const newTotalRating = Object.values(ratings).reduce((acc, rating) => acc + rating, 0);
+    setTotalRating(newTotalRating);
+  }, [ratings]);
 
   useEffect(() => {
     if (company) {
@@ -101,6 +144,31 @@ function Report() {
       />
     );
   };
+
+  const renderChartWithRating = (label, plot_data, color, label_list = data.year_list) => {
+    function cleanString(input) {
+      // Convert the string to lowercase
+      let lowerCaseString = input.toLowerCase();
+      
+      // Replace any non-alphabet characters with an empty string
+      // or you can replace them with another character if needed
+      let cleanedString = lowerCaseString.replace(/[^a-z]/g, '');
+  
+      return cleanedString;
+  }
+  let cleanedLabel = cleanString(label);
+    return (<div>
+      <h5>{label}</h5>
+      {renderChart(label, plot_data, color, label_list)}
+      <Rating
+        initialRating={ratings[cleanedLabel]}
+        onClick={(value) => handleRatingChange(value, cleanedLabel)}
+        transition={true}
+        iconsCount={10}
+      />
+    </div>)
+  
+  }
 
   const renderCombinedChart = (data) => {
     return (
@@ -211,10 +279,26 @@ const renderBarChart = (label, plot_data, color, label_list) => {
             beginAtZero: true,
           },
         },
+        interaction: {
+          mode: 'index',
+          intersect: false,
+        },
+        plugins: {
+          tooltip: {
+            mode: 'index',
+            intersect: false,
+            
+          },
+        },
       }}
     />
   );
 };
+
+
+  const handleRatingChange = (event, key) => {
+    setRatings({ ...ratings, [key]: event.target.value });
+  };
 
   return (
     <div>
@@ -283,151 +367,42 @@ const renderBarChart = (label, plot_data, color, label_list) => {
                 <h5>Key Insights</h5>
                 <pre>{JSON.stringify(data.key_insights, null, 2)}</pre>
               </div>
-              <div>
-                <h5>Revenue</h5>
-                {renderChart('Revenue', data.sales_list, 'rgba(75, 192, 192, 1)')}
-              </div>
-              <div>
-              <h5>Percent Change in Revenue</h5>
-                {renderChart('Percent Change in Revenue', data.percent_change_sales, 'rgba(123, 104, 238, 1)', data.year_list.slice(1))}
-              </div>
-              <div>
-                <h5>Expenses</h5>
-                {renderChart('Expenses', data.expenses_list, 'rgba(255, 99, 132, 1)')}
-              </div>
-              <div>
-                <h5>Material Cost %</h5>
-                {renderChart('Material Cost %', data.material_cost_percent, 'rgba(255, 99, 132, 1)')}
-              </div>
-              <div>
-                <h5>Manufacturing Cost %</h5>
-                {renderChart('Manufacturing Cost %', data.manufacuring_cost_percent, 'rgba(54, 162, 235, 1)')}
-              </div>
-              <div>
-                <h5>Gross Expense</h5>
-                {renderChart('Gross Expense', data.gross_expense, 'rgba(153, 102, 255, 1)')}
-              </div>
-              <div>
-                <h5>Gross Profit Margin</h5>
-                {renderChart('Gross Profit Margin', data.gross_profit_margin, 'rgba(255, 159, 64, 1)')}
-              </div>
-              <div>
-                <h5>Operating Profit</h5>
-                {renderChart('Operating Profit', data.operating_profit_list, 'rgba(255, 206, 86, 1)')}
-              </div>
-              <div>
-                <h5>OPM %</h5>
-                {renderChart('OPM %', data.opm_percent_list, 'rgba(54, 162, 235, 1)')}
-              </div>
-              <div>
-                <h5>Interest</h5>
-                {renderChart('Interest', data.interest_list, 'rgba(153, 102, 255, 1)')}
-              </div>
-              <div>
-                <h5>Interest by Revenue</h5>
-                {renderChart('Interest by Revenue', data.interest_by_sales, 'rgba(153, 102, 255, 1)')}
-              </div>
-              <div>
-                <h5>Depreciation</h5>
-                {renderChart('Depreciation', data.depreciation_list, 'rgba(255, 159, 64, 1)')}
-              </div>
-              <div>
-                <h5>Depreciation by Revenue</h5>
-                {renderChart('Depreciation by Revenue', data.depreciation_by_sales, 'rgba(255, 159, 64, 1)')}
-              </div>
-              <div>
-                <h5>Net Profit</h5>
-                {renderChart('Net Profit', data.net_profit_list, 'rgba(255, 206, 86, 1)')}
-              </div>
-              <div>
-                <h5>Net Profit by Revenue</h5>
-                {renderChart('Net Profit by Revenue', data.net_profit_by_sales, 'rgba(255, 99, 132, 1)')}
-              </div>
-              <div>
-                <h5>EPS</h5>
-                {renderChart('EPS', data.eps, 'rgba(75, 192, 192, 1)')}
-              </div>
-              {/* divident aayega */}
-              <div>
-                <h5>Total Assets</h5>
-                {renderChart('Total Assets', data.total_assets, 'rgba(54, 162, 235, 1)')}
-              </div>
-              <div>
-                <h5>Return on Assets</h5>
-                {renderChart('Return on Assets', data.return_on_assets, 'rgba(255, 159, 64, 1)')}
-              </div>
-              <div>
-                <h5>Equity</h5>
-                {renderChart('Equity', data.equity, 'rgba(153, 102, 255, 1)')}
-              </div>
-              <div>
-                <h5>Return on Equity</h5>
-                {renderChart('Return on Equity', data.return_on_equity, 'rgba(255, 206, 86, 1)')}
-              </div>
-              <div>
-                <h5>Cash Equivalents</h5>
-                {renderChart('Cash Equivalents', data.cash_equivalents, 'rgba(255, 206, 86, 1)')}
-              </div>
-              <div>
-                <h5>Cash Equivalents by Total Assets</h5>
-                {renderChart('Cash Equivalents by Total Assets', data.cash_equivalents_by_total_assets, 'rgba(75, 192, 192, 1)')}
-              </div>
-              <div>
-                <h5>Trade Receivables</h5>
-                {renderChart('Trade Receivables', data.trade_receivables, 'rgba(75, 192, 192, 1)')}
-              </div>
-              <div>
-                <h5>Trade Receivables by Total Assets</h5>
-                {renderChart('Trade Receivables by Total Assets', data.trade_receivables_by_total_assets, 'rgba(54, 162, 235, 1)')}
-              </div>
-              <div>
-                <h5>Borrowings</h5>
-                {renderChart('Borrowings', data.borrowings, 'rgba(255, 159, 64, 1)')}
-              </div>
-              <div>
-                <h5>Debt to Equity</h5>
-                {renderChart('Debt to Equity', data.debt_to_equity, 'rgba(255, 99, 132, 1)')}
-              </div>
-              <div>
-                <h5>Capex</h5>
-                {renderChart('Capex', data.capex_list, 'rgba(153, 102, 255, 1)')}
-              </div>
-              <div>
-                <h5>Capex by Income in Percentage</h5>
-                <p>{data.capex_by_income}</p>
-              </div>
-              <div>
-                <h5>Cash from Operations</h5>
-                {renderChart('Cash from Operations', data.cash_from_operation_list, 'rgba(255, 206, 86, 1)')}
-              </div>
-              <div>
-                <h5>Cash from Investing</h5>
-                {renderChart('Cash from Investing', data.cash_from_investing_list, 'rgba(255, 99, 132, 1)')}
-              </div>
-              <div>
-                <h5>Free Cash Flow</h5>
-                {renderChart('Free Cash Flow', data.free_cash_flow, 'rgba(123, 104, 238, 1)')}
-              </div>
-              <div>
-                <h5>Promoter Holding</h5>
-                {renderChart('Promoter Holding', data.promoter_holding, 'rgba(75, 192, 192, 1)')}
-              </div>
-              <div>
-                <h5>Cash Conversion Cycle</h5>
-                {renderChart('Cash Conversion Cycle', data.cash_conversion_cycle, 'rgba(255, 99, 132, 1)')}
-              </div>
-              <div>
-                <h5>ROCE %</h5>
-                {renderChart('ROCE %', data.roce_percent, 'rgba(54, 162, 235, 1)')}
-              </div>
-              <div>
-                <h5>PE Ratio</h5>
-                {renderChart('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
-              </div>
-              <div>
-                <h5>EPS Values</h5>
-                {renderChart('EPS Values', data.eps_values_list, 'rgba(153, 102, 255, 1)', data.eps_date_list)}
-              </div>
+              {renderChartWithRating('Revenue', data.sales_list, 'rgba(75, 192, 192, 1)')}
+              {renderChartWithRating('Percent Change in Revenue', data.percent_change_sales, 'rgba(123, 104, 238, 1)', data.year_list.slice(1))}
+              {renderChartWithRating('Expenses', data.expenses_list, 'rgba(255, 99, 132, 1)')}
+              {renderChartWithRating('Material Cost %', data.material_cost_percent, 'rgba(255, 99, 132, 1)')}
+              {renderChartWithRating('Manufacturing Cost %', data.manufacuring_cost_percent, 'rgba(54, 162, 235, 1)')}
+              {renderChartWithRating('Gross Expense', data.gross_expense, 'rgba(153, 102, 255, 1)')}
+              {renderChartWithRating('Gross Profit Margin', data.gross_profit_margin, 'rgba(255, 159, 64, 1)')}
+              {renderChartWithRating('Operating Profit', data.operating_profit_list, 'rgba(255, 206, 86, 1)')}
+              {renderChartWithRating('OPM %', data.opm_percent_list, 'rgba(54, 162, 235, 1)')}
+              {renderChartWithRating('Interest', data.interest_list, 'rgba(153, 102, 255, 1)')}
+              {renderChartWithRating('Interest by Revenue', data.interest_by_sales, 'rgba(153, 102, 255, 1)')}
+              {renderChartWithRating('Depreciation', data.depreciation_list, 'rgba(255, 159, 64, 1)')}
+              {renderChartWithRating('Depreciation by Revenue', data.depreciation_by_sales, 'rgba(255, 159, 64, 1)')}
+              {renderChartWithRating('Net Profit', data.net_profit_list, 'rgba(255, 206, 86, 1)')}
+              {renderChartWithRating('Net Profit by Revenue', data.net_profit_by_sales, 'rgba(255, 99, 132, 1)')}
+              {renderChartWithRating('EPS Values', data.eps_values_list, 'rgba(153, 102, 255, 1)', data.eps_date_list)}
+              {/* total dividint */}
+              {renderChartWithRating('Total Assets', data.total_assets, 'rgba(54, 162, 235, 1)')}
+              {renderChartWithRating('Return on Assets', data.return_on_assets, 'rgba(255, 159, 64, 1)')}
+              {renderChartWithRating('Equity', data.equity, 'rgba(153, 102, 255, 1)')}
+              {renderChartWithRating('Return on Equity', data.return_on_equity, 'rgba(255, 206, 86, 1)')}
+              {renderChartWithRating('Cash Equivalents', data.cash_equivalents, 'rgba(255, 206, 86, 1)')}
+              {renderChartWithRating('Cash Equivalents by Total Assets', data.cash_equivalents_by_total_assets, 'rgba(75, 192, 192, 1)')}
+              {renderChartWithRating('Trade Receivables', data.trade_receivables, 'rgba(75, 192, 192, 1)')}
+              {renderChartWithRating('Trade Receivables by Total Assets', data.trade_receivables_by_total_assets, 'rgba(54, 162, 235, 1)')}
+              {renderChartWithRating('Borrowings', data.borrowings, 'rgba(255, 159, 64, 1)')}
+              {renderChartWithRating('Debt to Equity', data.debt_to_equity, 'rgba(255, 99, 132, 1)')}
+              {renderChartWithRating('Capex by Income in Percentage', data.capex_list, 'rgba(153, 102, 255, 1)')}
+              {renderChartWithRating('Cash from Operations', data.cash_from_operation_list, 'rgba(255, 206, 86, 1)')}
+              {renderChartWithRating('Cash from Investing', data.cash_from_investing_list, 'rgba(255, 99, 132, 1)')}
+              {renderChartWithRating('Free Cash Flow', data.free_cash_flow, 'rgba(123, 104, 238, 1)')}
+              {renderChartWithRating('Promoter Holding', data.promoter_holding, 'rgba(75, 192, 192, 1)', data.promoter_holding_years)}
+              {renderChartWithRating('Cash Conversion Cycle', data.cash_conversion_cycle, 'rgba(255, 99, 132, 1)')}
+
+              {renderChartWithRating('ROCE %', data.roce_percent, 'rgba(54, 162, 235, 1)')}
+              {renderChartWithRating('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
               <div>
               <h5>DMA 50</h5>
                 {renderChart('DMA50', data.dma50_list, 'rgba(255, 159, 64, 1)', data.dma50_date_list)}
@@ -496,6 +471,19 @@ const renderBarChart = (label, plot_data, color, label_list) => {
                 <h5>Price Willing to Pay</h5>
                 <p>{data.price_willing_to_pay}</p>
               </div>
+              <div>
+                <h5>Total Rating Sum: {totalRating}</h5>
+                  {Object.keys(ratings).map((key) => (
+                  <div key={key}>
+                    <label>{key}:</label>
+                    <input
+                      type="number"
+                      value={ratings[key]}
+                      onChange={(e) => handleRatingChange(key, parseInt(e.target.value) || 0)}
+                    />
+                  </div>
+                ))}
+              </div>  
             </div>
           ) : (
             <p>No data available.</p>
