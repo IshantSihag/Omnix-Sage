@@ -38,28 +38,16 @@ const App = () => {
 // Array of Quotes
 const quotes = [
   {
-    text: "The stock market is filled with individuals who know the price of everything, but the value of nothing.",
+    text: "It seems logical that even before thinking of buying any common stock, the first step is to see how money has been most successfully made in the past.",
     author: "Philip Fisher"
-  },
-  {
-    text: "It's not supposed to be easy. Anyone who finds it easy is stupid.",
-    author: "Charlie Munger"
-  },
-  {
-    text: "You can't predict. You can prepare.",
-    author: "Howard Marks"
-  },
-  {
-    text: "Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1.",
-    author: "Warren Buffett"
   },
   {
     text: "Investing is simple, but not easy.",
     author: "Warren Buffett"
   },
   {
-    text: "The big money is not in the buying and selling, but in the waiting.",
-    author: "Charlie Munger"
+    text: "Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1.",
+    author: "Warren Buffett"
   },
   {
     text: "Risk comes from not knowing what you're doing.",

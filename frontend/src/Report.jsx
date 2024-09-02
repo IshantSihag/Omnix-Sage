@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ClipLoader } from 'react-spinners';
 import { Line, Bar } from 'react-chartjs-2';
-import { Rating } from 'react-simple-star-rating';
+import { Rating as StarRating } from 'react-simple-star-rating' ;
+import Rating from 'react-rating';
+import './Report.css';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -145,6 +147,12 @@ function Report() {
     );
   };
 
+  const CircleIcon = ({ fill = 'none', stroke = 'black', strokeWidth = 2 }) => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill={fill} xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="10" stroke={stroke} strokeWidth={strokeWidth} />
+    </svg>
+  );
+
   const renderChartWithRating = (label, plot_data, color, label_list = data.year_list) => {
     function cleanString(input) {
       // Convert the string to lowercase
@@ -160,12 +168,31 @@ function Report() {
     return (<div>
       <h5>{label}</h5>
       {renderChart(label, plot_data, color, label_list)}
-      <Rating
-        initialRating={ratings[cleanedLabel]}
-        onClick={(value) => handleRatingChange(value, cleanedLabel)}
-        transition={true}
-        iconsCount={10}
-      />
+      <div>
+        <div className='graph-weightage'>
+          <span>Weightage : </span>
+          <Rating
+            initialRating={ratings[cleanedLabel]}
+            onClick={() => {}}
+            emptySymbol={<CircleIcon fill="none" stroke="black" />}
+            fullSymbol={<CircleIcon fill="green" stroke="black" />}
+            start={0} // Start the rating from 0
+            stop={10} // End the rating at 10 (number of stars)
+          
+            // transition
+            // fractions={2} // Adjust this if needed
+          />
+        </div>
+        <div className='graph-ratings'>
+          <span>Ratings : </span>
+          <StarRating
+            initialRating={ratings[cleanedLabel]}
+            onClick={(value) => handleRatingChange(value, cleanedLabel)}
+            transition={true}
+            iconsCount={10}
+          />
+        </div>
+      </div>
     </div>)
   
   }
@@ -302,7 +329,6 @@ const renderBarChart = (label, plot_data, color, label_list) => {
 
   return (
     <div>
-      <h2>Report Page</h2>
       {company ? (
         <div>
           <h3>{company.name}</h3>
