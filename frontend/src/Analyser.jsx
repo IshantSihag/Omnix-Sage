@@ -26,7 +26,7 @@ function Analyser() {
 
   return (
     <div className="analyser-container">
-      <h2>Analyser Page</h2>
+      <h2>Finder</h2>
       <div className="search-bar-container">
         <input
           type="text"

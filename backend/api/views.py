@@ -873,14 +873,49 @@ class AnalysisView(APIView):
 
 
 
-
-
+        graph_ratings_and_weightage = {
+            'revenue' : {'rating':8, 'weightage':9},
+            'percentchangeinrevenue' : {'rating':8, 'weightage':9},
+            'expenses' : {'rating':8, 'weightage':9},
+            'materialcost' : {'rating':8, 'weightage':9},
+            'manufacturingcost' : {'rating':8, 'weightage':9},
+            'grossexpense' : {'rating':8, 'weightage':9},
+            'grossprofitmargin' : {'rating':8, 'weightage':9},
+            'operatingprofit' : {'rating':8, 'weightage':9},
+            'opm' : {'rating':8, 'weightage':9},
+            'interest' : {'rating':8, 'weightage':9},
+            'interestbyrevenue' : {'rating':8, 'weightage':9},
+            'depreciation' : {'rating':8, 'weightage':9},
+            'depreciationbyrevenue' : {'rating':8, 'weightage':9},
+            'netprofit' : {'rating':8, 'weightage':9},
+            'netprofitbyrevenue' : {'rating':8, 'weightage':9},
+            'epsvalues' : {'rating':8, 'weightage':9},
+            'totalassets' : {'rating':8, 'weightage':9},
+            'returnonassets' : {'rating':8, 'weightage':9},
+            'equity' : {'rating':8, 'weightage':9},
+            'returnonequity' : {'rating':8, 'weightage':9},
+            'cashequivalents' : {'rating':8, 'weightage':9},
+            'cashequivalentsbytotalassets' : {'rating':8, 'weightage':9},
+            'tradereceivables' : {'rating':8, 'weightage':9},
+            'tradereceivablesbytotalassets' : {'rating':8, 'weightage':9},
+            'borrowings' : {'rating':8, 'weightage':9},
+            'debttoequity' : {'rating':8, 'weightage':9},
+            'capexbyincomeinpercentage' : {'rating':8, 'weightage':9},
+            'cashfromoperations' : {'rating':8, 'weightage':9},
+            'cashfrominvesting' : {'rating':8, 'weightage':9},
+            'freecashflow' : {'rating':8, 'weightage':9},
+            'promoterholding' : {'rating':8, 'weightage':9},
+            'cashconversioncycle' : {'rating':8, 'weightage':9},
+            'roce' : {'rating':8, 'weightage':9},
+            'peratio' : {'rating':8, 'weightage':9},
+        }
 
 
 
 
 
         data = {
+            'graph_ratings_and_weightage' : graph_ratings_and_weightage,
             'usd_inr_time': usd_inr_time,
             'usd_inr_price': usd_inr_price,
             'nifty_time': nifty_time,

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ClipLoader } from 'react-spinners';
 import { Line, Bar } from 'react-chartjs-2';
-import { Rating as StarRating } from 'react-simple-star-rating' ;
+import { Rating as StarRating } from 'react-simple-star-rating';
 import Rating from 'react-rating';
 import './Report.css';
 import {
@@ -71,11 +71,30 @@ function Report() {
     epsValues: 0,
   });
   const [totalRating, setTotalRating] = useState(0);
+  const [finalRating, setFinalRating] = useState(0);
+  const [chartRatingAndWeightage, setChartRatingAndWeightage] = useState({});
+
+  // useEffect(() => {
+  //   // Calculate the total rating whenever the ratings array changes
+  //   const newTotalRating = Object.values(ratings).reduce((acc, rating) => acc + rating, 0);
+  //   setTotalRating(newTotalRating);
+  // }, [ratings]);
+
   useEffect(() => {
-    // Calculate the total rating whenever the ratings array changes
-    const newTotalRating = Object.values(ratings).reduce((acc, rating) => acc + rating, 0);
-    setTotalRating(newTotalRating);
-  }, [ratings]);
+    if (chartRatingAndWeightage && Object.keys(chartRatingAndWeightage).length > 0) {
+      let rw = 0;
+      let w = 0;
+      console.log("Chart Rating and Weightage in final calculation: ", chartRatingAndWeightage);
+      for (const [key, value] of Object.entries(chartRatingAndWeightage)) {
+        rw += value['rating'] * value['weightage'];
+        w += value['weightage'];
+      }
+      console.log("rw , w : ", rw, w);
+      if(w != 0){
+        setFinalRating(rw/w)
+      }
+    }
+  }, [chartRatingAndWeightage]);
 
   useEffect(() => {
     if (company) {
@@ -86,7 +105,8 @@ function Report() {
             throw new Error('Network response was not ok');
           }
           const result = await response.json();
-        //   const result = response;
+          //   const result = response;
+          console.log("Result ", result);
           setData(result);
         } catch (error) {
           setError(error);
@@ -99,7 +119,13 @@ function Report() {
     } else {
       setLoading(false);
     }
-  }, [company]);
+  }, []);
+
+  useEffect(() => {
+    setChartRatingAndWeightage(data?.graph_ratings_and_weightage);
+  }, [data])
+
+
 
   if (loading) {
     return (
@@ -115,7 +141,7 @@ function Report() {
 
   const renderChart = (label, plot_data, color, label_list = data.year_list) => {
     const pointRadius = label_list.length > 100 ? 0 : 3;
-     return (
+    return (
       <Line
         data={{
           labels: label_list,
@@ -135,13 +161,13 @@ function Report() {
             mode: 'index',
             intersect: false,
           },
-        plugins: {
-          tooltip: {
-            mode: 'index',
-            intersect: false,
-            
+          plugins: {
+            tooltip: {
+              mode: 'index',
+              intersect: false,
+
+            },
           },
-        },
         }}
       />
     );
@@ -157,14 +183,14 @@ function Report() {
     function cleanString(input) {
       // Convert the string to lowercase
       let lowerCaseString = input.toLowerCase();
-      
+
       // Replace any non-alphabet characters with an empty string
       // or you can replace them with another character if needed
       let cleanedString = lowerCaseString.replace(/[^a-z]/g, '');
-  
+
       return cleanedString;
-  }
-  let cleanedLabel = cleanString(label);
+    }
+    let cleanedLabel = cleanString(label);
     return (<div>
       <h5>{label}</h5>
       {renderChart(label, plot_data, color, label_list)}
@@ -172,21 +198,22 @@ function Report() {
         <div className='graph-weightage'>
           <span>Weightage : </span>
           <Rating
-            initialRating={ratings[cleanedLabel]}
-            onClick={() => {}}
+            initialRating={data.graph_ratings_and_weightage[cleanedLabel]['weightage']}
+            onClick={(value) => {handleWeightChange(value, cleanedLabel) }}
             emptySymbol={<CircleIcon fill="none" stroke="black" />}
             fullSymbol={<CircleIcon fill="green" stroke="black" />}
+            transition={true}
             start={0} // Start the rating from 0
             stop={10} // End the rating at 10 (number of stars)
-          
-            // transition
-            // fractions={2} // Adjust this if needed
+
+          // transition
+          // fractions={2} // Adjust this if needed
           />
         </div>
         <div className='graph-ratings'>
           <span>Ratings : </span>
           <StarRating
-            initialRating={ratings[cleanedLabel]}
+            initialValue={data.graph_ratings_and_weightage[cleanedLabel]['rating']}
             onClick={(value) => handleRatingChange(value, cleanedLabel)}
             transition={true}
             iconsCount={10}
@@ -194,7 +221,7 @@ function Report() {
         </div>
       </div>
     </div>)
-  
+
   }
 
   const renderCombinedChart = (data) => {
@@ -251,7 +278,7 @@ function Report() {
               grid: {
                 display: false,
               },
-              
+
             },
             'y-axis-1': {
               type: 'linear',
@@ -274,58 +301,85 @@ function Report() {
             tooltip: {
               mode: 'index',
               intersect: false,
-              
+
             },
           },
         }}
       />
     );
   };
-  
-const renderBarChart = (label, plot_data, color, label_list) => {
-  return (
-    <Bar
-      data={{
-        labels: label_list,
-        datasets: [
-          {
-            label: label,
-            data: plot_data,
-            backgroundColor: `${color.replace('1)', '0.2)')}`,
-            borderColor: color,
-            borderWidth: 1,
+
+  const renderBarChart = (label, plot_data, color, label_list) => {
+    return (
+      <Bar
+        data={{
+          labels: label_list,
+          datasets: [
+            {
+              label: label,
+              data: plot_data,
+              backgroundColor: `${color.replace('1)', '0.2)')}`,
+              borderColor: color,
+              borderWidth: 1,
+            },
+          ],
+        }}
+        options={{
+          scales: {
+            x: {
+              beginAtZero: true,
+            },
+            y: {
+              beginAtZero: true,
+            },
           },
-        ],
-      }}
-      options={{
-        scales: {
-          x: {
-            beginAtZero: true,
-          },
-          y: {
-            beginAtZero: true,
-          },
-        },
-        interaction: {
-          mode: 'index',
-          intersect: false,
-        },
-        plugins: {
-          tooltip: {
+          interaction: {
             mode: 'index',
             intersect: false,
-            
           },
-        },
-      }}
-    />
-  );
-};
+          plugins: {
+            tooltip: {
+              mode: 'index',
+              intersect: false,
+
+            },
+          },
+        }}
+      />
+    );
+  };
 
 
   const handleRatingChange = (event, key) => {
-    setRatings({ ...ratings, [key]: event.target.value });
+    // setRatings({ ...ratings, [key]: event.target.value });
+    console.log("chart ratings and weightage in handleRatingChange: ", chartRatingAndWeightage)
+    const prevWeight = chartRatingAndWeightage[key]['weightage'];
+    setChartRatingAndWeightage({
+      ...chartRatingAndWeightage,
+      [key] : {
+        "rating" : event,
+        "weightage": prevWeight
+      }
+    })
+    console.log(event, key)
+    // console.log('ratings', event, key);
   };
+
+  const handleWeightChange = (value, key) => {
+    // setRatings({ ...ratings, [key]: value });
+    console.log("chart ratings and weightage in handleWeightChange: ", chartRatingAndWeightage)
+    const prevRating = chartRatingAndWeightage[key]['rating'];
+    setChartRatingAndWeightage({
+      ...chartRatingAndWeightage,
+      [key] : {
+        "rating" : prevRating,
+        "weightage": value
+      }
+    })
+    console.log(value, key)
+    // console.log('weight', value, key);
+  }
+
 
   return (
     <div>
@@ -430,7 +484,7 @@ const renderBarChart = (label, plot_data, color, label_list) => {
               {renderChartWithRating('ROCE %', data.roce_percent, 'rgba(54, 162, 235, 1)')}
               {renderChartWithRating('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
               <div>
-              <h5>DMA 50</h5>
+                <h5>DMA 50</h5>
                 {renderChart('DMA50', data.dma50_list, 'rgba(255, 159, 64, 1)', data.dma50_date_list)}
               </div>
               <div>
@@ -448,7 +502,7 @@ const renderBarChart = (label, plot_data, color, label_list) => {
               <div>
                 <h5>Combined Chart</h5>
                 {renderCombinedChart(data)}
-                </div>
+              </div>
               <div>
                 <h5>Number of Shares</h5>
                 <p>{data.number_of_shares}</p>
@@ -498,18 +552,8 @@ const renderBarChart = (label, plot_data, color, label_list) => {
                 <p>{data.price_willing_to_pay}</p>
               </div>
               <div>
-                <h5>Total Rating Sum: {totalRating}</h5>
-                  {Object.keys(ratings).map((key) => (
-                  <div key={key}>
-                    <label>{key}:</label>
-                    <input
-                      type="number"
-                      value={ratings[key]}
-                      onChange={(e) => handleRatingChange(key, parseInt(e.target.value) || 0)}
-                    />
-                  </div>
-                ))}
-              </div>  
+                <h5>Total Rating Sum: {finalRating}</h5>
+              </div>
             </div>
           ) : (
             <p>No data available.</p>
