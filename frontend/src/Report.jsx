@@ -34,43 +34,6 @@ function Report() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [ratings, setRatings] = useState({
-    revenue: 0,
-    percentChangeRevenue: 0,
-    expenses: 0,
-    materialCost: 0,
-    manufacturingCost: 0,
-    grossExpense: 0,
-    grossProfitMargin: 0,
-    operatingProfit: 0,
-    opm: 0,
-    interest: 0,
-    interestByRevenue: 0,
-    depreciation: 0,
-    depreciationByRevenue: 0,
-    netProfit: 0,
-    netProfitByRevenue: 0,
-    totalAssets: 0,
-    returnOnAssets: 0,
-    equity: 0,
-    returnOnEquity: 0,
-    cashEquivalents: 0,
-    cashEquivalentsByTotalAssets: 0,
-    tradeReceivables: 0,
-    tradeReceivablesByTotalAssets: 0,
-    borrowings: 0,
-    debtToEquity: 0,
-    capexbyincomeinpercentage: 0,
-    cashFromOperations: 0,
-    cashFromInvesting: 0,
-    freeCashFlow: 0,
-    promoterHolding: 0,
-    cashConversionCycle: 0,
-    roce: 0,
-    peRatio: 0,
-    epsValues: 0,
-  });
-  const [totalRating, setTotalRating] = useState(0);
   const [finalRating, setFinalRating] = useState(0);
   const [chartRatingAndWeightage, setChartRatingAndWeightage] = useState({});
 
@@ -308,6 +271,46 @@ function Report() {
       />
     );
   };
+  const renderCashNetProfitGraph = (data) => {
+    return (
+      <Line
+        data={{
+          labels: data.year_list, // Assuming all datasets share the same date list
+          datasets: [
+            {
+              label: 'Cash from Operations',
+              data: data.cash_from_operation_list,
+              borderColor: 'rgba(255, 99, 132, 1)',
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              pointRadius: 0,
+              pointHoverRadius: 0,
+            },
+            {
+              label: 'Net Profit',
+              data: data.net_profit_list,
+              borderColor: 'rgba(255, 206, 86, 1)',
+              backgroundColor: 'rgba(255, 206, 86, 0.2)',
+              pointRadius: 0,
+              pointHoverRadius: 0,
+            },
+          ],
+        }}
+        options={{
+          interaction: {
+            mode: 'index',
+            intersect: false,
+          },
+          plugins: {
+            tooltip: {
+              mode: 'index',
+              intersect: false,
+
+            },
+          },
+        }}
+      />
+    );
+  };
 
   const renderBarChart = (label, plot_data, color, label_list) => {
     return (
@@ -476,6 +479,10 @@ function Report() {
               {renderChartWithRating('Debt to Equity', data.debt_to_equity, 'rgba(255, 99, 132, 1)')}
               {renderChartWithRating('Capex by Income in Percentage', data.capex_list, 'rgba(153, 102, 255, 1)')}
               {renderChartWithRating('Cash from Operations', data.cash_from_operation_list, 'rgba(255, 206, 86, 1)')}
+              <div>
+                <h5>Cash from Operations and Net profit</h5>
+                {renderCashNetProfitGraph(data)}
+              </div>
               {renderChartWithRating('Cash from Investing', data.cash_from_investing_list, 'rgba(255, 99, 132, 1)')}
               {renderChartWithRating('Free Cash Flow', data.free_cash_flow, 'rgba(123, 104, 238, 1)')}
               {renderChartWithRating('Promoter Holding', data.promoter_holding, 'rgba(75, 192, 192, 1)', data.promoter_holding_years)}

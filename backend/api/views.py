@@ -24,6 +24,49 @@ import pytz
 # Create your views here.
 
 
+def calculate_cagr(net_profits):
+    initial_value = net_profits[0]
+    final_value = net_profits[-1]
+    n = len(net_profits) - 1  # number of intervals
+    if initial_value == 0:  # Avoid division by zero
+        return -1  # Return an invalid CAGR to indicate an error
+    cagr = (final_value / initial_value) ** (1 / n) - 1
+    return cagr
+
+def calculate_yoy_growth(net_profits):
+    yoy_growth = []
+    for i in range(1, len(net_profits)):
+        growth = (net_profits[i] - net_profits[i - 1]) / net_profits[i - 1]
+        yoy_growth.append(growth)
+    return yoy_growth
+
+def calculate_volatility(yoy_growth):
+    return np.std(yoy_growth)  # Standard deviation of YoY growth rates
+
+def rate_net_profit_growth(net_profits, growth_weight=0.8, consistency_weight=0.2):
+    # Calculate CAGR-based score
+    cagr = calculate_cagr(net_profits)
+    if cagr < 0:
+        cagr_score = 0  # If there's negative growth, score 0
+    elif cagr >= 0.2:
+        cagr_score = 10  # If CAGR is 20% or more, score 10
+    else:
+        cagr_score = round((cagr / 0.2) * 10, 2)  # Scale score linearly for CAGR < 20%
+
+    # Calculate YoY growth rates and consistency score
+    yoy_growth = calculate_yoy_growth(net_profits)
+    volatility = calculate_volatility(yoy_growth)
+
+    # Scale consistency score (lower volatility = higher consistency score)
+    # For simplicity, we can say if volatility > 0.2, score 0; if volatility is 0, score 10
+    consistency_score = max(0, 10 - (volatility * 50))  # Adjust scaling factor as necessary
+
+    # Combine the growth and consistency scores
+    final_score = round((growth_weight * cagr_score) + (consistency_weight * consistency_score))
+    return final_score
+
+
+
 AvailableTimeFrame = Literal[
     "1",
     "3",
@@ -887,7 +930,7 @@ class AnalysisView(APIView):
             'interestbyrevenue' : {'rating':8, 'weightage':9},
             'depreciation' : {'rating':8, 'weightage':9},
             'depreciationbyrevenue' : {'rating':8, 'weightage':9},
-            'netprofit' : {'rating':8, 'weightage':9},
+            'netprofit' : {'rating':rate_net_profit_growth(net_profit_list), 'weightage':10},
             'netprofitbyrevenue' : {'rating':8, 'weightage':9},
             'epsvalues' : {'rating':8, 'weightage':9},
             'totalassets' : {'rating':8, 'weightage':9},
