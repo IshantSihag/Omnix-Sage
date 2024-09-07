@@ -456,9 +456,10 @@ function Report() {
               {renderChartWithRating('Material Cost %', data.material_cost_percent, 'rgba(255, 99, 132, 1)')}
               {renderChartWithRating('Manufacturing Cost %', data.manufacuring_cost_percent, 'rgba(54, 162, 235, 1)')}
               {renderChartWithRating('Gross Expense', data.gross_expense, 'rgba(153, 102, 255, 1)')}
+              {renderChartWithRating('Gross Profit', data.gross_profit, 'rgba(153, 134, 255, 1)')}
               {renderChartWithRating('Gross Profit Margin', data.gross_profit_margin, 'rgba(255, 159, 64, 1)')}
               {renderChartWithRating('Operating Profit', data.operating_profit_list, 'rgba(255, 206, 86, 1)')}
-              {renderChartWithRating('OPM %', data.opm_percent_list, 'rgba(54, 162, 235, 1)')}
+              {renderChartWithRating('Operating Profit Margin', data.opm_percent_list, 'rgba(54, 162, 235, 1)')}
               {renderChartWithRating('Interest', data.interest_list, 'rgba(153, 102, 255, 1)')}
               {renderChartWithRating('Interest by Revenue', data.interest_by_sales, 'rgba(153, 102, 255, 1)')}
               {renderChartWithRating('Depreciation', data.depreciation_list, 'rgba(255, 159, 64, 1)')}
@@ -484,12 +485,18 @@ function Report() {
                 {renderCashNetProfitGraph(data)}
               </div>
               {renderChartWithRating('Cash from Investing', data.cash_from_investing_list, 'rgba(255, 99, 132, 1)')}
-              {renderChartWithRating('Free Cash Flow', data.free_cash_flow, 'rgba(123, 104, 238, 1)')}
+              <div>
+                <h5>Free Cash Flow</h5>
+                {renderChart('Free Cash Flow', data.free_cash_flow, 'rgba(123, 104, 238, 1)')}
+              </div>
               {renderChartWithRating('Promoter Holding', data.promoter_holding, 'rgba(75, 192, 192, 1)', data.promoter_holding_years)}
               {renderChartWithRating('Cash Conversion Cycle', data.cash_conversion_cycle, 'rgba(255, 99, 132, 1)')}
 
               {renderChartWithRating('ROCE %', data.roce_percent, 'rgba(54, 162, 235, 1)')}
-              {renderChartWithRating('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
+              <div>
+                <h5>PE Ratio</h5>
+                {renderChart('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
+              </div>
               <div>
                 <h5>DMA 50</h5>
                 {renderChart('DMA50', data.dma50_list, 'rgba(255, 159, 64, 1)', data.dma50_date_list)}
@@ -555,11 +562,11 @@ function Report() {
                 <p>{data.compunded_sales_growth}</p>
               </div>
               <div>
-                <h5>Price Willing to Pay</h5>
+                <h5>Anchor Value</h5>
                 <p>{data.price_willing_to_pay}</p>
               </div>
               <div>
-                <h5>Total Rating Sum: {finalRating}</h5>
+                <h5>Total Rating Sum: {finalRating.toFixed(2)}</h5>
               </div>
             </div>
           ) : (

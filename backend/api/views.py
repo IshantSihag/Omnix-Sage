@@ -36,22 +36,24 @@ def calculate_cagr(net_profits):
 def calculate_yoy_growth(net_profits):
     yoy_growth = []
     for i in range(1, len(net_profits)):
-        growth = (net_profits[i] - net_profits[i - 1]) / net_profits[i - 1]
+        growth = (net_profits[i] - net_profits[i - 1]) / (net_profits[i - 1] + 10**(-10))
         yoy_growth.append(growth)
     return yoy_growth
 
 def calculate_volatility(yoy_growth):
     return np.std(yoy_growth)  # Standard deviation of YoY growth rates
 
-def rate_net_profit_growth(net_profits, growth_weight=0.8, consistency_weight=0.2):
+def rate_graph(net_profits, growth_weight=0.8, consistency_weight=0.2, growth_percent = 0.2):
     # Calculate CAGR-based score
+    # consider only positive net_profits
+    net_profits = [profit for profit in net_profits if profit > 0]
     cagr = calculate_cagr(net_profits)
     if cagr < 0:
         cagr_score = 0  # If there's negative growth, score 0
-    elif cagr >= 0.2:
+    elif cagr >= growth_percent:
         cagr_score = 10  # If CAGR is 20% or more, score 10
     else:
-        cagr_score = round((cagr / 0.2) * 10, 2)  # Scale score linearly for CAGR < 20%
+        cagr_score = round((cagr / growth_percent) * 10, 2)  # Scale score linearly for CAGR < 20%
 
     # Calculate YoY growth rates and consistency score
     yoy_growth = calculate_yoy_growth(net_profits)
@@ -65,6 +67,33 @@ def rate_net_profit_growth(net_profits, growth_weight=0.8, consistency_weight=0.
     final_score = round((growth_weight * cagr_score) + (consistency_weight * consistency_score))
     return final_score
 
+def rate_graph_anchor(data, anchor, growth_positive=True, weight_anchor=0.7, weight_growth=0.3):
+    # Step 1: Calculate the average nearness to the anchor
+    deviations = [abs(value - anchor) for value in data if value != None]
+    avg_deviation = sum(deviations) / len(deviations)
+    
+    # Scale the anchor score: The smaller the deviation, the higher the score
+    # Assuming 10 is the perfect score for being close to the anchor, we scale accordingly
+    anchor_score = max(0, 10 - (avg_deviation / (anchor+(10**(-10))) * 10))  # Adjust scaling factor as necessary
+    
+    # Step 2: Calculate the growth trend and final difference
+    initial_value = data[0]
+    for i in range(len(data)):
+        if data[i] != None:
+            initial_value = data[i]
+
+    final_value = data[-1]
+    final_difference = final_value - initial_value
+    
+    # Determine the growth trend score
+    if (final_difference > 0 and growth_positive) or (final_difference < 0 and not growth_positive):
+        growth_score = min(10, abs(final_difference / (initial_value+10**-10) * 10))  # Scale based on relative growth
+    else:
+        growth_score = max(0, 10 - abs(final_difference / (initial_value+10**-10) * 10))  # Penalize for undesired direction
+
+    # Step 3: Combine the scores with respective weights
+    final_score = round((weight_anchor * anchor_score) + (weight_growth * growth_score), 2)
+    return final_score
 
 
 AvailableTimeFrame = Literal[
@@ -600,6 +629,9 @@ class AnalysisView(APIView):
         gross_expense = []
         for i in range(0, years):
             gross_expense.append(expenses_list[i]*(material_cost_percent[i] + manufacuring_cost_percent[i])/100)
+        gross_profit=[]
+        for i in range(0,years):
+            gross_profit.append(sales_list[i]-gross_expense[i])
         gross_profit_margin = []
         for i in range(0, years):
             gross_profit_margin.append((sales_list[i] - gross_expense[i])/sales_list[i] * 100)
@@ -917,42 +949,40 @@ class AnalysisView(APIView):
 
 
         graph_ratings_and_weightage = {
-            'revenue' : {'rating':8, 'weightage':9},
-            'percentchangeinrevenue' : {'rating':8, 'weightage':9},
-            'expenses' : {'rating':8, 'weightage':9},
-            'materialcost' : {'rating':8, 'weightage':9},
-            'manufacturingcost' : {'rating':8, 'weightage':9},
-            'grossexpense' : {'rating':8, 'weightage':9},
-            'grossprofitmargin' : {'rating':8, 'weightage':9},
-            'operatingprofit' : {'rating':8, 'weightage':9},
-            'opm' : {'rating':8, 'weightage':9},
-            'interest' : {'rating':8, 'weightage':9},
-            'interestbyrevenue' : {'rating':8, 'weightage':9},
-            'depreciation' : {'rating':8, 'weightage':9},
-            'depreciationbyrevenue' : {'rating':8, 'weightage':9},
-            'netprofit' : {'rating':rate_net_profit_growth(net_profit_list), 'weightage':10},
-            'netprofitbyrevenue' : {'rating':8, 'weightage':9},
-            'epsvalues' : {'rating':8, 'weightage':9},
-            'totalassets' : {'rating':8, 'weightage':9},
-            'returnonassets' : {'rating':8, 'weightage':9},
-            'equity' : {'rating':8, 'weightage':9},
-            'returnonequity' : {'rating':8, 'weightage':9},
-            'cashequivalents' : {'rating':8, 'weightage':9},
-            'cashequivalentsbytotalassets' : {'rating':8, 'weightage':9},
-            'tradereceivables' : {'rating':8, 'weightage':9},
-            'tradereceivablesbytotalassets' : {'rating':8, 'weightage':9},
-            'borrowings' : {'rating':8, 'weightage':9},
-            'debttoequity' : {'rating':8, 'weightage':9},
-            'capexbyincomeinpercentage' : {'rating':8, 'weightage':9},
-            'cashfromoperations' : {'rating':8, 'weightage':9},
-            'cashfrominvesting' : {'rating':8, 'weightage':9},
-            'freecashflow' : {'rating':8, 'weightage':9},
-            'promoterholding' : {'rating':8, 'weightage':9},
-            'cashconversioncycle' : {'rating':8, 'weightage':9},
-            'roce' : {'rating':8, 'weightage':9},
-            'peratio' : {'rating':8, 'weightage':9},
+            'revenue' : {'rating':rate_graph(sales_list), 'weightage':10},
+            'percentchangeinrevenue' : {'rating':rate_graph_anchor(percent_change_sales, 8, growth_positive=True), 'weightage':7},
+            'expenses' : {'rating':rate_graph(expenses_list, growth_percent=0.15), 'weightage':6},
+            'materialcost' : {'rating':rate_graph_anchor(material_cost_percent,20,False,0.1,0.9), 'weightage':4},
+            'manufacturingcost' : {'rating':rate_graph_anchor(manufacuring_cost_percent,20,False,0.1,0.9), 'weightage':4},
+            'grossexpense' : {'rating':rate_graph(gross_expense, growth_percent=0.1), 'weightage':6},
+            'grossprofit':{'rating':rate_graph(gross_profit,growth_percent=0.12), 'weightage':7},
+            'grossprofitmargin' : {'rating':rate_graph_anchor(gross_profit_margin, 50, weight_anchor=0.2, weight_growth=0.8), 'weightage':7},
+            'operatingprofit' : {'rating':rate_graph(operating_profit_list,growth_percent=0.2), 'weightage':9},
+            'operatingprofitmargin' : {'rating':rate_graph_anchor(opm_percent_list, 15, weight_anchor=0.2, weight_growth=0.8), 'weightage':9},
+            'interest' : {'rating':rate_graph_anchor(interest_list, 0, False, weight_anchor=0.3, weight_growth=0.7), 'weightage':6},
+            'interestbyrevenue' : {'rating':rate_graph_anchor(interest_by_sales, 0, False, 0.6, 0.4), 'weightage':8},
+            'depreciation' : {'rating':rate_graph_anchor(depreciation_list,0,False,0.3,0.7), 'weightage':6},
+            'depreciationbyrevenue' : {'rating':rate_graph_anchor(depreciation_by_sales,0,False,0.7,0.3), 'weightage':6},
+            'netprofit' : {'rating':rate_graph(net_profit_list), 'weightage':10},
+            'netprofitbyrevenue' : {'rating':rate_graph_anchor(net_profit_by_sales,12,True,0.5,0.5), 'weightage':10},
+            'epsvalues' : {'rating':rate_graph(eps_values_list, growth_percent=0.2), 'weightage':10},
+            'totalassets' : {'rating':rate_graph(total_assets, growth_percent=0.16), 'weightage':10},
+            'returnonassets' : {'rating':rate_graph_anchor(return_on_assets,15,0.4,0.6), 'weightage':10},
+            'equity' : {'rating':rate_graph(equity, growth_percent=0.2), 'weightage':10},
+            'returnonequity' : {'rating':rate_graph_anchor(return_on_equity,20,weight_anchor=0.3, weight_growth=0.7), 'weightage':10},
+            'cashequivalents' : {'rating':rate_graph(cash_equivalents, growth_percent=0.12), 'weightage':8},
+            'cashequivalentsbytotalassets' : {'rating':rate_graph_anchor(cash_equivalents_by_total_assets, 7, True, 0.2, 0.8), 'weightage':9},
+            'tradereceivables' : {'rating':rate_graph(trade_receivables[::-1], growth_percent=0.1), 'weightage':7},
+            'tradereceivablesbytotalassets' : {'rating':rate_graph_anchor(trade_receivables_by_total_assets, 2, False, 0.5, 0.5), 'weightage':8},
+            'borrowings' : {'rating':rate_graph(borrowings[::-1], growth_percent=0.08), 'weightage':10},
+            'debttoequity' : {'rating':rate_graph_anchor(debt_to_equity, 0, False, 0.6, 0.4), 'weightage':10},
+            'capexbyincomeinpercentage' : {'rating':8, 'weightage':10},
+            'cashfromoperations' : {'rating':rate_graph(cash_from_operation_list, growth_percent=0.2), 'weightage':10},
+            'cashfrominvesting' : {'rating':rate_graph(cash_from_investing_list,growth_percent=0.2), 'weightage':9},
+            'promoterholding' : {'rating':rate_graph_anchor(promoter_holding, 75, False, 0.6, 0.4), 'weightage':10},
+            'cashconversioncycle' : {'rating':rate_graph_anchor(cash_conversion_cycle, 0, False, 0.8, 0.2), 'weightage':7},
+            'roce' : {'rating':rate_graph_anchor(roce_percent, 20, True, 0.2, 0.8), 'weightage':6},
         }
-
 
 
 
@@ -996,6 +1026,7 @@ class AnalysisView(APIView):
             'material_cost_percent': material_cost_percent,
             'manufacuring_cost_percent': manufacuring_cost_percent,
             'gross_expense': gross_expense,
+            'gross_profit':gross_profit,
             'gross_profit_margin': gross_profit_margin,
             'cash_equivalents': cash_equivalents,
             'trade_receivables': trade_receivables,
