@@ -186,13 +186,94 @@ function Report() {
     </div>)
 
   }
+  const renderPriceChart = () => {
+    const maxPriceValue = Math.max(...data.price_list);
+    return (
+      <Line
+        data={{
+          labels: data.dma50_date_list, // Assuming all datasets share the same date list
+          datasets: [
+            {
+              label: 'Dips',
+              data: data.buying_window.map(value => value != null ? maxPriceValue : value),
+              backgroundColor: 'rgba(0, 255, 0, 0.1)',
+              borderColor: 'rgba(0, 255, 0, 0.5)',
+              type: 'bar', // Use bar type for volume
+              // yAxisID: 'y-axis-2',
+            },
+            {
+              label: 'Price',
+              data: data.price_list,
+              borderColor: 'rgba(255, 99, 132, 1)',
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              pointRadius: 0,
+              pointHoverRadius: 20,
+              // yAxisID: 'y-axis-1',
+            },
+          ],
+        }}
+        options={{
+          interaction: {
+            mode: 'index',
+            intersect: false,
+          },
+          scales: {
+            x: {
+              beginAtZero: true,
+              grid: {
+                display: false,
+              },
 
+            },
+            // 'y-axis-1': {
+            //   type: 'linear',
+            //   position: 'left',
+            //   beginAtZero: true,
+            //   grid: {
+            //     drawOnChartArea: false, // only want the grid lines for one axis to show up
+            //   },
+            // },
+            // 'y-axis-2': {
+            //   type: 'linear',
+            //   position: 'right',
+            //   beginAtZero: true,
+            //   grid: {
+            //     drawOnChartArea: false, // only want the grid lines for one axis to show up
+            //   },
+            // },
+          },
+          plugins: {
+            tooltip: {
+              mode: 'index',
+              intersect: false,
+              callbacks: {
+                label: function (tooltipItem) {
+                  if (tooltipItem.dataset.label === 'Buy Signal') {
+                    return null; // Skip the Buy Signal dataset in the tooltip
+                  }
+                  return `${tooltipItem.dataset.label}: ${tooltipItem.raw}`;
+                },
+              },
+            },
+          },
+        }}
+      />
+    );
+  };
   const renderCombinedChart = (data) => {
     return (
       <Line
         data={{
           labels: data.dma50_date_list, // Assuming all datasets share the same date list
           datasets: [
+            {
+              label: 'Buy Signal',
+              data: data.buying_window,
+              backgroundColor: 'rgba(0, 255, 0, 0.1)',
+              borderColor: 'rgba(0, 255, 0, 0.5)',
+              type: 'bar', // Use bar type for volume
+              yAxisID: 'y-axis-2',
+            },
             {
               label: 'DMA 50',
               data: data.dma50_list,
@@ -264,7 +345,14 @@ function Report() {
             tooltip: {
               mode: 'index',
               intersect: false,
-
+              callbacks: {
+                label: function (tooltipItem) {
+                  if (tooltipItem.dataset.label === 'Buy Signal') {
+                    return null; // Skip the Buy Signal dataset in the tooltip
+                  }
+                  return `${tooltipItem.dataset.label}: ${tooltipItem.raw}`;
+                },
+              },
             },
           },
         }}
@@ -388,67 +476,55 @@ function Report() {
     <div>
       {company ? (
         <div>
-          <h3>{company.name}</h3>
-          <p>URL: {company.url}</p>
+          <h1 className='comapny-heading'>{company.name}</h1>
           {data ? (
             <div>
-              <h4>Data from API:</h4>
-
               <div>
-                <h5>Industry</h5>
-                <p>{data.industry}</p>
+                <h3>Industry :{' '}
+                  <span className='industry-name'>{data.industry}</span>
+                </h3>
               </div>
               <div>
-                <h5>Sector</h5>
-                <p>{data.sector}</p>
+                <h3>Sector :{' '}
+                  <span className='industry-name'>{data.sector}</span>
+                </h3>
               </div>
               <div>
-                <h5>USD INR</h5>
+                <h3>Key Insights</h3>
+                <p dangerouslySetInnerHTML={{ __html: data.key_insights.replace(/\n/g, '<br>') }}></p>
+              </div>
+              <div>
                 {renderChart('USD INR', data.usd_inr_price, 'rgba(212, 45, 34, 1)', data.usd_inr_time)}
               </div>
               <div>
-                <h5>Nifty</h5>
                 {renderChart('Nifty', data.nifty_price, 'rgba(34, 45, 212, 1)', data.nifty_time)}
               </div>
               <div>
-                <h5>Dow Jones</h5>
                 {renderChart('Dow Jones', data.dow_jones_price, 'rgba(45, 212, 34, 1)', data.dow_jones_time)}
               </div>
               <div>
-                <h5>India GDP Growth Rate</h5>
                 {renderChart('India GDP Growth Rate', data.india_gdp_growth_rate_price, 'rgba(212, 34, 45, 1)', data.india_gdp_growth_rate_time)}
               </div>
               <div>
-                <h5>India GDP</h5>
                 {renderChart('India GDP', data.india_gdp_price, 'rgba(34, 212, 45, 1)', data.india_gdp_time)}
               </div>
               <div>
-                <h5>India GDP Per Capita</h5>
                 {renderChart('India GDP Per Capita', data.india_gdp_per_capita_price, 'rgba(45, 34, 212, 1)', data.india_gdp_per_capita_time)}
               </div>
               <div>
-                <h5>India Interest Rate</h5>
                 {renderChart('India Interest Rate', data.india_interest_rate_price, 'rgba(212, 45, 34, 1)', data.india_interest_rate_time)}
               </div>
               <div>
-                <h5>India Inflation Rate</h5>
                 {renderChart('India Inflation Rate', data.india_inflation_rate_price, 'rgba(34, 45, 212, 1)', data.india_inflation_rate_time)}
               </div>
               <div>
-                <h5>India Unemployment Rate</h5>
                 {renderChart('India Unemployment Rate', data.india_unemployment_rate_price, 'rgba(45, 212, 34, 1)', data.india_unemployment_rate_time)}
               </div>
               <div>
-                <h5>India Population</h5>
                 {renderChart('India Population', data.india_population_price, 'rgba(212, 34, 45, 1)', data.india_population_time)}
               </div>
               <div>
-                <h5>India Government Debt</h5>
                 {renderChart('India Government Debt', data.india_government_debt_price, 'rgba(34, 212, 45, 1)', data.india_government_debt_time)}
-              </div>
-              <div>
-                <h5>Key Insights</h5>
-                <pre>{JSON.stringify(data.key_insights, null, 2)}</pre>
               </div>
               {renderChartWithRating('Revenue', data.sales_list, 'rgba(75, 192, 192, 1)')}
               {renderChartWithRating('Percent Change in Revenue', data.percent_change_sales, 'rgba(123, 104, 238, 1)', data.year_list.slice(1))}
@@ -498,24 +574,17 @@ function Report() {
                 {renderChart('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
               </div>
               <div>
-                <h5>DMA 50</h5>
-                {renderChart('DMA50', data.dma50_list, 'rgba(255, 159, 64, 1)', data.dma50_date_list)}
-              </div>
-              <div>
-                <h5>DMA 200</h5>
-                {renderChart('DMA200', data.dma200_list, 'rgba(255, 206, 86, 1)', data.dma200_date_list)}
-              </div>
-              <div>
-                <h5>Volume</h5>
-                {renderBarChart('Volume', data.volume_list, 'rgba(75, 192, 192, 1)', data.volume_date_list)}
-              </div>
-              <div>
                 <h5>Price</h5>
-                {renderChart('Price', data.price_list, 'rgba(255, 99, 132, 1)', data.price_date_list)}
+                {renderPriceChart()}
               </div>
               <div>
                 <h5>Combined Chart</h5>
                 {renderCombinedChart(data)}
+              </div>
+              <div class="value-card">
+                <p><strong>Number of shares</strong></p>
+                <p>{data.number_of_shares}</p>
+                <p class="value-card-footer">Created by Rahul C.</p>
               </div>
               <div>
                 <h5>Number of Shares</h5>

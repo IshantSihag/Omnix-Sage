@@ -813,7 +813,8 @@ class AnalysisView(APIView):
         key_insights = ''
         for para in soup_key_insights.find_all('p'):
             key_insights += para.text
-        
+        key_insights = key_insights.split('Last Edited')[0]
+        key_insights = re.sub(r'\[.*?\]', '\n', key_insights)
         pe_url = f'https://www.screener.in/api/company/{company_id}/chart/?q=Price+to+Earning-Median+PE-EPS&days=10000' + ('&consolidated=true' if isConsolidated else '')
         pe_resp = requests.get(pe_url).json()
         eps_data = pe_resp['datasets'][0]
@@ -882,6 +883,17 @@ class AnalysisView(APIView):
         
         price_to_operating_cash_flow = price_list[-1] / operating_cash_flow[-1]
 
+        maxV = max(volume_list)
+        buying_window = []
+        for i in range(len(price_date_list)):
+            try:
+                if dma200_list[i] > dma50_list[i]:
+                    buying_window.append(maxV)
+                else:
+                    buying_window.append(None)
+            except Exception as e:
+                print(e)
+                buying_window.append(None)
 
 
 
@@ -1081,7 +1093,8 @@ class AnalysisView(APIView):
             'book_value': book_value,
             'compounded_profit_growth_decimal': compounded_profit_growth_decimal,
             'compunded_sales_growth_decimal': compunded_sales_growth_decimal,
-            'free_cash_flow': free_cash_flow
+            'free_cash_flow': free_cash_flow,
+            'buying_window' : buying_window,
         }
         return Response(data)
 
