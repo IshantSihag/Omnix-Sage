@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .analyser-container {
   display: flex;
   flex-direction: column;
@@ -43,4 +48,14 @@
 .suggestions-list a {
   text-decoration: none;
   color: inherit;
+}
+
+.analyser-container {
+  display: flex;
+  background-image: url('assets/Finance art.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 10vh; */
+  width: 100%; 
 }

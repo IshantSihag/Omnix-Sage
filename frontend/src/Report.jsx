@@ -104,35 +104,38 @@ function Report() {
 
   const renderChart = (label, plot_data, color, label_list = data.year_list) => {
     const pointRadius = label_list.length > 100 ? 0 : 3;
+    
     return (
-      <Line
-        data={{
-          labels: label_list,
-          datasets: [
-            {
-              label: label,
-              data: plot_data,
-              borderColor: color,
-              backgroundColor: `${color.replace('1)', '0.2)')}`,
-              pointRadius: pointRadius,
-              pointHoverRadius: 20,
-            },
-          ],
-        }}
-        options={{
-          interaction: {
-            mode: 'index',
-            intersect: false,
-          },
-          plugins: {
-            tooltip: {
+      <div className='graph'>
+        <Line
+          data={{
+            labels: label_list,
+            datasets: [
+              {
+                label: label,
+                data: plot_data,
+                borderColor: color,
+                backgroundColor: `${color.replace('1)', '0.2)')}`,
+                pointRadius: pointRadius,
+                pointHoverRadius: 20,
+              },
+            ],
+          }}
+          options={{
+            interaction: {
               mode: 'index',
               intersect: false,
-
             },
-          },
-        }}
-      />
+            plugins: {
+              tooltip: {
+                mode: 'index',
+                intersect: false,
+
+              },
+            },
+          }}
+        />
+      </div>
     );
   };
 
@@ -186,80 +189,7 @@ function Report() {
     </div>)
 
   }
-  const renderPriceChart = () => {
-    const maxPriceValue = Math.max(...data.price_list);
-    return (
-      <Line
-        data={{
-          labels: data.dma50_date_list, // Assuming all datasets share the same date list
-          datasets: [
-            {
-              label: 'Dips',
-              data: data.buying_window.map(value => value != null ? maxPriceValue : value),
-              backgroundColor: 'rgba(0, 255, 0, 0.1)',
-              borderColor: 'rgba(0, 255, 0, 0.5)',
-              type: 'bar', // Use bar type for volume
-              // yAxisID: 'y-axis-2',
-            },
-            {
-              label: 'Price',
-              data: data.price_list,
-              borderColor: 'rgba(255, 99, 132, 1)',
-              backgroundColor: 'rgba(255, 99, 132, 0.2)',
-              pointRadius: 0,
-              pointHoverRadius: 20,
-              // yAxisID: 'y-axis-1',
-            },
-          ],
-        }}
-        options={{
-          interaction: {
-            mode: 'index',
-            intersect: false,
-          },
-          scales: {
-            x: {
-              beginAtZero: true,
-              grid: {
-                display: false,
-              },
 
-            },
-            // 'y-axis-1': {
-            //   type: 'linear',
-            //   position: 'left',
-            //   beginAtZero: true,
-            //   grid: {
-            //     drawOnChartArea: false, // only want the grid lines for one axis to show up
-            //   },
-            // },
-            // 'y-axis-2': {
-            //   type: 'linear',
-            //   position: 'right',
-            //   beginAtZero: true,
-            //   grid: {
-            //     drawOnChartArea: false, // only want the grid lines for one axis to show up
-            //   },
-            // },
-          },
-          plugins: {
-            tooltip: {
-              mode: 'index',
-              intersect: false,
-              callbacks: {
-                label: function (tooltipItem) {
-                  if (tooltipItem.dataset.label === 'Buy Signal') {
-                    return null; // Skip the Buy Signal dataset in the tooltip
-                  }
-                  return `${tooltipItem.dataset.label}: ${tooltipItem.raw}`;
-                },
-              },
-            },
-          },
-        }}
-      />
-    );
-  };
   const renderCombinedChart = (data) => {
     return (
       <Line
@@ -361,85 +291,46 @@ function Report() {
   };
   const renderCashNetProfitGraph = (data) => {
     return (
-      <Line
-        data={{
-          labels: data.year_list, // Assuming all datasets share the same date list
-          datasets: [
-            {
-              label: 'Cash from Operations',
-              data: data.cash_from_operation_list,
-              borderColor: 'rgba(255, 99, 132, 1)',
-              backgroundColor: 'rgba(255, 99, 132, 0.2)',
-              pointRadius: 0,
-              pointHoverRadius: 0,
-            },
-            {
-              label: 'Net Profit',
-              data: data.net_profit_list,
-              borderColor: 'rgba(255, 206, 86, 1)',
-              backgroundColor: 'rgba(255, 206, 86, 0.2)',
-              pointRadius: 0,
-              pointHoverRadius: 0,
-            },
-          ],
-        }}
-        options={{
-          interaction: {
-            mode: 'index',
-            intersect: false,
-          },
-          plugins: {
-            tooltip: {
+      <div className='graph'>
+        <Line
+          data={{
+            labels: data.year_list, // Assuming all datasets share the same date list
+            datasets: [
+              {
+                label: 'Cash from Operations',
+                data: data.cash_from_operation_list,
+                borderColor: 'rgba(255, 99, 132, 1)',
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                pointRadius: 0,
+                pointHoverRadius: 0,
+              },
+              {
+                label: 'Net Profit',
+                data: data.net_profit_list,
+                borderColor: 'rgba(255, 206, 86, 1)',
+                backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                pointRadius: 0,
+                pointHoverRadius: 0,
+              },
+            ],
+          }}
+          options={{
+            interaction: {
               mode: 'index',
               intersect: false,
-
             },
-          },
-        }}
-      />
+            plugins: {
+              tooltip: {
+                mode: 'index',
+                intersect: false,
+  
+              },
+            },
+          }}
+        />
+      </div>
     );
   };
-
-  const renderBarChart = (label, plot_data, color, label_list) => {
-    return (
-      <Bar
-        data={{
-          labels: label_list,
-          datasets: [
-            {
-              label: label,
-              data: plot_data,
-              backgroundColor: `${color.replace('1)', '0.2)')}`,
-              borderColor: color,
-              borderWidth: 1,
-            },
-          ],
-        }}
-        options={{
-          scales: {
-            x: {
-              beginAtZero: true,
-            },
-            y: {
-              beginAtZero: true,
-            },
-          },
-          interaction: {
-            mode: 'index',
-            intersect: false,
-          },
-          plugins: {
-            tooltip: {
-              mode: 'index',
-              intersect: false,
-
-            },
-          },
-        }}
-      />
-    );
-  };
-
 
   const handleRatingChange = (event, key) => {
     // setRatings({ ...ratings, [key]: event.target.value });
@@ -526,7 +417,10 @@ function Report() {
               <div>
                 {renderChart('India Government Debt', data.india_government_debt_price, 'rgba(34, 212, 45, 1)', data.india_government_debt_time)}
               </div>
-              {renderChartWithRating('Revenue', data.sales_list, 'rgba(75, 192, 192, 1)')}
+              <div className='graph-wrapper'>
+                {renderChartWithRating('Revenue', data.sales_list, 'rgba(75, 192, 192, 1)')}
+                <p className='graph-explaination'>Revenue is the total amount of money a company earns from its business activities before any expenses or costs are deducted. It is a crucial indicator of a company's financial performance and overall health</p>
+              </div>
               {renderChartWithRating('Percent Change in Revenue', data.percent_change_sales, 'rgba(123, 104, 238, 1)', data.year_list.slice(1))}
               {renderChartWithRating('Expenses', data.expenses_list, 'rgba(255, 99, 132, 1)')}
               {renderChartWithRating('Material Cost %', data.material_cost_percent, 'rgba(255, 99, 132, 1)')}
@@ -542,7 +436,6 @@ function Report() {
               {renderChartWithRating('Depreciation by Revenue', data.depreciation_by_sales, 'rgba(255, 159, 64, 1)')}
               {renderChartWithRating('Net Profit', data.net_profit_list, 'rgba(255, 206, 86, 1)')}
               {renderChartWithRating('Net Profit by Revenue', data.net_profit_by_sales, 'rgba(255, 99, 132, 1)')}
-              {renderChartWithRating('EPS Values', data.eps_values_list, 'rgba(153, 102, 255, 1)', data.eps_date_list)}
               {/* total dividint */}
               {renderChartWithRating('Total Assets', data.total_assets, 'rgba(54, 162, 235, 1)')}
               {renderChartWithRating('Return on Assets', data.return_on_assets, 'rgba(255, 159, 64, 1)')}
@@ -569,13 +462,10 @@ function Report() {
               {renderChartWithRating('Cash Conversion Cycle', data.cash_conversion_cycle, 'rgba(255, 99, 132, 1)')}
 
               {renderChartWithRating('ROCE %', data.roce_percent, 'rgba(54, 162, 235, 1)')}
+              {renderChartWithRating('EPS Values', data.eps_values_list, 'rgba(153, 102, 255, 1)', data.eps_date_list)}
               <div>
                 <h5>PE Ratio</h5>
                 {renderChart('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
-              </div>
-              <div>
-                <h5>Price</h5>
-                {renderPriceChart()}
               </div>
               <div>
                 <h5>Combined Chart</h5>
