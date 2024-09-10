@@ -781,6 +781,7 @@ class AnalysisView(APIView):
         price_willing_to_pay = eps[-1] * compounded_profit_growth
         cmp_info = soup.find('div', {'class': 'company-info'})
         book_value = cmp_info.findAll('li')[4].find('span', {'class': 'value'}).text.replace('₹', '').strip()
+        market_cap = cmp_info.findAll('li')[0].find('span', {'class': 'value'}).text.replace('₹', '').replace(',', '').strip()
         current_price = cmp_info.findAll('li')[1].find('span', {'class': 'value'}).text.replace('₹', '').replace(',', '').strip()
         peer_info = soup.find('section', {'id': 'peers'})
         peer_info = peer_info.find('p').find_all('a')
@@ -813,7 +814,7 @@ class AnalysisView(APIView):
         key_insights = ''
         for para in soup_key_insights.find_all('p'):
             key_insights += para.text
-        key_insights = key_insights.split('Last Edited')[0]
+        key_insights = key_insights.split('Last edited')[0]
         key_insights = re.sub(r'\[.*?\]', '\n', key_insights)
         pe_url = f'https://www.screener.in/api/company/{company_id}/chart/?q=Price+to+Earning-Median+PE-EPS&days=10000' + ('&consolidated=true' if isConsolidated else '')
         pe_resp = requests.get(pe_url).json()
@@ -1000,6 +1001,7 @@ class AnalysisView(APIView):
 
 
         data = {
+            'market_cap': market_cap,
             'graph_ratings_and_weightage' : graph_ratings_and_weightage,
             'usd_inr_time': usd_inr_time,
             'usd_inr_price': usd_inr_price,

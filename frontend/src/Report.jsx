@@ -102,24 +102,67 @@ function Report() {
     return <div>Error: {error.message}</div>;
   }
 
+  const calculateCAGR = (data) => {
+    const startValue = data[0];
+    const endValue = data[data.length - 1];
+    const periods = data.length - 1;
+    return Math.pow(endValue / startValue, 1 / periods) - 1;
+  };
+  
+  const generatePredictions = (data, years) => {
+    const cagr = calculateCAGR(data);
+    const lastValue = data[data.length - 1];
+    const predictions = [];
+    for (let i = 1; i <= years; i++) {
+      const prediction = lastValue * Math.pow(1 + cagr, i);
+      predictions.push(prediction);
+    }
+    return predictions;
+  };
+  
+  const generateExtendedLabels = (label_list) => {
+    const lastLabel = label_list[label_list.length - 1];
+    const lastYear = parseInt(lastLabel.split(' ')[1], 10);
+    const nextYears = [lastYear + 1, lastYear + 2, lastYear + 3].map(year => `Mar ${year}`);
+    return [...label_list, ...nextYears];
+  };
+
   const renderChart = (label, plot_data, color, label_list = data.year_list) => {
     const pointRadius = label_list.length > 100 ? 0 : 3;
-    
+    const predictions = generatePredictions(plot_data, 3);
+    const extendedLabels = generateExtendedLabels(label_list);
+    const extendedData = [...plot_data, ...predictions];
+    const extendLabelGraphList = ['Revenue']
+
+    const datasets = [
+      {
+          label: label,
+          data: plot_data,
+          borderColor: color,
+          backgroundColor: `${color.replace('1)', '0.2)')}`,
+          pointRadius: pointRadius,
+          pointHoverRadius: 20,
+      }
+  ];
+
+  if (extendLabelGraphList.includes(label)) {
+      label_list = extendedLabels;
+      datasets.push({
+          label: label + ' Prediction',
+          data: extendedData,
+          borderColor: color,
+          backgroundColor: `${color.replace('1)', '0.2)')}`,
+          pointRadius: pointRadius,
+          pointHoverRadius: 20,
+      });
+  }
+
     return (
       <div className='graph'>
         <Line
           data={{
             labels: label_list,
-            datasets: [
-              {
-                label: label,
-                data: plot_data,
-                borderColor: color,
-                backgroundColor: `${color.replace('1)', '0.2)')}`,
-                pointRadius: pointRadius,
-                pointHoverRadius: 20,
-              },
-            ],
+            datasets: datasets,
           }}
           options={{
             interaction: {
@@ -189,17 +232,26 @@ function Report() {
     </div>)
 
   }
-
+  
   const renderCombinedChart = (data) => {
     return (
       <Line
-        data={{
-          labels: data.dma50_date_list, // Assuming all datasets share the same date list
+      data={{
+        labels: data.dma50_date_list, // Assuming all datasets share the same date list
           datasets: [
+            {
+              label: 'Price',
+              data: data.price_list,
+              borderColor: 'rgba(0, 181, 226, 1)',
+              backgroundColor: 'rgba(0, 181, 226, 0.2)',
+              pointRadius: 0,
+              pointHoverRadius: 20,
+              yAxisID: 'y-axis-1',
+            },
             {
               label: 'Buy Signal',
               data: data.buying_window,
-              backgroundColor: 'rgba(0, 255, 0, 0.1)',
+              backgroundColor: 'rgba(0, 255, 0, 0.2)',
               borderColor: 'rgba(0, 255, 0, 0.5)',
               type: 'bar', // Use bar type for volume
               yAxisID: 'y-axis-2',
@@ -207,8 +259,9 @@ function Report() {
             {
               label: 'DMA 50',
               data: data.dma50_list,
-              borderColor: 'rgba(255, 159, 64, 1)',
-              backgroundColor: 'rgba(255, 159, 64, 0.2)',
+              borderColor: 'rgba(115, 223, 61, 1)',
+              backgroundColor: 'rgba(115, 223, 61, 0.2)',
+              borderWidth: 1,
               pointRadius: 0,
               pointHoverRadius: 0,
               yAxisID: 'y-axis-1',
@@ -216,8 +269,9 @@ function Report() {
             {
               label: 'DMA 200',
               data: data.dma200_list,
-              borderColor: 'rgba(255, 206, 86, 1)',
-              backgroundColor: 'rgba(255, 206, 86, 0.2)',
+              borderColor: 'rgba(82, 101, 118, 1)',
+              backgroundColor: 'rgba(82, 101, 118, 0.2)',
+              borderWidth: 1,
               pointRadius: 0,
               pointHoverRadius: 0,
               yAxisID: 'y-axis-1',
@@ -225,19 +279,10 @@ function Report() {
             {
               label: 'Volume',
               data: data.volume_list,
-              borderColor: 'rgba(75, 192, 192, 1)',
-              backgroundColor: 'rgba(72, 192, 192, 0.5)',
+              borderColor: 'rgba(0, 181, 226, 1)',
+              backgroundColor: 'rgba(0, 181, 226, 0.5)',
               type: 'bar', // Use bar type for volume
               yAxisID: 'y-axis-2',
-            },
-            {
-              label: 'Price',
-              data: data.price_list,
-              borderColor: 'rgba(255, 99, 132, 1)',
-              backgroundColor: 'rgba(255, 99, 132, 0.2)',
-              pointRadius: 0,
-              pointHoverRadius: 20,
-              yAxisID: 'y-axis-1',
             },
           ],
         }}
@@ -381,7 +426,7 @@ function Report() {
                 </h3>
               </div>
               <div>
-                <h3>Key Insights</h3>
+                <h3>About</h3>
                 <p dangerouslySetInnerHTML={{ __html: data.key_insights.replace(/\n/g, '<br>') }}></p>
               </div>
               <div>
@@ -471,10 +516,14 @@ function Report() {
                 <h5>Combined Chart</h5>
                 {renderCombinedChart(data)}
               </div>
+              <div>
+                <h3>Market Cap</h3>
+                <p>{data.market_cap}</p>
+              </div>
               <div class="value-card">
                 <p><strong>Number of shares</strong></p>
                 <p>{data.number_of_shares}</p>
-                <p class="value-card-footer">Created by Rahul C.</p>
+                <p class="value-card-footer">Created by Verma.</p>
               </div>
               <div>
                 <h5>Number of Shares</h5>
