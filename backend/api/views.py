@@ -46,7 +46,7 @@ def calculate_volatility(yoy_growth):
 def rate_graph(net_profits, growth_weight=0.8, consistency_weight=0.2, growth_percent = 0.2):
     # Calculate CAGR-based score
     # consider only positive net_profits
-    net_profits = [profit for profit in net_profits if profit > 0]
+    net_profits = [profit for profit in net_profits if profit and profit > 0]
     cagr = calculate_cagr(net_profits)
     if cagr < 0:
         cagr_score = 0  # If there's negative growth, score 0
