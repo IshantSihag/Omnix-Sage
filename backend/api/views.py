@@ -19,6 +19,7 @@ import numpy as np
 from typing import Optional
 import datetime
 import pytz
+from io import StringIO
 
 
 # Create your views here.
@@ -81,8 +82,13 @@ def rate_graph_anchor(data, anchor, growth_positive=True, weight_anchor=0.7, wei
     for i in range(len(data)):
         if data[i] != None:
             initial_value = data[i]
+            break
 
     final_value = data[-1]
+    for i in range(len(data)-1, -1, -1):
+        if data[i] != None:
+            final_value = data[i]
+            break
     final_difference = final_value - initial_value
     
     # Determine the growth trend score
@@ -559,16 +565,28 @@ class AnalysisView(APIView):
         soup = BeautifulSoup(screener_resp, 'html.parser')
         table = soup.find_all('table')
         company_id = int(soup.find('div', {'id': 'company-info'})['data-company-id'])
-        financial_statement = pd.read_html(str(table))
+        financial_statement = pd.read_html(StringIO(str(table)))
         df = financial_statement[1]
         data = df.to_dict()
-        compunded_sales_growth = (float(data[list(data)[-2]][0]) / float(data[list(data)[1]][0])) ** (1/11) - 1
-        compunded_sales_growth *= 100
         years = len(list(data)) - 1
         if list(data)[-1] == 'TTM':
             years -= 1
         if years < 1:
             return Response({'error': 'Data not available'})
+        # find first non zero value of list
+        first_non_zero_sales = None
+        cagr_years = None
+        for i in range(1, years+1):
+            if data[list(data)[i]][0] != 0:
+                first_non_zero_sales = float(data[list(data)[i]][0])
+                cagr_years = years - i + 1
+                break
+                
+        compunded_sales_growth = None
+        if cagr_years:
+            compunded_sales_growth = (float(data[list(data)[-2]][0]) / first_non_zero_sales) ** (1/cagr_years) - 1
+            compunded_sales_growth *= 100
+        
         
         sales_list = []
         for i in range(1, years+1):
@@ -619,22 +637,37 @@ class AnalysisView(APIView):
             try:
                 material_cost_percent.append(float(i[:-1]))
             except:
-                pass
+                if i.count('showSchedule') == 1:
+                    pass
+                else:
+                    material_cost_percent.append(None)
         manufacuring_cost_percent = []
         for i in expenses_url_resp['Manufacturing Cost %'].values():
             try:
                 manufacuring_cost_percent.append(float(i[:-1]))
             except:
-                pass
+                if i.count('showSchedule') == 1:
+                    pass
+                else:
+                    material_cost_percent.append(None)
         gross_expense = []
         for i in range(0, years):
-            gross_expense.append(expenses_list[i]*(material_cost_percent[i] + manufacuring_cost_percent[i])/100)
+            try:
+                gross_expense.append(expenses_list[i]*(material_cost_percent[i] + manufacuring_cost_percent[i])/100)
+            except:
+                gross_expense.append(None)
         gross_profit=[]
         for i in range(0,years):
-            gross_profit.append(sales_list[i]-gross_expense[i])
+            try:
+                gross_profit.append(sales_list[i]-gross_expense[i])
+            except:
+                gross_profit.append(None)
         gross_profit_margin = []
         for i in range(0, years):
-            gross_profit_margin.append((sales_list[i] - gross_expense[i])/sales_list[i] * 100)
+            try:
+                gross_profit_margin.append((sales_list[i] - gross_expense[i])/sales_list[i] * 100)
+            except:
+                gross_profit_margin.append(None)
         other_assests_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Other+Assets&section=balance-sheet' + ('&consolidated=' if isConsolidated else '')
         other_assests_url_resp = requests.get(other_assests_url)
         cash_equivalents = []
@@ -643,14 +676,20 @@ class AnalysisView(APIView):
             try:
                 cash_equivalents.append(float(i.replace(',', '')))
             except:
-                pass
+                if i.count('showSchedule') == 1:
+                    pass
+                else:
+                    cash_equivalents.append(None)
         trade_receivables = []
         trade_receivables_data = other_assests_url_resp.json()['Trade receivables']
         for i in trade_receivables_data.values():
             try:
                 trade_receivables.append(float(i.replace(',', '')))
             except:
-                pass
+                if i.count('showSchedule') == 1:
+                    pass
+                else:
+                    trade_receivables.append(None)
         cash_from_investing_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Cash+from+Investing+Activity&section=cash-flow' + ('&consolidated=' if isConsolidated else '')        
         cash_from_investing = requests.get(cash_from_investing_url)
         cash_from_investing_list = []
@@ -658,7 +697,10 @@ class AnalysisView(APIView):
             try:
                 cash_from_investing_list.append(-(float(i.replace(',', ''))))
             except:
-                pass
+                if i.count('showSchedule') == 1:
+                    pass
+                else:
+                    cash_from_investing_list.append(None)
         balance_sheet = financial_statement[6].to_dict()
         total_assets = []
         for i in range(1, years+1):
@@ -712,8 +754,10 @@ class AnalysisView(APIView):
             year_list.append(list(data)[i])
         percent_change_sales = []
         for i in range(1, len(sales_list)):
-            percent_change_sales.append(((sales_list[i] - sales_list[i-1]) / sales_list[i-1]) * 100)
-        std_dev_sales = statistics.stdev(percent_change_sales)
+            try:
+                percent_change_sales.append(((sales_list[i] - sales_list[i-1]) / (sales_list[i-1])) * 100)
+            except:
+                percent_change_sales.append(None)
         operating_profit_list = []
         for i in range(0, years):
             try:
@@ -775,9 +819,14 @@ class AnalysisView(APIView):
                 depreciation_by_sales.append(depreciation_list[i] / sales_list[i] * 100)
             except:
                 depreciation_by_sales.append(None)
-        compounded_profit_growth = net_profit_list[-1] / net_profit_list[0]
-        compounded_profit_growth = compounded_profit_growth ** (1/len(net_profit_list)) - 1
-        compounded_profit_growth *= 100
+        normalized_net_profit_list = np.log1p(np.array(net_profit_list) / 100.0)
+        print(normalized_net_profit_list)
+        compounded_growth = (np.sum(normalized_net_profit_list) / len(normalized_net_profit_list))
+        compounded_profit_growth = (np.expm1(compounded_growth)) * 100
+            # return compounded_profit_growth
+        # compounded_profit_growth = net_profit_list[-1] / net_profit_list[0]
+        # compounded_profit_growth = compounded_profit_growth ** (1/len(net_profit_list)) - 1
+        # compounded_profit_growth *= 100
         price_willing_to_pay = eps[-1] * compounded_profit_growth
         cmp_info = soup.find('div', {'class': 'company-info'})
         book_value = cmp_info.findAll('li')[4].find('span', {'class': 'value'}).text.replace('₹', '').strip()
@@ -866,18 +915,13 @@ class AnalysisView(APIView):
         else:
             number_of_shares = None
         compounded_profit_growth_decimal = compounded_profit_growth / 100
-        compunded_sales_growth_decimal = compunded_sales_growth / 100
-        free_cash_flow = []
-        for i in range(years):
-            try:
-                free_cash_flow.append(net_profit_list[i] + depreciation_list[i] - capex_list[i] - interest_list[i])
-            except:
-                free_cash_flow.append(None)
+        compunded_sales_growth_decimal = None
+        if compunded_sales_growth:
+            compunded_sales_growth_decimal = compunded_sales_growth / 100
         intrinsic_value = eps[-1] * compounded_profit_growth
         price_to_sales = price_list[-1] / sales_list[-1]
         price_to_earnings = price_list[-1] / eps[-1]
         price_to_book_value = float(current_price.replace(',', '')) / float(book_value.replace(',',''))
-        price_to_free_cash_flow = price_list[-1] / free_cash_flow[-1]
         operating_cash_flow = []
         for i in range(years):
             operating_cash_flow.append(net_profit_list[i] + depreciation_list[i])
@@ -1028,7 +1072,7 @@ class AnalysisView(APIView):
             'company': company,
             'company_name': company_name,
             'isConsolidated': isConsolidated,
-            'compunded_sales_growth': compunded_sales_growth,
+            'compunded_sales_growth': compunded_sales_growth if compunded_sales_growth else 'Not Applicable',
             'years': years,
             'sales_list': sales_list,
             'expenses_list': expenses_list,
@@ -1055,7 +1099,6 @@ class AnalysisView(APIView):
             'roce_percent': roce_percent,
             'year_list': year_list,
             'percent_change_sales': percent_change_sales,
-            'std_dev_sales': std_dev_sales,
             'operating_profit_list': operating_profit_list,
             'net_profit_by_sales': net_profit_by_sales,
             'capex_by_income': capex_by_income,
@@ -1087,15 +1130,13 @@ class AnalysisView(APIView):
             'price_to_sales': price_to_sales,
             'price_to_earnings': price_to_earnings,
             'price_to_book_value': price_to_book_value,
-            'price_to_free_cash_flow': price_to_free_cash_flow, 
             'price_to_operating_cash_flow': price_to_operating_cash_flow,   
             'sector': sector,
             'industry': industry,
             'current_price': current_price,
             'book_value': book_value,
             'compounded_profit_growth_decimal': compounded_profit_growth_decimal,
-            'compunded_sales_growth_decimal': compunded_sales_growth_decimal,
-            'free_cash_flow': free_cash_flow,
+            'compunded_sales_growth_decimal': compunded_sales_growth_decimal if compunded_sales_growth_decimal else 'Not Applicable',
             'buying_window' : buying_window,
         }
         return Response(data)

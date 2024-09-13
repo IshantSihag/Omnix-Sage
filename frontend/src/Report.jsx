@@ -134,7 +134,7 @@ function Report() {
     const extendedData = [...plot_data, ...predictions];
     const extendLabelGraphList = ['Revenue', 'Expenses',  'Gross Profit', 'Operating Profit',
       'Net Profit', 'Total Assets', 'Equity', 'Cash Equivalents', 'Trade Receivables', 'Borrowings',
-      'Cash from Operations', 'Cash from Investing', 'Free Cash Flow', 
+      'Cash from Operations', 'Cash from Investing', 
     ]
 
     const datasets = [
@@ -591,10 +591,6 @@ function Report() {
                 <span className='graph-explaination'></span>
               </div>
               <div>
-                <h5>Free Cash Flow</h5>
-                {renderChart('Free Cash Flow', data.free_cash_flow, 'rgba(123, 104, 238, 1)')}
-              </div>
-              <div>
                 {renderChartWithRating('Promoter Holding', data.promoter_holding, 'rgba(75, 192, 192, 1)', data.promoter_holding_years)}
                 <span className='graph-explaination'>Promoter holding refers to the percentage of shares held by the promoters or founders of a company. It is an important indicator of the level of control and ownership that the promoters have over the company.</span>
               </div>
@@ -649,10 +645,6 @@ function Report() {
               <div>
                 <h5>Price to Book Value</h5>
                 <p>{data.price_to_book_value}</p>
-              </div>
-              <div>
-                <h5>Price to Free Cash Flow</h5>
-                <p>{data.price_to_free_cash_flow}</p>
               </div>
               <div>
                 <h5>Price to Operating Cash Flow</h5>
