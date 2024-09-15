@@ -12,7 +12,7 @@ function Analyser() {
 
     if (value.length > 0) {
       try {
-        const response = await fetch(`http://127.0.0.1:8000/api/search?company=${value}`);
+        const response = await fetch(`http://139.59.20.158:8000/api/search?company=${value}`);
         const data = await response.json();
         setSuggestions(data); // Update the suggestions state with the API response
       } catch (error) {
