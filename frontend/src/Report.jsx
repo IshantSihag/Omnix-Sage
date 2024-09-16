@@ -63,7 +63,7 @@ function Report() {
     if (company) {
       const fetchData = async () => {
         try {
-          const response = await fetch(`http://139.59.20.158:8000/api/analysis?company=${company.url}`);
+          const response = await fetch(`https://cors-anywhere.herokuapp.com/http://139.59.20.158:8000/api/analysis?company=${company.url}`);
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
