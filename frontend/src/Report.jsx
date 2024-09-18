@@ -436,7 +436,7 @@ function Report() {
               </div>
               <div>
                 <h3>Key Performing Indicators and Constraints</h3>
-                <p dangerouslySetInnerHTML={{ __html: getKPI(sector).replace(/\n/g, '<br>') }}></p>
+                <p dangerouslySetInnerHTML={{ __html: getKPI(data.sector).replace(/\n/g, '<br>') }}></p>
               </div>
               <div>
                 {renderChart('USD INR', data.usd_inr_price, 'rgba(212, 45, 34, 1)', data.usd_inr_time)}
