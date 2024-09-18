@@ -65,7 +65,7 @@ function Report() {
     if (company) {
       const fetchData = async () => {
         try {
-          const response = await fetch(`https://cors-anywhere.herokuapp.com/http://139.59.20.158:8000/api/analysis?company=${company.url}`);
+          const response = await fetch(`https://139.59.20.158:8000/api/analysis?company=${company.url}`);
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
@@ -436,7 +436,7 @@ function Report() {
               </div>
               <div>
                 <h3>Key Performing Indicators and Constraints</h3>
-                <span>{getKPI(data.sector)}</span>
+                <p dangerouslySetInnerHTML={{ __html: getKPI(sector).replace(/\n/g, '<br>') }}></p>
               </div>
               <div>
                 {renderChart('USD INR', data.usd_inr_price, 'rgba(212, 45, 34, 1)', data.usd_inr_time)}
