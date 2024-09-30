@@ -1,5 +1,8 @@
+// Total sectors ['Aerospace & Defence', 'Agro Chemicals', 'Air Transport Service', 'Alcoholic Beverages', 'Auto Ancillaries', 'Automobile', 'Banks', 'Bearings', 'Cables', 'Capital Goods - Electrical Equipment', 'Capital Goods-Non Electrical Equipment', 'Castings, Forgings & Fastners', 'Cement', 'Cement - Products', 'Ceramic Products', 'Chemicals', 'Computer Education', 'Construction', 'Consumer Durables', 'Credit Rating Agencies', 'Crude Oil & Natural Gas', 'Diamond, Gems and Jewellery', 'Diversified', 'Dry cells', 'E-Commerce/App based Aggregator', 'Edible Oil', 'Education', 'Electronics', 'Engineering', 'Entertainment', 'ETF', 'Ferro Alloys', 'Fertilizers', 'Finance', 'Financial Services', 'FMCG', 'Gas Distribution', 'Glass & Glass Products', 'Healthcare', 'Hotels & Restaurants', 'Infrastructure Developers & Operators', 'Infrastructure Investment Trusts', 'Insurance', 'IT - Hardware', 'IT - Software', 'Leather', 'Logistics', 'Marine Port & Services', 'Media - Print/Television/Radio', 'Mining & Mineral products', 'Miscellaneous', 'Non Ferrous Metals', 'Oil Drill/Allied', 'Online Media', 'Packaging', 'Paints/Varnish', 'Paper', 'Petrochemicals', 'Pharmaceuticals', 'Plantation & Plantation Products', 'Plastic products', 'Plywood Boards/Laminates', 'Power Generation & Distribution', 'Power Infrastructure', 'Printing & Stationery', 'Quick Service Restaurant', 'Railways', 'Readymade Garments/ Apparells', 'Real Estate Investment Trusts', 'Realty', 'Refineries', 'Refractories', 'Retail', 'Sanitaryware', 'Ship Building', 'Shipping', 'Steel', 'Stock/ Commodity Brokers', 'Sugar', 'Telecom-Handsets/Mobile', 'Telecomm Equipment & Infra Services', 'Telecomm-Service', 'Textiles', 'Tobacco Products', 'Trading', 'Tyres']
+
 function getKPI(sector){
     const sector_info = {};
+    
     sector_info['Alcoholic Beverages'] = `Determine the performance of alcohol beverage companies by tracking these key performance indicators (KPIs):
   
   1. Sales Revenue Growth Rate
@@ -28,7 +31,8 @@ function getKPI(sector){
   
   These KPIs and constraints help alcohol beverage companies monitor performance, address challenges, and make informed decisions to drive growth and success.`
   
-  sector_info['Agro Chemicals'] = `Here are some common KPIs (Key Performance Indicators) and key constraints in the Aerospace and Defense industry:
+
+  sector_info['Aerospace & Defence'] = `Here are some common KPIs (Key Performance Indicators) and key constraints in the Aerospace and Defense industry:
   
   KPIs:
   
@@ -1231,6 +1235,8 @@ function getKPI(sector){
   
   These KPIs and constraints help diversified companies monitor performance, address challenges, and make informed decisions to drive growth, innovation, and profitability across multiple business segments and industries.`
   
+  sector_info['Agro Chemicals'] = 'Agro Chemicals'
+    
   sector_info['Dry cells'] = `Dry cells`
   
   sector_info['E-Commerce/App based Aggregator'] = `E-Commerce/App based Aggregator`

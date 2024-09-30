@@ -483,7 +483,7 @@ function Report() {
   
     return (
       <div>
-        <canvas ref={canvasRef} width={400} height={400}></canvas>
+        <canvas className='polar-radar-canva' ref={canvasRef}></canvas>
       </div>
     );
   };
@@ -687,6 +687,9 @@ function Report() {
                 {renderChart('PE Ratio', data.pe_list, 'rgba(54, 162, 235, 1)', data.pe_date_list)}
                 <span className='graph-explaination'>The price-to-earnings (P/E) ratio is a financial metric that shows the ratio of a company's stock price to its earnings per share (EPS). It is calculated by dividing the current market price of a company's stock by its EPS. The P/E ratio is a key indicator of a company's valuation and is used by investors to determine whether a stock is overvalued, undervalued, or fairly priced.</span>
               </div>
+              <div className='polar-radar'>
+              <RadarChartComponent chartRatingAndWeightage={{...chartRatingAndWeightage}} />
+              </div>
               <div>
                 <h5>Combined Chart</h5>
                 {renderCombinedChart(data)}
@@ -748,9 +751,6 @@ function Report() {
               </div>
               <div>
                 <h5>Total Rating Sum: {finalRating.toFixed(2)}</h5>
-              </div>
-              <div>
-              <RadarChartComponent chartRatingAndWeightage={{...chartRatingAndWeightage}} />
               </div>
             </div>
           ) : (
