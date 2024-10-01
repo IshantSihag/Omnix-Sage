@@ -1,36 +1,18 @@
 import React from 'react';
-import omnixSageLogo from './assets/omnix sage logo.jpeg'; // Import the logo
-import { Link } from 'react-router-dom'; // Import the Link component
 import './Welcome.css'; // Import the CSS file
+import {Header, Footer} from './header'; // Import the Header component
 
 const App = () => {
   return (
     <div className="container">
-      <header className="header">
-        <div className="logo-container">
-          <img src={omnixSageLogo} alt="Omnix Sage Logo" className="logo-image" />
-          <h1 className="site-title">Omnix Sage</h1>
-        </div>
-        <nav className="navbar">
-          <a href="#portfolio" className="nav-item">Core Portfolio</a>
-          <Link to="/analyser" className="nav-item">Slipstream Finder</Link>
-          <a href="#positions" className="nav-item">Positions</a>
-          <a href="#positions" className="nav-item">Sattelite Portfolio</a>
-          <a href="#lookthrough" className="nav-item">Lookthrough</a>
-          <a href="#about-us" className="nav-item">About Us</a>
-        </nav>
-      </header>
+      <Header />
       <main className="main">
         <section className="hero-section">
           <h2 className="title">Investment Wisdom from the Greats</h2>
           <QuoteList />
         </section>
       </main>
-      <footer className="footer">
-        <p className="footer-text">
-          &copy; {new Date().getFullYear()} Omnix Sage | Inspired by the Wisdom of Warren Buffett, Charlie Munger, and more.
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Analyser.css'; // Import CSS for styling
+import { Header, Footer } from './header'; // Import the Header and Footer components
 
 function Analyser() {
   const [query, setQuery] = useState('');
@@ -26,6 +27,7 @@ function Analyser() {
 
   return (
     <div className="analyser-container">
+      <Header />
       <div className="search-bar-container">
         <input
           type="text"
@@ -48,6 +50,7 @@ function Analyser() {
           ))}
         </ul>
       </div>
+      <Footer />
     </div>
   );
 }

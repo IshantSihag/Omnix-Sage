@@ -5,15 +5,21 @@ html, body {
 
 .analyser-container {
   display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('assets/Finance art.webp');
   flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   text-align: center;
 }
 
 .search-bar-container {
   position: relative;
+  margin: auto;
   width: 300px;
 }
 
@@ -48,14 +54,4 @@ html, body {
 .suggestions-list a {
   text-decoration: none;
   color: inherit;
-}
-
-.analyser-container {
-  display: flex;
-  background-image: url('assets/Finance art.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* height: 10vh; */
-  width: 100%; 
 }
