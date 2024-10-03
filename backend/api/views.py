@@ -16,13 +16,18 @@ from typing import List, Iterator, Literal
 import requests
 import pandas as pd
 import numpy as np
-from typing import Optional
+from typing import Optional, Dict, List, Any
 import datetime
 import pytz
 from io import StringIO
-
+import time
+import asyncio
+import aiohttp
+from asgiref.sync import async_to_sync
 
 # Create your views here.
+
+
 
 
 def calculate_cagr(net_profits):
@@ -519,27 +524,114 @@ def aggregate_to_dataframe(
     return ohlcv
 
 
-def load_asset_price(
+# async def load_asset_price(
+#     symbol: str,
+#     look_back_bars: int,
+#     time_frame: AvailableTimeFrame,
+#     timezone: Optional[pytz.timezone] = None,
+# ) -> pd.DataFrame:
+#     """Run full process to scrape TradingView data
+
+#     Args:
+#         symbol (str): Asset symbol
+#         look_back_bars (int): Number of look back bars
+#         time_frame (AvailableTimeFrame): Time frame
+#         timezone (Optional[pytz.timezone], optional): Timezone.
+#             Defaults to None.
+
+#     Returns:
+#         pd.DataFrame: return as a dataframe
+#     """
+#     chart = load_raw_data(symbol, look_back_bars, time_frame)
+#     return aggregate_to_dataframe(chart, timezone)
+
+
+
+
+
+#########################################################SIHAG##############################################################################################################
+
+
+
+
+
+
+
+
+
+async def async_listen(ws: aiohttp.ClientWebSocketResponse) -> Dict[str, Any]:
+    chart = {}
+    async for msg in ws:
+        if msg.type == aiohttp.WSMsgType.TEXT:
+            data = msg.data
+            if data.startswith("~m~"):
+                parts = data.split("~m~")
+                for part in parts:
+                    if part and not part.isdigit():
+                        try:
+                            r = json.loads(part)
+                            if isinstance(r, dict):
+                                message = r.get("m")
+                                if message in ["timescale_update", "du", "study_error"]:
+                                    if message == "study_error":
+                                        return chart
+                                    p = r["p"]
+                                    data = next((element for element in p if isinstance(element, dict)), None)
+                                    if data:
+                                        if not (("price" in chart) and ("price" in data)):
+                                            chart.update(data)
+                                    if "pe_ratio" in chart:
+                                        return chart
+                        except:
+                            pass
+            elif data == "~h~":
+                await ws.send_str(data)
+    return chart
+
+async def async_load_raw_data(symbol: str, look_back_bars: int, time_frame: str) -> Dict[str, Any]:
+    websocket_session = generate_sesssion(SESSION_ENUM.WEBSOCKET)
+    chart_session = generate_sesssion(SESSION_ENUM.CHART)
+    chart_session_name = "price"
+
+    async with aiohttp.ClientSession() as session:
+        async with session.ws_connect("wss://data.tradingview.com/socket.io/websocket", headers=json.loads(headers)) as ws:
+            await ws.send_str(create_message("set_auth_token", ["unauthorized_user_token"]))
+            await ws.send_str(create_message("chart_create_session", [chart_session, ""]))
+            await ws.send_str(create_message("quote_create_session", [websocket_session]))
+            await ws.send_str(create_message("quote_add_symbols", [websocket_session, symbol, {"flags": ["force_permission"]}]))
+            await ws.send_str(create_message("resolve_symbol", [chart_session, "symbol_1", f"={json.dumps({'symbol': symbol, 'adjustment': 'splits'})}"]))
+            await ws.send_str(create_message("create_series", [chart_session, chart_session_name, chart_session_name, "symbol_1", time_frame, look_back_bars]))
+            await ws.send_str(get_pe_ratio_message(chart_session, chart_session_name))
+
+            return await async_listen(ws)
+
+async def load_asset_price(
     symbol: str,
     look_back_bars: int,
-    time_frame: AvailableTimeFrame,
+    time_frame: str,
     timezone: Optional[pytz.timezone] = None,
 ) -> pd.DataFrame:
-    """Run full process to scrape TradingView data
+    """Run full process to scrape TradingView data asynchronously
 
     Args:
         symbol (str): Asset symbol
         look_back_bars (int): Number of look back bars
-        time_frame (AvailableTimeFrame): Time frame
+        time_frame (str): Time frame
         timezone (Optional[pytz.timezone], optional): Timezone.
             Defaults to None.
 
     Returns:
         pd.DataFrame: return as a dataframe
     """
-    chart = load_raw_data(symbol, look_back_bars, time_frame)
+    chart = await async_load_raw_data(symbol, look_back_bars, time_frame)
     return aggregate_to_dataframe(chart, timezone)
 
+
+
+
+
+
+#########################################################SIHAG##############################################################################################################
 
 
 
@@ -549,9 +641,11 @@ class SearchView(APIView):
         seach_url = f'https://www.screener.in/api/company/search/?q={company}'
         content = requests.get(seach_url).json()
         return Response(content)
-    
+
 class AnalysisView(APIView):
-    def get(self, request):
+    @async_to_sync
+    async def get(self, request):
+        start_time = time.time()
         company = request.query_params.get('company')
         company = company.replace('/company/', '')
         company_name = company.split('/')[0]
@@ -941,66 +1035,66 @@ class AnalysisView(APIView):
                 buying_window.append(None)
 
 
-
-        india_gdp_growth_rate = 'INGDPQQ'
-        india_gdp = 'INGDP'
-        india_gdp_per_capita = 'INGDPPC'
-        india_interest_rate = 'ININTR'
-        india_inflation_rate = 'INIRYY'
-        india_unemployment_rate = 'INUR'
-        india_population = 'INPOP'
-        india_government_debt = 'INGDG'
-        usd_inr = 'USDINR'
-        nifty_50 = 'NSE:NIFTY'
-        dow_jones = 'DJI'
-
-
-
-        df = load_asset_price(usd_inr, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        usd_inr_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        usd_inr_price = df['close'].tolist()
-
-        df = load_asset_price(nifty_50, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        nifty_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        nifty_price = df['close'].tolist()
-
-        df = load_asset_price(dow_jones, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        dow_jones_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        dow_jones_price = df['close'].tolist()
-
-        df = load_asset_price(india_gdp_growth_rate, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_gdp_growth_rate_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_gdp_growth_rate_price = df['close'].tolist()
-
-        df = load_asset_price(india_gdp, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_gdp_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_gdp_price = df['close'].tolist()
-
-        df = load_asset_price(india_gdp_per_capita, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_gdp_per_capita_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_gdp_per_capita_price = df['close'].tolist()
-
-        df = load_asset_price(india_interest_rate, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_interest_rate_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_interest_rate_price = df['close'].tolist()
-
-        df = load_asset_price(india_inflation_rate, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_inflation_rate_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_inflation_rate_price = df['close'].tolist()
-
-        df = load_asset_price(india_unemployment_rate, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_unemployment_rate_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_unemployment_rate_price = df['close'].tolist()
-
-        df = load_asset_price(india_population, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_population_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_population_price = df['close'].tolist()
-
-        df = load_asset_price(india_government_debt, 1200,'1M', pytz.timezone('Asia/Kolkata'))
-        india_government_debt_time = df['time'].dt.strftime('%Y-%m-%d').tolist()
-        india_government_debt_price = df['close'].tolist()
+        trading_data_required = {
+            'USD_INR' : 'USDINR',
+            'nifty_50' : 'NSE:NIFTY',
+            'dow_jones' : 'DJI',
+            'india_GDP' : 'INGDP',
+            'india_GDP_per_capita' : 'INGDPPC',
+            'india_GDP_growth_rate' : 'INGDPQQ',
+            'india_interest_rate' : 'ININTR',
+            'india_inflation_rate' : 'INIRYY',
+            'india_unemployment_rate' : 'INUR',
+            'india_population' : 'INPOP',
+            'india_government_debt' : 'INGDG',
+        }
+        trading_data = {}
 
 
+        # for key, value in trading_data_required.items():
+        #     df = load_asset_price(value, 1200,'1M', pytz.timezone('Asia/Kolkata'))
+        #     trading_data[key + '_time'] = df['time'].dt.strftime('%Y-%m-%d').tolist()
+        #     trading_data[key + '_price'] = df['close'].tolist()
+        
+
+
+
+        
+        async def load_asset_price_with_retry(symbol: str, days: int, interval: str, timezone: pytz.timezone, max_retries: int = 5):
+            for attempt in range(max_retries):
+                try:
+                    return await load_asset_price(symbol, days, interval, timezone)
+                except aiohttp.ClientResponseError as e:
+                    if e.status == 429:
+                        wait_time = (2 ** attempt) + random.uniform(0, 1)  # Exponential backoff with jitter
+                        print(f"Rate limit hit for {symbol}. Retrying in {wait_time:.2f} seconds...")
+                        await asyncio.sleep(wait_time)
+                    else:
+                        raise
+            raise Exception(f"Failed to load data for {symbol} after {max_retries} attempts")
+
+        async def load_all_asset_prices(trading_data_required: Dict[str, str], days: int, interval: str, timezone: pytz.timezone) -> Dict[str, List]:
+            trading_data = {}
+            semaphore = asyncio.Semaphore(3)  # Limit to 5 concurrent requests
+
+            async def load_with_semaphore(key: str, symbol: str):
+                async with semaphore:
+                    try:
+                        print(f"Loading data for {key}")
+                        df = await load_asset_price_with_retry(symbol, days, interval, timezone)
+                        trading_data[key + '_time'] = df['time'].dt.strftime('%Y-%m-%d').tolist()
+                        trading_data[key + '_price'] = df['close'].tolist()
+                        print(f"Successfully loaded data for {key}")
+                    except Exception as e:
+                        print(f"Error loading data for {key}: {str(e)}")
+
+            async with aiohttp.ClientSession() as session:
+                tasks = [asyncio.create_task(load_with_semaphore(key, value)) for key, value in trading_data_required.items()]
+                await asyncio.gather(*tasks)
+
+            return trading_data
+
+        trading_data = await load_all_asset_prices(trading_data_required, 1200, '1M', pytz.timezone('Asia/Kolkata'))
 
 
 
@@ -1045,30 +1139,11 @@ class AnalysisView(APIView):
 
 
         data = {
+            'time_taken': time.time() - start_time,
             'market_cap': market_cap,
             'graph_ratings_and_weightage' : graph_ratings_and_weightage,
-            'usd_inr_time': usd_inr_time,
-            'usd_inr_price': usd_inr_price,
-            'nifty_time': nifty_time,
-            'nifty_price': nifty_price,
-            'dow_jones_time': dow_jones_time,
-            'dow_jones_price': dow_jones_price,
-            'india_gdp_growth_rate_time': india_gdp_growth_rate_time,
-            'india_gdp_growth_rate_price': india_gdp_growth_rate_price,
-            'india_gdp_time': india_gdp_time,
-            'india_gdp_price': india_gdp_price,
-            'india_gdp_per_capita_time': india_gdp_per_capita_time,
-            'india_gdp_per_capita_price': india_gdp_per_capita_price,
-            'india_interest_rate_time': india_interest_rate_time,
-            'india_interest_rate_price': india_interest_rate_price,
-            'india_inflation_rate_time': india_inflation_rate_time,
-            'india_inflation_rate_price': india_inflation_rate_price,
-            'india_unemployment_rate_time': india_unemployment_rate_time,
-            'india_unemployment_rate_price': india_unemployment_rate_price,
-            'india_population_time': india_population_time,
-            'india_population_price': india_population_price,
-            'india_government_debt_time': india_government_debt_time,
-            'india_government_debt_price': india_government_debt_price,
+            'economic_landscape_graph_names': [i for i in trading_data_required.keys()],
+            **trading_data,
             'company': company,
             'company_name': company_name,
             'isConsolidated': isConsolidated,

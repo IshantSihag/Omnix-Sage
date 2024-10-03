@@ -138,9 +138,6 @@ function Report() {
 
   const renderChart = (label, plot_data, color, label_list = data.year_list) => {
     const pointRadius = label_list.length > 100 ? 0 : 3;
-    const predictions = generatePredictions(plot_data, 3);
-    const extendedLabels = generateExtendedLabels(label_list);
-    const extendedData = [...plot_data, ...predictions];
     const extendLabelGraphList = ['Revenue', 'Expenses',  'Gross Profit', 'Operating Profit',
       'Net Profit', 'Total Assets', 'Equity', 'Cash Equivalents', 'Trade Receivables', 'Borrowings',
       'Cash from Operations', 'Cash from Investing', 
@@ -158,6 +155,9 @@ function Report() {
   ];
 
   if (extendLabelGraphList.includes(label)) {
+      const predictions = generatePredictions(plot_data, 3);
+      const extendedLabels = generateExtendedLabels(label_list);
+      const extendedData = [...plot_data, ...predictions];
       label_list = extendedLabels;
       datasets.push({
           label: label + ' Prediction',
@@ -487,6 +487,33 @@ function Report() {
       </div>
     );
   };
+
+  const color_strings = ['rgba(212, 45, 34, 1)','rgba(34, 45, 212, 1)','rgba(45, 212, 34, 1)','rgba(212, 34, 45, 1)','rgba(34, 212, 45, 1)','rgba(45, 34, 212, 1)',]
+  
+  const transformName = (name) => {
+    return name
+      .split('_')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+      ;
+  };
+  const renderEconomicLandscapeGraphs = (data) => {
+    return (
+      <div>
+        <h3>Economic Landscape</h3>
+        <div>
+          {data.economic_landscape_graph_names.map((name, i) => {
+            return (
+              <div key={name}>
+                {renderChart(transformName(name), data[name+'_price'], color_strings[i%5], data[name+'_time'])}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div>
       {company ? (
@@ -512,39 +539,7 @@ function Report() {
                 <h3>Key Performing Indicators and Constraints</h3>
                 <p dangerouslySetInnerHTML={{ __html: getKPI(data.sector).replace(/\n/g, '<br>') }}></p>
               </div>
-              <div>
-                {renderChart('USD INR', data.usd_inr_price, 'rgba(212, 45, 34, 1)', data.usd_inr_time)}
-              </div>
-              <div>
-                {renderChart('Nifty', data.nifty_price, 'rgba(34, 45, 212, 1)', data.nifty_time)}
-              </div>
-              <div>
-                {renderChart('Dow Jones', data.dow_jones_price, 'rgba(45, 212, 34, 1)', data.dow_jones_time)}
-              </div>
-              <div>
-                {renderChart('India GDP Growth Rate', data.india_gdp_growth_rate_price, 'rgba(212, 34, 45, 1)', data.india_gdp_growth_rate_time)}
-              </div>
-              <div>
-                {renderChart('India GDP', data.india_gdp_price, 'rgba(34, 212, 45, 1)', data.india_gdp_time)}
-              </div>
-              <div>
-                {renderChart('India GDP Per Capita', data.india_gdp_per_capita_price, 'rgba(45, 34, 212, 1)', data.india_gdp_per_capita_time)}
-              </div>
-              <div>
-                {renderChart('India Interest Rate', data.india_interest_rate_price, 'rgba(212, 45, 34, 1)', data.india_interest_rate_time)}
-              </div>
-              <div>
-                {renderChart('India Inflation Rate', data.india_inflation_rate_price, 'rgba(34, 45, 212, 1)', data.india_inflation_rate_time)}
-              </div>
-              <div>
-                {renderChart('India Unemployment Rate', data.india_unemployment_rate_price, 'rgba(45, 212, 34, 1)', data.india_unemployment_rate_time)}
-              </div>
-              <div>
-                {renderChart('India Population', data.india_population_price, 'rgba(212, 34, 45, 1)', data.india_population_time)}
-              </div>
-              <div>
-                {renderChart('India Government Debt', data.india_government_debt_price, 'rgba(34, 212, 45, 1)', data.india_government_debt_time)}
-              </div>
+              {renderEconomicLandscapeGraphs(data)}
               <div className='graph-wrapper'>
                 {renderChartWithRating('Revenue', data.sales_list, 'rgba(75, 192, 192, 1)')}
                 <span className='graph-explaination'>Revenue is the total amount of money a company earns from its business activities before any expenses or costs are deducted. It is a crucial indicator of a company's financial performance and overall health</span>
