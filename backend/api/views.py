@@ -645,6 +645,10 @@ class SearchView(APIView):
 class AnalysisView(APIView):
     @async_to_sync
     async def get(self, request):
+
+
+
+
         start_time = time.time()
         company = request.query_params.get('company')
         company = company.replace('/company/', '')
@@ -663,6 +667,119 @@ class AnalysisView(APIView):
         df = financial_statement[1]
         data = df.to_dict()
         years = len(list(data)) - 1
+
+        auth_token = 'csrftoken=z3xipDqGzOxQRUzga9bhfnLwLDhH8tRc; sessionid=orif6946g0lk5byu3zvjizx4bxqxado4'
+        headers = {
+            'authority': 'www.screener.in',
+        'method':'GET',
+        'path':f'/wiki/company/{company_id}/commentary/v2/',
+        'scheme':'https',
+        'accept':'*/*',
+        'accept-encoding':'gzip, deflate, br, zstd',
+        'accept-language':'en-US,en;q=0.9',
+        'cookie':auth_token,
+        'priority':'u=1, i',
+        # 'referer':'https://www.screener.in/company/TATAELXSI/',
+        'sec-ch-ua':'"Not)A;Brand";v="99", "Microsoft Edge";v="127", "Chromium";v="127"',
+        'sec-ch-ua-mobile':'?0',
+        'sec-ch-ua-platform':'"Windows"',
+        'sec-fetch-dest':'empty',
+        'sec-fetch-mode':'cors',
+        'sec-fetch-site':'same-origin',
+        'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/',
+        'x-requested-with':'XMLHttpRequest'
+        }
+
+        # expenses_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Expenses&section=profit-loss'+ ('&consolidated=' if isConsolidated else '')
+        # expenses_url_resp = requests.get(expenses_url).json()
+        # other_assests_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Other+Assets&section=balance-sheet' + ('&consolidated=' if isConsolidated else '')
+        # other_assests_url_resp = requests.get(other_assests_url).json()
+        # cash_from_investing_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Cash+from+Investing+Activity&section=cash-flow' + ('&consolidated=' if isConsolidated else '')        
+        # cash_from_investing = requests.get(cash_from_investing_url).json()
+        # key_insights_url = f'https://www.screener.in/wiki/company/{company_id}/commentary/v2/'
+        # key_insights_resp = requests.get(key_insights_url, headers=headers)
+        # soup_key_insights = BeautifulSoup(key_insights_resp.content, 'html.parser')
+        # pe_url = f'https://www.screener.in/api/company/{company_id}/chart/?q=Price+to+Earning-Median+PE-EPS&days=10000' + ('&consolidated=true' if isConsolidated else '')
+        # pe_resp = requests.get(pe_url).json()
+        # dma_url = f'https://www.screener.in/api/company/{company_id}/chart/?q=Price-DMA50-DMA200-Volume&days=10000' + ('&consolidated=true' if isConsolidated else '')
+        # dma_resp = requests.get(dma_url).json()
+
+
+
+
+
+
+
+
+
+
+
+        async with aiohttp.ClientSession() as session:
+            # Fetch screener data
+            async with session.get(screener_url) as response:
+                screener_resp = await response.text()
+
+            soup = BeautifulSoup(screener_resp, 'html.parser')
+            table = soup.find_all('table')
+            company_id = int(soup.find('div', {'id': 'company-info'})['data-company-id'])
+            financial_statement = pd.read_html(StringIO(str(table)))
+            df = financial_statement[1]
+            data = df.to_dict()
+            years = len(list(data)) - 1
+
+            # Define all URLs
+            urls = {
+                'expenses': f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Expenses&section=profit-loss' + ('&consolidated=' if isConsolidated else ''),
+                'other_assets': f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Other+Assets&section=balance-sheet' + ('&consolidated=' if isConsolidated else ''),
+                'cash_from_investing': f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Cash+from+Investing+Activity&section=cash-flow' + ('&consolidated=' if isConsolidated else ''),
+                'key_insights': f'https://www.screener.in/wiki/company/{company_id}/commentary/v2/',
+                'pe': f'https://www.screener.in/api/company/{company_id}/chart/?q=Price+to+Earning-Median+PE-EPS&days=10000' + ('&consolidated=true' if isConsolidated else ''),
+                'dma': f'https://www.screener.in/api/company/{company_id}/chart/?q=Price-DMA50-DMA200-Volume&days=10000' + ('&consolidated=true' if isConsolidated else '')
+            }
+
+            # Create tasks for all requests
+            tasks = []
+            for key, url in urls.items():
+                if key == 'key_insights':
+                    tasks.append(asyncio.ensure_future(session.get(url, headers=headers)))
+                else:
+                    tasks.append(asyncio.ensure_future(session.get(url)))
+
+            # Wait for all requests to complete
+            responses = await asyncio.gather(*tasks)
+
+            # Process responses
+            results = {}
+            for key, response in zip(urls.keys(), responses):
+                if key in ['expenses', 'other_assets', 'cash_from_investing', 'pe', 'dma']:
+                    results[key] = await response.json()
+                elif key == 'key_insights':
+                    key_insights_content = await response.text()
+                    results[key] = BeautifulSoup(key_insights_content, 'html.parser')
+
+        expenses_url_resp = results['expenses']
+        other_assests_url_resp = results['other_assets']
+        cash_from_investing = results['cash_from_investing']
+        soup_key_insights = results['key_insights']
+        pe_resp = results['pe']
+        dma_resp = results['dma']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         if list(data)[-1] == 'TTM':
             years -= 1
         if years < 1:
@@ -724,8 +841,7 @@ class AnalysisView(APIView):
                 eps.append(float(data[list(data)[i]][10]))
             except:
                 eps.append(None)
-        expenses_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Expenses&section=profit-loss'+ ('&consolidated=' if isConsolidated else '')
-        expenses_url_resp = requests.get(expenses_url).json()
+        eps_cagr = calculate_cagr(eps) * 100
         material_cost_percent = []
         for i in expenses_url_resp['Material Cost %'].values():
             try:
@@ -762,10 +878,8 @@ class AnalysisView(APIView):
                 gross_profit_margin.append((sales_list[i] - gross_expense[i])/sales_list[i] * 100)
             except:
                 gross_profit_margin.append(None)
-        other_assests_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Other+Assets&section=balance-sheet' + ('&consolidated=' if isConsolidated else '')
-        other_assests_url_resp = requests.get(other_assests_url)
         cash_equivalents = []
-        cash_equivalents_data = other_assests_url_resp.json()['Cash Equivalents']
+        cash_equivalents_data = other_assests_url_resp['Cash Equivalents']
         for i in cash_equivalents_data.values():
             try:
                 cash_equivalents.append(float(i.replace(',', '')))
@@ -775,7 +889,7 @@ class AnalysisView(APIView):
                 else:
                     cash_equivalents.append(None)
         trade_receivables = []
-        trade_receivables_data = other_assests_url_resp.json()['Trade receivables']
+        trade_receivables_data = other_assests_url_resp['Trade receivables']
         for i in trade_receivables_data.values():
             try:
                 trade_receivables.append(float(i.replace(',', '')))
@@ -784,10 +898,8 @@ class AnalysisView(APIView):
                     pass
                 else:
                     trade_receivables.append(None)
-        cash_from_investing_url = f'https://www.screener.in/api/company/{company_id}/schedules/?parent=Cash+from+Investing+Activity&section=cash-flow' + ('&consolidated=' if isConsolidated else '')        
-        cash_from_investing = requests.get(cash_from_investing_url)
         cash_from_investing_list = []
-        for i in cash_from_investing.json()['Fixed assets purchased'].values():
+        for i in cash_from_investing['Fixed assets purchased'].values():
             try:
                 cash_from_investing_list.append(-(float(i.replace(',', ''))))
             except:
@@ -913,10 +1025,11 @@ class AnalysisView(APIView):
                 depreciation_by_sales.append(depreciation_list[i] / sales_list[i] * 100)
             except:
                 depreciation_by_sales.append(None)
-        normalized_net_profit_list = np.log1p(np.array(net_profit_list) / 100.0)
-        print(normalized_net_profit_list)
-        compounded_growth = (np.sum(normalized_net_profit_list) / len(normalized_net_profit_list))
-        compounded_profit_growth = (np.expm1(compounded_growth)) * 100
+        # normalized_net_profit_list = np.log1p(np.array(net_profit_list) / 100.0)
+        # print(normalized_net_profit_list)
+        # compounded_growth = (np.sum(normalized_net_profit_list) / len(normalized_net_profit_list))
+        # compounded_profit_growth = (np.expm1(compounded_growth)) * 100
+        compounded_profit_growth = calculate_cagr(net_profit_list) * 100
             # return compounded_profit_growth
         # compounded_profit_growth = net_profit_list[-1] / net_profit_list[0]
         # compounded_profit_growth = compounded_profit_growth ** (1/len(net_profit_list)) - 1
@@ -930,41 +1043,15 @@ class AnalysisView(APIView):
         peer_info = peer_info.find('p').find_all('a')
         sector = peer_info[0].text.strip()
         industry = peer_info[1].text.strip()
-        auth_token = 'csrftoken=14cOcxbER7QfBXEcyZeCwBvCFAbZYigJ; sessionid=rr3fp4r5umhqwrnh0bu8iyq5vfsxeg0l'
-        key_insights_url = f'https://www.screener.in/wiki/company/{company_id}/commentary/v2/'
-        headers = {
-            'authority': 'www.screener.in',
-        'method':'GET',
-        'path':f'/wiki/company/{company_id}/commentary/v2/',
-        'scheme':'https',
-        'accept':'*/*',
-        'accept-encoding':'gzip, deflate, br, zstd',
-        'accept-language':'en-US,en;q=0.9',
-        'cookie':auth_token,
-        'priority':'u=1, i',
-        # 'referer':'https://www.screener.in/company/TATAELXSI/',
-        'sec-ch-ua':'"Not)A;Brand";v="99", "Microsoft Edge";v="127", "Chromium";v="127"',
-        'sec-ch-ua-mobile':'?0',
-        'sec-ch-ua-platform':'"Windows"',
-        'sec-fetch-dest':'empty',
-        'sec-fetch-mode':'cors',
-        'sec-fetch-site':'same-origin',
-        'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/',
-        'x-requested-with':'XMLHttpRequest'
-        }
-        key_insights_resp = requests.get(key_insights_url, headers=headers)
-        soup_key_insights = BeautifulSoup(key_insights_resp.content, 'html.parser')
+
         key_insights = ''
         for para in soup_key_insights.find_all('p'):
             key_insights += para.text
         key_insights = key_insights.split('Last edited')[0]
         key_insights = re.sub(r'\[.*?\]', '\n', key_insights)
-        pe_url = f'https://www.screener.in/api/company/{company_id}/chart/?q=Price+to+Earning-Median+PE-EPS&days=10000' + ('&consolidated=true' if isConsolidated else '')
-        pe_resp = requests.get(pe_url).json()
         eps_data = pe_resp['datasets'][0]
         pe_data = pe_resp['datasets'][1]
-        dma_url = f'https://www.screener.in/api/company/{company_id}/chart/?q=Price-DMA50-DMA200-Volume&days=10000' + ('&consolidated=true' if isConsolidated else '')
-        dma_resp = requests.get(dma_url).json()
+
         price_data = dma_resp['datasets'][0]
         dma50_data = dma_resp['datasets'][1]
         dma200_data = dma_resp['datasets'][2]
@@ -1075,7 +1162,7 @@ class AnalysisView(APIView):
 
         async def load_all_asset_prices(trading_data_required: Dict[str, str], days: int, interval: str, timezone: pytz.timezone) -> Dict[str, List]:
             trading_data = {}
-            semaphore = asyncio.Semaphore(3)  # Limit to 5 concurrent requests
+            semaphore = asyncio.Semaphore(4)  # Limit to 5 concurrent requests
 
             async def load_with_semaphore(key: str, symbol: str):
                 async with semaphore:
@@ -1156,6 +1243,7 @@ class AnalysisView(APIView):
             'depreciation_list': depreciation_list,
             'net_profit_list': net_profit_list,
             'eps': eps,
+            'eps_cagr': eps_cagr,
             'material_cost_percent': material_cost_percent,
             'manufacuring_cost_percent': manufacuring_cost_percent,
             'gross_expense': gross_expense,

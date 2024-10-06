@@ -20,6 +20,7 @@ import {
   RadialLinearScale, 
   RadarController,   
   Filler,
+  registerables,
 } from 'chart.js';
 
 ChartJS.register(
@@ -35,6 +36,7 @@ ChartJS.register(
   RadialLinearScale,  
   RadarController,
   Filler,
+  ...registerables,
 );
 
 function Report() {
@@ -138,61 +140,109 @@ function Report() {
 
   const renderChart = (label, plot_data, color, label_list = data.year_list) => {
     const pointRadius = label_list.length > 100 ? 0 : 3;
-    const extendLabelGraphList = ['Revenue', 'Expenses',  'Gross Profit', 'Operating Profit',
+    const extendLabelGraphList = ['Revenue', 'Expenses', 'Gross Expense', 'Gross Profit', 'Operating Profit',
       'Net Profit', 'Total Assets', 'Equity', 'Cash Equivalents', 'Trade Receivables', 'Borrowings',
-      'Cash from Operations', 'Cash from Investing', 
-    ]
+      'Cash from Operations', 'Cash from Investing', 'EPS Values'];
+    const cagrGraphList = ['India GDP', 'India GDP Per Capita', 'India Population', 'Nifty 50',
+        'USD INR', 'Dow Jones', 'Revenue', 'Expenses', 'Gross Expense', 'Gross Profit', 'Operating Profit',
+        'Interest', 'Depreciation', 'Net Profit', 'Total Assets', 'Equity', 'Cash Equivalents', 'Trade Receivables',
+        'Borrowings', 'Cash from Operations', 'Cash from Investing', 'EPS Values'];
 
     const datasets = [
-      {
-          label: label,
-          data: plot_data,
-          borderColor: color,
-          backgroundColor: `${color.replace('1)', '0.2)')}`,
-          pointRadius: pointRadius,
-          pointHoverRadius: 20,
+        {
+            label: label,
+            data: plot_data,
+            borderColor: color,
+            backgroundColor: `${color.replace('1)', '0.2)')}`,
+            pointRadius: pointRadius,
+            pointHoverRadius: 20,
+        }
+    ];
+
+    if (extendLabelGraphList.includes(label)) {
+        const predictions = generatePredictions(plot_data, 3);
+        const extendedLabels = generateExtendedLabels(label_list);
+        const extendedData = [...plot_data, ...predictions];
+        label_list = extendedLabels;
+
+        datasets.push({
+            label: label + ' Prediction',
+            data: extendedData,
+            borderColor: color,
+            backgroundColor: `${color.replace('1)', '0.2)')}`,
+            pointRadius: pointRadius,
+            pointHoverRadius: 20,
+        });
+    }
+    const extractYear = (label) => {
+      const dateFormat1 = /^\d{4}-\d{2}-\d{2}$/; // Matches 'YYYY-MM-DD'
+      const dateFormat2 = /^[A-Za-z]{3} \d{4}$/; // Matches 'MMM YYYY'
+    
+      if (dateFormat1.test(label)) {
+        return new Date(label).getFullYear();
+      } else if (dateFormat2.test(label)) {
+        return new Date(label).getFullYear();
+      } else {
+        console.log(label)
+        throw new Error('Invalid date format');
       }
-  ];
+    };
+    
+    const cagrPlugin = {
+      id: 'cagrPlugin',
+      beforeDraw: (chart) => {
+        if (cagrGraphList.includes(chart.config.data.datasets[0].label)) {
+          if (chart.config.data.datasets.length === 1 || (chart.config.data.datasets.length > 1 && chart.config.data.datasets[1].label.includes('Prediction'))) {
+            const { ctx, chartArea: { top, left } } = chart;
+            const xPos = left + 100;
+            const yPos = top + 30;
+            ctx.save();
+            ctx.fillStyle = 'rgba(0, 0, 0, 1)';
+            ctx.textAlign = 'center';
+            ctx.font = 'bolder 20px Arial';
+            // console.log(chart)
+            const data = chart.config.data.datasets[0].data
+            const labels = chart.config.data.labels
+            // console.log('fff', data, labels)
+            const startValue = data[0];
+            const endValue = data[data.length - 1];
+            const startYear = extractYear(labels[0]);
+            const endYear = extractYear(labels[labels.length - 1]);
+            const numberOfYears = endYear - startYear;
+            const cagr = ((endValue / startValue) ** (1 / numberOfYears) - 1) * 100;
 
-  if (extendLabelGraphList.includes(label)) {
-      const predictions = generatePredictions(plot_data, 3);
-      const extendedLabels = generateExtendedLabels(label_list);
-      const extendedData = [...plot_data, ...predictions];
-      label_list = extendedLabels;
-      datasets.push({
-          label: label + ' Prediction',
-          data: extendedData,
-          borderColor: color,
-          backgroundColor: `${color.replace('1)', '0.2)')}`,
-          pointRadius: pointRadius,
-          pointHoverRadius: 20,
-      });
-  }
-
-    return (
-      <div className='graph'>
-        <Line
-          data={{
-            labels: label_list,
-            datasets: datasets,
-          }}
-          options={{
-            interaction: {
-              mode: 'index',
-              intersect: false,
-            },
-            plugins: {
-              tooltip: {
-                mode: 'index',
-                intersect: false,
-
-              },
-            },
-          }}
-        />
-      </div>
+            ctx.fillText(`YoY: ${cagr.toFixed(2)}%`, xPos, yPos);
+            ctx.restore();
+          }
+        }
+      }
+    };
+    ChartJS.register(cagrPlugin);
+    const returnComponent = (
+        <div className='graph'>
+            <Line
+                data={{
+                    labels: label_list,
+                    datasets: datasets,
+                }}
+                options={{
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                        },
+                        cagrPlugin // Register the CAGR plugin here
+                    },
+                }}
+            />
+        </div>
     );
-  };
+    return returnComponent;
+};
 
   const CircleIcon = ({ fill = 'none', stroke = 'black', strokeWidth = 2 }) => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill={fill} xmlns="http://www.w3.org/2000/svg">
@@ -674,7 +724,7 @@ function Report() {
                 <span className='graph-explaination'>Return on capital employed (ROCE) is a financial metric that shows the percentage return a company earns on its invested capital. It is calculated by dividing a company's earnings before interest and taxes (EBIT) by its total capital employed. ROCE is a key indicator of a company's profitability and efficiency in using its capital to generate returns for shareholders.</span>
               </div>
               <div>
-                {renderChartWithRating('EPS Values', data.eps_values_list, 'rgba(153, 102, 255, 1)', data.eps_date_list)}
+                {renderChartWithRating('EPS Values', data.eps, 'rgba(153, 102, 255, 1)')}
                 <span className='graph-explaination'>Earnings Per Share (EPS) is a financial metric that measures the portion of a company's profit attributable to each outstanding share of common stock.</span>
               </div>
               <div>
@@ -731,6 +781,10 @@ function Report() {
               <div>
                 <h5>Book Value</h5>
                 <p>{data.book_value}</p>
+              </div>
+              <div>
+                <h5>EPS CAGR</h5>
+                <p>{data.eps_cagr}</p>
               </div>
               <div>
                 <h5>Compounded Profit Growth</h5>
