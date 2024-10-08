@@ -1,7 +1,0 @@
-def name (*x):
-    print(type(x))
-    # print(x['sf'])
-
-# d = {'sf':234}
-name()
-# name(d)
