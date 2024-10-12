@@ -251,6 +251,7 @@ function Report() {
   );
 
   const renderChartWithRating = (label, plot_data, color, label_list = data.year_list) => {
+    if (plot_data == undefined) return;
     function cleanString(input) {
       // Convert the string to lowercase
       let lowerCaseString = input.toLowerCase();

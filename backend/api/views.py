@@ -34,9 +34,11 @@ def calculate_cagr(net_profits):
     initial_value = net_profits[0]
     final_value = net_profits[-1]
     n = len(net_profits) - 1  # number of intervals
-    if initial_value == 0:  # Avoid division by zero
+    if initial_value == 0 or n<2:  # Avoid division by zero
         return -1  # Return an invalid CAGR to indicate an error
     cagr = (final_value / initial_value) ** (1 / n) - 1
+    if isinstance(cagr, complex):
+        return -1
     return cagr
 
 def calculate_yoy_growth(net_profits):
@@ -53,6 +55,8 @@ def rate_graph(net_profits, growth_weight=0.8, consistency_weight=0.2, growth_pe
     # Calculate CAGR-based score
     # consider only positive net_profits
     net_profits = [profit for profit in net_profits if profit and profit > 0]
+    if len(net_profits) < 2:
+        return 0  # If no positive net profits, return 0
     cagr = calculate_cagr(net_profits)
     if cagr < 0:
         cagr_score = 0  # If there's negative growth, score 0
@@ -795,8 +799,11 @@ class AnalysisView(APIView):
                 
         compunded_sales_growth = None
         if cagr_years:
-            compunded_sales_growth = (float(data[list(data)[-2]][0]) / first_non_zero_sales) ** (1/cagr_years) - 1
-            compunded_sales_growth *= 100
+            try:
+                compunded_sales_growth = (float(data[list(data)[-2]][0]) / first_non_zero_sales) ** (1/cagr_years) - 1
+                compunded_sales_growth *= 100
+            except:
+                pass
         
         
         sales_list = []
@@ -805,108 +812,160 @@ class AnalysisView(APIView):
                 sales_list.append(float(data[list(data)[i]][0]))
             except:
                 sales_list.append(None)
+            if sales_list[-1] != sales_list[-1]:
+                sales_list[-1] = None
         expenses_list = []
         for i in range(1, years+1):
             try:
                 expenses_list.append(float(data[list(data)[i]][1]))
             except:
                 expenses_list.append(None)
+            if expenses_list[-1] != expenses_list[-1]:
+                expenses_list[-1] = None
+
         opm_percent_list = []
         for i in range(1, years+1):
             try:
                 opm_percent_list.append(float(data[list(data)[i]][3][:-1].replace(',','')))
             except:
                 opm_percent_list.append(None)
+            if opm_percent_list[-1] != opm_percent_list[-1]:
+                opm_percent_list[-1] = None
+
         interest_list = []
         for i in range(1, years+1):
             try:
                 interest_list.append(float(data[list(data)[i]][5]))
             except:
                 interest_list.append(None)
+            if interest_list[-1] != interest_list[-1]:
+                interest_list[-1] = None
+
         depreciation_list = []
         for i in range(1, years+1):
             try:
                 depreciation_list.append(float(data[list(data)[i]][6]))
             except:
                 depreciation_list.append(None)
+            if depreciation_list[-1] != depreciation_list[-1]:
+                depreciation_list[-1] = None
         net_profit_list = []
         for i in range(1, years+1):
             try:
                 net_profit_list.append(float(data[list(data)[i]][9]))
             except:
                 net_profit_list.append(None)
+            if net_profit_list[-1] != net_profit_list[-1]:
+                net_profit_list[-1] = None
         eps = []
         for i in range(1, years+1):
             try:
                 eps.append(float(data[list(data)[i]][10]))
             except:
                 eps.append(None)
+            if eps[-1] != eps[-1]:
+                eps[-1] = None
         eps_cagr = calculate_cagr(eps) * 100
+
         material_cost_percent = []
-        for i in expenses_url_resp['Material Cost %'].values():
-            try:
-                material_cost_percent.append(float(i[:-1]))
-            except:
-                if i.count('showSchedule') == 1:
-                    pass
-                else:
-                    material_cost_percent.append(None)
+        try:
+            for i in expenses_url_resp['Material Cost %'].values():
+                try:
+                    material_cost_percent.append(float(i[:-1]))
+                except:
+                    if i.count('showSchedule') == 1:
+                        pass
+                    else:
+                        material_cost_percent.append(None)
+                    if material_cost_percent[-1] != material_cost_percent[-1]:
+                        material_cost_percent[-1] = None
+        except:
+            pass
+
         manufacuring_cost_percent = []
-        for i in expenses_url_resp['Manufacturing Cost %'].values():
-            try:
-                manufacuring_cost_percent.append(float(i[:-1]))
-            except:
-                if i.count('showSchedule') == 1:
-                    pass
-                else:
-                    material_cost_percent.append(None)
+        try:
+            for i in expenses_url_resp['Manufacturing Cost %'].values():
+                try:
+                    manufacuring_cost_percent.append(float(i[:-1]))
+                except:
+                    if i.count('showSchedule') == 1:
+                        pass
+                    else:
+                        manufacuring_cost_percent.append(None)
+                if manufacuring_cost_percent[-1] != manufacuring_cost_percent[-1]:
+                    manufacuring_cost_percent[-1] = None
+        except:
+            pass
+        if not manufacuring_cost_percent:
+            material_cost_percent = []
+        if not material_cost_percent:
+            manufacuring_cost_percent = []
+        
         gross_expense = []
-        for i in range(0, years):
-            try:
-                gross_expense.append(expenses_list[i]*(material_cost_percent[i] + manufacuring_cost_percent[i])/100)
-            except:
-                gross_expense.append(None)
         gross_profit=[]
-        for i in range(0,years):
-            try:
-                gross_profit.append(sales_list[i]-gross_expense[i])
-            except:
-                gross_profit.append(None)
         gross_profit_margin = []
-        for i in range(0, years):
-            try:
-                gross_profit_margin.append((sales_list[i] - gross_expense[i])/sales_list[i] * 100)
-            except:
-                gross_profit_margin.append(None)
+        if material_cost_percent:
+            for i in range(0, years):
+                try:
+                    gross_expense.append(expenses_list[i]*(material_cost_percent[i] + manufacuring_cost_percent[i])/100)
+                except:
+                    gross_expense.append(None)
+            for i in range(0,years):
+                try:
+                    gross_profit.append(sales_list[i]-gross_expense[i])
+                except:
+                    gross_profit.append(None)
+
+            for i in range(0, years):
+                try:
+                    gross_profit_margin.append((sales_list[i] - gross_expense[i])/sales_list[i] * 100)
+                except:
+                    gross_profit_margin.append(None)
+
         cash_equivalents = []
-        cash_equivalents_data = other_assests_url_resp['Cash Equivalents']
-        for i in cash_equivalents_data.values():
-            try:
-                cash_equivalents.append(float(i.replace(',', '')))
-            except:
-                if i.count('showSchedule') == 1:
-                    pass
-                else:
-                    cash_equivalents.append(None)
+        try:
+            cash_equivalents_data = other_assests_url_resp['Cash Equivalents']
+            for i in cash_equivalents_data.values():
+                try:
+                    cash_equivalents.append(float(i.replace(',', '')))
+                except:
+                    if i.count('showSchedule') == 1:
+                        pass
+                    else:
+                        cash_equivalents.append(None)
+                if cash_equivalents[-1] != cash_equivalents[-1]:
+                    cash_equivalents[-1] = None
+        except:
+            pass
         trade_receivables = []
-        trade_receivables_data = other_assests_url_resp['Trade receivables']
-        for i in trade_receivables_data.values():
-            try:
-                trade_receivables.append(float(i.replace(',', '')))
-            except:
-                if i.count('showSchedule') == 1:
-                    pass
-                else:
-                    trade_receivables.append(None)
+        try:
+            trade_receivables_data = other_assests_url_resp['Trade receivables']
+            for i in trade_receivables_data.values():
+                try:
+                    trade_receivables.append(float(i.replace(',', '')))
+                except:
+                    if i.count('showSchedule') == 1:
+                        pass
+                    else:
+                        trade_receivables.append(None)
+                if trade_receivables[-1] != trade_receivables[-1]:
+                    trade_receivables[-1] = None
+        except:
+            pass
         cash_from_investing_list = []
-        for i in cash_from_investing['Fixed assets purchased'].values():
-            try:
-                cash_from_investing_list.append(-(float(i.replace(',', ''))))
-            except:
-                if i.count('showSchedule') == 1:
-                    pass
-                else:
-                    cash_from_investing_list.append(None)
+        try:
+            for i in cash_from_investing['Fixed assets purchased'].values():
+                try:
+                    cash_from_investing_list.append(-(float(i.replace(',', ''))))
+                except:
+                    if i.count('showSchedule') == 1:
+                        pass
+                    else:
+                        cash_from_investing_list.append(None)
+                if cash_from_investing_list[-1] != cash_from_investing_list[-1]:
+                    cash_from_investing_list[-1] = None
+        except:
+            pass
         balance_sheet = financial_statement[6].to_dict()
         total_assets = []
         for i in range(1, years+1):
@@ -914,18 +973,24 @@ class AnalysisView(APIView):
                 total_assets.append(float(balance_sheet[list(balance_sheet)[i]][9]))
             except:
                 total_assets.append(None)
+            if total_assets[-1] != total_assets[-1]:
+                total_assets[-1] = None
         equity = []
         for i in range(1, years+1):
             try:
                 equity.append(float(balance_sheet[list(balance_sheet)[i]][1]))
             except:
                 equity.append(None)
+            if equity[-1] != equity[-1]:
+                equity[-1] = None
         borrowings = []
         for i in range(1, years+1):
             try:
                 borrowings.append(float(balance_sheet[list(balance_sheet)[i]][2]))
             except:
                 borrowings.append(None)
+            if borrowings[-1] != borrowings[-1]:
+                borrowings[-1] = None
         cash_flow = financial_statement[7].to_dict()
         cash_from_operation_list = []
         for i in range(1, years+1):
@@ -933,6 +998,8 @@ class AnalysisView(APIView):
                 cash_from_operation_list.append(float(cash_flow[list(cash_flow)[i]][0]))
             except:
                 cash_from_operation_list.append(None)
+            if cash_from_operation_list[-1] != cash_from_operation_list[-1]:
+                cash_from_operation_list[-1] = None
         shareholding_pattern = financial_statement[10].to_dict()
         promoter_holding = []
         promoter_holding_years = []
@@ -949,12 +1016,20 @@ class AnalysisView(APIView):
                 cash_conversion_cycle.append(float(ratios[list(ratios)[i]][3]))
             except:
                 cash_conversion_cycle.append(None)
+            if cash_conversion_cycle[-1] != cash_conversion_cycle[-1]:
+                cash_conversion_cycle[-1] = None
+        if all([i==None for i in cash_conversion_cycle]):
+            cash_conversion_cycle = []
         roce_percent = []
         for i in range(1, years+1):
             try:
                 roce_percent.append(float(ratios[list(ratios)[i]][5][:-1]))
             except:
                 roce_percent.append(None)
+            if roce_percent[-1] != roce_percent[-1]:
+                roce_percent[-1] = None
+        if all([i==None for i in roce_percent]):
+            roce_percent = []
         year_list = []
         for i in range(1, years+1):
             year_list.append(list(data)[i])
@@ -964,18 +1039,25 @@ class AnalysisView(APIView):
                 percent_change_sales.append(((sales_list[i] - sales_list[i-1]) / (sales_list[i-1])) * 100)
             except:
                 percent_change_sales.append(None)
+            if percent_change_sales[-1] != percent_change_sales[-1]:
+                percent_change_sales[-1] = None
         operating_profit_list = []
         for i in range(0, years):
             try:
                 operating_profit_list.append(sales_list[i] - expenses_list[i])
             except:
                 operating_profit_list.append(None)
+            if operating_profit_list[-1] != operating_profit_list[-1]:
+                operating_profit_list[-1] = None
         net_profit_by_sales = []
         for i in range(0, years):
             try:
                 net_profit_by_sales.append(net_profit_list[i] / sales_list[i] * 100)
             except:
                 net_profit_by_sales.append(None)
+            if net_profit_by_sales[-1] != net_profit_by_sales[-1]:
+                net_profit_by_sales[-1] = None
+
         capex_by_income = sum(cash_from_investing_list) / sum(net_profit_list) * 100
         capex_list = []
         for i in range(0, years):
@@ -983,12 +1065,18 @@ class AnalysisView(APIView):
                 capex_list.append(cash_from_investing_list[i] / net_profit_list[i] * 100)
             except:
                 capex_list.append(None)
+            if capex_list[-1] != capex_list[-1]:
+                capex_list[-1] = None
+        if all([i==None for i in capex_list]):
+            capex_list = []
         return_on_assets = []
         for i in range(0, years):
             try:
                 return_on_assets.append(net_profit_list[i] / total_assets[i] * 100)
             except:
                 return_on_assets.append(None)
+            if return_on_assets[-1] != return_on_assets[-1]:
+                return_on_assets[-1] = None
         return_on_equity = []
         for i in range(0, years):
             try:
@@ -1001,30 +1089,42 @@ class AnalysisView(APIView):
                 cash_equivalents_by_total_assets.append(cash_equivalents[i] / total_assets[i] * 100)
             except:
                 cash_equivalents_by_total_assets.append(None)
+            if cash_equivalents_by_total_assets[-1] != cash_equivalents_by_total_assets[-1]:
+                cash_equivalents_by_total_assets[-1] = None
         debt_to_equity = []
         for i in range(0, years):
             try:
                 debt_to_equity.append(borrowings[i] / equity[i])
             except:
                 debt_to_equity.append(None)
+            if debt_to_equity[-1] != debt_to_equity[-1]:
+                debt_to_equity[-1] = None
+        
         trade_receivables_by_total_assets = []
-        for i in range(0, years):
-            try:
-                trade_receivables_by_total_assets.append(trade_receivables[i] / total_assets[i] * 100)
-            except:
-                trade_receivables_by_total_assets.append(None)
+        if trade_receivables:
+            for i in range(0, years):
+                try:
+                    trade_receivables_by_total_assets.append(trade_receivables[i] / total_assets[i] * 100)
+                except:
+                    trade_receivables_by_total_assets.append(None)
+                if trade_receivables_by_total_assets[-1] != trade_receivables_by_total_assets[-1]:
+                    trade_receivables_by_total_assets[-1] = None
         interest_by_sales = []
         for i in range(0, years):
             try:
                 interest_by_sales.append(interest_list[i] / sales_list[i] * 100)
             except:
                 interest_by_sales.append(None)
+                if interest_by_sales[-1] != interest_by_sales[-1]:
+                    interest_by_sales[-1] = None
         depreciation_by_sales = []
         for i in range(0, years):
             try:
                 depreciation_by_sales.append(depreciation_list[i] / sales_list[i] * 100)
             except:
                 depreciation_by_sales.append(None)
+            if depreciation_by_sales[-1] != depreciation_by_sales[-1]:
+                depreciation_by_sales[-1] = None
         # normalized_net_profit_list = np.log1p(np.array(net_profit_list) / 100.0)
         # print(normalized_net_profit_list)
         # compounded_growth = (np.sum(normalized_net_profit_list) / len(normalized_net_profit_list))
@@ -1049,6 +1149,8 @@ class AnalysisView(APIView):
             key_insights += para.text
         key_insights = key_insights.split('Last edited')[0]
         key_insights = re.sub(r'\[.*?\]', '\n', key_insights)
+        if key_insights == '':
+            key_insights = 'No key insights available'
         eps_data = pe_resp['datasets'][0]
         pe_data = pe_resp['datasets'][1]
 
@@ -1123,17 +1225,17 @@ class AnalysisView(APIView):
 
 
         trading_data_required = {
-            'USD_INR' : 'USDINR',
-            'nifty_50' : 'NSE:NIFTY',
-            'dow_jones' : 'DJI',
-            'india_GDP' : 'INGDP',
-            'india_GDP_per_capita' : 'INGDPPC',
-            'india_GDP_growth_rate' : 'INGDPQQ',
-            'india_interest_rate' : 'ININTR',
-            'india_inflation_rate' : 'INIRYY',
-            'india_unemployment_rate' : 'INUR',
-            'india_population' : 'INPOP',
-            'india_government_debt' : 'INGDG',
+            # 'USD_INR' : 'USDINR',
+            # 'nifty_50' : 'NSE:NIFTY',
+            # 'dow_jones' : 'DJI',
+            # 'india_GDP' : 'INGDP',
+            # 'india_GDP_per_capita' : 'INGDPPC',
+            # 'india_GDP_growth_rate' : 'INGDPQQ',
+            # 'india_interest_rate' : 'ININTR',
+            # 'india_inflation_rate' : 'INIRYY',
+            # 'india_unemployment_rate' : 'INUR',
+            # 'india_population' : 'INPOP',
+            # 'india_government_debt' : 'INGDG',
         }
         trading_data = {}
 
@@ -1185,44 +1287,68 @@ class AnalysisView(APIView):
 
 
 
-
-        graph_ratings_and_weightage = {
-            'revenue' : {'rating':rate_graph(sales_list), 'weightage':10},
-            'percentchangeinrevenue' : {'rating':rate_graph_anchor(percent_change_sales, 8, growth_positive=True), 'weightage':7},
-            'expenses' : {'rating':rate_graph(expenses_list, growth_percent=0.15), 'weightage':6},
-            'materialcost' : {'rating':rate_graph_anchor(material_cost_percent,20,False,0.1,0.9), 'weightage':4},
-            'manufacturingcost' : {'rating':rate_graph_anchor(manufacuring_cost_percent,20,False,0.1,0.9), 'weightage':4},
-            'grossexpense' : {'rating':rate_graph(gross_expense, growth_percent=0.1), 'weightage':6},
-            'grossprofit':{'rating':rate_graph(gross_profit,growth_percent=0.12), 'weightage':7},
-            'grossprofitmargin' : {'rating':rate_graph_anchor(gross_profit_margin, 50, weight_anchor=0.2, weight_growth=0.8), 'weightage':7},
-            'operatingprofit' : {'rating':rate_graph(operating_profit_list,growth_percent=0.2), 'weightage':9},
-            'operatingprofitmargin' : {'rating':rate_graph_anchor(opm_percent_list, 15, weight_anchor=0.2, weight_growth=0.8), 'weightage':9},
-            'interest' : {'rating':rate_graph_anchor(interest_list, 0, False, weight_anchor=0.3, weight_growth=0.7), 'weightage':6},
-            'interestbyrevenue' : {'rating':rate_graph_anchor(interest_by_sales, 0, False, 0.6, 0.4), 'weightage':8},
-            'depreciation' : {'rating':rate_graph_anchor(depreciation_list,0,False,0.3,0.7), 'weightage':6},
-            'depreciationbyrevenue' : {'rating':rate_graph_anchor(depreciation_by_sales,0,False,0.7,0.3), 'weightage':6},
-            'netprofit' : {'rating':rate_graph(net_profit_list), 'weightage':10},
-            'netprofitbyrevenue' : {'rating':rate_graph_anchor(net_profit_by_sales,12,True,0.5,0.5), 'weightage':10},
-            'epsvalues' : {'rating':rate_graph(eps_values_list, growth_percent=0.2), 'weightage':10},
-            'totalassets' : {'rating':rate_graph(total_assets, growth_percent=0.16), 'weightage':10},
-            'returnonassets' : {'rating':rate_graph_anchor(return_on_assets,15,0.4,0.6), 'weightage':10},
-            'equity' : {'rating':rate_graph(equity, growth_percent=0.2), 'weightage':10},
-            'returnonequity' : {'rating':rate_graph_anchor(return_on_equity,20,weight_anchor=0.3, weight_growth=0.7), 'weightage':10},
-            'cashequivalents' : {'rating':rate_graph(cash_equivalents, growth_percent=0.12), 'weightage':8},
-            'cashequivalentsbytotalassets' : {'rating':rate_graph_anchor(cash_equivalents_by_total_assets, 7, True, 0.2, 0.8), 'weightage':9},
-            'tradereceivables' : {'rating':rate_graph(trade_receivables[::-1], growth_percent=0.1), 'weightage':7},
-            'tradereceivablesbytotalassets' : {'rating':rate_graph_anchor(trade_receivables_by_total_assets, 2, False, 0.5, 0.5), 'weightage':8},
-            'borrowings' : {'rating':rate_graph(borrowings[::-1], growth_percent=0.08), 'weightage':10},
-            'debttoequity' : {'rating':rate_graph_anchor(debt_to_equity, 0, False, 0.6, 0.4), 'weightage':10},
-            'capexbyincomeinpercentage' : {'rating':8, 'weightage':10},
-            'cashfromoperations' : {'rating':rate_graph(cash_from_operation_list, growth_percent=0.2), 'weightage':10},
-            'cashfrominvesting' : {'rating':rate_graph(cash_from_investing_list,growth_percent=0.2), 'weightage':9},
-            'promoterholding' : {'rating':rate_graph_anchor(promoter_holding, 75, False, 0.6, 0.4), 'weightage':10},
-            'cashconversioncycle' : {'rating':rate_graph_anchor(cash_conversion_cycle, 0, False, 0.8, 0.2), 'weightage':7},
-            'roce' : {'rating':rate_graph_anchor(roce_percent, 20, True, 0.2, 0.8), 'weightage':6},
-        }
-
-
+        graph_ratings_and_weightage = {}
+        if sales_list: 
+            graph_ratings_and_weightage['revenue'] = {'rating':rate_graph(sales_list), 'weightage':10}
+        if percent_change_sales: 
+            graph_ratings_and_weightage['percentchangeinrevenue'] = {'rating':rate_graph_anchor(percent_change_sales, 8, growth_positive=True), 'weightage':7}
+        if expenses_list: 
+            graph_ratings_and_weightage['expenses'] = {'rating':rate_graph(expenses_list, growth_percent=0.15), 'weightage':6}
+        if operating_profit_list: 
+            graph_ratings_and_weightage['operatingprofit'] = {'rating':rate_graph(operating_profit_list,growth_percent=0.2), 'weightage':9}
+        if opm_percent_list: 
+            graph_ratings_and_weightage['operatingprofitmargin'] = {'rating':rate_graph_anchor(opm_percent_list, 15, weight_anchor=0.2, weight_growth=0.8), 'weightage':9}
+        if interest_list: 
+            graph_ratings_and_weightage['interest'] = {'rating':rate_graph_anchor(interest_list, 0, False, weight_anchor=0.3, weight_growth=0.7), 'weightage':6}
+        if interest_by_sales: 
+            graph_ratings_and_weightage['interestbyrevenue'] = {'rating':rate_graph_anchor(interest_by_sales, 0, False, 0.6, 0.4), 'weightage':8}
+        if depreciation_list: 
+            graph_ratings_and_weightage['depreciation'] = {'rating':rate_graph_anchor(depreciation_list,0,False,0.3,0.7), 'weightage':6}
+        if depreciation_by_sales: 
+            graph_ratings_and_weightage['depreciationbyrevenue'] = {'rating':rate_graph_anchor(depreciation_by_sales,0,False,0.7,0.3), 'weightage':6}
+        if net_profit_list: 
+            graph_ratings_and_weightage['netprofit'] = {'rating':rate_graph(net_profit_list), 'weightage':10}
+        if net_profit_by_sales: 
+            graph_ratings_and_weightage['netprofitbyrevenue'] = {'rating':rate_graph_anchor(net_profit_by_sales,12,True,0.5,0.5), 'weightage':10}
+        if eps_values_list: 
+            graph_ratings_and_weightage['epsvalues'] = {'rating':rate_graph(eps_values_list, growth_percent=0.2), 'weightage':10}
+        if total_assets: 
+            graph_ratings_and_weightage['totalassets'] = {'rating':rate_graph(total_assets, growth_percent=0.16), 'weightage':10}
+        if return_on_assets: 
+            graph_ratings_and_weightage['returnonassets'] = {'rating':rate_graph_anchor(return_on_assets,15,0.4,0.6), 'weightage':10}
+        if equity: 
+            graph_ratings_and_weightage['equity'] = {'rating':rate_graph(equity, growth_percent=0.2), 'weightage':10}
+        if return_on_equity: 
+            graph_ratings_and_weightage['returnonequity'] = {'rating':rate_graph_anchor(return_on_equity,20,weight_anchor=0.3, weight_growth=0.7), 'weightage':10}
+        if cash_equivalents: 
+            graph_ratings_and_weightage['cashequivalents'] = {'rating':rate_graph(cash_equivalents, growth_percent=0.12), 'weightage':8}
+        if cash_equivalents_by_total_assets: 
+            graph_ratings_and_weightage['cashequivalentsbytotalassets'] = {'rating':rate_graph_anchor(cash_equivalents_by_total_assets, 7, True, 0.2, 0.8), 'weightage':9}
+        if borrowings: 
+            graph_ratings_and_weightage['borrowings'] = {'rating':rate_graph(borrowings[::-1], growth_percent=0.08), 'weightage':10}
+        if debt_to_equity: 
+            graph_ratings_and_weightage['debttoequity'] = {'rating':rate_graph_anchor(debt_to_equity, 0, False, 0.6, 0.4), 'weightage':10}
+        if capex_list: 
+            graph_ratings_and_weightage['capexbyincomeinpercentage'] = {'rating':rate_graph_anchor(capex_list, 0, False, 0.6, 0.4), 'weightage':10}
+        if cash_from_operation_list: 
+            graph_ratings_and_weightage['cashfromoperations'] = {'rating':rate_graph(cash_from_operation_list, growth_percent=0.2), 'weightage':10}
+        if cash_from_investing_list: 
+            graph_ratings_and_weightage['cashfrominvesting'] = {'rating':rate_graph(cash_from_investing_list,growth_percent=0.2), 'weightage':9}
+        if promoter_holding: 
+            graph_ratings_and_weightage['promoterholding'] = {'rating':rate_graph_anchor(promoter_holding, 75, False, 0.6, 0.4), 'weightage':10}
+        if roce_percent: 
+            graph_ratings_and_weightage['roce'] = {'rating':rate_graph_anchor(roce_percent, 20, True, 0.2, 0.8), 'weightage':6}
+        if cash_conversion_cycle:
+            graph_ratings_and_weightage['cashconversioncycle'] = {'rating':rate_graph_anchor(cash_conversion_cycle, 0, False, 0.8, 0.2), 'weightage':7}
+        if material_cost_percent:
+            graph_ratings_and_weightage['materialcost'] = {'rating':rate_graph_anchor(material_cost_percent,20,False,0.1,0.9), 'weightage':4}
+            graph_ratings_and_weightage['grossexpense'] = {'rating':rate_graph(gross_expense, growth_percent=0.1), 'weightage':6}
+            graph_ratings_and_weightage['grossprofit'] = {'rating':rate_graph(gross_profit,growth_percent=0.12), 'weightage':7}
+            graph_ratings_and_weightage['grossprofitmargin'] = {'rating':rate_graph_anchor(gross_profit_margin, 50, weight_anchor=0.2, weight_growth=0.8), 'weightage':7}
+            graph_ratings_and_weightage['manufacturingcost'] = {'rating':rate_graph_anchor(manufacuring_cost_percent,20,False,0.1,0.9), 'weightage':4}
+        if trade_receivables:
+            graph_ratings_and_weightage['tradereceivables'] = {'rating':rate_graph(trade_receivables[::-1], growth_percent=0.1), 'weightage':7}
+            graph_ratings_and_weightage['tradereceivablesbytotalassets'] = {'rating':rate_graph_anchor(trade_receivables_by_total_assets, 2, False, 0.5, 0.5), 'weightage':8}
 
 
         data = {
@@ -1236,71 +1362,135 @@ class AnalysisView(APIView):
             'isConsolidated': isConsolidated,
             'compunded_sales_growth': compunded_sales_growth if compunded_sales_growth else 'Not Applicable',
             'years': years,
-            'sales_list': sales_list,
-            'expenses_list': expenses_list,
-            'opm_percent_list': opm_percent_list,
-            'interest_list': interest_list,
-            'depreciation_list': depreciation_list,
-            'net_profit_list': net_profit_list,
-            'eps': eps,
-            'eps_cagr': eps_cagr,
-            'material_cost_percent': material_cost_percent,
-            'manufacuring_cost_percent': manufacuring_cost_percent,
-            'gross_expense': gross_expense,
-            'gross_profit':gross_profit,
-            'gross_profit_margin': gross_profit_margin,
-            'cash_equivalents': cash_equivalents,
-            'trade_receivables': trade_receivables,
-            'cash_from_investing_list': cash_from_investing_list,
-            'total_assets': total_assets,
-            'equity': equity,
-            'borrowings': borrowings,
-            'cash_from_operation_list': cash_from_operation_list,
-            'promoter_holding': promoter_holding,
-            'promoter_holding_years': promoter_holding_years,
-            'cash_conversion_cycle': cash_conversion_cycle,
-            'roce_percent': roce_percent,
-            'year_list': year_list,
-            'percent_change_sales': percent_change_sales,
-            'operating_profit_list': operating_profit_list,
-            'net_profit_by_sales': net_profit_by_sales,
-            'capex_by_income': capex_by_income,
-            'capex_list': capex_list,
-            'return_on_assets': return_on_assets,
-            'return_on_equity': return_on_equity,
-            'cash_equivalents_by_total_assets': cash_equivalents_by_total_assets,
-            'debt_to_equity': debt_to_equity,
-            'trade_receivables_by_total_assets': trade_receivables_by_total_assets,
-            'interest_by_sales': interest_by_sales,
-            'depreciation_by_sales': depreciation_by_sales,
-            'compounded_profit_growth': compounded_profit_growth,
-            'price_willing_to_pay': price_willing_to_pay,
-            'number_of_shares': number_of_shares,
-            'key_insights': key_insights,
-            'pe_date_list': pe_date_list,
-            'pe_list': pe_list,
-            'eps_date_list': eps_date_list,
-            'eps_values_list': eps_values_list,
-            'dma50_list': dma50_list,
-            'dma50_date_list': dma50_date_list,
-            'dma200_list': dma200_list,
-            'dma200_date_list': dma200_date_list,
-            'volume_list': volume_list,
-            'volume_date_list': volume_date_list,
-            'price_list': price_list,
-            'price_date_list': price_date_list,
-            'intrinsic_value': intrinsic_value,
-            'price_to_sales': price_to_sales,
-            'price_to_earnings': price_to_earnings,
-            'price_to_book_value': price_to_book_value,
-            'price_to_operating_cash_flow': price_to_operating_cash_flow,   
-            'sector': sector,
-            'industry': industry,
-            'current_price': current_price,
-            'book_value': book_value,
-            'compounded_profit_growth_decimal': compounded_profit_growth_decimal,
-            'compunded_sales_growth_decimal': compunded_sales_growth_decimal if compunded_sales_growth_decimal else 'Not Applicable',
-            'buying_window' : buying_window,
         }
+
+        if sales_list:
+            data['sales_list']= sales_list
+        if expenses_list:
+            data['expenses_list']= expenses_list
+        if opm_percent_list:
+            data['opm_percent_list']= opm_percent_list
+        if interest_list:
+            data['interest_list']= interest_list
+        if depreciation_list:
+            data['depreciation_list']= depreciation_list
+        if net_profit_list:
+            data['net_profit_list']= net_profit_list
+        if eps:
+            data['eps']= eps
+        if eps_cagr:
+            data['eps_cagr']= eps_cagr
+        if cash_equivalents:
+            data['cash_equivalents']= cash_equivalents
+        if cash_from_investing_list:
+            data['cash_from_investing_list']= cash_from_investing_list
+        if total_assets:
+            data['total_assets']= total_assets
+        if equity:
+            data['equity']= equity
+        if borrowings:
+            data['borrowings']= borrowings
+        if cash_from_operation_list:
+            data['cash_from_operation_list']= cash_from_operation_list
+        if promoter_holding:
+            data['promoter_holding']= promoter_holding
+        if promoter_holding_years:
+            data['promoter_holding_years']= promoter_holding_years
+        if roce_percent:
+            data['roce_percent']= roce_percent
+        if year_list:
+            data['year_list']= year_list
+        if percent_change_sales:
+            data['percent_change_sales']= percent_change_sales
+        if operating_profit_list:
+            data['operating_profit_list']= operating_profit_list
+        if net_profit_by_sales:
+            data['net_profit_by_sales']= net_profit_by_sales
+        if capex_by_income:
+            data['capex_by_income']= capex_by_income
+        if capex_list:
+            data['capex_list']= capex_list
+        if return_on_assets:
+            data['return_on_assets']= return_on_assets
+        if return_on_equity:
+            data['return_on_equity']= return_on_equity
+        if cash_equivalents_by_total_assets:
+            data['cash_equivalents_by_total_assets']= cash_equivalents_by_total_assets
+        if debt_to_equity:
+            data['debt_to_equity']= debt_to_equity
+        if interest_by_sales:
+            data['interest_by_sales']= interest_by_sales
+        if depreciation_by_sales:
+            data['depreciation_by_sales']= depreciation_by_sales
+        if compounded_profit_growth:
+            data['compounded_profit_growth']= compounded_profit_growth
+        if price_willing_to_pay:
+            data['price_willing_to_pay']= price_willing_to_pay
+        if number_of_shares:
+            data['number_of_shares']= number_of_shares
+        if key_insights:
+            data['key_insights']= key_insights
+        if pe_date_list:
+            data['pe_date_list']= pe_date_list
+        if pe_list:
+            data['pe_list']= pe_list
+        if eps_date_list:
+            data['eps_date_list']= eps_date_list
+        if eps_values_list:
+            data['eps_values_list']= eps_values_list
+        if dma50_list:
+            data['dma50_list']= dma50_list
+        if dma50_date_list:
+            data['dma50_date_list']= dma50_date_list
+        if dma200_list:
+            data['dma200_list']= dma200_list
+        if dma200_date_list:
+            data['dma200_date_list']= dma200_date_list
+        if volume_list:
+            data['volume_list']= volume_list
+        if volume_date_list:
+            data['volume_date_list']= volume_date_list
+        if price_list:
+            data['price_list']= price_list
+        if price_date_list:
+            data['price_date_list']= price_date_list
+        if intrinsic_value:
+            data['intrinsic_value']= intrinsic_value
+        if price_to_sales:
+            data['price_to_sales']= price_to_sales
+        if price_to_earnings:
+            data['price_to_earnings']= price_to_earnings
+        if price_to_book_value:
+            data['price_to_book_value']= price_to_book_value
+        if price_to_operating_cash_flow:
+            data['price_to_operating_cash_flow']= price_to_operating_cash_flow   
+        if sector:
+            data['sector']= sector
+        if industry:
+            data['industry']= industry
+        if current_price:
+            data['current_price']= current_price
+        if book_value:
+            data['book_value']= book_value
+        if compounded_profit_growth_decimal:
+            data['compounded_profit_growth_decimal']= compounded_profit_growth_decimal
+        if compunded_sales_growth_decimal:
+            data['compunded_sales_growth_decimal']= compunded_sales_growth_decimal if compunded_sales_growth_decimal else 'Not Applicable'
+        if buying_window:
+            data['buying_window']= buying_window
+        
+        if material_cost_percent:
+            data['material_cost_percent'] = material_cost_percent
+            data['manufacuring_cost_percent'] = manufacuring_cost_percent
+            data['gross_expense'] = gross_expense
+            data['gross_profit'] = gross_profit
+            data['gross_profit_margin'] = gross_profit_margin
+        if trade_receivables:
+            data['trade_receivables'] = trade_receivables
+            data['trade_receivables_by_total_assets'] = trade_receivables_by_total_assets
+        if cash_conversion_cycle:
+            data['cash_conversion_cycle'] = cash_conversion_cycle
+        from pyperclip import copy
+        copy(str(data))
         return Response(data)
 
