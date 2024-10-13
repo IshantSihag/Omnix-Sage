@@ -5,15 +5,17 @@ import { Link } from 'react-router-dom'; // Import the Link component
 
 const Header = () => {
     return (<header className="header">
-        <div className="logo-container">
-            <img src={omnixSageLogo} alt="Omnix Sage Logo" className="logo-image" />
-            <h1 className="site-title">Omnix Sage</h1>
-        </div>
+        <a href="/" className='home-button'>
+            <div className="logo-container">
+                <img src={omnixSageLogo} alt="Omnix Sage Logo" className="logo-image" />
+                <h1 className="site-title">Omnix Sage</h1>
+            </div>
+        </a>
         <nav className="navbar">
             <a href="#portfolio" className="nav-item">Core Portfolio</a>
             <Link to="/analyser" className="nav-item">Slipstream Finder</Link>
             <a href="#positions" className="nav-item">Positions</a>
-            <a href="#positions" className="nav-item">Sattelite Portfolio</a>
+            <Link to="/indian-economy" className="nav-item">Indian Economy</Link>
             <Link to="/rulebook" className="nav-item">Rule Book</Link>
             <a href="#about-us" className="nav-item">About Us</a>
         </nav>

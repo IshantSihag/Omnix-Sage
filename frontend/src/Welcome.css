@@ -110,3 +110,7 @@
   font-size: 16px;
 }
 
+.home-button{
+  color: inherit; /* or specify a color, e.g., black */
+  text-decoration: none
+}
