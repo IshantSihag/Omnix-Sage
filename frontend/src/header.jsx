@@ -16,7 +16,7 @@ const Header = () => {
             <Link to="/analyser" className="nav-item">Slipstream Finder</Link>
             <a href="#positions" className="nav-item">Positions</a>
             <Link to="/indian-economy" className="nav-item">Indian Economy</Link>
-            <Link to="/rulebook" className="nav-item">Rule Book</Link>
+            <Link to="/rulebook" className="nav-item">Master Work Book</Link>
             <a href="#about-us" className="nav-item">About Us</a>
         </nav>
     </header>)
