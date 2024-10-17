@@ -104,6 +104,8 @@
   background-color: #2e3b28; /* Dark green */
   color: #f4f0e6; /* Beige */
   text-align: center;
+  margin-top: auto;
+  
 }
 
 .footer-text {

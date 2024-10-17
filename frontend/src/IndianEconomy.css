@@ -1,4 +1,8 @@
 /* IndianEconomy.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 body {
   font-family: 'Georgia', serif;
@@ -43,4 +47,24 @@ button:hover {
 button:focus {
   outline: none;
   box-shadow: 0 0 10px rgba(139, 69, 19, 0.5);
+}
+
+.content{
+  margin:auto;
+  padding:auto;
+}
+.indian-economy-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

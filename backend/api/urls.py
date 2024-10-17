@@ -6,5 +6,6 @@ urlpatterns = [
     path("search/", views.SearchView.as_view(), name="search"),
     path("analysis/", views.AnalysisView.as_view(), name="analysis"),
     path("indianEconomy/", views.IndianEconomy.as_view(), name="indianEconomy"),
+    path("indianIndustry/", views.IndianIndustry.as_view(), name="indianIndustry"),
     # path("generalgraphs/", views.GeneralGraphsView.as_view(), name="generalgraphs"),
 ]

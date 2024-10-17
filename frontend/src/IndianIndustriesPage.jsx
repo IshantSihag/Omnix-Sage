@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ClipLoader from 'react-spinners/ClipLoader';
-import './IndianEconomyPage.css';
+import './IndianIndustriesPage.css';
 
-const IndianEconomyPage = () => {
+const IndianIndustriesPage = () => {
   const { key } = useParams();
   const [data, setData] = useState('');
   const [loading, setLoading] = useState(true);
@@ -12,7 +12,7 @@ const IndianEconomyPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:8000/api/indianEconomy?r=${key}`);
+        const response = await fetch(`http://localhost:8000/api/indianIndustry?r=${key}`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -46,4 +46,4 @@ const IndianEconomyPage = () => {
   );
 };
 
-export default IndianEconomyPage;
+export default IndianIndustriesPage;

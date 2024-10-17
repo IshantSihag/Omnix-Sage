@@ -27,7 +27,7 @@ function IndianEconomy() {
     'Useful Links': 'economy/directory/india-directory'
   };
   return (
-    <div>
+    <div className='indian-economy-container'>
       <Header />
       <div className="content">
         {Object.keys(data).map(key => (
