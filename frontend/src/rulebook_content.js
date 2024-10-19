@@ -1,54 +1,53 @@
 const paragraphtext=`INVESTMENT PRINCIPLES & CHECKLISTS
- “You need a different checklist and different mental models for different companies. I can never make it easy by saying, ‘Here are three things.’ You have to derive it yourself to ingrain it in your head for the rest of your life.” – Charlie Munger
+ “You need a different checklist and different mental models for different companies. I can never make it easy by saying,
+  ‘Here are three things.’ You have to derive it yourself to ingrain it in your head for the rest of your life.” – Charlie Munger
 
- Table of Contents
+                                Table of Contents
 
- PROCESS ......................................................................................................................................................... 
- 2 PLACES TO LOOK FOR VALUE ................................................................................................................... 
- 5 KEY CONCEPTS FROM GREAT INVESTORS.............................................................................................. 8
-Seth Klarman’s Thoughts on Risk.................................................................................................................. 
-8 “Becoming a Portfolio Manager Who Hits .400” (Buffett) ............................................................................. 8
- An Investing Principles Checklist .................................................................................................................. 
- 9 Charlie Munger’s “ultra-simple general notions” ......................................................................................... 
- 10 “Tenets of the Warren Buffett Way” ............................................................................................................ 
- 10 Howard Marks and Oaktree ......................................................................................................................... 
- 11 Phil Fisher’s 15 Questions ........................................................................................................................... 
- 14 And more Fisher: 10 Don’ts:........................................................................................................................ 
- 14 J.M. Keynes’s policy report for the Chest Fund, outlining his investment principles .................................... 
- 14 Lessons from Ben Graham........................................................................................................................... 
- 15 Joel Greenblatt’s Four Things NOT to Do ................................................................................................... 
- 17 Greenblatt: The process of valuation............................................................................................................ 
- 17 How does this investment increase my “look-through” earnings 5-10 years in the future? (Buffett) ............. 
- 18 Ray Dalio on “The Economic Machine” ...................................................................................................... 
- 18 Why Smart People Make Big Money Mistakes (Belsky and Gilovich)......................................................... 
- 19 Richard Chandler Corporation’s Principles of Good Corporate Governance................................................. 
- 20 Tom Gayner’s Four “North Stars” of investing ............................................................................................ 
- 20 David Dreman’s “Contrarian Investment Rules” .......................................................................................... 
- 21 Principles of Focus Investing ....................................................................................................................... 
- 23 Lou Simpson ............................................................................................................................................... 
- 24 Don Keough’s “Ten Commandments for Business Failure” ......................................................................... 
- 24 Jim Chanos’s value traps ............................................................................................................................. 
- 25 Major areas for forensic analysis (O’Glove)................................................................................................. 
- 25 Seven Major Shenanigans (Schilit) .............................................................................................................. 
- 25 Walter Schloss: “Factors needed to make money in the stock market” ......................................................... 
- 26 Chuck Akre’s criteria of outstanding investments ........................................................................................ 
- 27 Bill Ruane’s Four Rules of Smart Investing ................................................................................................. 
- 27 Richard Pzena.............................................................................................................................................. 
- 28 Sam Zell’s “Fundamentals” ......................................................................................................................... 
- 29 Thoughts from Jim Chanos on Shorting ....................................................................................................... 
- 29 James Montier’s 10 tenets of the value approach.......................................................................................... 
- 31 James Montier: The Seven Immutable Laws of Investing............................................................................. 
- 32 Jeremy Grantham’s “Investment Advice [for individual investors] from Your Uncle Polonius” ................... 
- 32 Sir John Templeton’s “16 Rules for Investment Success” ............................................................................ 
- 32 Four sources of economic moats (all of which much be durable and be hard to replicate) (Sellers)............... 
- 33 Seven traits shared by great investors (Sellers)............................................................................................. 
- 33
+ 0 PROCESS 
+ 1 PLACES TO LOOK FOR VALUE 
+ 2 KEY CONCEPTS FROM GREAT INVESTORS
+ 3 Seth Klarman’s Thoughts on Risk
+ 4 “Becoming a Portfolio Manager Who Hits .400” (Buffett)
+ 5 An Investing Principles Checklist 
+ 6 Charlie Munger’s “ultra-simple general notions” 
+ 7 “Tenets of the Warren Buffett Way” 
+ 8 Howard Marks and Oaktree 
+ 9 Phil Fisher’s 15 Questions
+ 11 J.M. Keynes’s policy report for the Chest Fund, outlining his investment principles
+ 13 Joel Greenblatt’s Four Things NOT to Do
+ 14 Greenblatt: The process of valuation
+ 15 How does this investment increase my “look-through” earnings 5-10 years in the future? (Buffett)
+ 16 Ray Dalio on “The Economic Machine” 
+ 17 Why Smart People Make Big Money Mistakes (Belsky and Gilovich)
+ 18 Richard Chandler Corporation’s Principles of Good Corporate Governance
+ 19 Tom Gayner’s Four “North Stars” of investing 
+ 20 David Dreman’s “Contrarian Investment Rules” 
+ 21 Principles of Focus Investing 
+ 22 Lou Simpson 
+ 23 Don Keough’s “Ten Commandments for Business Failure”
+ 24 Jim Chanos’s value traps 
+ 28 Chuck Akre’s criteria of outstanding investments
+ 29 Bill Ruane’s Four Rules of Smart Investing 
+ 30 Richard Pzena
+ 31 Sam Zell’s “Fundamentals” 
+ 32 Thoughts from Jim Chanos on Shorting
+ 33 James Montier’s 10 tenets of the value approach
+ 34 James Montier: The Seven Immutable Laws of Investing
+ 35 Jeremy Grantham’s “Investment Advice [for individual investors] from Your Uncle Polonius”
+ 36 Sir John Templeton’s “16 Rules for Investment Success”  
+ 37 Four sources of economic moats (all of which much be durable and be hard to replicate) (Sellers)
+ 38 Seven traits shared by great investors (Sellers)
+
+
 APPENDIX – OTHER CONSIDERATIONS AND DATAPOINTS................................................................ 34
   1
 
-• Good checklists are precise, efficient, easy to use even under difficult conditions, do not try to spell out everything, and provide reminders of only the most critical and important steps; the power of checklists is limited
+• Good checklists are precise, efficient, easy to use even under difficult conditions, do not try to spell out everything, and 
+  provide reminders of only the most critical and important steps; the power of checklists is limited
 o Bad checklists are vague, imprecise, too long, hard to use, impractical, and try to spell out every single step
-• Do-confirm checklist: perform jobs/tasks from memory and experience, but then stop, run the checklist and confirm that everything was done correctly
+• Do-confirm checklist: perform jobs/tasks from memory and experience, but then stop, run the checklist and confirm that everything 
+  was done correctly
 • Read-do checklist: carry out tasks as they are checked off – more like a recipe PROCESS
 Focus on original source documents, working from in to out
 • SEC fillings
@@ -150,7 +149,8 @@ o Consider a view, looking back from 1/3/5 years in the future, that considers a
 which this idea failed horribly; seek outside input
 • More vulnerable to Type I or Type II errors?
 o Type I error, also known as an "error of the first kind" or a "false positive": the error of rejecting
-a null hypothesis when it is actually true. It occurs when observing a difference when in truth there is none, thus indicating a test of poor specificity. An example of this would be if a test
+a null hypothesis when it is actually true. It occurs when observing a difference when in truth there is none, thus indicating a test
+   of poor specificity. An example of this would be if a test
 1 Greenblatt from You Can Be a Stock Market Genius:
 o Owning two stocks eliminates 46% of nonmarket risk of just owning one stock o Four stocks eliminates 72% of the risk
 o Eight stocks eliminates 81% of the risk
@@ -162,8 +162,13 @@ o 500 stocks eliminates 99% of the risk
 shows that a woman is pregnant when in reality she is not. Type I error can be viewed as the
 error of excessive credulity; it is the notion of “seeing” something that is not really there.
 o Type II error, also known as an "error of the second kind", or a "false negative": the error of
-failing to reject a null hypothesis when it is in fact not true. In other words, this is the error of failing to observe a difference when in truth there is one, thus indicating a test of poor sensitivity. An example of this would be if a test shows that a woman is not pregnant, when in reality, she is. Type II error can be viewed as the error of excessive skepticism; it is failing to “see” something that actually exists.
-• Feynman algorithm -- Simplify the problem down to an “essential puzzle.” Ask very basic questions: What is the simplest example? How can you tell if the answer is right? Ask questions until the problem is reduced to some essential puzzle that will be able to be solved.
+failing to reject a null hypothesis when it is in fact not true. In other words, this is the error of failing to observe a difference
+ when in truth there is one, thus indicating a test of poor sensitivity. An example of this would be if a test shows that a woman is 
+ not pregnant, when in reality, she is. Type II error can be viewed as the error of excessive skepticism; it is failing to “see” 
+ something that actually exists.
+• Feynman algorithm -- Simplify the problem down to an “essential puzzle.” Ask very basic questions: What is the simplest example? 
+  How can you tell if the answer is right? Ask questions until the problem is reduced to some essential puzzle that will be able to 
+  be solved.
 o Continually master new techniques and then apply them to your library of unsolved puzzles to see if they help.
 PLACES TO LOOK FOR VALUE
 Conditions and criteria to consider in the search for mistakes and inefficiencies
@@ -218,7 +223,8 @@ preliminarily, about a transaction when price is unknown)
 • Total debt less than two times Net Current Asset Value (NCAV)
 • Earnings growth of prior 10 years ≥7% annual compound rate
 • Stability of growth of earnings: no more than two year/year declines of ≥5% over prior 10 years
-• Graham Formula [ Value = (EPS * (8.5 + 2g) *4.4) / Y] where EPS is ttm EPS, 8.5 is P/E of a stock with zero growth (must be adjusted), g is the growth rate expected for next 7-10 years, and Y is the AAA corporate bond rate
+• Graham Formula [ Value = (EPS * (8.5 + 2g) *4.4) / Y] where EPS is ttm EPS, 8.5 is P/E of a stock with zero growth (must be 
+adjusted), g is the growth rate expected for next 7-10 years, and Y is the AAA corporate bond rate
 • Implies:G=(P/2–8.5)/2wherePisprice
 • PCOadjustments:V*={E*(1.5g+7.5)*5.0}/Y,whereEisadj.EPS;gisexpectedgrowth
 rate over 10 years; Y is long-term, top quality corporate bond yield; 7.5 is the targeted P/E for no
@@ -230,7 +236,15 @@ years]
 • Magic Formula (Greenblatt)
 • Earnings yield (EBIT/TEV)
 • ROIC (EBIT/Invested Capital)
-2 “These represent (a) reported earnings plus (b) depreciation, depletion, amortization, and certain other non-cash...and (4) less (c) the average annual amount of capitalized expenditures for plant and equipment, etc. that the business requires to fully maintain its long- term competitive position and its unit volume. (If the business requires additional working capital to maintain its competitive position and unit volume, the increment also should be included in (c) . However, businesses following the LIFO inventory method usually do not require additional working capital if unit volume does not change.) Our owner-earnings equation does not yield the deceptively precise figures provided by GAAP, since (c) must be a guess - and one sometimes very difficult to make. Despite this problem, we consider the owner earnings figure, not the GAAP figure, to be the relevant item for valuation purposes - both for investors in buying stocks and for managers in buying entire businesses. We agree with Keynes's observation: ‘I would rather be vaguely right than precisely wrong.’”
+2 “These represent (a) reported earnings plus (b) depreciation, depletion, amortization, and certain other non-cash...and (4) 
+less (c) the average annual amount of capitalized expenditures for plant and equipment, etc. that the business requires to fully
+ maintain its long- term competitive position and its unit volume. (If the business requires additional working capital to maintain 
+ its competitive position and unit volume, the increment also should be included in (c) . However, businesses following the LIFO 
+ inventory method usually do not require additional working capital if unit volume does not change.) Our owner-earnings equation
+  does not yield the deceptively precise figures provided by GAAP, since (c) must be a guess - and one sometimes very difficult
+   to make. Despite this problem, we consider the owner earnings figure, not the GAAP figure, to be the relevant item for valuation
+    purposes - both for investors in buying stocks and for managers in buying entire businesses. We agree with Keynes's observation:
+     ‘I would rather be vaguely right than precisely wrong.’”
    6
 
 •
@@ -247,7 +261,8 @@ pfd + minority interest + net interest bearing debt)
 Insider buying/selling
 • High/low insider ownership
 Share repurchases
-Proxy statements (how much actual cash is trading hands for a given asset?) Disclosure statements (how much actual cash is trading hands for a given asset?) 52 week low lists http://www.morningstar.com/highlow/getHighLow.aspx
+Proxy statements (how much actual cash is trading hands for a given asset?) Disclosure statements (how much actual cash is trading 
+hands for a given asset?) 52 week low lists http://www.morningstar.com/highlow/getHighLow.aspx
 • December tax-loss selling
 • Last year’s losers
 Cyclically Adjusted P/E, Graham P/E
@@ -264,7 +279,9 @@ year’s; “0” if not
 • Shares outstanding: “1” if shares outstanding has fallen since prior year; “0” if not
 • Gross margin: “1” if gross margin exceeds prior year’s; “0” if not
 • Asset turnover: “1” if rise in revenue exceeds rise in total assets; “0” if not
-The Graham number: . The number is, theoretically, the maximum price that a defensive investor should pay for the given stock. Put another way, a stock priced below the Graham Number would be considered a good value. [The equation assumes that a stock is overvalued if P/E is over 15 or P/BV is over 1.5.]
+The Graham number: . The number is, theoretically, the maximum price that a defensive investor should pay for the given stock. Put
+ another way, a stock priced below the Graham Number would be considered a good value. [The equation assumes that a stock is 
+ overvalued if P/E is over 15 or P/BV is over 1.5.]
  •
 Graham’s Current Asset and Liquidation Analysis (Ch. 43 of 1940 ed. of Security Analysis)
  Asset Normal Range
@@ -295,7 +312,8 @@ Three Sources of “Edge”
 o Investment framework; smarts/IQ; experience; technical expertise (in a
 sector/security/geography/etc.)
 • Psychological edge
-o Willingness to bear pain and delay gratification; avoidance of (or ability to exploit) fear and greed; lack of interest in one’s popular perception; willingness and ability to go against the crowd when appropriate
+o Willingness to bear pain and delay gratification; avoidance of (or ability to exploit) fear and greed; lack of interest in one’s
+ popular perception; willingness and ability to go against the crowd when appropriate
 • Institutional edge
 o Properly aligned incentives; optimal size and structure; ability to withstand pain; searching in the
 optimal places; having the right clients
@@ -343,31 +361,38 @@ Intellectual humility – Acknowledging what you don’t know is the dawning of 
   Above all, never fool yourself, and remember that you are the easiest person to fool
 “Understanding both the power of compound interest and the difficulty of getting it is the heart
 and soul of understanding a lot of things.”
-Analytic rigor – Use of the scientific method and effective checklists minimizes errors and omissions   Determine value apart from price; progress apart from activity; wealth apart from size
+Analytic rigor – Use of the scientific method and effective checklists minimizes errors and omissions   Determine value apart from 
+price; progress apart from activity; wealth apart from size
   It is better to remember the obvious than to grasp the esoteric
   Be a business analyst, not a market, macroeconomic, or security analyst
   Consider totality of risk and effect; look always at potential second order and higher level impacts
   Think forwards and backwards – Invert, always invert Allocation – Proper allocation of capital is an investor’s number one job
    9
 
-  Remember that highest and best use is always measured by the next best use (opportunity cost)   Good ideas are rare – when the odds are greatly in your favor, bet (allocate) heavily
+  Remember that highest and best use is always measured by the next best use (opportunity cost)   Good ideas are rare – when the 
+odds are greatly in your favor, bet (allocate) heavily
   Don’t “fall in love” with an investment – be situation-dependent and opportunity-driven
 Patience – Resist the natural human bias to act
-  “Compound interest is the eighth wonder of the world” (Einstein); never interrupt it unnecessarily   Avoid unnecessary transactional taxes and frictional costs; never take action for its own sake
+  “Compound interest is the eighth wonder of the world” (Einstein); never interrupt it unnecessarily   Avoid unnecessary transactional
+taxes and frictional costs; never take action for its own sake
   Be alert for the arrival of luck
   Enjoy the process along with the proceeds, because the process is where you live
-Decisiveness – When proper circumstances present themselves, act with decisiveness and conviction   Be fearful when others are greedy, and greedy when others are fearful
+Decisiveness – When proper circumstances present themselves, act with decisiveness and conviction   Be fearful when others are greedy,
+ and greedy when others are fearful
   Opportunity doesn’t come often, so seize it when it comes
   Opportunity meeting the prepared mind; that’s the game
 Change – Live with change and accept unremovable complexity
-  Recognize and adapt to the true nature of the world around you; don’t expect it to adapt to you   Continually challenge and willingly amend your “best-loved ideas”
+  Recognize and adapt to the true nature of the world around you; don’t expect it to adapt to you   Continually challenge and
+ willingly amend your “best-loved ideas”
   Recognize reality even when you don’t like it – especially when you don’t like it
 Focus – Keep things simple and remember what you set out to do
-  Remember that reputation and integrity are your most valuable assets – and can be lost in a heartbeat   Guard against the effects of hubris (arrogance) and boredom
+  Remember that reputation and integrity are your most valuable assets – and can be lost in a heartbeat   Guard against the 
+effects of hubris (arrogance) and boredom
   Don’t overlook the obvious by drowning in minutiae (the small details)
   Be careful to exclude unneeded information or slop: “A small leak can sink a great ship”
   Face your big troubles; don’t sweep them under the rug
-In the end, it comes down to Charlie’s most basic guiding principles, his fundamental philosophy of life: Preparation. Discipline. Patience. Decisiveness.
+In the end, it comes down to Charlie’s most basic guiding principles, his fundamental philosophy of life: Preparation. Discipline.
+ Patience. Decisiveness.
 CHARLIE MUNGER’S “ULTRA-SIMPLE GENERAL NOTIONS”
 1. Solve the big no-brainer questions first.
 2. Use math to support your reasoning.
@@ -395,7 +420,8 @@ Market Tenets
 • What is the value of the business?
 • Can the business be purchased at a significant discount from its value?
 Buffett: Is It a Good Investment?3
-“To ascertain the probability of achieving a return on your initial stake, Buffett encourages you to keep four primary factors clearly in mind:
+“To ascertain the probability of achieving a return on your initial stake, Buffett encourages you to keep four primary factors 
+clearly in mind:
 1. The certainty with which the long-term economic characteristics of the business can be evaluated.
 2. The certainty with which management can be evaluated, both as to its ability to realize the full
 potential of the business and to wisely employ its cash flows.
@@ -413,25 +439,43 @@ markets and the economy
 • Shortness of memory is an amazing feature of financial markets
 Tenets of Oaktree Capital Management
 1. The primacy of risk control
-• Superior investment performance is not our primary goal, but rather superior performance with less-than-commensurate risk. Above average gains in good times are not proof of a manager's skill; it takes superior performance in bad times to prove that those good-time gains were earned through skill, not simply the acceptance of above average risk. Thus, rather than merely searching for prospective profits, we place the highest priority on preventing losses. It is our overriding belief that, especially in the opportunistic markets in which we work, "if we avoid the losers, the winners will take care of themselves."
+• Superior investment performance is not our primary goal, but rather superior performance with less-than-commensurate risk. Above 
+average gains in good times are not proof of a manager's skill; it takes superior performance in bad times to prove that those 
+good-time gains were earned through skill, not simply the acceptance of above average risk. Thus, rather than merely searching 
+for prospective profits, we place the highest priority on preventing losses. It is our overriding belief that, especially in the 
+opportunistic markets in which we work, "if we avoid the losers, the winners will take care of themselves."
 2. Emphasis on consistency
 • Oscillating between top-quartile results in good years and bottom-quartile results in bad
-years is not acceptable to us. It is our belief that a superior record is best built on a high batting average rather than a mix of brilliant successes and dismal failures.
+years is not acceptable to us. It is our belief that a superior record is best built on a high batting average rather than a mix of 
+brilliant successes and dismal failures.
 3 Hagstrom’s “The Warren Buffett Portfolio” and the 1993 Berkshire annual report
       11
 
 3. The importance of market inefficiency
 • We feel skill and hard work can lead to a "knowledge advantage," and thus to potentially
-superior investment results, but not in so-called efficient markets where large numbers of participants share roughly equal access to information and act in an unbiased fashion to incorporate that information into asset prices. We believe less efficient markets exist in which dispassionate application of skill and effort should pay off for our clients, and it is only in such markets that we will invest.
+superior investment results, but not in so-called efficient markets where large numbers of participants share roughly equal access 
+to information and act in an unbiased fashion to incorporate that information into asset prices. We believe less efficient markets 
+exist in which dispassionate application of skill and effort should pay off for our clients, and it is only in such markets that we
+ will invest.
 4. The benefits of specialization
 • Specialization offers the surest path to the results we, and our clients, seek. Thus, we
-insist that each of our portfolios should do just one thing — practice a single investment specialty — and do it absolutely as well as it can be done. We establish the charter for each investment specialty as explicitly as possible and do not deviate. In this way, there are no surprises; our actions and performance always follow directly from the job we're hired to do. The availability of specialized portfolios enables Oaktree clients interested in a single asset class to get exactly what they want; clients interested in more than one class can combine our portfolios for the mix they desire.
+insist that each of our portfolios should do just one thing — practice a single investment specialty — and do it absolutely as well
+ as it can be done. We establish the charter for each investment specialty as explicitly as possible and do not deviate. In this way
+ , there are no surprises; our actions and performance always follow directly from the job we're hired to do. The availability of 
+ specialized portfolios enables Oaktree clients interested in a single asset class to get exactly what they want; clients interested
+  in more than one class can combine our portfolios for the mix they desire.
 5. Macro-forecasting not critical to investing
 • We believe consistently excellent performance can only be achieved through superior
-knowledge of companies and their securities, not through attempts at predicting what is in store for the economy, interest rates or the securities markets. Therefore, our investment process is entirely bottom-up, based upon proprietary, company-specific research. We use overall portfolio structuring as a defensive tool to help us avoid dangerous concentration, rather than as an aggressive weapon expected to enable us to hold more of the things that do best.
+knowledge of companies and their securities, not through attempts at predicting what is in store for the economy, interest rates or 
+the securities markets. Therefore, our investment process is entirely bottom-up, based upon proprietary, company-specific research.
+ We use overall portfolio structuring as a defensive tool to help us avoid dangerous concentration, rather than as an aggressive 
+ weapon expected to enable us to hold more of the things that do best.
 6. Disavowal of market timing
 • Because we do not believe in the predictive ability required to correctly time markets, we
-keep portfolios fully invested whenever attractively priced assets can be bought. Concern about the market climate may cause us to tilt toward more defensive investments, increase selectivity or act more deliberately, but we never move to raise cash. Clients hire us to invest in specific market niches, and we must never fail to do our job. Holding investments that decline in price is unpleasant, but missing out on returns because we failed to buy what we were hired to buy is inexcusable.
+keep portfolios fully invested whenever attractively priced assets can be bought. Concern about the market climate may cause us to
+ tilt toward more defensive investments, increase selectivity or act more deliberately, but we never move to raise cash. Clients 
+ hire us to invest in specific market niches, and we must never fail to do our job. Holding investments that decline in price is 
+ unpleasant, but missing out on returns because we failed to buy what we were hired to buy is inexcusable.
 General market valuation hallmarks – Howard Marks/Oaktree • Valuation
 o Spread between high-yields and Treasurys?
 § in 30+ years to 2011, average spread between high yield bond index and
@@ -442,7 +486,8 @@ o Ability to easily do dumb deals (e.g., crazy LBOs, no-doc option ARM subprime 
 o Investor attitudes – fear vs. greed
 o Financial innovation – are new and aggressive vehicles popular?
 o “The riskiest things are investor eagerness, a high level of risk tolerance, and a belief that
-risk is low. In contrast, we take heart when investors are discouraged, risk aversion is running high, and economic difficulty is all over the headlines.”
+risk is low. In contrast, we take heart when investors are discouraged, risk aversion is running high, and economic difficulty is 
+  all over the headlines.”
    12
 
 o Three questions:
@@ -488,8 +533,10 @@ Willingness to buy securities of declining quality.
   13
 
 PHIL FISHER’S 15 QUESTIONS
-• Does the company have products or services with sufficient market potential to make possible a sizable increase in sales for at least several years?
-• Does the management have a determination to continue to develop products or processes that will still further increase total sales potentials when the growth potentials of currently attractive product lines have largely been exploited?
+• Does the company have products or services with sufficient market potential to make possible a sizable increase in sales for at 
+least several years?
+• Does the management have a determination to continue to develop products or processes that will still further increase total sales
+potentials when the growth potentials of currently attractive product lines have largely been exploited?
 • How effective are the company's research-and-development efforts in relation to its size?
 • Does the company have an above-average sales organization?
 • Does the company have a worthwhile profit margin?
@@ -522,20 +569,35 @@ discounted in the price.
 • Don't fail to consider time as well as price in buying a true growth stock.
 • Don't follow the crowd.
 J.M. KEYNES’S POLICY REPORT FOR THE CHEST FUND, OUTLINING HIS INVESTMENT PRINCIPLES
-1. “A careful selection of a few investments having regard their cheapness in relation to their probably and actual and potential intrinsic [emphasis his] value over a period of years ahead and in relation to alternative investments at the time;
+1. “A careful selection of a few investments having regard their cheapness in relation to their probably and actual and potential 
+intrinsic [emphasis his] value over a period of years ahead and in relation to alternative investments at the time;
   14
 
-2. “A steadfast holding of these fairly large units through thick and thin, perhaps for several years, until either they have fulfilled their promise or it is evident that they were purchased on a mistake;
-3. “A balanced [emphasis his] investment position, i.e., a variety of risks in spite of individual holdings being large, and if possible opposed risks.”5
+2. “A steadfast holding of these fairly large units through thick and thin, perhaps for several years, until either they have 
+fulfilled their promise or it is evident that they were purchased on a mistake;
+3. “A balanced [emphasis his] investment position, i.e., a variety of risks in spite of individual holdings being large, and if 
+possible opposed risks.”5
 LESSONS FROM BEN GRAHAM
 • “If you are shopping for common stocks, chose them the way you would buy groceries, not the way you would buy perfume.”
 • “Obvious prospects for physical growth in a business do not translate into obvious profits for investors.”
-• “Most businesses change in character and quality over the years, sometimes for the better, perhaps more often for the worse. The investor need not watch his companies’ performance like a hawk; but he should give it a good, hard look from time to time.”
-• “Basically, price fluctuations have only one significant meaning for the true investor. They provide him with an opportunity to buy wisely when prices fall sharply and to sell wisely when they advance a great deal. At other times he will do better if he forgets about the stock market and pays attention to his dividend returns and to the operating results of his companies.”
-• “The most realistic distinction between the investor and the speculator is found in their attitude toward stock-market movements. The speculator’s primary interest lies in anticipating and profiting from market fluctuations. The investor’s primary interest lies in acquiring and holding suitable securities at suitable prices. Market movements are important to him in a practical sense, because they alternately create low price levels at which he would be wise to buy and high price levels at which he certainly should refrain from buying and probably would be wise to sell.”
-• “The risk of paying too high a price for good-quality stocks – while a real one – is not the chief hazard confronting the average buyer of securities. Observation over many years has taught us that the chief losses to investors come from the purchase of low-quality securities at times of favorable business conditions. The purchasers view the current good earnings as equivalent to “earning power” and assume that prosperity is synonymous with safety.”
-• “Even with a margin [of safety] in the investor’s favor, an individual security may work out badly. For the margin guarantees only that he has a better chance for profit than for loss – not that loss is impossible.”
-• “To achieve satisfactory investment results is easier than most people realize; to achieve superior results is harder than it looks.”
+• “Most businesses change in character and quality over the years, sometimes for the better, perhaps more often for the worse. The 
+investor need not watch his companies’ performance like a hawk; but he should give it a good, hard look from time to time.”
+• “Basically, price fluctuations have only one significant meaning for the true investor. They provide him with an opportunity to 
+buy wisely when prices fall sharply and to sell wisely when they advance a great deal. At other times he will do better if he forgets
+about the stock market and pays attention to his dividend returns and to the operating results of his companies.”
+• “The most realistic distinction between the investor and the speculator is found in their attitude toward stock-market movements.
+ The speculator’s primary interest lies in anticipating and profiting from market fluctuations. The investor’s primary interest lies
+  in acquiring and holding suitable securities at suitable prices. Market movements are important to him in a practical sense, 
+  because they alternately create low price levels at which he would be wise to buy and high price levels at which he certainly 
+  should refrain from buying and probably would be wise to sell.”
+• “The risk of paying too high a price for good-quality stocks – while a real one – is not the chief hazard confronting the average 
+buyer of securities. Observation over many years has taught us that the chief losses to investors come from the purchase of 
+low-quality securities at times of favorable business conditions. The purchasers view the current good earnings as equivalent to
+ “earning power” and assume that prosperity is synonymous with safety.”
+• “Even with a margin [of safety] in the investor’s favor, an individual security may work out badly. For the margin guarantees 
+only that he has a better chance for profit than for loss – not that loss is impossible.”
+• “To achieve satisfactory investment results is easier than most people realize; to achieve superior results is harder than it 
+looks.”
 • “Wall Street people learn nothing and forget everything.”
 • “Most of the time stocks are subject to irrational and excessive price fluctuations in both
 directions as the consequence of the ingrained tendency of most people to speculate or gamble
@@ -548,7 +610,11 @@ prices.” – Ben Graham
 [what] I’ll say about the Wall Street people, typically, is that they learn nothing, and they forget everything.” – Ben Graham
 5 Hagstrom’s “The Warren Buffett Portfolio” and The Journal of Finance, Vol. XXXVIII, No. 1, March 1983. 15
     
-• Graham advocates that analysts, in studying a security, should decompose its price into two components. One looks backward, the other forward. The first is what Graham calls “minimum true value,” based on a company’s historical earnings and assets; the second, “present value,” appraises expectations for the future and takes speculative risk into account. Every appraisal should decompose the current market price of a security into the analyst’s estimate of both its fundamental value and the contribution of speculation to the market price.
+• Graham advocates that analysts, in studying a security, should decompose its price into two components. One looks backward, the 
+other forward. The first is what Graham calls “minimum true value,” based on a company’s historical earnings and assets; the second
+, “present value,” appraises expectations for the future and takes speculative risk into account. Every appraisal should decompose 
+the current market price of a security into the analyst’s estimate of both its fundamental value and the contribution of speculation
+ to the market price.
 • A lack of information as opposed to a lack of judgment
 • “In my experience marketability has proved of dubious overall advantage. It had led investors
 astray at least as much as it has helped them. It has made them stock-market minded instead of
@@ -556,13 +622,20 @@ value-minded.” – Ben Graham
 Ben Graham’s mental toolkit, per Jason Zweig:
 • A hunger for objective evidence: “operations should be based not on optimism but on arithmetic.”
 • An independent and skeptical outlook that takes nothing on faith
-• The patience and the discipline to stick to your own convictions when the market insists that you are wrong. “Have the courage of your knowledge and experience. If you have formed a conclusion from the facts and if you know your judgment is sound, act on it – even though others may hesitate or differ. (You are neither right nor wrong because the crowd disagrees with you. You are right because your data and reasoning are right.)”
-• What the ancient Greek philosophers called ataraxia, or serene imperturbability – the ability to stay calm and keep your head when all investors about you are losing theirs.
+• The patience and the discipline to stick to your own convictions when the market insists that you are wrong. “Have the courage of 
+your knowledge and experience. If you have formed a conclusion from the facts and if you know your judgment is sound, act on it – 
+even though others may hesitate or differ. (You are neither right nor wrong because the crowd disagrees with you. You are right 
+because your data and reasoning are right.)”
+• What the ancient Greek philosophers called ataraxia, or serene imperturbability – the ability to stay calm and keep your head when
+ all investors about you are losing theirs.
 • “There are just two basic questions to which stockholders should turn their attention:
 • Is the management reasonably efficient?
 • Are the interests of the average outside shareholder receiving proper recognition?”
-• Five historical factors to estimate future earnings and dividends: growth in earnings per share, stability (minimal shrinkage in retained earnings during hard times), dividend payout, return on invested capital, and net assets per share; each factor weighted at 20% to produce a composite score
-• Priceequals(ExG)x(8xG)or8G2 xE,whereEisEPSfor1947-56.TofindG,theexpected future growth rate, divide the current price by 8 times 1947-56 earnings and take the square root.
+• Five historical factors to estimate future earnings and dividends: growth in earnings per share, stability (minimal shrinkage in 
+retained earnings during hard times), dividend payout, return on invested capital, and net assets per share; each factor weighted at
+ 20% to produce a composite score
+• Priceequals(ExG)x(8xG)or8G2 xE,whereEisEPSfor1947-56.TofindG,theexpected future growth rate, divide the current price by 8 times 
+1947-56 earnings and take the square root.
 • Value = current normal earnings times the sum of 8 1⁄2 plus 2G...which fails to account for interest rates
 • Value = earnings times the sum of 37 1⁄2 plus 8.8 G, dividend by the AAA rate
 • Special situations:
@@ -576,7 +649,8 @@ Ben Graham’s mental toolkit, per Jason Zweig:
 • Indicated annual return = G C – L (100 – C)
 YP
 • Two main categories of special situation: security exchanges or distributions, and cash payouts.
-o Class A: Standard Arbitrages, Based on a Reorganization, Recapitalization, or Merger Plan o Class B: Cash Payouts, in Recapitalizations or Mergers
+o Class A: Standard Arbitrages, Based on a Reorganization, Recapitalization, or Merger Plan o Class B: Cash Payouts, in 
+Recapitalizations or Mergers
 o Class C: Cash Payments on Sale or Liquidation
 o Class D: Litigated Matters
 o Class E: Public Utility Breakups
@@ -587,28 +661,42 @@ JOEL GREENBLATT’S FOUR THINGS NOT TO DO
 • Change the game plan after suffering a loss (regardless of relative performance)
 • Buy more after periods of good performance
 GREENBLATT: THE PROCESS OF VALUATION
-1. While studying the footnotes is crucial, the big picture is most important: Earnings yield and ROIC are the two most important factors to consider, with the key being figuring out normalized earnings.
-2. High earnings yield, based upon normalized earnings, is important in order to have a margin of safety. High ROIC (again based on normalized earnings) simply tells you how good a business it is.
-3. Independent thinking, in-depth research, and the ability to persevere through near-term underperformance, are three keys to being a successful value investor.
+1. While studying the footnotes is crucial, the big picture is most important: Earnings yield and ROIC are the two most important 
+factors to consider, with the key being figuring out normalized earnings.
+2. High earnings yield, based upon normalized earnings, is important in order to have a margin of safety. High ROIC (again based on 
+normalized earnings) simply tells you how good a business it is.
+3. Independent thinking, in-depth research, and the ability to persevere through near-term underperformance, are three keys to being
+ a successful value investor.
 4. Worrying about near-term volatility has nothing to do with being a successful value investor.
-5. Think of a concentrated portfolio as if you lived in a small town and had $1 million to invest. If you have carefully researched to find the best 5 companies, the risk is minimal (As Charlie Munger says, "The way to minimize risk is to think.")
+5. Think of a concentrated portfolio as if you lived in a small town and had $1 million to invest. If you have carefully researched 
+to find the best 5 companies, the risk is minimal (As Charlie Munger says, "The way to minimize risk is to think.")
 6. Special situations are just value investing with a catalyst.
 7. International investing may offer the best opportunity, at least in terms of cheapness.
 8. Finding complicated situations that no one else wants to do the work to figure out is a
-way to gain an advantage. (You have discussed and given examples of many such situations in your book, You Can Be a Stock Market Genius.)
+way to gain an advantage. (You have discussed and given examples of many such situations in your book, You Can Be a Stock Market 
+Genius.)
    17
 
-9. Looking at the numbers best way to learn about management. What have they done with the cash? What are the incentives? Is the salary too high? Is there heavy insider selling? What is their track record?
-10. Focus on understanding and buying good businesses on sale, and don't worry about the macro economy. Everything is cyclical, so value can always be found somewhere.
-11. Focus on situations that are not of interest to big players (usually small- and mid-cap, although currently large caps are cheap; spin-offs may be such opportunities, but the key is to figure out the interests of insiders; bankruptcies, restructurings, and recapitalizations may also be such opportunities).
+9. Looking at the numbers best way to learn about management. What have they done with the cash? What are the incentives? Is the 
+salary too high? Is there heavy insider selling? What is their track record?
+10. Focus on understanding and buying good businesses on sale, and don't worry about the macro economy. Everything is cyclical, so 
+value can always be found somewhere.
+11. Focus on situations that are not of interest to big players (usually small- and mid-cap, although currently large caps are cheap; 
+spin-offs may be such opportunities, but the key is to figure out the interests of insiders; bankruptcies, restructurings, and 
+recapitalizations may also be such opportunities).
 12. Trust no one over 30, and no one under 30; must do your own work, rather than simply ride coat-tails.
 13. Risk is permanent loss of invested capital, and not any measurement of volatility developed by statisticians or academicians.
 14. All investing is value investing and to make a distinction between value and growth is meaningless.)
-o Thus, you understand the context of value investing. The most important step, which you have already completed, is to understand the market in context. If your investments go down, but you have done your homework, then understanding this broader context means that the short-term under-performance should not bother you. Again, understanding this context is crucial when things don't go your way. Buffett on the two things you need:
-1. How to Value a Business. (Practice, practice, practice. If Buffett taught a course, he says he would just do case study after case study.)
+o Thus, you understand the context of value investing. The most important step, which you have already completed, is to understand 
+the market in context. If your investments go down, but you have done your homework, then understanding this broader context means
+ that the short-term under-performance should not bother you. Again, understanding this context is crucial when things don't go your
+  way. Buffett on the two things you need:
+1. How to Value a Business. (Practice, practice, practice. If Buffett taught a course, he says he would just do case study after 
+case study.)
 2. How to Think about Market Prices.
 HOW DOES THIS INVESTMENT INCREASE MY “LOOK-THROUGH” EARNINGS 5-10 YEARS IN THE FUTURE? (BUFFETT)
-• What portion of the earnings are free cash flow versus cash that needs to be reinvested in the business to survive against the competition or to grow
+• What portion of the earnings are free cash flow versus cash that needs to be reinvested in the business to survive against the 
+competition or to grow
 • How attractive are the company’s reinvestment opportunities for its cash?
 • Is the management a good allocator of capital? Can it be trusted to put shareholders’ interests
 first?
@@ -616,21 +704,30 @@ first?
 • How much are you paying today for your share of the earnings? Is that share likely to grow or
 shrink?
 RAY DALIO ON “THE ECONOMIC MACHINE”
-o All changes in economic activity and all changes in financial markets’ prices are due to changes in the amount of money or credit spent and the quantity of items/services sold.
+o All changes in economic activity and all changes in financial markets’ prices are due to changes in the amount of money or credit
+ spent and the quantity of items/services sold.
 § This spending is either private (households/businesses, domestic/foreign) or government (spending directly or printing)
-o A recession is an economic contraction due to private sector capital reduction; a deleveraging is an economic contraction due to a shortage/reduction of real capital across the landscape – central bank / monetary policy is ineffective; recessions are short, deleveragings are long (~ a decade)
+o A recession is an economic contraction due to private sector capital reduction; a deleveraging is an economic contraction due to 
+a shortage/reduction of real capital across the landscape – central bank / monetary policy is ineffective; recessions are short, 
+deleveragings are long (~ a decade)
 o The Three Big Forces
   18
 
-§ Productivity growth (with little variation, it has grown at 2% p.a. over the past century; as knowledge increases, productivity grows; major swings around the trend are due to expansions/contractions in credit – i.e., the business cycle)
+§ Productivity growth (with little variation, it has grown at 2% p.a. over the past century; as knowledge increases, productivity 
+grows; major swings around the trend are due to expansions/contractions in credit – i.e., the business cycle)
 § The Long-term Cycle (generational shifts in spending/saving, budget surpluses/deficits, etc.)
-§ The Business Cycle (primarily controlled by central banks’ interest rate policies) WHY SMART PEOPLE MAKE BIG MONEY MISTAKES (BELSKY AND GILOVICH)
+§ The Business Cycle (primarily controlled by central banks’ interest rate policies) WHY SMART PEOPLE MAKE BIG MONEY MISTAKES 
+(BELSKY AND GILOVICH)
 o
 o o o o o
-House money (a form of mental accounting) -- the parable of the groom on his honeymoon in Vegas; he set out with $5, made a long series of winning bets, betting his entire bankroll each time; after a while he had a bankroll of several million and, again, bet it all; this time he lost, and upon returning to his wife, was asked how he did. "not bad, I lost $5."
-Disposition effect -- the name Shefrin and Statman gave to the tendency to hold losers too long and sell winners too quickly; an extension of loss aversion and prospect theory
+House money (a form of mental accounting) -- the parable of the groom on his honeymoon in Vegas; he set out with $5, made a long 
+series of winning bets, betting his entire bankroll each time; after a while he had a bankroll of several million and, again, bet 
+it all; this time he lost, and upon returning to his wife, was asked how he did. "not bad, I lost $5."
+Disposition effect -- the name Shefrin and Statman gave to the tendency to hold losers too long and sell winners too quickly; an 
+extension of loss aversion and prospect theory
 “Sunk cost fallacy" -- the significance or value of a decision should not change based on a prior expenditure
-Trade-off contrast -- Tversky and Simonson; a phenomenon whereby choices are enhanced or hindered by the trade-offs between options, even options we wouldn't choose anyway
+Trade-off contrast -- Tversky and Simonson; a phenomenon whereby choices are enhanced or hindered by the trade-offs between options
+ even options we wouldn't choose anyway
 Remember the effects of inflation! How much purchasing power do your investment dollars by now?
 Principles to ponder
 § every dollar spends the same (mental accounting)
@@ -646,20 +743,27 @@ choices and decision-making
 § the herd mentality is often dangerous
 § knowing too much or just a little can be dangerous
 § emotions often affect decisions more than is realized
-anchoring bias – the failure to make sufficient adjustments from an original estimate; especially problematic in complex decision making environments and/or where the original estimate is far off the mark
-availability – a heuristic by which people "assess the frequency of a class or the probability of an event by the ease with which instance or occurrences can be brought to mind."
+anchoring bias – the failure to make sufficient adjustments from an original estimate; especially problematic in complex decision 
+making environments and/or where the original estimate is far off the mark
+availability – a heuristic by which people "assess the frequency of a class or the probability of an event by the ease with which 
+instance or occurrences can be brought to mind."
 § e.g., shark attacks vs. falling airplane parts
-cognitive bias – the tendency to make logical errors when applying intuitive rules of thumb hindsight bias – people's mistaken belief that past errors could have been seen much more
-clearly if only they hadn't been wearing dark or rose-colored glasses; seriously impairs proper assessment of past errors and limits what can be learned from experience
+cognitive bias – the tendency to make logical errors when applying intuitive rules of thumb hindsight bias – people's mistaken belief
+ that past errors could have been seen much more
+clearly if only they hadn't been wearing dark or rose-colored glasses; seriously impairs proper assessment of past errors and limits 
+what can be learned from experience
      • Biases o
 o
 o o
   19
 
 o o o o
-law of small numbers -- a tongue in cheek reference to he tendency to overstate the importance of finding s taken from small samples which often leads to erroneous conclusions; contrast to the statistically valid law of large numbers.
-recency and saliency – two aspects of events (how recent they are and how much of an emotional impact they have, often establishing a case rate) that contribute to their being given greater weight than prior probabilities (i.e., the base rate)
-representativeness – a subjective judgment of the extent to which the event in question is similar in essential properties to its parent population or reflects the salient feature of the process by which it is generated
+law of small numbers -- a tongue in cheek reference to he tendency to overstate the importance of finding s taken from small samples
+ which often leads to erroneous conclusions; contrast to the statistically valid law of large numbers.
+recency and saliency – two aspects of events (how recent they are and how much of an emotional impact they have, often establishing 
+a case rate) that contribute to their being given greater weight than prior probabilities (i.e., the base rate)
+representativeness – a subjective judgment of the extent to which the event in question is similar in essential properties to its 
+parent population or reflects the salient feature of the process by which it is generated
 survivorship bias – the failure to use all stocks/samples (i.e., those that no longer exist) in studies or decisions
 RICHARD CHANDLER CORPORATION’S PRINCIPLES OF GOOD CORPORATE GOVERNANCE
 1. Shareholders are owners, with the attendant rights and responsibilities of ownership.
@@ -676,28 +780,39 @@ economic, moral, social and regulatory environment within which it operates.
 deploy capital productively in the business, it should be returned to shareholders for
 reinvestment.
 7. Commerce and capital are based on trust. Capital will naturally flow to markets where there is a
-fair and impartial application of just laws. Government has a responsibility to create trust-based capital markets which protect investor property rights through the rule of law being applied without discrimination as to race, nationality, religion, gender or affiliation.
-8. Prosperity is possible if all market participants work together. This requires responsible investors exercising proper oversight of management, ethical business leadership using capital and resources wisely, and independent regulators applying just laws fairly.
+fair and impartial application of just laws. Government has a responsibility to create trust-based capital markets which protect 
+investor property rights through the rule of law being applied without discrimination as to race, nationality, religion, gender or 
+affiliation.
+8. Prosperity is possible if all market participants work together. This requires responsible investors exercising proper oversight 
+of management, ethical business leadership using capital and resources wisely, and independent regulators applying just laws fairly.
 TOM GAYNER’S FOUR “NORTH STARS” OF INVESTING
 o Profitable; good returns on capital without use of excessive leverage § Must be sustainable profitability/returns
 § Look at the business as a long-running movie, not a snapshot § Proven track record of profits across cycles (5-10 years)
 o Management teams with talent and integrity – one without the other is useless o Good reinvestment opportunities
 § Compounding machines 20
   
-o A fair price (where a fair entry price allows the investment to earn at least as much as the rate on the book value, earnings and/or cash flow, as appropriate)
+o A fair price (where a fair entry price allows the investment to earn at least as much as the rate on the book value, earnings 
+and/or cash flow, as appropriate)
 DAVID DREMAN’S “CONTRARIAN INVESTMENT RULES”
 Rule 1: Rule 2:
 Rule 3: Rule 4: Rule 5: Rule 6: Rule 7: Rule 8: Rule 9:
 Rule 10: Rule 11: Rule 12:
 Do not use market-timing or technical analysis. These techniques can only cost you money.
-Respect the difficulty of working with a mass of information. Few of us can use it successfully. In-depth information does not translate into in-depth profits.
-Do not make an investment decision based on correlations. All correlations in the market, whether real or illusory, will shift and soon disappear.
-Tread carefully with current investment methods. Our limitations in processing complex information correctly prevent their successful use by most of us.
-There are no highly predictable industries in which you can count on analysts’ forecasts. Relying on these estimates will lead to trouble.
+Respect the difficulty of working with a mass of information. Few of us can use it successfully. In-depth information does not 
+translate into in-depth profits.
+Do not make an investment decision based on correlations. All correlations in the market, whether real or illusory, will shift and 
+soon disappear.
+Tread carefully with current investment methods. Our limitations in processing complex information correctly prevent their successful
+ use by most of us.
+There are no highly predictable industries in which you can count on analysts’ forecasts. Relying on these estimates will lead to 
+trouble.
 Analysts’ forecasts are usually optimistic. Make the appropriate downward adjustment to your earnings estimate.
-Most current security analysis requires a precision in analysts’ estimates that is impossible to provide. Avoid methods that demand this level of accuracy.
-It is impossible, in a dynamic economy with constantly changing political, economic, industrial, and competitive conditions, to use the past accurately to estimate the future.
-Be realistic about the downside of an investment, recognizing our human tendency to be both overly optimistic and overly confident. Expect the worst to be much more severe than your initial projection.
+Most current security analysis requires a precision in analysts’ estimates that is impossible to provide. Avoid methods that demand 
+this level of accuracy.
+It is impossible, in a dynamic economy with constantly changing political, economic, industrial, and competitive conditions, to use 
+the past accurately to estimate the future.
+Be realistic about the downside of an investment, recognizing our human tendency to be both overly optimistic and overly confident.
+ Expect the worst to be much more severe than your initial projection.
 Take advantage of the high rate of analyst forecast error by simply investing in out-of-favor stocks.
 Positive and negative surprises affect “best” and “worst” stocks in a diametrically opposite manner.
 (A) Surprises, as a group, improve the performance of out-of-favor stocks, while impairing the performance of favorites.
@@ -715,19 +830,30 @@ Rule 23:
 Rule 24: Rule 25:
 Rule 26:
 Rule 27:
-Favored stocks under-perform the market, while out-of-favor companies outperform the market, but the reappraisal often happens slowly, even glacially.
-Buy solid companies currently cut of market favor, as measured by their low price-to-earnings, price-to-cash flow or price-to-book value ratios, or by their high yields.
-Don’t speculate on highly priced concept stocks to make above-average returns. The blue chip stocks that widows and orphans traditionally choose are equally valuable for the more aggressive businessman or woman.
-Avoid unnecessary trading. The costs can significantly lower your returns over time. Low price- to-value strategies provide well above mar-ket returns for years, and are an excellent means of eliminating excessive transaction costs.
+Favored stocks under-perform the market, while out-of-favor companies outperform the market, but the reappraisal often happens slowly,
+ even glacially.
+Buy solid companies currently cut of market favor, as measured by their low price-to-earnings, price-to-cash flow or price-to-book 
+value ratios, or by their high yields.
+Don’t speculate on highly priced concept stocks to make above-average returns. The blue chip stocks that widows and orphans 
+traditionally choose are equally valuable for the more aggressive businessman or woman.
+Avoid unnecessary trading. The costs can significantly lower your returns over time. Low price- to-value strategies provide well 
+above mar-ket returns for years, and are an excellent means of eliminating excessive transaction costs.
 Buy only contrarian stocks because of their superior performance characteristics.
 Invest equally in 20 to 30 stocks, diversified among 15 or more industries (if your assets are of sufficient size).
-Buy medium-or large-sized stocks listed on the New York Stock Exchange, or only larger companies on Nasdaq or the American Stock Exchange.
-Buy the least expensive stocks within an industry, as determined by the four contrarian strategies, regardless of how high or low the general price of the industry group.
-Sell a stock when its P/E ratio (or other contrarian indicator) approaches that of the overall market, regardless of how favorable prospects may appear. Replace it with another contrarian stock.
-Look beyond obvious similarities between a current investment situa-tion and one that appears equivalent in the past. Consider other important factors that may result in a markedly different outcome.
-Don’t be influenced by the short-term record of a money manager, broker, analyst or advisor, no matter how impressive; don’t accept cursory economic or investment news without significant substantiation.
+Buy medium-or large-sized stocks listed on the New York Stock Exchange, or only larger companies on Nasdaq or the American Stock 
+Exchange.
+Buy the least expensive stocks within an industry, as determined by the four contrarian strategies, regardless of how high or low the
+ general price of the industry group.
+Sell a stock when its P/E ratio (or other contrarian indicator) approaches that of the overall market, regardless of how favorable 
+prospects may appear. Replace it with another contrarian stock.
+Look beyond obvious similarities between a current investment situa-tion and one that appears equivalent in the past. Consider other
+ important factors that may result in a markedly different outcome.
+Don’t be influenced by the short-term record of a money manager, broker, analyst or advisor, no matter how impressive; don’t accept
+ cursory economic or investment news without significant substantiation.
 Don’t rely solely on the “case rate.” Take into account the “base rate” – the prior probabilities of profit or loss.
-Don’t be seduced by recent rates of return for individual stocks or the market when they deviate sharply from past norms (the “case rate”). Long term returns of stocks (the “base rate”) are far more likely to be established again. If returns are particularly high or low, they are likely to be abnormal.
+Don’t be seduced by recent rates of return for individual stocks or the market when they deviate sharply from past norms (the “case
+ rate”). Long term returns of stocks (the “base rate”) are far more likely to be established again. If returns are particularly high
+  or low, they are likely to be abnormal.
 Don’t expect the strategy you adopt will prove a quick success in the market; give it a reasonable time to work out.
 The push toward an average rate of return is a fundamental principle of competitive markets.
   22
@@ -740,26 +866,35 @@ Rule 37:
 Rule 38:
 Rule 39:
 Rule 40: Rule 41:
-It is far safer to project a continuation of the psychological reactions of investors than it is to project the visibility of the companies themselves.
+It is far safer to project a continuation of the psychological reactions of investors than it is to project the visibility of the 
+companies themselves.
 Political and financial crises lead investors to sell stocks. This is pre-cisely the wrong reaction. Buy during a panic, don’t sell.
-In a crisis, carefully analyze the reasons put forward to support lower stock prices – more often than not they will disintegrate under scrutiny
+In a crisis, carefully analyze the reasons put forward to support lower stock prices – more often than not they will disintegrate 
+under scrutiny
 (A) Diversify extensively. No matter how cheap a group of stocks looks, you never know for sure that you aren’t getting a clinker.
-(B) Use the value lifelines as explained. In a crisis, these criteria get dramatically better as prices plummet, markedly improving your chances of a big score.
+(B) Use the value lifelines as explained. In a crisis, these criteria get dramatically better as prices plummet, markedly improving
+ your chances of a big score.
 Volatility is not risk. Avoid investment advice based on volatility.
-Small-cap investing: Buy companies that are strong financially (nor-mally no more than 60% debt in the capital structure for a manufacturing firm).
+Small-cap investing: Buy companies that are strong financially (nor-mally no more than 60% debt in the capital structure for a 
+manufacturing firm).
 Small-cap investing: Buy companies with increasing and well-protected dividends that also provide an above-market yield.
 Small-cap investing: Pick companies with above-average earnings growth rates.
-Small-cap investing: Diversify widely, particularly in small companies, because these issues have far less liquidity. A good portfolio should contain about twice as many stocks as an equivalent large-cap one.
+Small-cap investing: Diversify widely, particularly in small companies, because these issues have far less liquidity. A good 
+portfolio should contain about twice as many stocks as an equivalent large-cap one.
 Small-cap investing: Be patient. Nothing works every year, but when smaller caps click, returns are often tremendous.
-Small-company trading (e.g., Nasdaq): Don’t trade thin issues with large spreads unless you are almost certain you have a big winner.
-When making a trade in small, illiquid stocks, consider not only commissions, but also the bid /ask spread to see how large your total cost will be.
-Avoid the small, fast-track mutual funds. The track often ends at the bottom of a cliff. A given in markets is that perceptions change rapidly.
+Small-company trading (e.g., Nasdaq): Don’t trade thin issues with large spreads unless you are almost certain you have a big
+ winner.
+When making a trade in small, illiquid stocks, consider not only commissions, but also the bid /ask spread to see how large your 
+total cost will be.
+Avoid the small, fast-track mutual funds. The track often ends at the bottom of a cliff. A given in markets is that perceptions 
+change rapidly.
 PRINCIPLES OF FOCUS INVESTING
 I. Develop a comfortable understanding of the language and concepts of investing
 a. Study a basic accounting book like The Interpretation of Financial Statements by Benjamin Graham
   23
 
-b. Understand how four concepts, Compound Interest, Present/Future Value, Inflation, and the difference between price and value affect your investing results
+b. Understand how four concepts, Compound Interest, Present/Future Value, Inflation, and the difference between price and value 
+affect your investing results
 c. Learn how cash flows through an company
 d. Learn how companies manage their inventory
 e. Keep a close eye on how fast inventory and accounts receivables are growing. They should not
@@ -823,7 +958,8 @@ Ed.)
 • Nonsensical GAAP (subprime lenders)
 • Growth by acquisition (Tyco, roll-ups)
 • Fair Value (Level 3 assets)
-• “A lot of our best shorts have looked short all the way down. Just because something is cheap doesn’t make it a good value. A lot of times the company can get into distress due to a declining business. That defines a value trap.”
+• “A lot of our best shorts have looked short all the way down. Just because something is cheap doesn’t make it a good value. 
+A lot of times the company can get into distress due to a declining business. That defines a value trap.”
 MAJOR AREAS FOR FORENSIC ANALYSIS (O’GLOVE)
 1. Differential disclosure
 2. Nonoperating and/or nonrecurring income 3. Revenue recognition
@@ -846,7 +982,8 @@ C. Using bogus estimates on interim financial reports
 3. Boosting profits with non-recurring transactions
 A. Boosting profits by selling undervalued assets
 B. Boosting profits by retiring debt
-C. Failing to segregating unusual and nonrecurring gains or losses from recurring income D. Burying losses under non-continuing operations
+C. Failing to segregating unusual and nonrecurring gains or losses from recurring income D. Burying losses under non-continuing 
+operations
 4. Shifting current expenses to a later period
 A. Improperly capitalizing costs
 B. Depreciating or amortizing costs too slowly C. Failing to write-off worthless assets
@@ -874,12 +1011,14 @@ on a scale up.
 • Have a philosophy of investment and try to follow it. The above is a way that I’ve found
 successful.
 • Don’t be in too much of a hurry to sell. If the stock reaches a price that you think is a fair one,
-then you can sell but often because a stock goes up say 50%, people say sell it and button up your profit. Before selling try to reevaluate the company again and see where the stock sells in
+then you can sell but often because a stock goes up say 50%, people say sell it and button up your profit. Before selling try to
+ reevaluate the company again and see where the stock sells in
   26
 
 relation to its book value. Be aware of the level of the stock market. Are yields low and P-E
 ratios high. If the stock market historically high. Are people very optimistic, etc.?
-• When buying a stock, I find it helpful to buy near the low of the past few years. A stock may go as high as 125 and then decline to 60 and you think it attractive. 3 years before the stock sold at
+• When buying a stock, I find it helpful to buy near the low of the past few years. A stock may go as high as 125 and then decline
+ to 60 and you think it attractive. 3 years before the stock sold at
 20 which shows that there is some vulnerability in it.
 • Try to buy assets at a discount than to buy earnings. Earning can change dramatically in a short
 time. Usually assets change slowly. One has to know much more about a company if one buys
@@ -900,12 +1039,24 @@ CHUCK AKRE’S CRITERIA OF OUTSTANDING INVESTMENTS
 • Owner-oriented management
 • Reinvestment opportunity
 BILL RUANE’S FOUR RULES OF SMART INVESTING
-• 1. Buy good businesses. The single most important indicator of a good business is its return on capital. In almost every case in which a company earns a superior return on capital over a long period of time it is because it enjoys a unique proprietary position in its industry and/or has outstanding management. The ability to earn a high return on capital means that the earnings which are not paid out as dividends but rather retained in the business are likely to be re-invested at a high rate of return to provide for good future earnings and equity growth with low capital requirement.
-• 2. Buy businesses with pricing flexibility. Another indication of a proprietary business position is pricing flexibility with little competition. In addition, pricing flexibility can provide an important hedge against capital erosion during inflationary periods.
-• 3. Buy net cash generators. It is important to distinguish between reported earnings and cash earnings. Many companies must use a substantial portion of earnings for forced reinvestment in the business merely to maintain plant and equipment and present earning power. Because of such economic under-depreciation, the reported earnings of many companies may vastly overstate their true cash earnings. This is particularly true during inflationary periods. Cash earnings are those earnings which are truly available for investment in additional earning assets, or for payment to stockholders. It pays to emphasize companies which have the ability to generate a large portion of their earnings in cash. Ruane had no taste for tech stocks. He stressed the importance of understanding what a company’s problems might be. There are two kinds of depreciation: 1. Things wear out. 2. Things change (obsolescence).
+• 1. Buy good businesses. The single most important indicator of a good business is its return on capital. In almost every case 
+in which a company earns a superior return on capital over a long period of time it is because it enjoys a unique proprietary 
+position in its industry and/or has outstanding management. The ability to earn a high return on capital means that the earnings
+ which are not paid out as dividends but rather retained in the business are likely to be re-invested at a high rate of return to 
+ provide for good future earnings and equity growth with low capital requirement.
+• 2. Buy businesses with pricing flexibility. Another indication of a proprietary business position is pricing flexibility with 
+little competition. In addition, pricing flexibility can provide an important hedge against capital erosion during inflationary
+ periods.
+• 3. Buy net cash generators. It is important to distinguish between reported earnings and cash earnings. Many companies must use
+ a substantial portion of earnings for forced reinvestment in the business merely to maintain plant and equipment and present earning
+  power. Because of such economic under-depreciation, the reported earnings of many companies may vastly overstate their true cash earnings. This is particularly true during inflationary periods. Cash earnings are those earnings which are truly available for investment in additional earning assets, or for payment to stockholders. It pays to emphasize companies which have the ability to generate a large portion of their earnings in cash. Ruane had no taste for tech stocks. He stressed the importance of understanding what a company’s problems might be. There are two kinds of depreciation: 1. Things wear out. 2. Things change (obsolescence).
   27
 
-• 4. Buy stock at modest prices. While price risk cannot be eliminated altogether, it can be lessened materially by avoiding high-multiple stocks whose price-earnings ratios are subject to enormous pressure if anticipated earnings growth does not materialize. While it is easy to identify outstanding businesses it is more difficult to select those which can be bought at significant discounts from their true underlying value. Price is the key. Value and growth are joined at the hip. Companies that could reinvest at 12% consistently with interest rate at 6% deserve a premium.
+• 4. Buy stock at modest prices. While price risk cannot be eliminated altogether, it can be lessened materially by avoiding 
+high-multiple stocks whose price-earnings ratios are subject to enormous pressure if anticipated earnings growth does not 
+materialize. While it is easy to identify outstanding businesses it is more difficult to select those which can be bought at
+ significant discounts from their true underlying value. Price is the key. Value and growth are joined at the hip. Companies
+  that could reinvest at 12% consistently with interest rate at 6% deserve a premium.
 RICHARD PZENA
 • Our Investment Philosophy
 • Simple: buy good businesses when they go on sale. We require five characteristics
@@ -914,16 +1065,20 @@ before we invest:
 è Current earnings are below normal
 è Management has a sound plan for earnings recovery
 è The business has a history of earning attractive long-term returns è There is tangible downside protection
-• Building a portfolio exclusively focused on companies with these characteristics should generate excess returns for long-term investors.
+• Building a portfolio exclusively focused on companies with these characteristics should generate excess returns for long-term
+ investors.
 • Our Investment Process
 • We follow the same disciplined investment process for each of our strategies.
   • •
 •
 •
 • • • • •
-Screen: We use a proprietary computer model to identify the deepest value portion of the investment universe, which becomes the focus of our research efforts.
-Research: We conduct intensive fundamental research to understand the earnings power of the business, the obstacles it faces, and its plans for recovery.
-Team investment decision: A three-person portfolio management team makes the final decisions for each strategy. We build portfolios without regard to benchmarks. Ongoing evaluation: We continuously monitor each investment to assess new information.
+Screen: We use a proprietary computer model to identify the deepest value portion of the investment universe, which becomes the
+focus of our research efforts.
+Research: We conduct intensive fundamental research to understand the earnings power of the business, the obstacles it faces, and 
+its plans for recovery.
+Team investment decision: A three-person portfolio management team makes the final decisions for each strategy. We build portfolios
+without regard to benchmarks. Ongoing evaluation: We continuously monitor each investment to assess new information.
 Sell: We sell a security when it reaches the midpoint of our proprietary screening model which we judge to be “fair value.”
  Earning power/free cash flow generation
 Every business that is reliant on the capital markets for funding (read: survival) is just waiting to meet its demise
@@ -964,10 +1119,14 @@ THOUGHTS FROM JIM CHANOS ON SHORTING
 • Always start with source documents
 • Don’t short on valuation alone. Focus on businesses where something is going wrong.
 • “We look more at the business to see if there is something structurally wrong or about to go wrong, and enter the valuation last.”
-• Better yet, we look for companies that are trying – often legally but aggressively – to hide the fact that things are going wrong through their accounting, acquisition policy, or other means.6
+• Better yet, we look for companies that are trying – often legally but aggressively – to hide the fact that things are going wrong 
+through their accounting, acquisition policy, or other means.6
 • Drown out what the Street is saying.7
 6 Interview with Jim Chanos, Graham and Doddsville, Spring 2012
-7 Starting in 1995, Kynikos has used an inverse benchmark for compensation: if the S&P 500 was up 20% and Kynikos was up 10%, it got paid as though it was up 30%; if the S&P was down 20% and Kynikos was up 20%, it got paid nothing; “We still have that compensation structure today. Most of our dollar assets are paid on an alpha basis, so the clients like it and we think it’s fair.” Interview with Jim Chanos, Graham and Doddsville, Spring 2012
+7 Starting in 1995, Kynikos has used an inverse benchmark for compensation: if the S&P 500 was up 20% and Kynikos was up 10%, it got
+ paid as though it was up 30%; if the S&P was down 20% and Kynikos was up 20%, it got paid nothing; “We still have that compensation
+  structure today. Most of our dollar assets are paid on an alpha basis, so the clients like it and we think it’s fair.” Interview 
+  with Jim Chanos, Graham and Doddsville, Spring 2012
    29
 
 •
@@ -987,7 +1146,8 @@ investors
 should dictate the outcome) and position sizing. Chanos sizes short positions between a
 minimum 0.5% and maximum 5%.
 • Chanos does not use options, which are used to either manage risk or gain leverage;
-Chanos believes he can do either more effectively and cheaply outside the options market. Never uses CDS because of counterparty risk, which requires two correct decisions.
+Chanos believes he can do either more effectively and cheaply outside the options market. Never uses CDS because of counterparty 
+risk, which requires two correct decisions.
 • Good short sellers are born, not trained
 • Avoid open-ended growth stories, which often have a life of their own (think AOL in 1996-
 1999)
@@ -1008,10 +1168,12 @@ Chanos’s focus points for short-selling
 • Not about knowing better knowledge of a product or market cycle
 • Track the cash flows
 • Focus on return on capital
-• Is this company able to stand alone without aid from the capital markets? Or is it in a cash flow spiral and cannot exist apart from capital raising or loans?
+• Is this company able to stand alone without aid from the capital markets? Or is it in a cash flow spiral and cannot exist apart 
+from capital raising or loans?
 • Companies who cannot earn their cost of capital will eventually have an existential crisis
 • Bet against companies whose finances are dependent on manias and fads
-Chanos has a strict discipline: if a short went more than 10 percent against them, they pulled out their thesis and reexamined it. If they still had conviction, they might wait and short more. Another 10 percent
+Chanos has a strict discipline: if a short went more than 10 percent against them, they pulled out their thesis and reexamined it. 
+If they still had conviction, they might wait and short more. Another 10 percent
 •
 •
   30
@@ -1026,12 +1188,16 @@ Telecom Bubble was a “boom”
 • Technological obsolescence – the old/incumbent product is usually replaced faster than the
 consensus believes it will be
 • Structurally-flawed accounting – beware serial acquires, as they often writedown the assets on
-the sly; watch for “spring-loaded” acquisitions via artificially depressed inventory, A/R, etc. that is written down at acquisition, only to book gains when needed in the future (without the offsetting write-up in the purchase price of the company)
+the sly; watch for “spring-loaded” acquisitions via artificially depressed inventory, A/R, etc. that is written down at acquisition,
+ only to book gains when needed in the future (without the offsetting write-up in the purchase price of the company)
 • Also:
 • Selling $1.00 for $2.00 (or more)
 • Value traps (see above)
 • Other thoughts/quotations from Chanos on short selling
-• “What we define as a bubble is any kind of debt fueled asset inflation, where the cash flow generation from the asst itself a rental property apartment building does not cover the debt service and the debt incurred to buy the asset. So you depend on the greater fool. Minsky called it Ponzi finance, meaning you need the greater fool to come in and buy it at a higher price because as an income producing property it’s not going to do it. And that’s certainly the case in China right now.” -- Jim Chanos, 4-12-10
+• “What we define as a bubble is any kind of debt fueled asset inflation, where the cash flow generation from the asst itself a
+rental property apartment building does not cover the debt service and the debt incurred to buy the asset. So you depend on the 
+greater fool. Minsky called it Ponzi finance, meaning you need the greater fool to come in and buy it at a higher price because as
+ an income producing property it’s not going to do it. And that’s certainly the case in China right now.” -- Jim Chanos, 4-12-10
 • “Bubbles are best identified by credit excesses, not valuation excesses.” – Jim Chanos
 • Regarding the notion that since security prices are bounded by zero and infinity, it is always
 more common to get zero than infinity
@@ -1207,7 +1373,8 @@ o Does reinvestment lead directly to higher revenue? Higher earnings? Higher cas
 • What are the feedback loops, both positive and negative?
 • Does business operate in Extremistan or Mediocrastan?
 o Itisdifficulttopredict[forecast]outcomesinanenvironmentofconcentratedsuccess (Extremistan).
-o So be careful not to become too attached to a company valuation for a business that operates more in Extremistan and is thus more subject to randomness.
+o So be careful not to become too attached to a company valuation for a business that operates more in Extremistan and is thus more
+ subject to randomness.
 • Risk vs. uncertainty
 o Risk: outcome is unknown but distribution is known o Uncertainty: outcome and distribution are unknown
 • Intelligent Investor
@@ -1234,25 +1401,91 @@ o Ponzi financing.
 o Conspicuous consumption; also, excess investment
 o Valuations.
 • Jeremy Grantham’s “Investment Advice from Your Uncle Polonius”
-o Believe in history. In investing Santayana is right: history repeats and repeats, and forget it at your peril. All bubbles break, all investment frenzies pass away. You absolutely must ignore the vested interests of the industry and the inevitable cheerleaders who will assure you that this time it’s a new high plateau or a permanently higher level of productivity, even if that view comes from the Federal Reserve itself. No. Make that, especially if it comes from there. The market is gloriously inefficient and wanders far from fair price but eventually, after breaking your heart and your patience (and, for professionals, those of their clients too), it will go back to fair value. Your task is to survive until that happens. Here’s how.
-o “Neither a lender nor a borrower be.” If you borrow to invest, it will interfere with your survivability. Unleveraged portfolios cannot be stopped out, leveraged portfolios can. Leverage reduces the investor’s critical asset: patience. (To digress, excessive borrowing has turned out to be an even bigger curse than Polonius could have known. It encourages financial aggressiveness, recklessness, and greed. It increases your returns over and over until, suddenly, it ruins you. For individuals, it allows you to have today what you really can’t afford until tomorrow. It has proven to be so seductive that individuals en masse have shown themselves incapable of resisting it, as if it were a drug. Governments also, from the Middle Ages onwards and especially now, it seems, have proven themselves equally incapable of resistance. Any sane society must recognize the lure of debt and pass laws accordingly. Interest payments must absolutely not be tax deductible or preferred in any way. Governments must apparently be treated like Polonius’s children and given limits. By law, cumulative government debt should be given a sensible limit of, say, 50% of GDP, with current transgressions given 10 or 20 years to be corrected.) But, back to investing ...
-o Don’t put all of your treasure in one boat. This is about as obvious as any investment advice could be. It was learned by merchants literally thousands of years ago. Several different investments, the more the merrier, will give your portfolio resilience, the ability to withstand
+o Believe in history. In investing Santayana is right: history repeats and repeats, and forget it at your peril. All bubbles break,
+ all investment frenzies pass away. You absolutely must ignore the vested interests of the industry and the inevitable cheerleaders
+  who will assure you that this time it’s a new high plateau or a permanently higher level of productivity, even if that view comes
+   from the Federal Reserve itself. No. Make that, especially if it comes from there. The market is gloriously inefficient and 
+   wanders far from fair price but eventually, after breaking your heart and your patience (and, for professionals, those of their
+    clients too), it will go back to fair value. Your task is to survive until that happens. Here’s how.
+o “Neither a lender nor a borrower be.” If you borrow to invest, it will interfere with your survivability. Unleveraged portfolios 
+cannot be stopped out, leveraged portfolios can. Leverage reduces the investor’s critical asset: patience. (To digress, excessive 
+borrowing has turned out to be an even bigger curse than Polonius could have known. It encourages financial aggressiveness, 
+recklessness, and greed. It increases your returns over and over until, suddenly, it ruins you. For individuals, it allows you to 
+have today what you really can’t afford until tomorrow. It has proven to be so seductive that individuals en masse have shown 
+hemselves incapable of resisting it, as if it were a drug. Governments also, from the Middle Ages onwards and especially now, it 
+seems, have proven themselves equally incapable of resistance. Any sane society must recognize the lure of debt and pass laws 
+accordingly. Interest payments must absolutely not be tax deductible or preferred in any way. Governments must apparently be treated
+ like Polonius’s children and given limits. By law, cumulative government debt should be given a sensible limit of, say, 50% of GDP,
+  with current transgressions given 10 or 20 years to be corrected.) But, back to investing ...
+o Don’t put all of your treasure in one boat. This is about as obvious as any investment advice could be. It was learned by merchants
+ literally thousands of years ago. Several different investments, the more the merrier, will give your portfolio resilience, the 
+ ability to withstand
        36
 
 shocks. Clearly, the more investments you have and the more different they are, the more likely
 you are to survive those critical periods when your big bets move against you.
 o Be patient and focus on the long term. Wait for the good cards. If you’ve waited and waited
-some more until finally a very cheap market appears, this will be your margin of safety. Now all you have to do is withstand the pain as the very good investment becomes exceptional. Individual stocks usually recover, entire markets always do. If you’ve followed the previous rules, you will outlast the bad news.
-o Recognize your advantages over the professionals. By far the biggest problem for professionals in investing is dealing with career and business risk: protecting your own job as an agent. The second curse of professional investing is over-management caused by the need to be seen to be busy, to be earning your keep. The individual is far better-positioned to wait patiently for the right pitch while paying no regard to what others are doing, which is almost impossible for professionals.
-o Try to contain natural optimism. Optimism has probably been a positive survival characteristic. Our species is optimistic, and successful people are probably more optimistic than average. Some societies are also more optimistic than others: the U.S. and Australia are my two picks. I’m sure (but I’m glad I don’t have to prove it) that it has a lot to do with their economic success. The U.S. in particular encourages risk-taking: failed entrepreneurs are valued, not shunned. While 800 internet start-ups in the U.S. rather than Germany’s more modest 80 are likely to lose a lot more money, a few of those 800 turn out to be today’s Amazons and Facebooks. You don’t have to be better; the laws of averages will look after it for you. But optimism comes with a downside, especially for investors: optimists don’t like to hear bad news. Tell a European you think there’s a housing bubble and you’ll have a reasonable discussion. Tell an Australian and you’ll have World War III. Been there, done that! And in a real stock bubble like that of 2000, bearish news in the U.S. will be greeted like news of the bubonic plague; bearish professionals will be fired just to avoid the dissonance of hearing the bear case, and this is an example where the better the case is made, the more unpleasantness it will elicit. Here again it is easier for an individual to stay cool than it is for a professional who is surrounded by hot news all day long (and sometimes irate clients too). Not easy, but easier.
-o But on rare occasions, try hard to be brave. You can make bigger bets than professionals can when extreme opportunities present themselves because, for them, the biggest risk that comes from temporary setbacks – extreme loss of clients and business – does not exist for you. So, if the numbers tell you it’s a real outlier of a mispriced market, grit your teeth and go for it.
-o Resist the crowd: cherish numbers only. We can agree that in real life as opposed to theoretical life, this is the hardest advice to take: the enthusiasm of a crowd is hard to resist. Watching neighbors get rich at the end of a bubble while you sit it out patiently is pure torture. The best way to resist is to do your own simple measurements of value, or find a reliable source (and check their calculations from time to time). Then hero-worship the numbers and try to ignore everything else. Ignore especially short-term news: the ebb and flow of economic and political news is irrelevant. Stock values are based on their entire future value of dividends and earnings going out many decades into the future. Shorter-term economic dips have no appreciable long- term effect on individual companies, let alone the broad asset classes that you should concentrate on. Leave those complexities to the professionals, who will on average lose money trying to decipher them.
-Remember too that for those great opportunities to avoid pain or make money – the only investment opportunities that really matter – the numbers are almost shockingly obvious: compared to a long-term average of 15 times earnings, the 1929 market peaked at 21 times, but the 2000 S&P 500 tech bubble peaked at 35 times! Conversely, the low in 1982 was under 8 times. This is not about complicated math!
+some more until finally a very cheap market appears, this will be your margin of safety. Now all you have to do is withstand the pain
+ as the very good investment becomes exceptional. Individual stocks usually recover, entire markets always do. If you’ve followed the
+  previous rules, you will outlast the bad news.
+o Recognize your advantages over the professionals. By far the biggest problem for professionals in investing is dealing with career
+ and business risk: protecting your own job as an agent. The second curse of professional investing is over-management caused by the
+  need to be seen to be busy, to be earning your keep. The individual is far better-positioned to wait patiently for the right pitch
+   while paying no regard to what others are doing, which is almost impossible for professionals.
+o Try to contain natural optimism. Optimism has probably been a positive survival characteristic. Our species is optimistic, and 
+successful people are probably more optimistic than average. Some societies are also more optimistic than others: the U.S. and 
+Australia are my two picks. I’m sure (but I’m glad I don’t have to prove it) that it has a lot to do with their economic success. 
+The U.S. in particular encourages risk-taking: failed entrepreneurs are valued, not shunned. While 800 internet start-ups in the U.S.
+ rather than Germany’s more modest 80 are likely to lose a lot more money, a few of those 800 turn out to be today’s Amazons and 
+ Facebooks. You don’t have to be better; the laws of averages will look after it for you. But optimism comes with a downside, 
+ especially for investors: optimists don’t like to hear bad news. Tell a European you think there’s a housing bubble and you’ll have
+  a reasonable discussion. Tell an Australian and you’ll have World War III. Been there, done that! And in a real stock bubble like
+   that of 2000, bearish news in the U.S. will be greeted like news of the bubonic plague; bearish professionals will be fired just
+    to avoid the dissonance of hearing the bear case, and this is an example where the better the case is made, the more 
+    unpleasantness it will elicit. Here again it is easier for an individual to stay cool than it is for a professional who is 
+    surrounded by hot news all day long (and sometimes irate clients too). Not easy, but easier.
+o But on rare occasions, try hard to be brave. You can make bigger bets than professionals can when extreme opportunities present 
+themselves because, for them, the biggest risk that comes from temporary setbacks – extreme loss of clients and business – does not
+ exist for you. So, if the numbers tell you it’s a real outlier of a mispriced market, grit your teeth and go for it.
+o Resist the crowd: cherish numbers only. We can agree that in real life as opposed to theoretical life, this is the hardest advice
+ to take: the enthusiasm of a crowd is hard to resist. Watching neighbors get rich at the end of a bubble while you sit it out 
+ patiently is pure torture. The best way to resist is to do your own simple measurements of value, or find a reliable source 
+ (and check their calculations from time to time). Then hero-worship the numbers and try to ignore everything else. Ignore 
+ especially short-term news: the ebb and flow of economic and political news is irrelevant. Stock values are based on their 
+ entire future value of dividends and earnings going out many decades into the future. Shorter-term economic dips have no 
+ appreciable long- term effect on individual companies, let alone the broad asset classes that you should concentrate on. 
+ Leave those complexities to the professionals, who will on average lose money trying to decipher them.
+Remember too that for those great opportunities to avoid pain or make money – the only investment opportunities that really matter
+ – the numbers are almost shockingly obvious: compared to a long-term average of 15 times earnings, the 1929 market peaked at 21 
+ times, but the 2000 S&P 500 tech bubble peaked at 35 times! Conversely, the low in 1982 was under 8 times. This is not about 
+ complicated math!
           37
 
    •
-o In the end it’s quite simple. Really. Let me give you some encouraging data. GMO predicts asset class returns in a simple and apparently robust way: we assume profit margins and price earnings ratios will move back to long-term average in 7 years from whatever level they are today. We have done this since 1994 and have completed 40 quarterly forecasts. (We started with 10-year forecasts and moved to 7 years more recently.) Well, we have won all 40 in that every one of them has been usefully above random and some have been, well, surprisingly accurate. These estimates are not about nuances or PhDs. They are about ignoring the crowd, working out simple ratios, and being patient. (But, if you are a professional, they would also be about colossal business risk.) For now, look at the latest of our 10-year forecasts that ended last December 31 (Exhibit 1). And take heart. These forecasts were done with a robust but simple methodology. The problem is that though they may be simple to produce, they are hard for professionals to implement. Some of you individual investors, however, may find it much easier.
-o “This above all: to thine own self be true.” Most of us tennis players have benefited from playing against non-realists: those who play to some romanticized vision of that glorious September day 20 years earlier, when every backhand drive hit the corner and every drop shot worked, rather than to their currently sadly atrophied skills and diminished physical capabilities. And thank Heavens for them. But doing this in investing is brutally expensive. To be at all effective investing as an individual, it is utterly imperative that you know your limitations as well as your strengths and weaknesses. If you can be patient and ignore the crowd, you will likely win. But to imagine you can, and to then adopt a flawed approach that allows you to be seduced or intimidated by the crowd into jumping in late or getting out early is to guarantee a pure disaster. You must know your pain and patience thresholds accurately and not play over your head. If you cannot resist temptation, you absolutely MUST NOT manage your own money. There are no Investors Anonymous meetings to attend. There are, though, two perfectly reasonable alternatives: either hire a manager who has those skills – remembering that it’s even harder for professionals to stay aloof from the crowd – or pick a sensible, globally diversified index of stocks and bonds, put your money in, and try never to look at it again until you retire. Even then, look only to see how much money you can prudently take out. On the other hand, if you have patience, a decent pain threshold, an ability to withstand herd mentality, perhaps one credit of college level math, and a reputation for common sense, then go for it. In my opinion, you hold enough cards and will beat most professionals (which is sadly, but realistically, a relatively modest hurdle) and may even do very well indeed.
+o In the end it’s quite simple. Really. Let me give you some encouraging data. GMO predicts asset class returns in a simple and 
+apparently robust way: we assume profit margins and price earnings ratios will move back to long-term average in 7 years from 
+whatever level they are today. We have done this since 1994 and have completed 40 quarterly forecasts. (We started with 10-year
+ forecasts and moved to 7 years more recently.) Well, we have won all 40 in that every one of them has been usefully above random 
+ and some have been, well, surprisingly accurate. These estimates are not about nuances or PhDs. They are about ignoring the crowd,
+  working out simple ratios, and being patient. (But, if you are a professional, they would also be about colossal business risk.)
+   For now, look at the latest of our 10-year forecasts that ended last December 31 (Exhibit 1). And take heart. These forecasts 
+   were done with a robust but simple methodology. The problem is that though they may be simple to produce, they are hard for 
+   professionals to implement. Some of you individual investors, however, may find it much easier.
+o “This above all: to thine own self be true.” Most of us tennis players have benefited from playing against non-realists: those 
+who play to some romanticized vision of that glorious September day 20 years earlier, when every backhand drive hit the corner and
+ every drop shot worked, rather than to their currently sadly atrophied skills and diminished physical capabilities. And thank 
+ Heavens for them. But doing this in investing is brutally expensive. To be at all effective investing as an individual, it is 
+ utterly imperative that you know your limitations as well as your strengths and weaknesses. If you can be patient and ignore the
+  crowd, you will likely win. But to imagine you can, and to then adopt a flawed approach that allows you to be seduced or 
+  intimidated by the crowd into jumping in late or getting out early is to guarantee a pure disaster. You must know your pain and
+   patience thresholds accurately and not play over your head. If you cannot resist temptation, you absolutely MUST NOT manage your
+    own money. There are no Investors Anonymous meetings to attend. There are, though, two perfectly reasonable alternatives: either
+     hire a manager who has those skills – remembering that it’s even harder for professionals to stay aloof from the crowd – or 
+     pick a sensible, globally diversified index of stocks and bonds, put your money in, and try never to look at it again until 
+     you retire. Even then, look only to see how much money you can prudently take out. On the other hand, if you have patience, 
+     a decent pain threshold, an ability to withstand herd mentality, perhaps one credit of college level math, and a reputation 
+     for common sense, then go for it. In my opinion, you hold enough cards and will beat most professionals (which is sadly, but 
+     realistically, a relatively modest hurdle) and may even do very well indeed.
 Staley’s “The Art of Short Selling”
 o Four elements of a good short: § Overvalued stock
 § Fundamental problem(s)
@@ -1300,14 +1533,17 @@ banks in areas hit in a specific industry. o Mistakes short-sellers make.
 § "Small •
 •
 • • • •
-Sloth. You must do your work! A short position takes much more detailed knowledge than a long position because you don't have the entire Wall Street sausage factory working in your favor.
-Pride. Shorting a good company is a major error! Don't short good companies! Timing. Don't underestimate the insanity of the public to pay a high price for faddish stocks.
+Sloth. You must do your work! A short position takes much more detailed knowledge than a long position because you don't have the 
+entire Wall Street sausage factory working in your favor.
+Pride. Shorting a good company is a major error! Don't short good companies! Timing. Don't underestimate the insanity of the public
+ to pay a high price for faddish stocks.
 errors."
 Shorting companies influenced by commodity cycles without tracking the commodity trend
 Tech stocks- hard to short because traditional metrics on inventory, margin, etc. don't apply
 Short squeezes- highly shorted stocks are vulnerable
 Buy-outs! These can rescue even the worst stocks
-Fear. It's very hard to stay short sometimes when everyone is against you. Shorting mediocre companies is a mistake. They can muddle along for a long time.
+Fear. It's very hard to stay short sometimes when everyone is against you. Shorting mediocre companies is a mistake. They can muddle
+ along for a long time.
 o A checklist for shorting stocks:
 § Analyze the Financial Statements
 • Fuzzy assets, inventories, receivables
@@ -1334,10 +1570,15 @@ o A checklist for shorting stocks:
 • Every short is different and no two follow exactly the same pattern
 • Watch timing- stalk the company before shorting
 • Sam Antar: Tips for spotting fraud
-o Study SEC filings yourself. External auditors, audit committees, and Wall Street analysts cannot protect you from most fraud. Analysts often do not ask the important questions and are too quick to accept management’s representations.
-o Read the footnotes first. Tiny things can be huge. In the Crazy Eddie fraud, the change of a single word (from “purchase discounts and trade allowances are recognized when received” to “recognized when earned”) allowed Sam Antar, as chief financial officer, to inflate the company’s earnings in fiscal year 1987 by about $20 million.
-o Watch for inconsistencies. If the CEO tells the media that “we are profitable,” make sure the figures in the regulatory filings, such as the Form 10-Q, back up the statement.
-o Always cross-check disclosures. Compare the “Management Discussion & Analysis” section in the current report with MD&As in past 10-Qs. Look for any changes in disclosure language.
+o Study SEC filings yourself. External auditors, audit committees, and Wall Street analysts cannot protect you from most fraud. 
+Analysts often do not ask the important questions and are too quick to accept management’s representations.
+o Read the footnotes first. Tiny things can be huge. In the Crazy Eddie fraud, the change of a single word (from “purchase discounts
+ and trade allowances are recognized when received” to “recognized when earned”) allowed Sam Antar, as chief financial officer, to 
+ inflate the company’s earnings in fiscal year 1987 by about $20 million.
+o Watch for inconsistencies. If the CEO tells the media that “we are profitable,” make sure the figures in the regulatory filings,
+ such as the Form 10-Q, back up the statement.
+o Always cross-check disclosures. Compare the “Management Discussion & Analysis” section in the current report with MD&As in past 
+10-Qs. Look for any changes in disclosure language.
 • The extra/last 2% matters o Go the extra mile
 o Small leaks sink great ships
 • Do I understand the business like its founder does? Am I thinking like its long-term owner?
@@ -1357,7 +1598,8 @@ o G&D/Shiller price to trailing 10-year average earnings
 • Earnings risk and cash flow risk (long-term averages and regression to the mean)
    40
 
-• If buying asset value, what is the risk that cash flow forces a sale price below asset value? (Seahawk) What is the risk that management sells the company out from underneath shareholders? (Dynegy)
+• If buying asset value, what is the risk that cash flow forces a sale price below asset value? (Seahawk) What is the risk that 
+management sells the company out from underneath shareholders? (Dynegy)
 • Operating leverage
 • Every investment that’s successful will have a loser on the other side; the key to success it to avoid
 being the loser
@@ -1383,7 +1625,8 @@ every period?
 • Reason, don’t rationalize and justify (be a scientist, not a lawyer)
 • Manage to opportunity, not the plan. Accept – and rationally analyze – the world as it is.
 • Where is the paradigm shift?
-o The consensus view is that in 1/3/5/10 years this company/industry will be at X. If you think the answer is different than X, the further away it is from X the better the investment opportunity will be.
+o The consensus view is that in 1/3/5/10 years this company/industry will be at X. If you think the answer is different than X, the
+ further away it is from X the better the investment opportunity will be.
 • Balance sheet risk
 o Financial leverage
 o Basic ability (cash flow and asset coverage) to honor debts
@@ -1393,7 +1636,8 @@ o Basic ability (cash flow and asset coverage) to honor debts
 Jason Zweig, Your Money and Your Brain
  •
 Appendix 1 – Think Twice
-o Take the global view. Consider your total net worth, not changes in individual holdings. o Hope for the best but expect the worst. Diversify and learn market history.
+o Take the global view. Consider your total net worth, not changes in individual holdings. o Hope for the best but expect the worst
+. Diversify and learn market history.
 o Investigate, then invest. Study the company as a living corporate organism
 o Never say always. 10% as a maximum position size with plenty of dry powder.
 o Know what you don’t know. Don’t be overconfident.
@@ -1422,22 +1666,33 @@ Be sure you can afford to lose 100 percent of your money if you are wrong about 
 Appraise you own ability to understand the business the company is in
 Ask who this company’s main competitors are and whether they are becoming weaker or stronger
 Think about whether this company’s customers would take their business elsewhere if it raised its prices
-Look back at the company’s annual report from its most profitable year and read the chairman’s letter to shareholders. Did the CEO brag about the company’s brilliant decisions and its infinite potential for growth, or did he warn not to count on such ideal conditions in the future?
-Imagine that the stock market closed down for five years. If you had no way of selling this stock to someone else, would you still be willing to own it?
-Go to Edgar and download at least three years’ worth of 10-K and four quarters’ of 10- Qs. Read them from back to front. Paying special attention to the footnotes to the financial statements, where companies usually bury their secrets.
-Also at Edgar, download the latest proxy to learn about the people who run the company. Are options awarded as the stock goes up, or must managers exceed sensible performance targets? Look for “ transactions with affiliated parties” which can warn you of unfair perks and conflicts of interest.
-Remember that this stock must go up more than 14 percent just for you to break even after 2 percent commissions and 10% capital gain taxes. On short-term trades, you need more than 50 percent.
+Look back at the company’s annual report from its most profitable year and read the chairman’s letter to shareholders. Did the CEO 
+brag about the company’s brilliant decisions and its infinite potential for growth, or did he warn not to count on such ideal 
+conditions in the future?
+Imagine that the stock market closed down for five years. If you had no way of selling this stock to someone else, would you still 
+be willing to own it?
+Go to Edgar and download at least three years’ worth of 10-K and four quarters’ of 10- Qs. Read them from back to front. Paying 
+special attention to the footnotes to the financial statements, where companies usually bury their secrets.
+Also at Edgar, download the latest proxy to learn about the people who run the company. Are options awarded as the stock goes up, or
+ must managers exceed sensible performance targets? Look for “ transactions with affiliated parties” which can warn you of unfair 
+ perks and conflicts of interest.
+Remember that this stock must go up more than 14 percent just for you to break even after 2 percent commissions and 10% capital gain
+ taxes. On short-term trades, you need more than 50 percent.
 Write down three reasons – having nothing to do with the stock price – why you want to be the owner of this business.
-Remember that you cannot buy a stock unless someone else is selling. What, exactly, do you know that this other person may have overlooked?
+Remember that you cannot buy a stock unless someone else is selling. What, exactly, do you know that this other person may have 
+overlooked?
 Buy a stock just because its price has been going up.
 Rationalize your investment with any reason that begins with the words “Everybody knows that...” or “It’s obvious that.
 Invest on a “tip” from a friend, a recommendation on TV, “technical analysis,” or rumors about mergers or takeovers.
 Put more than 10 pe3rcent of your money in one company (Including the company you work for)
   42
 
-• “I always like to look at investments without knowing the price – because if you see the price, it automatically has some influence on you.” – Warren Buffett
-• “My first question, and the last question, would be, ‘Do I understand he business?’ And by understand it, I mean have a reasonably good idea of what it will look like in five or ten years from an economic standpoint.” – Warren Buffett
-• “People don’t need extraordinary insight or intelligence. What they need most is the character to adopt simple rules and stick to them.” – Ben Graham
+• “I always like to look at investments without knowing the price – because if you see the price, it automatically has some influence
+ on you.” – Warren Buffett
+• “My first question, and the last question, would be, ‘Do I understand he business?’ And by understand it, I mean have a reasonably
+ good idea of what it will look like in five or ten years from an economic standpoint.” – Warren Buffett
+• “People don’t need extraordinary insight or intelligence. What they need most is the character to adopt simple rules and stick to 
+them.” – Ben Graham
 • Face up to base rates
 • Correlation is not causation
 • “What counts for most people in investing is not how much they know, but rather how realistically they
@@ -1486,18 +1741,26 @@ Mauboussin, More Than You Know 44
    
 • Good/bad process grid against good/bad outcome
 • Two similar views on contrarian views:
-o “I defined variant perception as holding a well-founded view that was meaningfully different from market consensus...Understanding market expectation was at least as important as, and often different from, the fundamental knowledge.” – Michael Steinhardt
-o “The issue is not which horse in the race is the most likely winner, but which horse or horse are offering odds that exceed their actual chances of victory...This may sound elementary, and many players may think that they are following this principles, but few actually do. Under this mindset, everything but the odds fades from view. There is no such thing as “liking” a horse to win a race, only an attractive discrepancy between his chances and his price.” – Steven Crist
+o “I defined variant perception as holding a well-founded view that was meaningfully different from market consensus...Understanding 
+market expectation was at least as important as, and often different from, the fundamental knowledge.” – Michael Steinhardt
+o “The issue is not which horse in the race is the most likely winner, but which horse or horse are offering odds that exceed their
+ actual chances of victory...This may sound elementary, and many players may think that they are following this principles, but few
+  actually do. Under this mindset, everything but the odds fades from view. There is no such thing as “liking” a horse to win a race
+  , only an attractive discrepancy between his chances and his price.” – Steven Crist
 • Long-term success in any probabilistic exercise shares these common features:
 o Focus. Define your circle of competence and stick to it.
-o Lots of situations. Examine many, many situations because the market price is usually accurate. o Limited opportunities. As Thorp notes in Beat the Dealer, even when you know what you’re
+o Lots of situations. Examine many, many situations because the market price is usually accurate. o Limited opportunities. As Thorp
+ notes in Beat the Dealer, even when you know what you’re
 doing and play under ideal circumstances, the odds still favor you less than 10 percent of the
 time. And rarely are circumstances ideal.
 o Ante. In investing, you need not participate when the perceived value is unattractive, unlike a
 casino. Conversely, you can bet aggressively when odds are favorable. o Always think in expected-value terms.
-• Risk has an unknown outcome with a known underlying distribution. Uncertainty also implies an unknown outcome, but with an unknown underlying distribution.
-• Functional fixedness – the idea that when we use or think about something in a particular way we have greater difficulty in thinking about it in new ways; sticking to an established perspective with a slow consideration of alternative perspectives
-• Reductive bias – the need to treat non-linear complex systems as if they are liner, simple systems; a common resulting error is evaluation a system based on attributes versus considering the circumstances
+• Risk has an unknown outcome with a known underlying distribution. Uncertainty also implies an unknown outcome, but with an unknown
+ underlying distribution.
+• Functional fixedness – the idea that when we use or think about something in a particular way we have greater difficulty in 
+thinking about it in new ways; sticking to an established perspective with a slow consideration of alternative perspectives
+• Reductive bias – the need to treat non-linear complex systems as if they are liner, simple systems; a common resulting error is 
+evaluation a system based on attributes versus considering the circumstances
 • Reciprocation – all humans feel the obligation to reciprocate
 • Commitment and consistency – once a decision is made, particularly publicly, one is loathe to change
 one’s mind
@@ -1505,9 +1768,12 @@ one’s mind
 • Aggregation – the emergence of complex, large-scale behavior from the collective interactions of many
 less-complex agents
 • Adaptive decision rules – agents within a complex adaptive system take information from the
-environment, combine it with their own interaction with the environment, and derive decisions rules. In turn, various decision rules compete with one another based on their fitness, with the most effective rules surviving.
-• Nonlinearity. In a linear model, the whole equals the sum of the parts. In nonlinear systems, the aggregate behavior is more complicated than would be predicted by totaling the parts.
-• Feedback loops. A feedback system is one in which the output of one of one iteration becomes the input of the next iteration. Feedback loops can dampen or amplify an effect.
+environment, combine it with their own interaction with the environment, and derive decisions rules. In turn, various decision rules
+ compete with one another based on their fitness, with the most effective rules surviving.
+• Nonlinearity. In a linear model, the whole equals the sum of the parts. In nonlinear systems, the aggregate behavior is more 
+complicated than would be predicted by totaling the parts.
+• Feedback loops. A feedback system is one in which the output of one of one iteration becomes the input of the next iteration. 
+Feedback loops can dampen or amplify an effect.
 • Per Bak – self organized criticality; sand trickling down into a pile
 • Firm-size distributions follow Zipf’s law, a specific class of power law.
   45
@@ -1515,17 +1781,25 @@ environment, combine it with their own interaction with the environment, and der
 • “In the stock market, value standards don’t determine prices; prices determine value standards.” – Ben Graham
 Michael Mauboussin, Think Twice
 The three steps to identifying opportunities:
-1. Prepare. The first step is mental preparation, which requires you to learn about the mistakes [commonly made by otherwise intelligent people.]
-2. Recognize. Once you are aware of the categories of mistakes, the second step is to recognize the problems in context, or situation awareness. Your goal is to recognize the kind of problem you face, how you risk making a mistake, and which tools you need to choose wisely. Mistakes generally arise from the mismatch between the complex reality you face and the simplifying mental routines you use to cope with that complexity.
-3. Apply. The third and most important step is to mitigate your potential mistakes. The goal is to build or refine a set of mental tools to cope with the realities of life.
+1. Prepare. The first step is mental preparation, which requires you to learn about the mistakes [commonly made by otherwise 
+intelligent people.]
+2. Recognize. Once you are aware of the categories of mistakes, the second step is to recognize the problems in context, or 
+situation awareness. Your goal is to recognize the kind of problem you face, how you risk making a mistake, and which tools you
+ need to choose wisely. Mistakes generally arise from the mismatch between the complex reality you face and the simplifying mental
+  routines you use to cope with that complexity.
+3. Apply. The third and most important step is to mitigate your potential mistakes. The goal is to build or refine a set of mental
+ tools to cope with the realities of life.
 How to incorporate the outside view into your decisions
-1. select a reference class. Find a group of situations, or a reference class, that is broad enough to be statistically significant but narrow enough to be useful in analyzing the decision that you face.
+1. select a reference class. Find a group of situations, or a reference class, that is broad enough to be statistically significant
+ but narrow enough to be useful in analyzing the decision that you face.
 2. Assess the distribution of outcomes. Take a close look at the ratio of success and failure.
-3. make a prediction. With the data from your reference class in hand, including an awareness of the outcomes, you are in a position to make a forecast. The idea is to estimate your chance of success and
+3. make a prediction. With the data from your reference class in hand, including an awareness of the outcomes, you are in a position
+ to make a forecast. The idea is to estimate your chance of success and
 failure. For many reasons, you’ll likely still be too optimistic.
 4. assess the reliability of your prediction and fine-tune.
 Avoid the tunnel vision trap:
-1. explicitly consider alternatives. Examine a full range of alternatives, using base rates or market-derived guidelines to mitigate the influence of the representativeness or availability biases.
+1. explicitly consider alternatives. Examine a full range of alternatives, using base rates or market-derived guidelines to mitigate
+ the influence of the representativeness or availability biases.
 2. seek dissent. Prove your views wrong.
 3. keep track of previous decisions.
 4. avoid making decisions while at emotional extremes.
@@ -1557,13 +1831,18 @@ Low
 - Economy
           Recommendations for dealing with experts and their predictions:
 1. Match the problem you face with the most appropriate solution. Supplement expert views with other approaches.
-2. Seek diversity. Prefer foxes (broad knowledge, not married to a single explanation to complex problems) to hedgehogs (know one big thing and explain everything through that lens).
+2. Seek diversity. Prefer foxes (broad knowledge, not married to a single explanation to complex problems) to hedgehogs (know one 
+big thing and explain everything through that lens).
 3. Use technology when possible. Algorithms often work.
 “If we did not do this already, would we, knowing what we now know, go into it?” – Peter Drucker
-“Unlike pilots, doctors don’t go down with their planes.” – Joseph Britto, a former doctor, when asked about why doctors generally shun checklists
+“Unlike pilots, doctors don’t go down with their planes.” – Joseph Britto, a former doctor, when asked about why doctors generally 
+shun checklists
 Help with decision making when dealing with a complex adaptive system:
-1. Consider the system at the correct level. Remember the phrase “more is different.” The most prevalent trap is extrapolating the behavior of individual agents to gain a sense of system behavior.
-2. watch for tightly coupled systems. Aircraft, space missions, and nuclear power plants are examples of tightly coupled situations – there is no slack between items, allowing a process to go from one stage to the next without any opportunity to intervene. Use an engineer’s redundancy to build a buffer.
+1. Consider the system at the correct level. Remember the phrase “more is different.” The most prevalent trap is extrapolating the 
+behavior of individual agents to gain a sense of system behavior.
+2. watch for tightly coupled systems. Aircraft, space missions, and nuclear power plants are examples of tightly coupled situations 
+– there is no slack between items, allowing a process to go from one stage to the next without any opportunity to intervene. Use an
+ engineer’s redundancy to build a buffer.
 3. Use simulations to create virtual worlds.
 How to make sure you are correctly considering circumstances in your decision making:
   47
@@ -1572,9 +1851,15 @@ How to make sure you are correctly considering circumstances in your decision ma
 2. Watch for the correlation causality trap.
 3. Balance simple rules with changing conditions.
 4. Remember there is no “best” practice in domains with multiple dimensions.
-Crowds tend to make accurate predictions when three conditions prevail – diversity, aggregation, and incentives. Diversity is about people having different ideas and different views of things. Aggregation means you can bring the group’s information together. Incentives are rewards for being right and penalties for being wrong...For a host of psychological and sociological reasons, diversity is the most likely condition to fail when humans are involved. But what’s essential is that the crowd doesn’t go from smart to dumb gradually. As you slowly remove diversity, nothing happen initially. Additional reeducations may also have no effect. But at a certain critical point, a small incremental reduction cause the system to change qualitatively.
+Crowds tend to make accurate predictions when three conditions prevail – diversity, aggregation, and incentives. Diversity is about
+ people having different ideas and different views of things. Aggregation means you can bring the group’s information together. 
+ Incentives are rewards for being right and penalties for being wrong...For a host of psychological and sociological reasons, 
+ diversity is the most likely condition to fail when humans are involved. But what’s essential is that the crowd doesn’t go from 
+ smart to dumb gradually. As you slowly remove diversity, nothing happen initially. Additional reeducations may also have no effect.
+  But at a certain critical point, a small incremental reduction cause the system to change qualitatively.
 How to cope with systems that have phase transitions:
-1. Study the distribution of outcomes for the system you are dealing with. Understand that a proper understanding of the broader distribution usually lead to gray, not black, swans even in extreme outcomes.
+1. Study the distribution of outcomes for the system you are dealing with. Understand that a proper understanding of the broader 
+distribution usually lead to gray, not black, swans even in extreme outcomes.
 2. look for ah-whoom moments. Big changes in collective systems often occur when the system actors coordinate their behavior.
 3. beware of forecasters.
 4. mitigate the downside, capture the upside. Don’t bet too much on a particular outcome.
@@ -1589,8 +1874,11 @@ Hermann Simon, Hidden Champions of the 21st Century
 markets; even for price-sensitive markets prices are at a 5-10% premium
    48
 
-o In non-commodity markets competition is between differentiated products, so customers’ willingness to pay is also differentiated; superior product or service value is reflected in prices; if customers value high quality over low prices, high market shares and high prices can coexist
-o Decisive factor is to supply the customer with a clear advantage when compared to the competition; such a “strategic” competitive advantage must: be important to the customer, be actually perceived by the customer, and be sustainable/difficult to copy.
+o In non-commodity markets competition is between differentiated products, so customers’ willingness to pay is also differentiated;
+ superior product or service value is reflected in prices; if customers value high quality over low prices, high market shares and 
+ high prices can coexist
+o Decisive factor is to supply the customer with a clear advantage when compared to the competition; such a “strategic” competitive 
+advantage must: be important to the customer, be actually perceived by the customer, and be sustainable/difficult to copy.
 o Most common competitive advantages of hidden champions: § Product quality 58%
 § Closeness to customer 48% § Advice 48%
 § On-time delivery 44%
@@ -1599,9 +1887,11 @@ o Most common competitive advantages of hidden champions: § Product quality 58%
 § Cooperation with vendors 13% § Patents 12%
 § Advertising 7%
 § Price 6%
-• Hidden champions operate primarily in oligopolistic markets; even on a global scale, they face only limited numbers of competitors; competition is still fierce, but it is among a small number of firms and with few if any new entrants;
+• Hidden champions operate primarily in oligopolistic markets; even on a global scale, they face only limited numbers of competitors;
+ competition is still fierce, but it is among a small number of firms and with few if any new entrants;
 • Two questions to gauge corporate culture:
-o What percentage of your energy do you use to overcome internal resistance? o How would you manage the company if it belonged to you?
+o What percentage of your energy do you use to overcome internal resistance? o How would you manage the company if it belonged to 
+you?
 • “Find out what everybody is doing, then do it differently.” – American proverb
 • Lesson 1. Willpower and goals always come first. Leadership means inspiring employees to become a
 world market leader.
@@ -1619,7 +1909,8 @@ National and cultural boundaries must be put aside to use this opportunity.
 primarily a question of creativity and quality, less so a matter of money.
   49
 
-• Lesson 8. Closeness to customer almost automatically creates competitive advantages. Top customers, like top competitors, should be employed systematically as drivers of performance.
+• Lesson 8. Closeness to customer almost automatically creates competitive advantages. Top customers, like top competitors, should 
+be employed systematically as drivers of performance.
 “Portfolio 14” – My Investing Checklist
 Rebuild the history and the profile of the company
 • Filings and public information
@@ -1699,7 +1990,8 @@ Portfolio Construction
 • Position sizing as per Kelly's Criterion. (some elaboration)
 • Tax consideration - consider how the value will be realised.
 Self Checks
-• Do I have tunnel vision? Do I look for evidence only for confirmation instead of invalidation? Can I tolerate non-coherent evidence?
+• Do I have tunnel vision? Do I look for evidence only for confirmation instead of invalidation? Can I tolerate non-coherent 
+evidence?
 • Am I rushing, losing patience, stressed, over excited? Or is my mood swung by the market direction?
 • Am I anchoring?
 • Overconfidence? There is no way to eliminate all the risks. There are always unknown unknowns. Don't
@@ -1719,7 +2011,9 @@ o Four key elements
 o Case study – how Buffett actually invests (MidContinent Tab Card Company, IBM spin-off)
 • 40% margins; could buy a new press with one year’s profits;
 • Earned a 33% compound return over 18 years
-§ Handicapping – figure out one or two factors (sales growth, keeping cost advantage, etc.) can make or break the horse; no models/DCFs; detailed historical data but no projections; anything that can break the horse (catastrophe risk) deserves scrutiny if not an outright “no”; ignore volatility; the odds of success at a given price is the key focus;
+§ Handicapping – figure out one or two factors (sales growth, keeping cost advantage, etc.) can make or break the horse; no 
+models/DCFs; detailed historical data but no projections; anything that can break the horse (catastrophe risk) deserves scrutiny 
+if not an outright “no”; ignore volatility; the odds of success at a given price is the key focus;
 § Compounding – wants 15% day one return with opportunity to compound from there
 § Margin of Safety – company was earning 35-40% margins but he wanted 15%
 o Hugely important to build good habits and avoid bad habits; the chains of habit are too light to be
@@ -1735,8 +2029,10 @@ o Related party transactions?
 • What is management doing to expand the business’s moat?
 • Redundancy and concepts from reliability engineering
 • Businesses favored in (particularly) inflationary environments must have:
-o An ability to increase prices rather easily (even when product demand is flat and capacity is not fully utilized) without fear of significant loss of market share or volume
-o An ability to accommodate large dollar volume increases in business (often produced more by inflation than by real growth) with only minor additional investment of capital
+o An ability to increase prices rather easily (even when product demand is flat and capacity is not fully utilized) without fear of
+ significant loss of market share or volume
+o An ability to accommodate large dollar volume increases in business (often produced more by inflation than by real growth) with
+ only minor additional investment of capital
 • Desirable management characteristics (from The Corner Office)
 o Passionate curiosity (the best student; relentless questions; student of human nature; infectious
 state of fascination of the people and systems around us)
@@ -1762,21 +2058,48 @@ Unimportant
 Knowable Unknowable
    focus here; what will this business look like in 5 years? And 10 years? What is the margin of safety? How reliable is it?
    unfounded opinions (e.g., macro forecasts)
-   Broad trends (e.g., airplanes and the Internet will be revolutionary, but still very difficult to handicap the eventual winners and/or invest with a margin of safety)
+   Broad trends (e.g., airplanes and the Internet will be revolutionary, but still very difficult to handicap the eventual winners 
+   and/or invest with a margin of safety)
   irrelevant
  • Value Investor’s Club:
 o TEV (Total Enterprise Value)-is defined as (market capitalization(price times # of shares
-outstanding) plus interest bearing debt plus preferred stock minus excess cash)-this measure is used when trying to compare companies with different debt levels. For example, the relevant comparison of value between a home purchased for $1 million with 200 hundred thousand dollars in equity and an 800 hundred thousand dollar mortgage versus the value of a home purchased for $1 million in cash with no mortgage can only be made when the purchase price includes the amount of debt and equity used for the purchase.
-11 Remember John Templeton’s “100% rule” in trading out of one position for a better one: The new opportunity should improve one’s economic proposition by 100% to be considered (e.g., selling one asset at 80% of its estimated intrinsic value to buy another at 40%).
+outstanding) plus interest bearing debt plus preferred stock minus excess cash)-this measure is used when trying to compare companies
+ with different debt levels. For example, the relevant comparison of value between a home purchased for $1 million with 200 hundred
+  thousand dollars in equity and an 800 hundred thousand dollar mortgage versus the value of a home purchased for $1 million in cash
+   with no mortgage can only be made when the purchase price includes the amount of debt and equity used for the purchase.
+11 Remember John Templeton’s “100% rule” in trading out of one position for a better one: The new opportunity should improve one’s 
+economic proposition by 100% to be considered (e.g., selling one asset at 80% of its estimated intrinsic value to buy another at 
+40%).
    53
 
-o EBIT (Earnings before interest and taxes) - EBIT is often referred to as operating income. Analyzing TEV/EBIT is a shorthand way of looking at the multiple of total "cost" of the company (market price of equity plus assumed debt) to the pre-tax cash flow generated by that company.
-o EBITDA (Earnings before interest, taxes, depreciation and amortization)- adds back the non- cash expenses associated with depreciation and amortization to EBIT. This is often used as a way to measure how much cash a company generates to cover interest expense. Amortization is often a legitimate add back to earnings when trying to determine a company's cash generating ability. However, adding back depreciation to cash flow is only valid when considered in conjunction with the amount of capital spending (a cash outlay) necessary to sustain the current business (see maintenance cap/ex). Therefore, EBITDA minus maintenance cap/ex is a more accurate way of arriving at cash generated to cover interest expense.
-o Maintenance cap/ex- this is a figure that represents the amount of capital spending necessary to sustain a company's current level of sales and earnings. Capital spending necessary for growth is not included in this number. This number is usually not disclosed and must be estimated based on information available through the company or other means. Using EBITDA as a cash flow measure without subtracting the capital expenditures necessary to keep the business running at the current level will always overstate a company's cash generating ability. The cash outlay of maintenance cap/ex can be higher or lower than the non-cash depreciation charge.
-o TEV/(EBITDA minus maintenance cap-x) is sometimes a better way to determine the multiple of total "cost" of the company(market price of equity plus assumed debt) to the pre-tax cash flow generated by that company. Capital spending for growth should usually not penalize the analysis of current cash flows because the benefits of that spending will not be seen until a future time and did not influence the current year's earnings. It is the analyst's job to determine whether the return from new capital spending for future growth will be adequate to justify the amount of spending.
-o Free Cash Flow - this figure represents cash available to shareholders before changes in working capital. It is computed by taking the net income, adding back depreciation and amortization and subtracting maintenance cap/ex.
-o Value Investing does not necessarily require or imply that a stock must be selling at a low P/E or a low Price/Book ratio (although such opportunities may make fine investments). Excellent companies selling at a discount to their intrinsic value may also qualify as "value" investments irrespective of current P/E, Price/Book or similar ratios (e.g. the notion of value as articulated by Buffett).
-o Your idea should include the appropriate valuation criteria for the selected company that may involve some of the following measures:
+o EBIT (Earnings before interest and taxes) - EBIT is often referred to as operating income. Analyzing TEV/EBIT is a shorthand way 
+of looking at the multiple of total "cost" of the company (market price of equity plus assumed debt) to the pre-tax cash flow 
+generated by that company.
+o EBITDA (Earnings before interest, taxes, depreciation and amortization)- adds back the non- cash expenses associated with 
+depreciation and amortization to EBIT. This is often used as a way to measure how much cash a company generates to cover interest 
+expense. Amortization is often a legitimate add back to earnings when trying to determine a company's cash generating ability. 
+However, adding back depreciation to cash flow is only valid when considered in conjunction with the amount of capital spending 
+(a cash outlay) necessary to sustain the current business (see maintenance cap/ex). Therefore, EBITDA minus maintenance cap/ex is 
+a more accurate way of arriving at cash generated to cover interest expense.
+o Maintenance cap/ex- this is a figure that represents the amount of capital spending necessary to sustain a company's current 
+level of sales and earnings. Capital spending necessary for growth is not included in this number. This number is usually not 
+disclosed and must be estimated based on information available through the company or other means. Using EBITDA as a cash flow 
+measure without subtracting the capital expenditures necessary to keep the business running at the current level will always 
+overstate a company's cash generating ability. The cash outlay of maintenance cap/ex can be higher or lower than the non-cash 
+depreciation charge.
+o TEV/(EBITDA minus maintenance cap-x) is sometimes a better way to determine the multiple of total "cost" of the company(market 
+price of equity plus assumed debt) to the pre-tax cash flow generated by that company. Capital spending for growth should usually
+ not penalize the analysis of current cash flows because the benefits of that spending will not be seen until a future time and 
+ did not influence the current year's earnings. It is the analyst's job to determine whether the return from new capital spending
+  for future growth will be adequate to justify the amount of spending.
+o Free Cash Flow - this figure represents cash available to shareholders before changes in working capital. It is computed by 
+taking the net income, adding back depreciation and amortization and subtracting maintenance cap/ex.
+o Value Investing does not necessarily require or imply that a stock must be selling at a low P/E or a low Price/Book ratio 
+(although such opportunities may make fine investments). Excellent companies selling at a discount to their intrinsic value may
+also qualify as "value" investments irrespective of current P/E, Price/Book or similar ratios (e.g. the notion of value as 
+articulated by Buffett).
+o Your idea should include the appropriate valuation criteria for the selected company that may involve some of the following 
+measures:
 § Price/Earnings
 § Total Enterprise Value ("TEV")/EBIT § Price/Book
 § Forward P/E
@@ -1784,7 +2107,8 @@ o Your idea should include the appropriate valuation criteria for the selected c
 § Price/Sales
 § Return on Equity and/or Assets
 § TEV/Sales
-o In addition, if any of the following valuation criteria apply to your idea, please include analysis: § Normalized earnings and/or free cash flow if different than current
+o In addition, if any of the following valuation criteria apply to your idea, please include analysis: § Normalized earnings 
+and/or free cash flow if different than current
 § Future growth rates of sales, earnings and/or free cash flow
 § Relative value to similar companies
   54
@@ -1793,9 +2117,15 @@ o In addition, if any of the following valuation criteria apply to your idea, pl
 •
 § Private market value § Break-up analysis
 § Asset valuation
-o Heavy insider ownership, recent open market transactions, special option grants or other evidence of extraordinary management incentives should be noted.
-o Please focus on any special insights that you may have into the company or the particular situation. Detailed operating descriptions can easily be found in the 10-K so space should not be wasted with readily available information that is not central to the basic investment thesis.
-o CATALYST- should explain what action, event, situation or future realization will cause the market to recognize the value discrepancy that you observe. Examples could include an impending regulatory/legal change, expected sale/merger, spin-off, split-off, restructuring, large buyback, product introduction, management change, or other. Sometimes no catalyst is identifiable, but value discrepancy is too large to ignore.
+o Heavy insider ownership, recent open market transactions, special option grants or other evidence of extraordinary management 
+incentives should be noted.
+o Please focus on any special insights that you may have into the company or the particular situation. Detailed operating 
+descriptions can easily be found in the 10-K so space should not be wasted with readily available information that is not central
+ to the basic investment thesis.
+o CATALYST- should explain what action, event, situation or future realization will cause the market to recognize the value 
+discrepancy that you observe. Examples could include an impending regulatory/legal change, expected sale/merger, spin-off, 
+split-off, restructuring, large buyback, product introduction, management change, or other. Sometimes no catalyst is identifiable,
+ but value discrepancy is too large to ignore.
 Ackman’s checklist of conditions that render on-line shopping most appealing:
 o Product is relatively high-priced (i.e., sales tax savings are more material) o Product is not needed immediately
 o Shipping cost is low
@@ -1804,7 +2134,8 @@ o Professional installation is not needed
 o Item is not purchased as part of a larger project
 o End-user of the product is making the purchasing decision
 Tim du Toit
-o Can I in one sentence say exactly what the company does? (Thanks Cristina) o Is operating cash flow higher than earnings per share?
+o Can I in one sentence say exactly what the company does? (Thanks Cristina) o Is operating cash flow higher than earnings per 
+share?
 o Is Free Cash Flow/Share higher than dividends paid?
 o Debt to equity below 35%?
 o Debt less than book value?
@@ -1864,7 +2195,8 @@ What has management done with the cash?
 Where has the Free Cash Flow been invested?
 Share buybacks Dividends
 Reinvested in the business
-I also have an analysis spreadsheet for companies I have come across through the Magic Formula Screen from Joel Greenblatt. For these companies I use these additional check-list items:
+I also have an analysis spreadsheet for companies I have come across through the Magic Formula Screen from Joel Greenblatt. For 
+these companies I use these additional check-list items:
 Are there any Magic formula value outliers?
 Is the company in a bubble industry over the last 5 years? Does the cash belong to the company?
 Is EBIT / Assets > 20%
@@ -1894,7 +2226,8 @@ new capital for refinancing of principal at maturity
 assumes ever rising asset prices
   56
 
-o Minsky moment – when over-indebted investors are forced to sell good assets to pay back their loans, causing sharp declines in financial markets and jumps in demand for cash
+o Minsky moment – when over-indebted investors are forced to sell good assets to pay back their loans, causing sharp declines in
+ financial markets and jumps in demand for cash
 • Trinity of Risk (pertaining to risk as defined as permanent impairment of capital):
 o Valuation risk: overpaying for an asset
 o Fundamental or business risk: the underlying economics of the asset are eroded or changed for
@@ -1904,11 +2237,13 @@ o Financing risk: debt/leverage
 • Occam’s razor12 -- all else equal, prefer the theory with the fewest assumptions
 • Robert Seawright of Madison Avenue Securities: “My list of such errors and some related maxims.”
 o Understand the “arithmetic of loss” (a 10% loss followed by a 10% gain does not get you back to even).
-o Correlation is not causation; consensus is not truth; and what is conventional is rarely wisdom. o High fees are a major drag on returns; tax advantages and consequences matter a lot too.
+o Correlation is not causation; consensus is not truth; and what is conventional is rarely wisdom. o High fees are a major drag on 
+returns; tax advantages and consequences matter a lot too.
 o All other things being equal, ETFs are better than mutual funds.
 o Complex instruments, reaching for yield and illiquidity are usually more dangerous than they
 appear.
-o Asset allocation is more important than the product selection of a portfolio’s component parts. o Since passive management beats active management most of the time, it is the appropriate
+o Asset allocation is more important than the product selection of a portfolio’s component parts. o Since passive management beats
+ active management most of the time, it is the appropriate
 default.
 o Be clear about and cognizant of what Barry Ritholtz calls the “long cycle” – secular and cyclical
 markets.
@@ -1934,7 +2269,10 @@ Sr.).
 o Data should always trump opinion and ideology.
 o It is little consolation to lose less money than others or less than one’s benchmark. o History doesn’t repeat, but it does rhyme.
 o Save as much as you can as early as you can.
-12 “When competing hypotheses are equal in other respects, the principle recommends selection of the hypothesis that introduces the fewest assumptions and postulates the fewest entities while still sufficiently answering the question. Simplest is not defined by the time or number of words it takes to express the theory; "[simplest] is really referring to the theory with the fewest new assumptions."
+12 “When competing hypotheses are equal in other respects, the principle recommends selection of the hypothesis that introduces the
+ fewest assumptions and postulates the fewest entities while still sufficiently answering the question. Simplest is not defined by 
+ the time or number of words it takes to express the theory; "[simplest] is really referring to the theory with the fewest new 
+ assumptions."
    57
 
 o Always have a contingency plan.
@@ -1945,20 +2283,38 @@ o When the cost of a negative outcome is greater than you can bear, don’t do i
 matter how great the odds of success appear.
 o “This time is different” Is almost never true, especially in investing. o Re-balance regularly.
 Daniel Kahneman, Thinking, Fast and Slow
-System 1 and System 2: “System 1 runs automatically and System 2 is normally in a comfortable low-effort mode, in which only a fraction of its capacity is engaged. System 1 continuously generates suggestions for System 2: impressions, intuitions, intentions, and feelings.”
-“When System 1 runs into difficult, it calls on System 2 to support more detailed and specific processing that may solve the problem of the moment. System 2 is mobilized when a question arises for which System 1 does no offer an answer, as probably happened to you when you encountered the multiplication problem 17 x 24. You can also feel a conscious surge of attention whenever you are surprised. System 2 is activated when a event is detected that violate the model of the world that System 1 maintains”
-“The best we can do is a compromise: learn to recognize situations in which mistakes are likely and try harder to avoid significant mistakes when the stakes are high. The premise of this book is that it is easier to recognize other people’s mistakes that our own.”
+System 1 and System 2: “System 1 runs automatically and System 2 is normally in a comfortable low-effort mode, in which only a 
+fraction of its capacity is engaged. System 1 continuously generates suggestions for System 2: impressions, intuitions, intentions,
+ and feelings.”
+“When System 1 runs into difficult, it calls on System 2 to support more detailed and specific processing that may solve the problem
+ of the moment. System 2 is mobilized when a question arises for which System 1 does no offer an answer, as probably happened to you
+  when you encountered the multiplication problem 17 x 24. You can also feel a conscious surge of attention whenever you are 
+  surprised. System 2 is activated when a event is detected that violate the model of the world that System 1 maintains”
+“The best we can do is a compromise: learn to recognize situations in which mistakes are likely and try harder to avoid significant
+ mistakes when the stakes are high. The premise of this book is that it is easier to recognize other people’s mistakes that our own.”
 • Zajonc’s “mere exposure effect” – the idea that repetition induces cognitive ease and a comforting feeling of familiarity.
-• Confirmation bias – contrary to science, most people in practice seek data that are likely to be compatible with the beliefs they currently hold.
-• Halo effect – aka exaggerated emotional coherence; the tendency to like (or dislike) everything about a person – including things you have not observed
-• WYSIATI – what you see is all there is; jumping to conclusions. “System 1 is radically insensitive to both the quality and the quantity of information that gives rise to impressions and intuitions.”
-• Overconfidence – “As the WYSIATI rule implies, neither the quantity nor the quality of the evidence counts for much in subjective confidence. The confidence that individuals have in their beliefs depends mostly on the quality of the story they can tell about what they see, even if they see little.”
-• Framing effects – “Different ways to presenting the same information often evoke different emotions. The statement that ‘the odds of survival one month after survey are 90%’ is more reassuring statement that ‘mortality within one month of surgery is 10%.’ The equivalence of the alternative formulation is transparent, but an individual normally sees only one formulation, and what she sees is all there is.”
-• Base-rate neglect – “Recall Steve, the meek and tidy soul who is often believed to be a librarian. The personality description is salient and vivid, and although you surely know that there are more male farmers than male librarians, that statistical fact almost certainly did not come to your mind when you first considered the question.”
-“You are rarely stumped...The normal state of your mind is that your have intuitive feelings and opinions about almost everything that comes your way.”
+• Confirmation bias – contrary to science, most people in practice seek data that are likely to be compatible with the beliefs they
+ currently hold.
+• Halo effect – aka exaggerated emotional coherence; the tendency to like (or dislike) everything about a person – including things
+ you have not observed
+• WYSIATI – what you see is all there is; jumping to conclusions. “System 1 is radically insensitive to both the quality and the 
+quantity of information that gives rise to impressions and intuitions.”
+• Overconfidence – “As the WYSIATI rule implies, neither the quantity nor the quality of the evidence counts for much in subjective
+ confidence. The confidence that individuals have in their beliefs depends mostly on the quality of the story they can tell about 
+ what they see, even if they see little.”
+• Framing effects – “Different ways to presenting the same information often evoke different emotions. The statement that ‘the odds
+ of survival one month after survey are 90%’ is more reassuring statement that ‘mortality within one month of surgery is 10%.’ 
+ The equivalence of the alternative formulation is transparent, but an individual normally sees only one formulation, and what she
+  sees is all there is.”
+• Base-rate neglect – “Recall Steve, the meek and tidy soul who is often believed to be a librarian. The personality description 
+is salient and vivid, and although you surely know that there are more male farmers than male librarians, that statistical fact 
+almost certainly did not come to your mind when you first considered the question.”
+“You are rarely stumped...The normal state of your mind is that your have intuitive feelings and opinions about almost everything 
+that comes your way.”
    58
 
-• Substituting questions – “If a satisfactory answer to a hard question is not found quickly, System 1 will find a related question that is easier and will answer it.”
+• Substituting questions – “If a satisfactory answer to a hard question is not found quickly, System 1 will find a related question
+ that is easier and will answer it.”
 • The Affect Heuristic – the idea that people let their likes and dislikes determine their beliefs about the world.
 Characteristics of System 1
 • generates impressions, feelings, and inclinations; when endorsed by System 2 these become beliefs, attitudes, and intentions
@@ -1983,8 +2339,11 @@ Characteristics of System 1
 • shows diminishing sensitivity to quantity (psychophysics)
 • responds more strongly to losses than to gains (loss aversion)
 • frames decision problems narrowly, in isolation from one another
-“We are pattern seekers, believers in a coherent world, in which regularities...appear not by accident but as a result of mechanical causality or of someone’s intention. We do no expect to see regularity produced by a random process, and when we detect what appears to be a rule, we quickly reject the idea that the process is truly random.
-Anchoring effect – the phenomenon of considering a particular value for an unknown quantity before estimating that quantity, and having estimates then cluster around that value.
+“We are pattern seekers, believers in a coherent world, in which regularities...appear not by accident but as a result of mechanical
+ causality or of someone’s intention. We do no expect to see regularity produced by a random process, and when we detect what 
+ appears to be a rule, we quickly reject the idea that the process is truly random.
+Anchoring effect – the phenomenon of considering a particular value for an unknown quantity before estimating that quantity, and 
+having estimates then cluster around that value.
 Availability heuristic – the process of judging frequency by ‘the ease with which instances come to mind.’”
 • Two ideas to keep in mind about Bayesian reasoning and how we tend to mess it up.
 o The first is that base rates matter, even in the presence of evidence about the case at hand. This is
@@ -1994,9 +2353,12 @@ o The second is that the intuitive impressions of diagnosticity of evidence are 
 • Anchor your judgment of the probability of an outcome on a plausible base rate.
 • Question the diagnosticity of your evidence. 59
    
-• Statistical base rates are generally underweighted, and sometimes neglected altogether, when specific information about the case at hand is available.
-• Causal base rates are treated as information as information about the individual case and are easily combined with other case-specific information.
-• “Subjects’ unwillingness to deduce the particular from the general was matched only by their willingness to infer the general from the particular.” – Nisbett and Borgida
+• Statistical base rates are generally underweighted, and sometimes neglected altogether, when specific information about the case 
+at hand is available.
+• Causal base rates are treated as information as information about the individual case and are easily combined with other 
+case-specific information.
+• “Subjects’ unwillingness to deduce the particular from the general was matched only by their willingness to infer the general
+ from the particular.” – Nisbett and Borgida
 • Regression to the mean
 • “success = talent + luck”
 • “great success = a little more talent + a lot of luck”
@@ -2020,16 +2382,32 @@ decisions.”
 • Mental accounting
 • Reflexivity – circular relationships between cause and effect; feedback loops
 o prices do in fact influence the fundamentals and that these newly-influenced set of fundamentals
-then proceed to change expectations, thus influencing prices; the process continues in a self- reinforcing pattern. Because the pattern is self-reinforcing, markets tend towards disequilibrium. Sooner or later they reach a point where the sentiment is reversed and negative expectations become self-reinforcing in the downward direction, thereby explaining the familiar pattern of boom and bust cycles
-o Soros: “The theory of reflexivity...holds that our thinking is inherently biased. Thinking participants cannot act on the basis of knowledge. Knowledge presupposes facts which occur independently of the statements which refer to them; but being a participant implies that one’s decisions influence the outcome. Therefore, the situation participants have to deal with does not consist of facts independently given but facts which will be shaped by the decision of the participants. There is an active relationship between thinking and reality, as well as the passive one which is the only one recognized by natural science and, by way of a false analogy, also by economic theory. I call the passive relationship the “cognitive function” and the active relationship the “participating function,” and the interaction between the two functions I call “reflexivity.” Reflexivity is, in effect, a two-way feedback mechanism in which reality helps shape the participants’ thinking and the participants’ thinking helps shape reality in an unending
+then proceed to change expectations, thus influencing prices; the process continues in a self- reinforcing pattern. Because the 
+pattern is self-reinforcing, markets tend towards disequilibrium. Sooner or later they reach a point where the sentiment is 
+reversed and negative expectations become self-reinforcing in the downward direction, thereby explaining the familiar pattern of 
+boom and bust cycles
+o Soros: “The theory of reflexivity...holds that our thinking is inherently biased. Thinking participants cannot act on the basis 
+of knowledge. Knowledge presupposes facts which occur independently of the statements which refer to them; but being a participant
+ implies that one’s decisions influence the outcome. Therefore, the situation participants have to deal with does not consist of 
+ facts independently given but facts which will be shaped by the decision of the participants. There is an active relationship 
+ between thinking and reality, as well as the passive one which is the only one recognized by natural science and, by way of a 
+ false analogy, also by economic theory. I call the passive relationship the “cognitive function” and the active relationship the 
+ “participating function,” and the interaction between the two functions I call “reflexivity.” Reflexivity is, in effect, a 
+ two-way feedback mechanism in which reality helps shape the participants’ thinking and the participants’ thinking helps shape 
+ reality in an unending
   60
 
-process in which thinking and reality may come to approach each other but can never become identical. Knowledge implies a correspondence between statements and facts, thoughts and reality, which is not possible in this situation. The key element is the lack of correspondence, the inherent divergence, between the participants’ views and the actual state of affairs. It is this divergence, which I have called the “participant’s bias,” which provides the clue to understanding the course of events. That, in very general terms, is the gist of my theory of reflexivity.”
+process in which thinking and reality may come to approach each other but can never become identical. Knowledge implies a 
+correspondence between statements and facts, thoughts and reality, which is not possible in this situation. The key element is
+ the lack of correspondence, the inherent divergence, between the participants’ views and the actual state of affairs. It is 
+ this divergence, which I have called the “participant’s bias,” which provides the clue to understanding the course of events.
+  That, in very general terms, is the gist of my theory of reflexivity.”
 • Claude Shannon’s five parts of a communication system13
 o An information source, which produces a message or messages
 o A transmitter, which operates on the message to produce a signal that can be transmitter over the
 channel
-o A channel, the medium used to transmit the signal from the transmitter to the receiver o The receiver, which reconstructs the message (the inverse operation of the transmitter) o The destination, the person for whom the message is intended.
+o A channel, the medium used to transmit the signal from the transmitter to the receiver o The receiver, which reconstructs the
+ message (the inverse operation of the transmitter) o The destination, the person for whom the message is intended.
 • Mortimer Adler’s “How to Read a Book”: o What is the book about as a whole? o What is being said in detail?
 o Is the book true, in whole or part? o What of it?
 • Adler’s four levels of reading o Elementary
@@ -2053,10 +2431,13 @@ o Comparative
 Should I learn more? How should I apply what I’ve learned?”
 • David Ogilvy: “How to Write”14
 13 “A Mathematical Theory of Communications” – They Bell Systems Technical Journal, July 1948.
-14 September 7, 1982: The Unpublished David Ogilvy: A Selection of His Writings from the Files of His Partners; Presented to Him on His 75th Birthday, June 23, 1986, in London
+14 September 7, 1982: The Unpublished David Ogilvy: A Selection of His Writings from the Files of His Partners; Presented to 
+Him on His 75th Birthday, June 23, 1986, in London
    61
 
-o The better you write, the higher you go in Ogilvy & Mather. People who think well, write well. Woolly minded people write woolly memos, woolly letters and woolly speeches. Good writing is not a natural gift. You have to learn to write well. Here are 10 hints:
+o The better you write, the higher you go in Ogilvy & Mather. People who think well, write well. Woolly minded people write 
+woolly memos, woolly letters and woolly speeches. Good writing is not a natural gift. You have to learn to write well. Here are
+ 10 hints:
 1. Read the Roman-Raphaelson book on writing. Read it three times.
 2. Write the way you talk. Naturally.
 3. Use short words, short sentences and short paragraphs.
@@ -2080,7 +2461,8 @@ o Step 3. If you get stuck, go back to the book. Whenever you get stuck, go back
 material and re-learn that part of the material until you get it enough that you can explain it on
 paper.
 o Step 4. Simplify your language. The goal is to use your words, not the words of the source
-material. If your explanation is wordy or confusing, that’s an indication that you might not understand the idea as well as you thought – try to simplify the language or create an analogy to better understand it.
+material. If your explanation is wordy or confusing, that’s an indication that you might not understand the idea as well as you
+ thought – try to simplify the language or create an analogy to better understand it.
 • Be a fox, not a hedgehog (Gardner and Tetlock)
 o Foxes “used a wide assortment of analytical tools, sought out information from diverse sources,
 were comfortable with complexity and uncertainty, and were much less sure of themselves...
@@ -2089,7 +2471,8 @@ o Hedgehogs “tended to use one analytical tool in many different domains, ... 
 their analysis simple and elegant by minimizing ‘distractions’ and zeroing in on only essential
 information.”
 • Jevons Paradox – the phenomenon named after a 19th century British economist who observed that
-although the steam engine extracted energy more efficiently from coal, it stimulated so much economic growth that coal consumption increased
+although the steam engine extracted energy more efficiently from coal, it stimulated so much economic growth that coal consumption
+ increased
 o Rebound effects
 o The Law of Unintended Consequences
 • Obtuse financial/organizational structure
@@ -2111,12 +2494,14 @@ o 2. They identify so completely with the company that there is no clear boundar
 personal interests and their corporation’s interests.
 § ‘I am the sole proprietor. This company is my baby. Obviously, my wants and needs are
 in the best interest of my company and stockholders.’ o 3. They think they have all the answers.
-§ ‘I’m a genius. I believe in myself and you should too. Don’t worry I have all the answers/ I’m not micro-managing; I’m being attentive. I don’t need anyone else, certainly not a team.’
+§ ‘I’m a genius. I believe in myself and you should too. Don’t worry I have all the answers/ I’m not micro-managing; I’m being 
+attentive. I don’t need anyone else, certainly not a team.’
 o 4. They ruthlessly eliminate anyone who isn’t completely behind them.
 § ‘If you’re not with me, you’re against me! Get with the plan, or get out of my way.
 Where’s your loyalty?’
 o 5. They are consummate spokespersons, obsessed with the company image.
-§ ‘I’m the spokesperson. It’s all about image. I love making public appearances; that’s why I give frequent speeches and have regular media coverage.’
+§ ‘I’m the spokesperson. It’s all about image. I love making public appearances; that’s why I give frequent speeches and have 
+regular media coverage.’
 o 6. They underestimate obstacles.
 § ‘It’s just a minor roadblock. Full steam ahead! Let’s call that division a ‘partner
 company’ so we don’t have to show it on our books.’ o 7. They stubbornly rely on what worked for them in the past.
@@ -2133,14 +2518,26 @@ o Questionable auditor (and/or relationship with the auditor)
 o Excessively promotional management focused solely on the stock price o Elevated and/or rising audit fees
 Harry Markopolos on “How to Spot Fraud”
 o “Focus on the manager or the company that is head and shoulders above the rest. Whenever
-somebody has outstanding performance, Wall Street assumes genius. I assume fraud until genius is proven. Look for the outperformance and investigate there. Compare a money manager’s record vs. others using a similar strategy, or a company’s record against others in the same asset class. If the numbers are too good to be true, they rarely are.
-§ “A decade ago, there was one energy company head and shoulders above all the others. That was Enron. There was also an insurance company above the rest. That was American International Group. In telecommunications, there was one company above all others. That was WorldCom. They were all accounting frauds.
-o “Bernie Madoff said his performance was roughly seven and half times better than the stock index he pretended to be benchmarking himself against. If you’re seven times better, two things can be true: One, you’re a fraud. Or two, you’re an alien from outer space and have perfect foreknowledge of the capital markets.
+somebody has outstanding performance, Wall Street assumes genius. I assume fraud until genius is proven. Look for the outperformance
+ and investigate there. Compare a money manager’s record vs. others using a similar strategy, or a company’s record against others 
+ in the same asset class. If the numbers are too good to be true, they rarely are.
+§ “A decade ago, there was one energy company head and shoulders above all the others. That was Enron. There was also an insurance 
+company above the rest. That was American International Group. In telecommunications, there was one company above all others. That 
+was WorldCom. They were all accounting frauds.
+o “Bernie Madoff said his performance was roughly seven and half times better than the stock index he pretended to be benchmarking 
+himself against. If you’re seven times better, two things can be true: One, you’re a fraud. Or two, you’re an alien from outer space
+ and have perfect foreknowledge of the capital markets.
   63
 
-o “Bernie’s performance line also went up at a 45-degree angle. In finance, there’s no such thing. If you see a 45-degree angle, either you’re in the middle of a speculative bubble and it’s going to end badly, or fraud is present.
-o “There are some simple checks. Do litigation and background searches. If you see arrests or civil lawsuits, access those. It will all be laid out in the legal complaint. Talk to former employees; find out why they left. Ask them about fraud. If they say “I’d love to talk to you, but I signed a nondisclosure agreement,” there’s something bad underneath the surface.
-o “Likewise, if your money manager refuses to answer questions, or gives you overly complex answers, assume deception. If you don’t understand the strategy, even after a manager explains it, don’t assume you’re stupid; assume your manager is trying to pull one over on you. Anyone who truly understands their craft should be able to explain their strategy in layman’s terms on a single sheet of paper. If they can’t, you shouldn’t invest.”
+o “Bernie’s performance line also went up at a 45-degree angle. In finance, there’s no such thing. If you see a 45-degree angle, 
+either you’re in the middle of a speculative bubble and it’s going to end badly, or fraud is present.
+o “There are some simple checks. Do litigation and background searches. If you see arrests or civil lawsuits, access those. It will 
+all be laid out in the legal complaint. Talk to former employees; find out why they left. Ask them about fraud. If they say “I’d 
+love to talk to you, but I signed a nondisclosure agreement,” there’s something bad underneath the surface.
+o “Likewise, if your money manager refuses to answer questions, or gives you overly complex answers, assume deception. If you don’t
+ understand the strategy, even after a manager explains it, don’t assume you’re stupid; assume your manager is trying to pull one
+  over on you. Anyone who truly understands their craft should be able to explain their strategy in layman’s terms on a single 
+  sheet of paper. If they can’t, you shouldn’t invest.”
 • Montier’s “Unholy Trinity” of short-selling factors (Ch. 24 of “Value Investing – Tools and Techniques for Intelligent Investment”
 o A high price-to-sales ratio, greater than one o A low Pitroski score, lower than three
 o High total asset growth, greater than 10%
@@ -2148,9 +2545,14 @@ o High total asset growth, greater than 10%
 • Fundamental Attribution Error – ascribing to traits qualities that are actually determined by context (i.e.,
 success that is due to environment factors or randomness)
 • Why leaders fail to learn from success (HBR)
-o “The first is the inclination to make what psychologists call fundamental attribution errors. When we succeed, we’re likely to conclude that our talents and our current model or strategy are the reasons. We also give short shrift to the part that environmental factors and random events may have played.
-o “The second impediment is overconfidence bias: Success increases our self-assurance. Faith in ourselves is a good thing, of course, but too much of it can make us believe we don’t need to change anything.
-o “The third impediment is the failure-to-ask-why syndrome—the tendency not to investigate the causes of good performance systematically. When executives and their teams suffer from this syndrome, they don’t ask the tough questions that would help them expand their knowledge or alter their assumptions about how the world works.”
+o “The first is the inclination to make what psychologists call fundamental attribution errors. When we succeed, we’re likely to 
+conclude that our talents and our current model or strategy are the reasons. We also give short shrift to the part that 
+environmental factors and random events may have played.
+o “The second impediment is overconfidence bias: Success increases our self-assurance. Faith in ourselves is a good thing, of 
+course, but too much of it can make us believe we don’t need to change anything.
+o “The third impediment is the failure-to-ask-why syndrome—the tendency not to investigate the causes of good performance 
+systematically. When executives and their teams suffer from this syndrome, they don’t ask the tough questions that would help 
+them expand their knowledge or alter their assumptions about how the world works.”
 • Durable competitive advantage hallmarks: o Unique service/product
 o Low cost buyer and seller of service/product
 o Consistently high margins, low debt, high cash flow, reported earnings
@@ -2165,9 +2567,12 @@ o Business o People o Price
 • Replacement cost of the assets
 o How often are assets replaced? How is depreciation calculated? 64
    
-o Particularly for asset-heavy businesses: Depreciation does not adjust for inflation; if current or future capex is to replace assets that were bought many years ago, capex will be much higher than the depreciation allowance
-§ E.g., assets replaced quickly won’t suffer as much and will require capex > depreciation of only marginal amounts, but $100MM in assets depreciated over 20 years will require $180MM at 3% and $220M at 4%, etc.
-• At 3% and using straight-line depreciation, ongoing “maintenance” capex of assets replaced after 20 years will require cash outlays of $1.80 for every $1.00 of depreciation expense
+o Particularly for asset-heavy businesses: Depreciation does not adjust for inflation; if current or future capex is to replace 
+assets that were bought many years ago, capex will be much higher than the depreciation allowance
+§ E.g., assets replaced quickly won’t suffer as much and will require capex > depreciation of only marginal amounts, but $100MM in
+ assets depreciated over 20 years will require $180MM at 3% and $220M at 4%, etc.
+• At 3% and using straight-line depreciation, ongoing “maintenance” capex of assets replaced after 20 years will require cash 
+outlays of $1.80 for every $1.00 of depreciation expense
 • Look at trends in PPE capex divided by PPE to get a rough idea of useful asset life
 • “We define intrinsic value as:
 o the amount that would accrue to the owners of a security if the underlying company were sold to
@@ -2218,7 +2623,8 @@ o Suppliers/vendors o Regulators
 • Subject to poor lending or investing decisions
 • Geoff Gannon on publicly-listed companies:
 o Why is the company public?
-§ To raise capital; to reward its employees; to take out a (seed) investor; to increase profile § No reason: historical/inertia; legal/tax shelter/domain shopping
+§ To raise capital; to reward its employees; to take out a (seed) investor; to increase profile § No reason: historical/inertia;
+ legal/tax shelter/domain shopping
 o How promotional is the company?
 § Management focus and tone: growing the business > juicing the stock price
 • Glibness
@@ -2254,7 +2660,8 @@ o Funding liquidity – capacity to meet immediate and unexpected obligations
   
 •
 • •
-base rate – the prior probability that some event will occur; not to be confused with the case rate. o e.g., the average return on the stock market over a period of many years
+base rate – the prior probability that some event will occur; not to be confused with the case rate. o e.g., the average return on 
+the stock market over a period of many years
 case rate – the probability of an event occurring based on a relatively short recent history Common Mental Mistakes (Tilson)
 1. Overconfidence
 2. Projecting the immediate past into the distant future
@@ -2301,7 +2708,8 @@ o Actively seek out contrary opinions. 67
 •
   
 •
-§ Try to rebut rather than confirm hypotheses; seek out contrary viewpoints; assign someone to taking the opposing position or invite bearish analyst to give presentation (Pzena’s method).
+§ Try to rebut rather than confirm hypotheses; seek out contrary viewpoints; assign someone to taking the opposing position or 
+invite bearish analyst to give presentation (Pzena’s method).
 § Use secret ballots.
 § "What would cause me to change my mind?"
 o Don’t anchor on historical information/perceptions/stock prices.
@@ -2312,21 +2720,28 @@ terms of enterprise value, not stock price.
 § Set buy and sell targets.
 o Admit and learn from mistakes — but learn the right lessons and don’t obsess.
 § Put the initial investment thesis in writing so you can refer back to it.
-§ Sell your mistakes and move on; you don’t have to make it back the same way you lost it. § But be careful of panicking and selling at the bottom.
+§ Sell your mistakes and move on; you don’t have to make it back the same way you lost it. § But be careful of panicking and selling
+ at the bottom.
 o Don’t get fooled by randomness.
 o Understand and profit from regression to the mean. o Mental tricks.
 § Pretend like you don’t own it (Steinhardt going to cash).
 § Sell a little bit and sleep on it (Einhorn). “The Big List of Behavioral Biases”
-o Affect Heuristic: we use feelings not logic to make snap decisions, even when we don't need to: see Risk, Stone Age Economics and the Affect Heuristic.
+o Affect Heuristic: we use feelings not logic to make snap decisions, even when we don't need to: see Risk, Stone Age Economics and
+ the Affect Heuristic.
 o Akerlof's Lemons: why the market for used cars doesn't work properly: see Akerlof's Lemons: Risk Asymmetric Dangers for Investors.
 o Ambiguity Aversion: we don't mind risk but we hate uncertainty: see Ambiguity Aversion: Investing Under Conditions of Uncertainty.
-o Anchoring: our habit of focusing on one salient point and ignoring all others, such as the price at which we buy a stock: see Anchoring: the Mother of Behavioral Biases.
-o Authority, Appeal to: we tend to thoughtlessly obey those we regard as being in positions of authority: see CEO Pay: Because They're Worth It?.
+o Anchoring: our habit of focusing on one salient point and ignoring all others, such as the price at which we buy a stock: see 
+Anchoring: the Mother of Behavioral Biases.
+o Authority, Appeal to: we tend to thoughtlessly obey those we regard as being in positions of authority: see CEO Pay: Because 
+They're Worth It?.
 o Barnum Effect: we see insightful information in random rubbish: see Your Financial Horoscope.
 o Beauty Effect: we attribute qualities to people based on their appearance: see Trust is in the Eye of the Beholder.
-o Benford's Law: in finance numbers starting with 1 are more frequent than those starting 2 and so on: see Forensic Finance, Benford's Way.
-o Bystander Effect: people waiting for others to take the lead when someone else in is trouble: see A Lollapallooza Effect: Capitalism & The Death of Wang Yue.
-o Choice Overload: too much choice makes us indecisive: see Jam Today, Tyranny Tomorrow? o Clever Hans Effect: we give off unconscious cues that are unconsciously picked up on: see
+o Benford's Law: in finance numbers starting with 1 are more frequent than those starting 2 and so on: see Forensic Finance, 
+Benford's Way.
+o Bystander Effect: people waiting for others to take the lead when someone else in is trouble: see A Lollapallooza Effect: 
+Capitalism & The Death of Wang Yue.
+o Choice Overload: too much choice makes us indecisive: see Jam Today, Tyranny Tomorrow? o Clever Hans Effect: we give off 
+unconscious cues that are unconsciously picked up on: see
 Market Confidence, Tricks and Placebos.
 o Cognitive Dissonance: the effect of simultaneously trying to believe two incompatible things
 at the same time; see Fairy Tales for Investors.
@@ -2337,20 +2752,27 @@ ignore evidence that contradicts it: see Confirmation Bias, the Investor's Curse
   68
 
 o Conjunction Fallacy: the conjunction of two events is always less likely than one: see Behavioral Finance's Smoking Gun.
-o Conversational Bias: we tend to present ourselves in the best possible light, which has knock- on consequences for the relaying of positive and negative information: see Herd of Investors.
+o Conversational Bias: we tend to present ourselves in the best possible light, which has knock- on consequences for the relaying of
+ positive and negative information: see Herd of Investors.
 o Data Mining Errors: if you mine the data hard enough you can prove anything: see Twits, Butter and the Superbowl Effect.
-o Disaster Myopia: an in-built tendency to forget really nasty stuff after it's stopped happening for a while: see Black Swans, Tsunamis and Cardiac Arrests.
+o Disaster Myopia: an in-built tendency to forget really nasty stuff after it's stopped happening for a while: see Black Swans, 
+Tsunamis and Cardiac Arrests.
 o Disposition Effect: success is our skill, failure is someone else's fault: see Disposed to Lose Money.
 o Dread Risk: an irrational fear of extreme events: see Dread Risk: Investing Outside the Goldfish Bowl.
 o Dunning-Kruger Effect: some people never learn by experience: see Don't Lose Money in the Stupid Corner.
-o Economic Reflexivity: the way that the economy changes people's behavior, which changes the economy: see Soros' Economic Reflexivity.
+o Economic Reflexivity: the way that the economy changes people's behavior, which changes the economy: see Soros' Economic
+Reflexivity.
 o Familiarity Effect: being familiar with something makes you favour it: see The Language of Lucre.
-o Fallacy of Composition: the tendency for individuals to act in their own self interest and, in by doing so en-mass, to cause themselves to lose out: see Panic!
+o Fallacy of Composition: the tendency for individuals to act in their own self interest and, in by doing so en-mass, to cause
+ themselves to lose out: see Panic!
 o Fallacy of Frequency: we see regular patterns where none exist: see Deep Time and the Fallacy of Frequency.
 o Framing: the way a question or situation is framed can determine your response: see Investors, You've Been Framed.
-o Fundamental Attribution Error: we attribute success to our own skill and failure to everyone else's lack of it: see Profit from Self-Knowledge.
-o Gambler's Fallacy: the mistaken belief that a run of specific results in a random process must revert: see Recency, Hot Hands and the Gambler's Fallacy.
-o Halo Effect: we take one positive feature of something and apply it to everything else associated with it: see The Halo Effect: What's In A Company Name?
+o Fundamental Attribution Error: we attribute success to our own skill and failure to everyone else's lack of it: see Profit from 
+Self-Knowledge.
+o Gambler's Fallacy: the mistaken belief that a run of specific results in a random process must revert: see Recency, Hot Hands
+ and the Gambler's Fallacy.
+o Halo Effect: we take one positive feature of something and apply it to everything else associated with it: see The Halo Effect:
+ What's In A Company Name?
 o Hawthorne Effect: studying people changes their behaviour: see Be a Sceptical Economist.
 o Hot Hand Effect: the erroneous belief that certain runs of success are attributable to skill rather
 than luck: see Recency, Hot Hands and the Gambler's Fallacy.
@@ -2371,7 +2793,8 @@ Black Scholes.
   69
 
 o Loss Aversion: we do stupid things to avoid realizing a loss: see Loss Aversion Affects Tiger Woods, Too.
-o Mental Accounting: we divide our money into different pots and then treat them all separately: see Mental Accounting, Not All Money is Equal.
+o Mental Accounting: we divide our money into different pots and then treat them all separately: see Mental Accounting, Not All 
+Money is Equal.
 o Mere Exposure Effect: how merely exposing someone to something means they're more likely to prefer it: see Fooled by Fluency.
 o Minsky Moment: the moment people realise they can't repay the debts they owe: see Springing the Liquidity Trap.
 o Money Illusion: we value money in absolute not nominal terms: see Money Illusion.
@@ -2415,9 +2838,12 @@ o Unit Bias: we will consume whole units of food, no matter what the unit form: 
 Cooking, Dieting and Investing.
   70
 
-• Path dependence – the notion that something that seems normal or inevitable today began with a conscious choice at a particular time in the past, but survived despite the eclipse of the justification for that choice (e.g., QWERTY keyboards)
-• The Einstellung Effect – the idea that we often try to solve problems by using solutions that worked in the past instead of looking at each situation on its own terms
-• Fundamental Attribution Error – the faulty attempt to explain behavior by character traits when that behavior is better explained by context
+• Path dependence – the notion that something that seems normal or inevitable today began with a conscious choice at a particular
+time in the past, but survived despite the eclipse of the justification for that choice (e.g., QWERTY keyboards)
+• The Einstellung Effect – the idea that we often try to solve problems by using solutions that worked in the past instead of 
+looking at each situation on its own terms
+• Fundamental Attribution Error – the faulty attempt to explain behavior by character traits when that behavior is better explained 
+by context
 • Motivated blindness – the situation in which one party has an interest in overlooking the unethical behavior of another party
 • Subject to a run on the bank
 • Stable, long-term, “normalized” ROIC > discount rate
@@ -2428,7 +2854,8 @@ o Why does the business have a high ROIC? § Good luck
 § Industry or economy at a cyclical peak
 § Temporary competitive advantage
 § Sustainable competitive advantage (target investments)
-• Sustainable competitive advantage is the ability to keep current customers and (possibly) attract new customers, on profitable terms superior to those of one’s competitors, for a reasonably long time horizon
+• Sustainable competitive advantage is the ability to keep current customers and (possibly) attract new customers, on profitable 
+terms superior to those of one’s competitors, for a reasonably long time horizon
 • Best methods for achieving sustainable competitive advantage o Economies of scale
 o Government license o Patent protection
 o Customer captivity
@@ -2445,7 +2872,9 @@ o Operational efficiency (?)
 o Can I in one sentence say exactly what the company does? o Is operating cash flow higher than earnings per share?
 o Is Free Cash Flow/Share higher than dividends paid?
 o Debt to equity below 35%?
-15 Calculate ROIC as NOPAT / Invested Capital, where NOPAT = operating income * (1 – tax rate), and Invested Capital = Total Equity + Total Liabilities – Current Liabilities – Excess Cash, where Excess Cash = Total Cash – MAX (0, Current Liabilities – Current Assets)
+15 Calculate ROIC as NOPAT / Invested Capital, where NOPAT = operating income * (1 – tax rate), and Invested Capital = Total Equity
+ + Total Liabilities – Current Liabilities – Excess Cash, where Excess Cash = Total Cash – MAX (0, Current Liabilities – Current
+  Assets)
    71
 
 • •
@@ -2511,7 +2940,8 @@ o Confidence tricks
 o Executive looting
 o Bail-outs at the top (senior managers leaving the firm, particularly in the finance function) o Selling the crown jewels
 o Directors dumping shares
-• first, consider rational expectations and probabilities; then carefully weigh the psychological factors and assess the irrational component
+• first, consider rational expectations and probabilities; then carefully weigh the psychological factors and assess the irrational
+ component
 • Market as a resource to be used, not an instructor
 • Anchoring
 o On price paid, prior peak/low, etc.
@@ -2536,7 +2966,9 @@ CEO. While 55% of all respondents did not, 12% did. – Jim Chanos
 • Self-serving bias: the innate desire to interpret [subjective] information and act in a manner that supports
 one’s own self-interests (i.e., asking a barber if you need a haircut)
 • Inattentional blindness: study (“Gorillas in our Midst”) in which participants count passes on a
-basketball team and completely miss a man in a gorilla costume walking onto the court, only to claim later that it never happened; i.e., getting too count up in the details and the noise while forgetting to keep an eye on the big picture; i.e., being precisely wrong rather than vaguely correct
+basketball team and completely miss a man in a gorilla costume walking onto the court, only to claim later that it never happened;
+ i.e., getting too count up in the details and the noise while forgetting to keep an eye on the big picture; i.e., being precisely 
+ wrong rather than vaguely correct
 • Investor sentiment 73
   
 • Vulnerable to lower-cost producers (e.g., China)?
@@ -2562,7 +2994,8 @@ o Fear, greed, pride, searching for justification, seeking praise/redemption/ren
 o Reversion to the mean
 • Psychological biases
 o Overconfidence (overestimating of skills and abilities) and overoptimism (everyone other than
-the very depressed is too bullish on everything from security prices to marriage prospects) o Anchoring (over-weighting certain facts or trends)
+the very depressed is too bullish on everything from security prices to marriage prospects) o Anchoring (over-weighting certain 
+facts or trends)
 o Confirmation (selectively screening data to fit your theory)
 o Framing (creating bias in the way data or stories are presented)
 o Regret (rationalizing decisions to avoid negative feelings)
@@ -2619,7 +3052,8 @@ o NCAV – current assets less current liabilities o Six Essential Business Fact
 § Profitability – ratio of income to sales
 § Stability – trends in sales, profitability over time
 § Growth – earnings, sales growth vs. the market’s
-§ Financial position – current assets covering current liabilities more than 1x § Dividends – long, uninterrupted history of dividends
+§ Financial position – current assets covering current liabilities more than 1x § Dividends – long, uninterrupted history of
+ dividends
 § Price history
 o Original “Graham Formula” from Security Analysis: V* = E ( 8.5 + 2g) 75
   
@@ -2714,7 +3148,8 @@ o Mastery: sense of progress toward a goal that is never fully achieved o Purpos
  •
    77
 
-o “the goal is to find an intrinsically-motivated leader who has a clear sense of purpose and is inclined naturally to make good capital allocation decisions”16
+o “the goal is to find an intrinsically-motivated leader who has a clear sense of purpose and is inclined naturally to make good 
+capital allocation decisions”16
 § Candidness in communications
 § Prior performance
 § Tenure
@@ -2727,7 +3162,8 @@ o How sound is the balance sheet?
 o Do we have a differentiated view on earnings?
 • Life lessons and checklist items from Buffett and Munger (paraphrased by Scott Dinsmore)
 o “Lose money for the firm and I will be understanding. Lose a shred of reputation and I will be ruthless.”
-o Choose the best who will have you. Time and relationships are precious. Aim high and don’t accept anyone who doesn’t make you better.
+o Choose the best who will have you. Time and relationships are precious. Aim high and don’t accept anyone who doesn’t make you 
+better.
 o It’s a mistake to think that rationality will always hold up, even in able people. (see Sokol, David)
 o You can always tell a man to go to hell tomorrow if it’s still such a good idea.
 o Don’t worry about occasional failure – it happens.
@@ -2736,7 +3172,8 @@ o Continuous learning is absolutely required to have any significant success in 
 a little wiser than when you woke up.
 o Own a business that requires very little capital to grow.
 o Don’t be in too much of a rush.
-o Conduct yourself in life so other people trust you. It helps even more if they’re right to trust you. o Think about how you want to be remembered, and act accordingly.
+o Conduct yourself in life so other people trust you. It helps even more if they’re right to trust you. o Think about how you want
+ to be remembered, and act accordingly.
 o Reduced expectations is the best line of defense an investor has.
 o The problem with rules is that people break them.
 o There are no gray areas when it comes to integrity.
@@ -2756,13 +3193,20 @@ o Have incentives changed to reflect the environment in a way that might create 
 o Does the company create an environment that is conducive to intrinsic motivation by promoting autonomy, mastery, and purpose?
 o Is the company taking steps to engage all employees, especially those whose jobs primarily involve heuristic tasks?
 o Are the incentives in the organization narrowing focus or encouraging unethical behavior?
-o If the company promotes social norms with its employees or customers, is it maintaining them? o Are the incentives appropriate given the employee’s day-to-day responsibilities?
+o If the company promotes social norms with its employees or customers, is it maintaining them? o Are the incentives appropriate 
+given the employee’s day-to-day responsibilities?
 o Does the incentive program focus solely on outcomes and hence conflate skill and luck?
 • “The Five Neglects”18
 o Probability Neglect – “when making decisions under uncertainty, individuals may fail to
-consider the probability of an outcome occurring and focus entirely on the consequences” o Consequence Neglect – “individuals can [also] neglect the magnitude of outcomes [i.e.,
-consequence neglect]...Such neglect is most likely for non-salient and difficult-to-imagine risks. These types of risk are often those that individuals have not experienced before nor thought much about; they are ‘virgin risks.’ These are risks that are out of sight and out of mind. Consequence neglect will lead us to prepare insufficiently for very low probability but very high consequence events. Because the risk is so small, individuals pay no attention to the consequences. If those consequences are extreme, however, some investment in prevention and protection would likely have a positive expected net value.”
-o Statistical Neglect – “subjectively assessing small probability, and then continually updating them on the basis of new information, is difficult and time consuming. Individuals may just skip the exercise...perhaps relying on rules of thumb.”
+consider the probability of an outcome occurring and focus entirely on the consequences” o Consequence Neglect – “individuals can
+ [also] neglect the magnitude of outcomes [i.e.,
+consequence neglect]...Such neglect is most likely for non-salient and difficult-to-imagine risks. These types of risk are often 
+those that individuals have not experienced before nor thought much about; they are ‘virgin risks.’ These are risks that are out 
+of sight and out of mind. Consequence neglect will lead us to prepare insufficiently for very low probability but very high 
+consequence events. Because the risk is so small, individuals pay no attention to the consequences. If those consequences are 
+extreme, however, some investment in prevention and protection would likely have a positive expected net value.”
+o Statistical Neglect – “subjectively assessing small probability, and then continually updating them on the basis of new 
+information, is difficult and time consuming. Individuals may just skip the exercise...perhaps relying on rules of thumb.”
 § Availability Heuristic – individuals tends to assess the likelihood of an event based on the ease of recall of similar examples
 § Individuals then tend to over-update their probabilities if the experience was completely unexpected.
 § Individuals often incorrectly assume a small sample is representative of a population.
@@ -2779,27 +3223,69 @@ This fact is often ignored because restoration may be sees as going “backward�
 o External Risk Neglect – “when making decisions, individuals or groups, following self interest,
 tend to only consider the benefits and costs that accrue to them, and ignore benefits and costs [accruing to] others.”
 Philip Fisher’s 15 Points
-1. Does the company have products or services with sufficient market potential to make possible a sizable increase in sales for at least several years? A company seeking a sustained period of spectacular growth must have products that address large and expanding markets.
+1. Does the company have products or services with sufficient market potential to make possible a sizable increase in sales for at
+ least several years? A company seeking a sustained period of spectacular growth must have products that address large and expanding
+  markets.
 18 “The Five Neglects: Risks Gone Amiss” Alan Berger, Case Brown, Carolyn Kousky, and Richard Zekchauser (June 4, 2009)
      79
 
-2. Does the management have a determination to continue to develop products or processes that will still further increase total sales potentials when the growth potentials of currently attractive product lines have largely been exploited? All markets eventually mature, and to maintain above-average growth over a period of decades, a company must continually develop new products to either expand existing markets or enter new ones.
-3. How effective are the company's research-and-development efforts in relation to its size? To develop new products, a company's research-and-development (R&D) effort must be both efficient and effective.
-4. Does the company have an above-average sales organization? Fisher wrote that in a competitive environment, few products or services are so compelling that they will sell to their maximum potential without expert merchandising.
-5. Does the company have a worthwhile profit margin? Berkshire Hathaway's BRK.B vice-chairman Charlie Munger is fond of saying that if something is not worth doing, it is not worth doing well. Similarly, a company can show tremendous growth, but the growth must bring worthwhile profits to reward investors.
-6. What is the company doing to maintain or improve profit margins? Fisher stated, "It is not the profit margin of the past but those of the future that are basically important to the investor." Because inflation increases a company's expenses and competitors will pressure profit margins, you should pay attention to a company's strategy for reducing costs and improving profit margins over the long haul. This is where the moat framework we've spoken about throughout the Investing Classroom series can be a big help.
-7. Does the company have outstanding labor and personnel relations? According to Fisher, a company with good labor relations tends to be more profitable than one with mediocre relations because happy employees are likely to be more productive. There is no single yardstick to measure the state of a company's labor relations, but there are a few items investors should investigate. First, companies with good labor relations usually make every effort to settle employee grievances quickly. In addition, a company that makes above-average profits, even while paying above-average wages to its employees is likely to have good labor relations. Finally, investors should pay attention to the attitude of top management toward employees.
-8. Does the company have outstanding executive relations? Just as having good employee relations is important, a company must also cultivate the right atmosphere in its executive suite. Fisher noted that in companies where the founding family retains control, family members should not be promoted ahead of more able executives. In addition, executive salaries should be at least in line with industry norms. Salaries should also be reviewed regularly so that merited pay increases are given without having to be demanded.
-9. Does the company have depth to its management? As a company continues to grow over a span of decades, it is vital that a deep pool of management talent be properly developed. Fisher warned investors to avoid companies where top management is reluctant to delegate significant authority to lower-level managers.
-10. How good are the company's cost analysis and accounting controls? A company cannot deliver outstanding results over the long term if it is unable to closely track costs in each step of its operations.
+2. Does the management have a determination to continue to develop products or processes that will still further increase total 
+sales potentials when the growth potentials of currently attractive product lines have largely been exploited? All markets 
+eventually mature, and to maintain above-average growth over a period of decades, a company must continually develop new products to
+ either expand existing markets or enter new ones.
+3. How effective are the company's research-and-development efforts in relation to its size? To develop new products, a company's 
+research-and-development (R&D) effort must be both efficient and effective.
+4. Does the company have an above-average sales organization? Fisher wrote that in a competitive environment, few products or 
+services are so compelling that they will sell to their maximum potential without expert merchandising.
+5. Does the company have a worthwhile profit margin? Berkshire Hathaway's BRK.B vice-chairman Charlie Munger is fond of saying that
+ if something is not worth doing, it is not worth doing well. Similarly, a company can show tremendous growth, but the growth must
+  bring worthwhile profits to reward investors.
+6. What is the company doing to maintain or improve profit margins? Fisher stated, "It is not the profit margin of the past but 
+those of the future that are basically important to the investor." Because inflation increases a company's expenses and competitors
+ will pressure profit margins, you should pay attention to a company's strategy for reducing costs and improving profit margins over
+  the long haul. This is where the moat framework we've spoken about throughout the Investing Classroom series can be a big help.
+7. Does the company have outstanding labor and personnel relations? According to Fisher, a company with good labor relations tends 
+to be more profitable than one with mediocre relations because happy employees are likely to be more productive. There is no single
+ yardstick to measure the state of a company's labor relations, but there are a few items investors should investigate. First, 
+ companies with good labor relations usually make every effort to settle employee grievances quickly. In addition, a company that 
+ makes above-average profits, even while paying above-average wages to its employees is likely to have good labor relations. 
+ Finally, investors should pay attention to the attitude of top management toward employees.
+8. Does the company have outstanding executive relations? Just as having good employee relations is important, a company must also 
+cultivate the right atmosphere in its executive suite. Fisher noted that in companies where the founding family retains control, 
+family members should not be promoted ahead of more able executives. In addition, executive salaries should be at least in line 
+with industry norms. Salaries should also be reviewed regularly so that merited pay increases are given without having to be 
+demanded.
+9. Does the company have depth to its management? As a company continues to grow over a span of decades, it is vital that a deep 
+pool of management talent be properly developed. Fisher warned investors to avoid companies where top management is reluctant to 
+delegate significant authority to lower-level managers.
+10. How good are the company's cost analysis and accounting controls? A company cannot deliver outstanding results over the long
+ term if it is unable to closely track costs in each step of its operations.
   80
 
-Fisher stated that getting a precise handle on a company's cost analysis is difficult, but an investor can discern which companies are exceptionally deficient--these are the companies to avoid.
-11. Are there other aspects of the business, somewhat peculiar to the industry involved, which will give the investor important clues as to how outstanding the company may be in relation to its competition? Fisher described this point as a catch-all because the "important clues" will vary widely among industries. The skill with which a retailer, like Wal-Mart WMT or Costco COST, handles its merchandising and inventory is of paramount importance. However, in an industry such as insurance, a completely different set of business factors is important. It is critical for an investor to understand which industry factors determine the success of a company and how that company stacks up in relation to its rivals.
-12. Does the company have a short-range or long-range outlook in regard to profits? Fisher argued that investors should take a long-range view, and thus should favor companies that take a long-range view on profits. In addition, companies focused on meeting Wall Street's quarterly earnings estimates may forgo beneficial long-term actions if they cause a short-term hit to earnings. Even worse, management may be tempted to make aggressive accounting assumptions in order to report an acceptable quarterly profit number.
-13. In the foreseeable future will the growth of the company require sufficient equity financing so that the larger number of shares then outstanding will largely cancel the existing stockholders' benefit from this anticipated growth? As an investor, you should seek companies with sufficient cash or borrowing capacity to fund growth without diluting the interests of its current owners with follow-on equity offerings.
-14. Does management talk freely to investors about its affairs when things are going well but "clam up" when troubles and disappointments occur? Every business, no matter how wonderful, will occasionally face disappointments. Investors should seek out management that reports candidly to shareholders all aspects of the business, good or bad.
-15. Does the company have a management of unquestionable integrity? The accounting scandals that led to the bankruptcies of Enron and WorldCom should highlight the importance of investing only with management teams of unquestionable integrity. Investors will be well-served by following Fisher's warning that regardless of how highly a company rates on the other 14 points, "If there is a serious question of the lack of a strong management sense of trusteeship for shareholders, the investor should never seriously consider participating in such an enterprise."
+Fisher stated that getting a precise handle on a company's cost analysis is difficult, but an investor can discern which companies 
+are exceptionally deficient--these are the companies to avoid.
+11. Are there other aspects of the business, somewhat peculiar to the industry involved, which will give the investor important 
+clues as to how outstanding the company may be in relation to its competition? Fisher described this point as a catch-all because 
+the "important clues" will vary widely among industries. The skill with which a retailer, like Wal-Mart WMT or Costco COST, handles
+ its merchandising and inventory is of paramount importance. However, in an industry such as insurance, a completely different set 
+ of business factors is important. It is critical for an investor to understand which industry factors determine the success of a 
+ company and how that company stacks up in relation to its rivals.
+12. Does the company have a short-range or long-range outlook in regard to profits? Fisher argued that investors should take a 
+long-range view, and thus should favor companies that take a long-range view on profits. In addition, companies focused on meeting 
+Wall Street's quarterly earnings estimates may forgo beneficial long-term actions if they cause a short-term hit to earnings. Even 
+worse, management may be tempted to make aggressive accounting assumptions in order to report an acceptable quarterly profit number.
+13. In the foreseeable future will the growth of the company require sufficient equity financing so that the larger number of shares
+ then outstanding will largely cancel the existing stockholders' benefit from this anticipated growth? As an investor, you should 
+ seek companies with sufficient cash or borrowing capacity to fund growth without diluting the interests of its current owners with
+  follow-on equity offerings.
+14. Does management talk freely to investors about its affairs when things are going well but "clam up" when troubles and 
+disappointments occur? Every business, no matter how wonderful, will occasionally face disappointments. Investors should seek out
+ management that reports candidly to shareholders all aspects of the business, good or bad.
+15. Does the company have a management of unquestionable integrity? The accounting scandals that led to the bankruptcies of Enron
+ and WorldCom should highlight the importance of investing only with management teams of unquestionable integrity. Investors will 
+ be well-served by following Fisher's warning that regardless of how highly a company rates on the other 14 points, "If there is a
+  serious question of the lack of a strong management sense of trusteeship for shareholders, the investor should never seriously 
+  consider participating in such an enterprise."
 Phil Fisher’s “Conservative Investors Sleep Well” Business Characteristics
 • What are the trends in the price to sales ratios for the company? Increasing   Decreasing  
 • Does the firm operate so efficiently that high margins are protected by that efficiency? Yes   No  
@@ -2839,7 +3325,8 @@ And more Fisher: 10 Don’ts:
 1) Don't buy into promotional companies.
 2) Don't ignore a good stock just because it trades "over the counter."
 3) Don't buy a stock just because you like the "tone" of its annual report.
-4) Don't assume that the high price at which a stock may be selling in relation to earnings is necessarily an indication that further growth in those earnings has largely been already discounted in the price.
+4) Don't assume that the high price at which a stock may be selling in relation to earnings is necessarily an indication that 
+further growth in those earnings has largely been already discounted in the price.
 5) Don't quibble over eights and quarters.
 6) Don't overstress diversification
 7) Don't be afraid to buy on a war scare.
@@ -2910,7 +3397,8 @@ Is there ample opportunity for this company to grow from here?
 • Does this company have plenty of room to expand in its core business areas?
 Is the company at an early-ish stage in its maturity cycle?
 Are the company’s products at an early-ish stage in their maturity cycle?
-If the company’s products are at a late stage in their maturity cycle, are they the best offerings available? Is the industry growing?
+If the company’s products are at a late stage in their maturity cycle, are they the best offerings available? Is the industry
+ growing?
 Is the growth rate of this company accelerating?
 Is this company growing its share of the market?
 Is the competition fragmented and disorganized?
@@ -2958,7 +3446,8 @@ Is the world better off for having this company in operation?
 If this company discontinued operations tomorrow, would anyone notice/be bothered?
 • What about one month from now?
 The Questions to Ask When Deciding Appropriate Multiples for a Stock
-1) Does the business have a sustainable competitive advantage (Buffett’s moat)? Yes   No   2) Does the business benefit from any network effects? Yes   No  
+1) Does the business have a sustainable competitive advantage (Buffett’s moat)? Yes   No   2) Does the business benefit from any
+ network effects? Yes   No  
 3) Are the businesses revenue and earnings visible and predictable? Yes   No  
 4) Are customers locked in? Are there high switching costs? Yes   No  
 5) Are gross margins high? Yes   No  
@@ -2971,17 +3460,25 @@ The Questions to Ask When Deciding Appropriate Multiples for a Stock
     85
 
 10 Essential Questions to Ask When Deciding What Multiple to Pay For a Stock, by Greg Speicher
- Buffett has correctly pointed out that the correct way to value a business is to calculate the discounted value of all its future cash flows. The concept is simple. The application is not.
+ Buffett has correctly pointed out that the correct way to value a business is to calculate the discounted value of all its future 
+ cash flows. The concept is simple. The application is not.
 For many businesses, it is difficult to calculate this with a level of precision that has much utility.
-Some businesses are sufficiently predictable that a careful business analyst can make a reasonable and useful calculation of its DCF, or what Buffett calls its intrinsic value.
-Also, sometimes in periods of extreme dislocation, a business will sell at such a depressed price that you can reasonably conclude that the market price is below intrinsic value, even if the range of possible DCFs is large.
+Some businesses are sufficiently predictable that a careful business analyst can make a reasonable and useful calculation of its 
+DCF, or what Buffett calls its intrinsic value.
+Also, sometimes in periods of extreme dislocation, a business will sell at such a depressed price that you can reasonably conclude
+ that the market price is below intrinsic value, even if the range of possible DCFs is large.
 The multiple at which a stock trades is nothing more than a shorthand proxy for its DCF.
-In Buffett’s 1991 letter to shareholders, he concluded that, assuming a discount rate of 10%, a business earning $1 million of free-cash and with long-term growth prospects of 6% would be worth $25 million or 25 times earnings.
+In Buffett’s 1991 letter to shareholders, he concluded that, assuming a discount rate of 10%, a business earning $1 million of 
+free-cash and with long-term growth prospects of 6% would be worth $25 million or 25 times earnings.
 A no-growth business also earning $1 million would be worth about 10 times earnings. Business 1: $1 million / (10%-6%) = $25 million
 Business 2: $ 1 million / (10%) = $10 million
-As a practical matter, what types of things should you be thinking about when deciding if you are dealing with a company that deserves a multiple of 25 times earnings versus one that only deserves a multiple of ten times earnings. There are many factors to consider.
-Venture capitalist Bill Gurley has written an excellent list of characteristics to consider when evaluating a company and determining what multiple to use when valuing its earnings.
-You should carefully think about each of these and add them to your checklists for evaluating a business. I’ve put Gurley’s characteristics in the form of a question.
+As a practical matter, what types of things should you be thinking about when deciding if you are dealing with a company that 
+deserves a multiple of 25 times earnings versus one that only deserves a multiple of ten times earnings. There are many factors 
+to consider.
+Venture capitalist Bill Gurley has written an excellent list of characteristics to consider when evaluating a company and 
+determining what multiple to use when valuing its earnings.
+You should carefully think about each of these and add them to your checklists for evaluating a business. I’ve put Gurley’s 
+characteristics in the form of a question.
 1. Does the business have a sustainable competitive advantage (Buffett’s moat)?
 2. Does the business benefit from any network effects?
 3. Are the business’s revenue and earnings visible and predictable? 4. Are customers locked in? Are there high switching costs?
@@ -2991,7 +3488,8 @@ You should carefully think about each of these and add them to your checklists f
   86
 
 8. Is the business dependent on one or more major partners?
-9. Is the business growing organically or is heavy marketing spending required for growth? 10. How fast and how much is the business expected to grow?
+9. Is the business growing organically or is heavy marketing spending required for growth? 10. How fast and how much is the 
+business expected to grow?
 Sir John Templeton’s “16 Rules for Investment Success
 1. Invest for maximum total real return (i.e., return on invested dollars after taxes and after inflation)
 2. Invest – don’t trade or speculate
@@ -3027,128 +3525,235 @@ Legatum Capital (Christopher Chandler)
      87
 
 Our Approach
-Legatum’s investment approach is straightforward. Success has been built by investing in easily understood businesses that possess durable competitive advantages and a consistent earnings history. Legatum is entrepreneurial and focuses upon owning a share of a business, not simply trading stocks. While price is important in the investment decision, business quality is even more so.
+Legatum’s investment approach is straightforward. Success has been built by investing in easily understood businesses that possess
+ durable competitive advantages and a consistent earnings history. Legatum is entrepreneurial and focuses upon owning a share of a
+  business, not simply trading stocks. While price is important in the investment decision, business quality is even more so.
 Legatum’s investment approach can be condensed into seven guiding principles:
 A Long-term Perspective
-Unfettered by short-term performance constraints, Legatum is free to focus on making the long-term commitments required to maximise the absolute return on investment. A long-term perspective permits a patient approach and a tolerance for the short-term volatility inherent in investment markets. Once invested, Legatum waits for the investment theme to unfold, which can sometimes take years.
+Unfettered by short-term performance constraints, Legatum is free to focus on making the long-term commitments required to maximise
+ the absolute return on investment. A long-term perspective permits a patient approach and a tolerance for the short-term volatility
+  inherent in investment markets. Once invested, Legatum waits for the investment theme to unfold, which can sometimes take years.
 Optimal Allocation of Capital
-Capital is a scarce resource which, when allocated productively, creates wealth, a key foundation for accelerating the rise of prosperity. This requires rigorous research, disciplined execution and a prudent level of tolerance for assessed risk.
+Capital is a scarce resource which, when allocated productively, creates wealth, a key foundation for accelerating the rise of 
+prosperity. This requires rigorous research, disciplined execution and a prudent level of tolerance for assessed risk.
 Supporting Transition
-When companies and countries are in transition, heightened uncertainty leads to a scarcity of capital. Legatum supports positive transitions by providing capital during such periods of increased risk, which can also generate asymmetric returns for patient investors.
+When companies and countries are in transition, heightened uncertainty leads to a scarcity of capital. Legatum supports positive 
+transitions by providing capital during such periods of increased risk, which can also generate asymmetric returns for patient 
+investors.
 Investment, not Speculation
 By investing in great businesses with long-term potential, speculation in financial trends or fads is unnecessary.
 Concentration, not Diversification
-A long-term approach releases the fund from the need to hedge against market volatility and investments can therefore be both narrow and deep, remaining manageable and concentrated on the best ideas, free from the pressures of redemption risk.
+A long-term approach releases the fund from the need to hedge against market volatility and investments can therefore be both 
+narrow and deep, remaining manageable and concentrated on the best ideas, free from the pressures of redemption risk.
 Leverage is Incompatible with Volatility
-It is essential to distinguish between volatility and risk. Unleveraged investments can endure significant price volatility, which is a common attribute of transitioning markets. Eschewing debt is fundamental to risk reduction in highly volatile long-term financial investments.
+It is essential to distinguish between volatility and risk. Unleveraged investments can endure significant price volatility, 
+which is a common attribute of transitioning markets. Eschewing debt is fundamental to risk reduction in highly volatile long-term
+ financial investments.
 Macro Themes with a Contrarian Twist
-Legatum invests in distinct macro themes but is also opportunistic in identifying hidden value, and consequently is sometimes considered contrarian in its investment style. A selective approach, thorough research, attention to detail and a prudent understanding of risk, create opportunities, leaving only the challenge of moving capital towards them at speed.
+Legatum invests in distinct macro themes but is also opportunistic in identifying hidden value, and consequently is sometimes 
+considered contrarian in its investment style. A selective approach, thorough research, attention to detail and a prudent 
+understanding of risk, create opportunities, leaving only the challenge of moving capital towards them at speed.
 Richard Chandler Corporation
           88
 
-The Richard Chandler Corporation is an entrepreneurial, value-oriented portfolio investor. We believe in investment concentration, backing our best ideas with a long-term, often contrarian perspective.
+The Richard Chandler Corporation is an entrepreneurial, value-oriented portfolio investor. We believe in investment concentration,
+ backing our best ideas with a long-term, often contrarian perspective.
 Global Canvas, Global Scale
-We maximise the universe of opportunities by adopting a world view. We invest in large economies which play a significant role in the global marketplace. Within these economies we seek world-scale companies which have strong leadership positions in their industries.
+We maximise the universe of opportunities by adopting a world view. We invest in large economies which play a significant role in 
+the global marketplace. Within these economies we seek world-scale companies which have strong leadership positions in their 
+industries.
 Entrepreneurial
-The Richard Chandler Corporation is entrepreneurial – we think about every investment as owning a share of a business, not owning stocks. While price is important in the investment decision, business quality is even more so. We build our performance by investing in world-scale businesses with durable competitive advantages. We are disciplined in waiting for opportunities and patient as we wait for the investment theme to unfold.
+The Richard Chandler Corporation is entrepreneurial – we think about every investment as owning a share of a business, not owning
+ stocks. While price is important in the investment decision, business quality is even more so. We build our performance by 
+ investing in world-scale businesses with durable competitive advantages. We are disciplined in waiting for opportunities and 
+ patient as we wait for the investment theme to unfold.
 Long-term Strategy
-The Richard Chandler Corporation manages proprietary capital and does not seek third party funds. This independence enables us to adopt strategies that maximise absolute performance over the long term, free from the constraints of diversification or the need to report short-term performance. As a private institution, we do not publicise details of current investments.
+The Richard Chandler Corporation manages proprietary capital and does not seek third party funds. This independence enables us 
+to adopt strategies that maximise absolute performance over the long term, free from the constraints of diversification or the
+ need to report short-term performance. As a private institution, we do not publicise details of current investments.
 Francis Chou
 1. Where does the debt security you are considering rank in the company’s capital structure?
 And what would the company be worth if it had to liquidate?
-Francis start by setting a desired target rate of return, and then tries to buy the most senior security in the capital structure that meets his return target.
-Experience has shown that it is prudent to give up some return by buying senior debt versus taking a chance on more junior securities even though they have the potential to earn a much higher return.
+Francis start by setting a desired target rate of return, and then tries to buy the most senior security in the capital structure 
+that meets his return target.
+Experience has shown that it is prudent to give up some return by buying senior debt versus taking a chance on more junior securities 
+even though they have the potential to earn a much higher return.
 2. How competent is management?
 He says that assessing the competence of management is as critical when buying debt securities as it is when buying equities.
-Francis seeks management teams that are passionate about their work and own enough equity in their company to care deeply about its future. He is not interested in companies with managers who are just doing their job, collecting their salaries, stock options and other perks.
-He says one of the best times to invest in a debt issue is when a company is facing a short-term liquidity issue rather than an operational issue.
+Francis seeks management teams that are passionate about their work and own enough equity in their company to care deeply about its 
+future. He is not interested in companies with managers who are just doing their job, collecting their salaries, stock options and
+ other perks.
+He says one of the best times to invest in a debt issue is when a company is facing a short-term liquidity issue rather than an 
+operational issue.
       89
 
 3. Is the underlying business strong and able to generate consistent free cash flow?
-The economics of a business are important as ultimately a company has to repay or restructure its debt. In either scenario, having a strong underlying business that can generate strong cash flow is vital.
-He warns to be careful when buying into an industry with excess capacity since overcapacity is normally equated with negative or below average return on capital.
+The economics of a business are important as ultimately a company has to repay or restructure its debt. In either scenario, having 
+a strong underlying business that can generate strong cash flow is vital.
+He warns to be careful when buying into an industry with excess capacity since overcapacity is normally equated with negative or 
+below average return on capital.
 4. What do the bank and bond covenants look like?
-Is there a cash flow sweep recapture? In some instances, debt comes with a cash flow sweep, which means that free cash flow left after all the needs of operations have been met can be used to buy back debt at par from debt holders.
-This cash flow sweep could be monthly, quarterly or yearly. For example, R.H. Donnelly’s bank debt has a quarterly cash flow sweep and was trading at 77 cents. However, every quarter, whatever free cash flow that is left is used to buy back the bank debt at 100 cents.
+Is there a cash flow sweep recapture? In some instances, debt comes with a cash flow sweep, which means that free cash flow left
+ after all the needs of operations have been met can be used to buy back debt at par from debt holders.
+This cash flow sweep could be monthly, quarterly or yearly. For example, R.H. Donnelly’s bank debt has a quarterly cash flow sweep 
+and was trading at 77 cents. However, every quarter, whatever free cash flow that is left is used to buy back the bank debt at 100
+ cents.
 5. What does the company’s balance sheet look like and what is its liquidity position?
 Will it need to raise additional capital?
-He mentions it is important to understand the liquidity position of the company and know if it has adequate resources to pay interest on current debts and any debts that may be maturing.
-If the company has to raise capital to meet its financing and operational needs, oftentimes this capital is very expensive and dilutive to existing bondholders.
-6. If the company goes through a restructuring, will it cause permanent damage to the business by diminishing the value of the brand or by alienating customers?
+He mentions it is important to understand the liquidity position of the company and know if it has adequate resources to pay 
+interest on current debts and any debts that may be maturing.
+If the company has to raise capital to meet its financing and operational needs, oftentimes this capital is very expensive and 
+dilutive to existing bondholders.
+6. If the company goes through a restructuring, will it cause permanent damage to the business by diminishing the value of the brand
+ or by alienating customers?
 If the company decides to restructure, it has implications not only for the company and its employees but also for its customers.
-It is critical to understand the impact on customers and if they will continue to do business with the company or move to a competitor instead. If it is the latter, there will be diminished revenues and possibly negative cash flows.
-He then goes on to describe one of his best bond investments in Brick Ltd. a retailer of largely lower-end household furniture, mattresses, appliances and home electronics.
-Brick Ltd. had a financing/liquidity issue in 2009 and in May of that year, succeeded in raising $120 million to recapitalize their balance sheet, pay off senior notes and partially repay their Operating Credit Facility.
-Francis was already impressed with the company and was further impressed when the founder of the company said he was willing to invest $10 million on the same terms as the other debenture holders.
-The Debt Unit consisted of $1,000 principal amount 12% senior secured debentures maturing in five years, and 1,000 Class A Trust Unit purchase warrants.
+It is critical to understand the impact on customers and if they will continue to do business with the company or move to a 
+competitor instead. If it is the latter, there will be diminished revenues and possibly negative cash flows.
+He then goes on to describe one of his best bond investments in Brick Ltd. a retailer of largely lower-end household furniture,
+ mattresses, appliances and home electronics.
+Brick Ltd. had a financing/liquidity issue in 2009 and in May of that year, succeeded in raising $120 million to recapitalize 
+their balance sheet, pay off senior notes and partially repay their Operating Credit Facility.
+Francis was already impressed with the company and was further impressed when the founder of the company said he was willing to 
+invest $10 million on the same terms as the other debenture holders.
+The Debt Unit consisted of $1,000 principal amount 12% senior secured debentures maturing in five years, and 1,000 Class A Trust 
+Unit purchase warrants.
    90
 
-Each warrant entitled the holder to purchase one Class A Trust Unit for a strike price of $1.00, which was very close to the stock’s trading price.
+Each warrant entitled the holder to purchase one Class A Trust Unit for a strike price of $1.00, which was very close to the stock’s
+ trading price.
 Under the able stewardship of Mr. Bill Gregson, Brick continues to make a remarkable turnaround.
 Francis’ $1,000 investment is now worth $2,925, not counting the 12% coupon he has been clipping all along.
 Another remarkable thing about Francis.
 Who has ever heard of a fund manager giving back past and future management fees?
 Francis did, for a period of five years.
-In March 2009 he announced that, because of disappointing results, he would waive and refund almost all management fees from September 2003 to December 2008 (just over 5 years of fees) for the Chou Europe fund.
+In March 2009 he announced that, because of disappointing results, he would waive and refund almost all management fees from 
+September 2003 to December 2008 (just over 5 years of fees) for the Chou Europe fund.
 But that’s not all.
-In the December 2010 annual fund report Francis said as his record since inception of the Chou Europe Fund has not been as good as he would have liked he would not be charging management fees for the next three years, starting from January 1, 2011 through December 31, 2013.
+In the December 2010 annual fund report Francis said as his record since inception of the Chou Europe Fund has not been as good as
+ he would have liked he would not be charging management fees for the next three years, starting from January 1, 2011 through 
+ December 31, 2013.
 Who cannot trust a manager that treats you this fairly?
-I suggest you spend a bit of time working through Francis’ management letters. It may be the best time you may spend all year improving your investment knowledge.
+I suggest you spend a bit of time working through Francis’ management letters. It may be the best time you may spend all year 
+improving your investment knowledge.
 And best of its entirely free.
  •
 List of common fallacies (red flags if present in company’s history/culture/management/etc.)
 o ad hominem: Latin for "to the man." An arguer who uses ad hominems attacks the person instead
-of the argument. Whenever an arguer cannot defend his position with evidence, facts or reason, he or she may resort to attacking an opponent either through: labeling, straw man arguments, name calling, offensive remarks and anger.
-o appeal to ignorance (argumentum ex silentio) appealing to ignorance as evidence for something. (e.g., We have no evidence that God doesn't exist, therefore, he must exist. Or: Because we have no knowledge of alien visitors, that means they do not exist). Ignorance about something says nothing about its existence or non-existence.
-o argument from omniscience: (e.g., All people believe in something. Everyone knows that.) An arguer would need omniscience to know about everyone's beliefs or disbeliefs or about their knowledge. Beware of words like "all," "everyone," "everything," "absolute."
-o appeal to faith: (e.g., if you have no faith, you cannot learn) if the arguer relies on faith as the bases of his argument, then you can gain little from further discussion. Faith, by definition, relies on a belief that does not rest on logic or evidence. Faith depends on irrational thought and produces intransigence.
+of the argument. Whenever an arguer cannot defend his position with evidence, facts or reason, he or she may resort to attacking an
+ opponent either through: labeling, straw man arguments, name calling, offensive remarks and anger.
+o appeal to ignorance (argumentum ex silentio) appealing to ignorance as evidence for something. (e.g., We have no evidence that 
+God doesn't exist, therefore, he must exist. Or: Because we have no knowledge of alien visitors, that means they do not exist). 
+Ignorance about something says nothing about its existence or non-existence.
+o argument from omniscience: (e.g., All people believe in something. Everyone knows that.) An arguer would need omniscience to know
+ about everyone's beliefs or disbeliefs or about their knowledge. Beware of words like "all," "everyone," "everything," "absolute."
+o appeal to faith: (e.g., if you have no faith, you cannot learn) if the arguer relies on faith as the bases of his argument, then 
+you can gain little from further discussion. Faith, by definition, relies on a belief that does not rest on logic or evidence. Faith
+ depends on irrational thought and produces intransigence.
   91
 
-o appeal to tradition (similar to the bandwagon fallacy): (e.g., astrology, religion, slavery) just because people practice a tradition, says nothing about its viability.
-o argument from authority (argumentum ad verecundiam): using the words of an "expert" or authority as the bases of the argument instead of using the logic or evidence that supports an argument. (e.g., Professor so-and-so believes in creation-science.) Simply because an authority makes a claim does not necessarily mean he got it right. If an arguer presents the testimony from an expert, look to see if it accompanies reason and sources of evidence behind it.
-o Appeal to consequences (argumentum ad consequentiam): an argument that concludes a premise (usually a belief) as either true or false based on whether the premise leads to desirable or undesirable consequences. Example: some religious people believe that knowledge of evolution leads to immorality, therefore evolution proves false. Even if teaching evolution did lead to immorality, it would not imply a falsehood of evolution.
-o argument from adverse consequences: (e.g., We should judge the accused as guilty, otherwise others will commit similar crimes) Just because a repugnant crime or act occurred, does not necessarily mean that a defendant committed the crime or that we should judge him guilty. (Or: disasters occur because God punishes non-believers; therefore, we should all believe in God) Just because calamities or tragedies occur, says nothing about the existence of gods or that we should believe in a certain way.
-o argumentum ad baculum: An argument based on an appeal to fear or a threat. (e.g., If you don't believe in God, you'll burn in hell)
-o argumentum ad ignorantiam: A misleading argument used in reliance on people's ignorance. o argumentum ad populum: An argument aimed to sway popular support by appealing to
+o appeal to tradition (similar to the bandwagon fallacy): (e.g., astrology, religion, slavery) just because people practice a 
+tradition, says nothing about its viability.
+o argument from authority (argumentum ad verecundiam): using the words of an "expert" or authority as the bases of the argument 
+instead of using the logic or evidence that supports an argument. (e.g., Professor so-and-so believes in creation-science.) Simply
+ because an authority makes a claim does not necessarily mean he got it right. If an arguer presents the testimony from an expert, 
+ look to see if it accompanies reason and sources of evidence behind it.
+o Appeal to consequences (argumentum ad consequentiam): an argument that concludes a premise (usually a belief) as either true or 
+false based on whether the premise leads to desirable or undesirable consequences. Example: some religious people believe that 
+knowledge of evolution leads to immorality, therefore evolution proves false. Even if teaching evolution did lead to immorality, 
+it would not imply a falsehood of evolution.
+o argument from adverse consequences: (e.g., We should judge the accused as guilty, otherwise others will commit similar crimes) 
+Just because a repugnant crime or act occurred, does not necessarily mean that a defendant committed the crime or that we should 
+judge him guilty. (Or: disasters occur because God punishes non-believers; therefore, we should all believe in God) Just because 
+calamities or tragedies occur, says nothing about the existence of gods or that we should believe in a certain way.
+o argumentum ad baculum: An argument based on an appeal to fear or a threat. (e.g., If you don't believe in God, you'll burn in 
+hell)
+o argumentum ad ignorantiam: A misleading argument used in reliance on people's ignorance. o argumentum ad populum: An argument 
+aimed to sway popular support by appealing to
 sentimental weakness rather than facts and reasons.
 o bandwagon fallacy: concluding that an idea has merit simply because many people believe it or
-practice it. (e.g., Most people believe in a god; therefore, it must prove true.) Simply because many people may believe something says nothing about the fact of that something. For example many people during the Black plague believed that demons caused disease. The number of believers say nothing at all about the cause of disease.
-o begging the question (or assuming the answer): (e.g., We must encourage our youth to worship God to instill moral behavior.) But does religion and worship actually produce moral behavior?
-o circular reasoning: stating in one's proposition that which one aims to prove. (e.g. God exists because the Bible says so; the Bible exists because God influenced it.)
-o composition fallacy: when the conclusion of an argument depends on an erroneous characteristic from parts of something to the whole or vice versa. (e.g., Humans have consciousness and human bodies and brains consist of atoms; therefore, atoms have consciousness. Or: a word processor program consists of many bytes; therefore a byte forms a fraction of a word processor.)
-o confirmation bias (similar to observational selection): This refers to a form of selective thinking that focuses on evidence that supports what believers already believe while ignoring evidence that refutes their beliefs. Confirmation bias plays a stronger role when people base their beliefs upon faith, tradition and prejudice. For example, if someone believes in the power of prayer, the believer will notice the few "answered" prayers while ignoring the majority of unanswered prayers (which would indicate that prayer has no more value than random chance at worst or a placebo effect, when applied to health effects, at best).
-o confusion of correlation and causation: (e.g., More men play chess than women, therefore, men make better chess players than women. Or: Children who watch violence on TV tend to act violently when they grow up.) But does television programming cause violence or do violence oriented children prefer to watch violent programs? Perhaps an entirely different reason creates violence not related to television at all. Stephen Jay Gould called the invalid assumption that
+practice it. (e.g., Most people believe in a god; therefore, it must prove true.) Simply because many people may believe something 
+says nothing about the fact of that something. For example many people during the Black plague believed that demons caused disease.
+ The number of believers say nothing at all about the cause of disease.
+o begging the question (or assuming the answer): (e.g., We must encourage our youth to worship God to instill moral behavior.) But
+ does religion and worship actually produce moral behavior?
+o circular reasoning: stating in one's proposition that which one aims to prove. (e.g. God exists because the Bible says so; the
+ Bible exists because God influenced it.)
+o composition fallacy: when the conclusion of an argument depends on an erroneous characteristic from parts of something to the 
+whole or vice versa. (e.g., Humans have consciousness and human bodies and brains consist of atoms; therefore, atoms have 
+consciousness. Or: a word processor program consists of many bytes; therefore a byte forms a fraction of a word processor.)
+o confirmation bias (similar to observational selection): This refers to a form of selective thinking that focuses on evidence 
+that supports what believers already believe while ignoring evidence that refutes their beliefs. Confirmation bias plays a stronger
+ role when people base their beliefs upon faith, tradition and prejudice. For example, if someone believes in the power of prayer, 
+ the believer will notice the few "answered" prayers while ignoring the majority of unanswered prayers (which would indicate that
+ prayer has no more value than random chance at worst or a placebo effect, when applied to health effects, at best).
+o confusion of correlation and causation: (e.g., More men play chess than women, therefore, men make better chess players than 
+women. Or: Children who watch violence on TV tend to act violently when they grow up.) But does television programming cause 
+violence or do violence oriented children prefer to watch violent programs? Perhaps an entirely different reason creates violence
+ not related to television at all. Stephen Jay Gould called the invalid assumption that
   92
 
 correlation implies cause as "probably among the two or three most serious and common errors
 of human reasoning" (The Mismeasure of Man).
 o excluded middle (or false dichotomy): considering only the extremes. Many people use
-Aristotelian either/or logic tending to describe in terms of up/down, black/white, true/false, love/hate, etc. (e.g., You either like it or you don't. He either stands guilty or not guilty.) Many times, a continuum occurs between the extremes that people fail to see. The universe also contains many "maybes."
-o half truths (suppressed evidence): An statement usually intended to deceive that omits some of the facts necessary for an accurate description.
-o loaded questions: embodies an assumption that, if answered, indicates an implied agreement. (e.g., Have you stopped beating your wife yet?)
-o meaningless question: (e.g., "How high is up?" "Is everything possible?") "Up" describes a direction, not a measurable entity. If everything proved possible, then the possibility exists for the impossible, a contradiction. Although everything may not prove possible, there may occur an infinite number of possibilities as well as an infinite number of impossibilities. Many meaningless questions include empty words such as "is," "are," "were," "was," "am," "be," or "been."
-o misunderstanding the nature of statistics: (e.g., the majority of people in the United States die in hospitals, therefore, stay out of them.) "Statistics show that of those who contract the habit of eating, very few survive." -- Wallace Irwin
-o non sequitur: Latin for "It does not follow." An inference or conclusion that does not follow from established premises or evidence. (e.g., there occured an increase of births during the full moon. Conclusion: full moons cause birth rates to rise.) But does a full moon actually cause more births, or did it occur for other reasons, perhaps from expected statistical variations?
-o observational selection (similar to confirmation bias): pointing out favorable circumstances while ignoring the unfavorable. Anyone who goes to Las Vegas gambling casinos will see people winning at the tables and slots. The casino managers make sure to install bells and whistles to announce the victors, while the losers never get mentioned. This may lead one to conclude that the chances of winning appear good while in actually just the reverse holds true.
-o post hoc, ergo propter hoc: Latin for "It happened after, so it was caused by." Similar to a non sequitur, but time dependent. (e.g. She got sick after she visited China, so something in China caused her sickness.) Perhaps her sickness derived from something entirely independent from China.
-o proving non-existence: when an arguer cannot provide the evidence for his claims, he may challenge his opponent to prove it doesn't exist (e.g., prove God doesn't exist; prove UFO's haven't visited earth, etc.). Although one may prove non-existence in special limitations, such as showing that a box does not contain certain items, one cannot prove universal or absolute non- existence, or non-existence out of ignorance. One cannot prove something that does not exist. The proof of existence must come from those who make the claims.
+Aristotelian either/or logic tending to describe in terms of up/down, black/white, true/false, love/hate, etc. (e.g., You either 
+like it or you don't. He either stands guilty or not guilty.) Many times, a continuum occurs between the extremes that people fail 
+to see. The universe also contains many "maybes."
+o half truths (suppressed evidence): An statement usually intended to deceive that omits some of the facts necessary for an accurate
+ description.
+o loaded questions: embodies an assumption that, if answered, indicates an implied agreement. (e.g., Have you stopped beating your
+ wife yet?)
+o meaningless question: (e.g., "How high is up?" "Is everything possible?") "Up" describes a direction, not a measurable entity.
+ If everything proved possible, then the possibility exists for the impossible, a contradiction. Although everything may not prove
+  possible, there may occur an infinite number of possibilities as well as an infinite number of impossibilities. Many meaningless 
+  questions include empty words such as "is," "are," "were," "was," "am," "be," or "been."
+o misunderstanding the nature of statistics: (e.g., the majority of people in the United States die in hospitals, therefore, stay 
+out of them.) "Statistics show that of those who contract the habit of eating, very few survive." -- Wallace Irwin
+o non sequitur: Latin for "It does not follow." An inference or conclusion that does not follow from established premises or 
+evidence. (e.g., there occured an increase of births during the full moon. Conclusion: full moons cause birth rates to rise.)
+ But does a full moon actually cause more births, or did it occur for other reasons, perhaps from expected statistical variations?
+o observational selection (similar to confirmation bias): pointing out favorable circumstances while ignoring the unfavorable. 
+Anyone who goes to Las Vegas gambling casinos will see people winning at the tables and slots. The casino managers make sure to 
+install bells and whistles to announce the victors, while the losers never get mentioned. This may lead one to conclude that the 
+chances of winning appear good while in actually just the reverse holds true.
+o post hoc, ergo propter hoc: Latin for "It happened after, so it was caused by." Similar to a non sequitur, but time dependent. 
+(e.g. She got sick after she visited China, so something in China caused her sickness.) Perhaps her sickness derived from something
+ entirely independent from China.
+o proving non-existence: when an arguer cannot provide the evidence for his claims, he may challenge his opponent to prove it 
+doesn't exist (e.g., prove God doesn't exist; prove UFO's haven't visited earth, etc.). Although one may prove non-existence in 
+special limitations, such as showing that a box does not contain certain items, one cannot prove universal or absolute non- 
+existence, or non-existence out of ignorance. One cannot prove something that does not exist. The proof of existence must come 
+from those who make the claims.
 o red herring: when the arguer diverts the attention by changing the subject.
 o reification fallacy: when people treat an abstract belief or hypothetical construct as if it
-represented a concrete event or physical entity. Examples: IQ tests as an actual measure of intelligence; the concept of race (even though genetic attributes exist), from the chosen combination of attributes or the labeling of a group of people, come from abstract social constructs; Astrology; god(s); Jesus; Santa Claus, black race, white race, etc.
-o slippery slope: a change in procedure, law, or action, will result in adverse consequences. (e.g., If we allow doctor assisted suicide, then eventually the government will control how we die.) It does not necessarily follow that just because we make changes that a slippery slope will occur.
+represented a concrete event or physical entity. Examples: IQ tests as an actual measure of intelligence; the concept of race 
+(even though genetic attributes exist), from the chosen combination of attributes or the labeling of a group of people, come from
+ abstract social constructs; Astrology; god(s); Jesus; Santa Claus, black race, white race, etc.
+o slippery slope: a change in procedure, law, or action, will result in adverse consequences. (e.g., If we allow doctor assisted
+ suicide, then eventually the government will control how we die.) It does not necessarily follow that just because we make changes that a slippery slope will occur.
   93
 
-o special pleading: the assertion of new or special matter to offset the opposing party's allegations. A presentation of an argument that emphasizes only a favorable or single aspect of the question at issue. (e.g. How can God create so much suffering in the world? Answer: You have to understand that God moves in mysterious ways and we have no privilege to this knowledge. Or: Horoscopes work, but you have to understand the theory behind it.)
-o statistics of small numbers: similar to observational selection (e.g., My parents smoked all their lives and they never got cancer. Or: I don't care what others say about Yugos, my Yugo has never had a problem.) Simply because someone can point to a few favorable numbers says nothing about the overall chances.
-o straw man: creating a false scenario and then attacking it. (e.g., Evolutionists think that everything came about by random chance.) Most evolutionists think in terms of natural selection which may involve incidental elements, but does not depend entirely on random chance. Painting your opponent with false colors only deflects the purpose of the argument.
-o two wrongs make a right: trying to justify what we did by accusing someone else of doing the same. (e.g. how can you judge my actions when you do exactly the same thing?) The guilt of the accuser has no relevance to the discussion.
-o Use-mention error: confusing a word or a concept with something that supposedly exists. For example an essay on THE HISTORY OF GOD does not refer an actual god, but rather the history of the concept of god in human culture. (To avoid confusion, people usually put the word or phrase in quotations.
+o special pleading: the assertion of new or special matter to offset the opposing party's allegations. A presentation of an 
+argument that emphasizes only a favorable or single aspect of the question at issue. (e.g. How can God create so much suffering
+ in the world? Answer: You have to understand that God moves in mysterious ways and we have no privilege to this knowledge. Or:
+  Horoscopes work, but you have to understand the theory behind it.)
+o statistics of small numbers: similar to observational selection (e.g., My parents smoked all their lives and they never got 
+cancer. Or: I don't care what others say about Yugos, my Yugo has never had a problem.) Simply because someone can point to a 
+few favorable numbers says nothing about the overall chances.
+o straw man: creating a false scenario and then attacking it. (e.g., Evolutionists think that everything came about by random 
+chance.) Most evolutionists think in terms of natural selection which may involve incidental elements, but does not depend 
+entirely on random chance. Painting your opponent with false colors only deflects the purpose of the argument.
+o two wrongs make a right: trying to justify what we did by accusing someone else of doing the same. (e.g. how can you judge my 
+actions when you do exactly the same thing?) The guilt of the accuser has no relevance to the discussion.
+o Use-mention error: confusing a word or a concept with something that supposedly exists. For example an essay on THE HISTORY OF 
+GOD does not refer an actual god, but rather the history of the concept of god in human culture. (To avoid confusion, people 
+usually put the word or phrase in quotations.
 Rules for net-net investing, by Nate Tobik
 1) All rules can be broken but only for a very good reason. Good reasons must have a much higher burden of proof.
 2) Always prefer cash to inventory and receivables unless:
 • Management is acquisitive, in general stay away.
 • There are restrictions on a dividend.
-3) If there are securities on the balance sheet consider if they are encumbered by a relationship. Are the securities a company in the supply chain, or a cross holding?
+3) If there are securities on the balance sheet consider if they are encumbered by a relationship. Are the securities a company 
+in the supply chain, or a cross holding?
 4) Prefer shrinking receivables and shrinking inventory accounts.
 • If inventory is shrinking too fast cash will need to be used to build it back up soon, beware.
 5) Prefer cash flow and free cash flow over net income if a decision is forced. Prefer both if possible.
@@ -3161,11 +3766,13 @@ Rules for net-net investing, by Nate Tobik
 • How obvious is the reason?
 • What changed recently?
 9) Would I loan this company my own money for a five year term? How likely is it I would get it back?
-10) Am I relying on non-liquid assets that need to be liquidated? Is there a market for those assets? How quickly do those assets sell?
+10) Am I relying on non-liquid assets that need to be liquidated? Is there a market for those assets? How quickly do those asset
+ sell?
 11) If possible try to ascertain how long the company has been trading below NCAV.
    94
 
-12) Always check message boards and blogs if possible. Current investors have much better insight into the ongoing operations and past struggles.
+12) Always check message boards and blogs if possible. Current investors have much better insight into the ongoing operations and
+ past struggles.
 13) Are there a ton of value investors already invested in this stock? If this is such a popular idea why is it still cheap?
 14) Is there a catalyst on the horizon? Have there been rumors of catalysts for years that have never materialized?
 15) Do I need to rely on a catalyst to realize my investment?
@@ -3204,8 +3811,10 @@ investor important clues as to how outstanding the company may be in relation to
 12. Does the company have a short-range or long-range outlook in regard to profits?
    95
 
-13. In the foreseeable future will the growth of the company require sufficient equity financing so that the larger number of shares then outstanding will largely cancel the existing shareholders’ benefit from this anticipated growth?
-14. Does the management talk freely to investors about its affairs when things are going well but “clam up” when troubles and disappointments occur?
+13. In the foreseeable future will the growth of the company require sufficient equity financing so that the larger number of shares
+ then outstanding will largely cancel the existing shareholders’ benefit from this anticipated growth?
+14. Does the management talk freely to investors about its affairs when things are going well but “clam up” when troubles and 
+disappointments occur?
 15. Does the company have a management of unquestionable integrity?
 402 Fund
 The 402 Fund LP is a private partnership managed from Omaha, Nebraska. Its mandate is:
@@ -3214,27 +3823,68 @@ The 402 Fund LP is a private partnership managed from Omaha, Nebraska. Its manda
 businesses that can deliver sustainable excess returns, and
 • to capitalize on mispriced equity, fixed income, and real estate opportunities.
 •
-One of the most powerful insights used in forensic analysis is that accounting events can be manipulated more easily that the cash transaction that accompanies the economic event. Therefore, in most cases (with the possible exception of fraud), “cash flows” tell the true story of the economics and the discrepancy between the “accounting event” and “cash flows” from the event expose all sins. In addition, remember that it is much easier to manipulate the income statement or the balance sheet in any given accounting period; it is exceedly difficult to manipulate both statements at the same time. – Paul Johnson
-Management’s behavior is affected by rewards and punishments. Since many companies offer bonuses and stock options based on financial statement measures, executives and managers are motivated to report more favorable financial results. (Schilit)
+One of the most powerful insights used in forensic analysis is that accounting events can be manipulated more easily that the cash
+ transaction that accompanies the economic event. Therefore, in most cases (with the possible exception of fraud), “cash flows” tell
+  the true story of the economics and the discrepancy between the “accounting event” and “cash flows” from the event expose all 
+  sins. In addition, remember that it is much easier to manipulate the income statement or the balance sheet in any given accounting
+   period; it is exceedly difficult to manipulate both statements at the same time. – Paul Johnson
+Management’s behavior is affected by rewards and punishments. Since many companies offer bonuses and stock options based on 
+financial statement measures, executives and managers are motivated to report more favorable financial results. (Schilit)
 • Seth Klarman’s 20 Investment Lessons from 2008
-"One might have expected that the near-death experience of most investors in 2008 would generate valuable lessons for the future. We all know about the “depression mentality” of our parents and grandparents who lived through the Great Depression. Memories of tough times colored their behavior for more than a generation, leading to limited risk taking and a sustainable base for healthy growth. Yet one year after the 2008 collapse, investors have returned to shockingly speculative behavior. One state investment board recently adopted a plan to leverage its portfolio – specifically its government and high- grade bond holdings – in an amount that could grow to 20% of its assets over the next three years. No one who was paying attention in 2008 would possibly think this is a good idea.
-"Below, we highlight the lessons that we believe could and should have been learned from the turmoil of 2008. Some of them are unique to the 2008 melt- down; others, which could have been drawn from general market observation over the past several decades, were certainly reinforced last year. Shockingly, virtually all of these lessons were either never learned or else were immediately forgotten by most market participants.
+"One might have expected that the near-death experience of most investors in 2008 would generate valuable lessons for the future. 
+We all know about the “depression mentality” of our parents and grandparents who lived through the Great Depression. Memories of 
+tough times colored their behavior for more than a generation, leading to limited risk taking and a sustainable base for healthy 
+growth. Yet one year after the 2008 collapse, investors have returned to shockingly speculative behavior. One state investment board
+ recently adopted a plan to leverage its portfolio – specifically its government and high- grade bond holdings – in an amount that 
+ could grow to 20% of its assets over the next three years. No one who was paying attention in 2008 would possibly think this is a 
+ good idea.
+"Below, we highlight the lessons that we believe could and should have been learned from the turmoil of 2008. Some of them are
+ unique to the 2008 melt- down; others, which could have been drawn from general market observation over the past several decades,
+  were certainly reinforced last year. Shockingly, virtually all of these lessons were either never learned or else were immediately
+   forgotten by most market participants.
     96
 
-1. Things that have never happened before are bound to occur with some regularity. You must always be prepared for the unexpected, including sudden, sharp downward swings in markets and the economy. Whatever adverse scenario you can contemplate, reality can be far worse.
-2. When excesses such as lax lending standards become widespread and persist for some time, people are lulled into a false sense of security, creating an even more dangerous situation. In some cases, excesses migrate beyond regional or national borders, raising the ante for investors and governments. These excesses will eventually end, triggering a crisis at least in proportion to the degree of the excesses. Correlations between asset classes may be surprisingly high when leverage rapidly unwinds.
-3. Nowhere does it say that investors should strive to make every last dollar of potential profit; consideration of risk must never take a backseat to return. Conservative positioning entering a crisis is crucial: it enables one to maintain long-term oriented, clear thinking, and to focus on new opportunities while others are distracted or even forced to sell. Portfolio hedges must be in place before a crisis hits. One cannot reliably or affordably increase or replace hedges that are rolling off during a financial crisis.
-4. Risk is not inherent in an investment; it is always relative to the price paid. Uncertainty is not the same as risk. Indeed, when great uncertainty – such as in the fall of 2008 – drives securities prices to especially low levels, they often become less risky investments.
-5. Do not trust financial market risk models. Reality is always too complex to be accurately modeled. Attention to risk must be a 24/7/365 obsession, with people – not computers – assessing and reassessing the risk environment in real time. Despite the predilection of some analysts to model the financial markets using sophisticated mathematics, the markets are governed by behavioral science, not physical science.
-6. Do not accept principal risk while investing short-term cash: the greedy effort to earn a few extra basis points of yield inevitably leads to the incurrence of greater risk, which increases the likelihood of losses and severe illiquidity at precisely the moment when cash is needed to cover expenses, to meet commitments, or to make compelling long-term investments.
-7. The latest trade of a security creates a dangerous illusion that its market price approximates its true value. This mirage is especially dangerous during periods of market exuberance. The concept of “private market value” as an anchor to the proper valuation of a business can also be greatly skewed during ebullient times and should always be considered with a healthy degree of skepticism.
-8. A broad and flexible investment approach is essential during a crisis. Opportunities can be vast, ephemeral, and dispersed through various sectors and markets. Rigid silos can be an enormous disadvantage at such times.
-9. You must buy on the way down. There is far more volume on the way down than on the way back up, and far less competition among buyers. It is almost always better to be too early than too late, but you must be prepared for price markdowns on what you buy.
-10. Financial innovation can be highly dangerous, though almost no one will tell you this. New financial products are typically created for sunny days and are almost never stress-tested for stormy weather. Securitization is an area that almost perfectly fits this description; markets for securitized assets such as subprime mortgages completely collapsed in 2008 and have not fully recovered. Ironically, the government is eager to restore the securitization markets back to their pre-collapse stature.
-11. Ratings agencies are highly conflicted, unimaginative dupes. They are blissfully unaware of adverse selection and moral hazard. Investors should never trust them.
-12. Be sure that you are well compensated for illiquidity – especially illiquidity without control – because it can create particularly high opportunity costs.
-13. At equal returns, public investments are generally superior to private investments not only because they are more liquid but also because amidst distress, public markets are more likely than private ones to offer attractive opportunities to average down.
-14. Beware leverage in all its forms. Borrowers – individual, corporate, or government – should always match fund their liabilities against the duration of their assets. Borrowers must always remember that
+1. Things that have never happened before are bound to occur with some regularity. You must always be prepared for the unexpected, 
+including sudden, sharp downward swings in markets and the economy. Whatever adverse scenario you can contemplate, reality can be 
+far worse.
+2. When excesses such as lax lending standards become widespread and persist for some time, people are lulled into a false sense of 
+security, creating an even more dangerous situation. In some cases, excesses migrate beyond regional or national borders, raising 
+the ante for investors and governments. These excesses will eventually end, triggering a crisis at least in proportion to the degree
+ of the excesses. Correlations between asset classes may be surprisingly high when leverage rapidly unwinds.
+3. Nowhere does it say that investors should strive to make every last dollar of potential profit; consideration of risk must never
+ take a backseat to return. Conservative positioning entering a crisis is crucial: it enables one to maintain long-term oriented,
+  clear thinking, and to focus on new opportunities while others are distracted or even forced to sell. Portfolio hedges must be in
+   place before a crisis hits. One cannot reliably or affordably increase or replace hedges that are rolling off during a financial 
+   crisis.
+4. Risk is not inherent in an investment; it is always relative to the price paid. Uncertainty is not the same as risk. Indeed, when
+ great uncertainty – such as in the fall of 2008 – drives securities prices to especially low levels, they often become less risky 
+ investments.
+5. Do not trust financial market risk models. Reality is always too complex to be accurately modeled. Attention to risk must be a 
+24/7/365 obsession, with people – not computers – assessing and reassessing the risk environment in real time. Despite the 
+predilection of some analysts to model the financial markets using sophisticated mathematics, the markets are governed by behavioral
+ science, not physical science.
+6. Do not accept principal risk while investing short-term cash: the greedy effort to earn a few extra basis points of yield 
+inevitably leads to the incurrence of greater risk, which increases the likelihood of losses and severe illiquidity at precisely 
+the moment when cash is needed to cover expenses, to meet commitments, or to make compelling long-term investments.
+7. The latest trade of a security creates a dangerous illusion that its market price approximates its true value. This mirage is 
+especially dangerous during periods of market exuberance. The concept of “private market value” as an anchor to the proper valuation
+ of a business can also be greatly skewed during ebullient times and should always be considered with a healthy degree of skepticism.
+8. A broad and flexible investment approach is essential during a crisis. Opportunities can be vast, ephemeral, and dispersed 
+through various sectors and markets. Rigid silos can be an enormous disadvantage at such times.
+9. You must buy on the way down. There is far more volume on the way down than on the way back up, and far less competition among 
+buyers. It is almost always better to be too early than too late, but you must be prepared for price markdowns on what you buy.
+10. Financial innovation can be highly dangerous, though almost no one will tell you this. New financial products are typically 
+created for sunny days and are almost never stress-tested for stormy weather. Securitization is an area that almost perfectly fits
+ this description; markets for securitized assets such as subprime mortgages completely collapsed in 2008 and have not fully 
+ recovered. Ironically, the government is eager to restore the securitization markets back to their pre-collapse stature.
+11. Ratings agencies are highly conflicted, unimaginative dupes. They are blissfully unaware of adverse selection and moral hazard.
+ Investors should never trust them.
+12. Be sure that you are well compensated for illiquidity – especially illiquidity without control – because it can create 
+particularly high opportunity costs.
+13. At equal returns, public investments are generally superior to private investments not only because they are more liquid but 
+also because amidst distress, public markets are more likely than private ones to offer attractive opportunities to average down.
+14. Beware leverage in all its forms. Borrowers – individual, corporate, or government – should always match fund their liabilities
+ against the duration of their assets. Borrowers must always remember that
   97
 
 15. 16.
@@ -3257,12 +3907,26 @@ Management’s behavior is affected by rewards and punishments. Since many compa
 •
 •
 •
-capital markets can be extremely fickle, and that it is never safe to assume a maturing loan can be rolled over. Even if you are unleveraged, the leverage employed by others can drive dramatic price and valuation swings; sudden unavailability of leverage in the economy may trigger an economic downturn. Many LBOs are man-made disasters. When the price paid is excessive, the equity portion of an LBO is really an out-of-the-money call option. Many fiduciaries placed large amounts of the capital under their stewardship into such options in 2006 and 2007.
-Financial stocks are particularly risky. Banking, in particular, is a highly lever- aged, extremely competitive, and challenging business. A major European bank recently announced the goal of achieving a 20% return on equity (ROE) within several years. Unfortunately, ROE is highly dependent on absolute yields, yield spreads, maintaining adequate loan loss reserves, and the amount of leverage used. What is the bank’s management to do if it cannot readily get to 20%? Leverage up? Hold riskier assets? Ignore the risk of loss? In some ways, for a major financial institution even to have a ROE goal is to court disaster.
+capital markets can be extremely fickle, and that it is never safe to assume a maturing loan can be rolled over. Even if you are 
+unleveraged, the leverage employed by others can drive dramatic price and valuation swings; sudden unavailability of leverage in 
+the economy may trigger an economic downturn. Many LBOs are man-made disasters. When the price paid is excessive, the equity portion
+ of an LBO is really an out-of-the-money call option. Many fiduciaries placed large amounts of the capital under their stewardship 
+ into such options in 2006 and 2007.
+Financial stocks are particularly risky. Banking, in particular, is a highly lever- aged, extremely competitive, and challenging 
+business. A major European bank recently announced the goal of achieving a 20% return on equity (ROE) within several years. 
+Unfortunately, ROE is highly dependent on absolute yields, yield spreads, maintaining adequate loan loss reserves, and the amount
+ of leverage used. What is the bank’s management to do if it cannot readily get to 20%? Leverage up? Hold riskier assets? Ignore 
+ the risk of loss? In some ways, for a major financial institution even to have a ROE goal is to court disaster.
 Having clients with a long-term orientation is crucial. Nothing else is as important to the success of an investment firm.
 When a government official says a problem has been “contained,” pay no attention.
-The government – the ultimate short- term-oriented player – cannot with- stand much pain in the economy or the financial markets. Bailouts and rescues are likely to occur, though not with sufficient predictability for investors to comfortably take advantage. The government will take enormous risks in such interventions, especially if the expenses can be conveniently deferred to the future. Some of the price-tag is in the form of back- stops and guarantees, whose cost is almost impossible to determine. Almost no one will accept responsibility for his or her role in precipitating a crisis: not leveraged speculators, not willfully blind leaders of financial institutions, and certainly not regulators, government officials, ratings agencies or politicians.
-Is this an industry or company that is benefiting (or suffering) from another industry that has just experienced a dramatic and temporary boom (bust)?
+The government – the ultimate short- term-oriented player – cannot with- stand much pain in the economy or the financial markets.
+ Bailouts and rescues are likely to occur, though not with sufficient predictability for investors to comfortably take advantage.
+  The government will take enormous risks in such interventions, especially if the expenses can be conveniently deferred to the
+  future. Some of the price-tag is in the form of back- stops and guarantees, whose cost is almost impossible to determine. Almost 
+  no one will accept responsibility for his or her role in precipitating a crisis: not leveraged speculators, not willfully blind
+   leaders of financial institutions, and certainly not regulators, government officials, ratings agencies or politicians.
+Is this an industry or company that is benefiting (or suffering) from another industry that has just experienced a dramatic and 
+temporary boom (bust)?
 Is this investment focused on the rearview mirror or the road ahead?
 Customer’s perspective
 Supplier’s perspective
@@ -3296,7 +3960,8 @@ o Lesson 3: The time is never different.
 o Lesson 4: Valuation matters.
 o Lesson 5: Wait for the fat pitch.
 o Lesson 6: Sentiment matters.
-o Lesson 7: Leverage can’t make a bad investment good, but it can make a good investment bad! o Lesson 8: Over-quantification hides real risk.
+o Lesson 7: Leverage can’t make a bad investment good, but it can make a good investment bad! o Lesson 8: Over-quantification hides 
+real risk.
 o Lesson 9: Macro matters.
 o Lesson 10: Look for sources of cheap insurance.
 • Trust intuition, but don’t waste time arguing for it
@@ -3323,7 +3988,8 @@ o Lesson 10: Look for sources of cheap insurance.
 • Excess cash or net debtor?
 • Market share position? Growing or shrinking?
 • Brand and customer service as to compared to peers’
-19 In Alice's Adventures in Wonderland, Alice finds that she has to run faster and faster just to stay in place. Many technology companies face the same problem, which is probably why many value investors refrain from investing in technology companies.
+19 In Alice's Adventures in Wonderland, Alice finds that she has to run faster and faster just to stay in place. Many technology 
+companies face the same problem, which is probably why many value investors refrain from investing in technology companies.
    99
 
 • Unionized labor? State of labor relations in general?
@@ -3352,7 +4018,9 @@ bottle does not mean the price of ketchup is justified
 • Ken Fisher’s “Three Questions”
 o What do you believe that is actually false?
 o What can you fathom that others find unfathomable? o What the heck is my brain doing to blindside me now?
-The idea is to get us to think more deeply. Test the received wisdom to see if it is really true. Look for unusual areas of competitive advantage that you have that are possessed by few. Your emotions will often lead you astray: look for opportunity amid fear; look for shelter amid wild abandon.
+The idea is to get us to think more deeply. Test the received wisdom to see if it is really true. Look for unusual areas of 
+competitive advantage that you have that are possessed by few. Your emotions will often lead you astray: look for opportunity amid
+ fear; look for shelter amid wild abandon.
 • Negative red-flags/buzzwords:
 o Related party (transaction)
 o Consulting (arrangement/agreement)
@@ -3371,7 +4039,8 @@ cash flow could be a concern
 o Cash from investing or financing pulled in to CFFO; or, operating expenses pushed into
 investing
 § Capitalized expenses
-o Selling receivables with recourse – unsustainable; should always be in cash flows from financing o Any change in definition of a metric
+o Selling receivables with recourse – unsustainable; should always be in cash flows from financing o Any change in definition of a
+metric
 o “substantial doubt” of anything
 o “material effect” or “adverse effect”
 o Sale leasebacks
@@ -3411,9 +4080,12 @@ o Three psychological principles, particularly as pertaining to value or utility
   101
 
 § Diminishing sensitivity suggests that changes in value have a greater impact near the reference point than away from it
-§ Loss aversion suggests that the pain of losses outweighs the pleasure of gains o Mental accounting relates to the process of individuals’ financial decisions
-§ People prefer to segregate gains but aggregate losses: a $1000 inheritance and a $250 raffle prize are viewed and enjoyed separately, but a $250 speeding ticket and $1000 roofing bill are aggregated
-• Leads to flat-rate pricing plans (monthly or annual gym memberships rather than single-visit fees; monthly unlimited cell phone plans rather than per-minute pricing schedules, etc.)
+§ Loss aversion suggests that the pain of losses outweighs the pleasure of gains o Mental accounting relates to the process of 
+individuals’ financial decisions
+§ People prefer to segregate gains but aggregate losses: a $1000 inheritance and a $250 raffle prize are viewed and enjoyed 
+separately, but a $250 speeding ticket and $1000 roofing bill are aggregated
+• Leads to flat-rate pricing plans (monthly or annual gym memberships rather than single-visit fees; monthly unlimited cell phone
+ plans rather than per-minute pricing schedules, etc.)
 § Framing: people often won’t walk 10 blocks to save $5 on a $200 jacket, but would do it to save $5 on a $20 calculator
 Dale Carnegie – How to Win Friends and Influence People
 "The ability to deal with people is as purchasable commodity as sugar or coffee. And I will pay more for that
@@ -3422,7 +4094,8 @@ ability than for any other under the sun." -- John D. Rockefeller
 "One thing only I know, and that is that I know nothing." -- Socrates
 "You cannot teach a man anything; you can only help him to find it within himself." -- Galileo
 "A person usually has to reasons for doing a thing: one that sounds good and a real one." -- J.P. Morgan
-"I have never found that pay and pay alone would either bring together or hold good people. I think it was the game itself." -- Harvey S. Firestone
+"I have never found that pay and pay alone would either bring together or hold good people. I think it was the game itself." -- 
+Harvey S. Firestone
 Fundamental Techniques in Handling People
 • Don't criticize, condemn or complain.
 • Give honest and sincere appreciation.
@@ -3472,19 +4145,33 @@ and lavish in your praise."
 • Use encouragement. Make the fault seem easy to correct.
 • Make the other person happy about doing the thing you suggest.
 Dave Packard’s 11 Simple Rules
-1. Think first of the other fellow. This is THE foundation — the first requisite — for getting along with others. And it is the one truly difficult accomplishment you must make. Gaining this, the rest will be "a breeze."
-2. Build up the other person's sense of importance. When we make the other person seem less important, we frustrate one of his deepest urges. Allow him to feel equality or superiority, and we can easily get along with him.
-3. Respect the other man's personality rights. Respect as something sacred the other fellow's right to be different from you. No two personalities are ever molded by precisely the same forces.
-4. Give sincere appreciation. If we think someone has done a thing well, we should never hesitate to let him know it. WARNING: This does not mean promiscuous use of obvious flattery. Flattery with most
+1. Think first of the other fellow. This is THE foundation — the first requisite — for getting along with others. And it is the one 
+truly difficult accomplishment you must make. Gaining this, the rest will be "a breeze."
+2. Build up the other person's sense of importance. When we make the other person seem less important, we frustrate one of his 
+deepest urges. Allow him to feel equality or superiority, and we can easily get along with him.
+3. Respect the other man's personality rights. Respect as something sacred the other fellow's right to be different from you. No two
+ personalities are ever molded by precisely the same forces.
+4. Give sincere appreciation. If we think someone has done a thing well, we should never hesitate to let him know it. WARNING: This 
+does not mean promiscuous use of obvious flattery. Flattery with most
      103
 
 intelligent people gets exactly the reaction it deserves — contempt for the egotistical "phony" who stoops to it.
-5. Eliminate the negative. Criticism seldom does what its user intends, for it invariably causes resentment. The tiniest bit of disapproval can sometimes cause a resentment which will rankle — to your disadvantage — for years.
-6. Avoid openly trying to reform people. Every man knows he is imperfect, but he doesn't want someone else trying to correct his faults. If you want to improve a person, help him to embrace a higher working goal — a standard, an ideal — and he will do his own "making over" far more effectively than you can do it for him.
-7. Try to understand the other person. How would you react to similar circumstances? When you begin to see the "whys" of him you can't help but get along better with him.
-8. Check first impressions. We are especially prone to dislike some people on first sight because of some vague resemblance (of which we are usually unaware) to someone else whom we have had reason to dislike. Follow Abraham Lincoln's famous self-instruction: "I do not like that man; therefore I shall get to know him better."
-9. Take care with the little details. Watch your smile, your tone of voice, how you use your eyes, the way you greet people, the use of nicknames and remembering faces, names and dates. Little things add polish to your skill in dealing with people. Constantly, deliberately think of them until they become a natural part of your personality.
-10. Develop genuine interest in people. You cannot successfully apply the foregoing suggestions unless you have a sincere desire to like, respect and be helpful to others. Conversely, you cannot build genuine interest in people until you have experienced the pleasure of working with them in an atmosphere characterized by mutual liking and respect.
+5. Eliminate the negative. Criticism seldom does what its user intends, for it invariably causes resentment. The tiniest bit of 
+disapproval can sometimes cause a resentment which will rankle — to your disadvantage — for years.
+6. Avoid openly trying to reform people. Every man knows he is imperfect, but he doesn't want someone else trying to correct his 
+faults. If you want to improve a person, help him to embrace a higher working goal — a standard, an ideal — and he will do his own
+ "making over" far more effectively than you can do it for him.
+7. Try to understand the other person. How would you react to similar circumstances? When you begin to see the "whys" of him you 
+can't help but get along better with him.
+8. Check first impressions. We are especially prone to dislike some people on first sight because of some vague resemblance (of 
+which we are usually unaware) to someone else whom we have had reason to dislike. Follow Abraham Lincoln's famous self-instruction:
+ "I do not like that man; therefore I shall get to know him better."
+9. Take care with the little details. Watch your smile, your tone of voice, how you use your eyes, the way you greet people, the 
+use of nicknames and remembering faces, names and dates. Little things add polish to your skill in dealing with people. Constantly,
+ deliberately think of them until they become a natural part of your personality.
+10. Develop genuine interest in people. You cannot successfully apply the foregoing suggestions unless you have a sincere desire to
+ like, respect and be helpful to others. Conversely, you cannot build genuine interest in people until you have experienced the
+  pleasure of working with them in an atmosphere characterized by mutual liking and respect.
 11. Keep it up. That's all — just keep it up!
 Stephen Covey’s “Effective Habits”
 1. Be proactive
@@ -3496,11 +4183,13 @@ Stephen Covey’s “Effective Habits”
 7. Sharpen the saw
 8. Find your voice and inspire others
 Cialdini’s Influence
-"Everything should be made as simple as possible, but not simpler." -- Albert Einstein "Pay every debt, as if God wrote the bill." -- Ralph Waldo Emerson
+"Everything should be made as simple as possible, but not simpler." -- Albert Einstein "Pay every debt, as if God wrote the bill."
+ -- Ralph Waldo Emerson
 "It is easier to resist at the beginning than at the end." -- Leonardo da Vinci
     104
 
-"There is no expedient to which a man will not resort to avoid the real labor of thinking." -- Sir Joshua Reynolds "Where all think alike, no one thinks very much." -- Walter Lippmann
+"There is no expedient to which a man will not resort to avoid the real labor of thinking." -- Sir Joshua Reynolds "Where all think
+alike, no one thinks very much." -- Walter Lippmann
 "The joy is not in experiencing a scarce commodity but in possessing it." -- Cialdini
 Weapons of Influence
 • Anything that triggers click, whirr
@@ -3524,7 +4213,8 @@ Key principles/strategies:
 § Are their third parties who interests should be considered?
 § Which interests are shared, which are just different, and which conflict?
 2. Think about each party’s alternatives?
-§ What is our BATNA (best alternative to a negotiated agreement)? What might be theirs? § Can we improve our BATNA? Can we worsen theirs?
+§ What is our BATNA (best alternative to a negotiated agreement)? What might be theirs? § Can we improve our BATNA? Can we worsen 
+theirs?
 3. Brainstorm solutions
 § What possible agreements or pieces of an agreement might satisfy all sides? § What solutions can we propose?
 4. Consider ways to legitimize the solutions
@@ -3538,16 +4228,20 @@ Key principles/strategies:
      105
 
 § What can we do to bridge the gap at low cost and risk? 7. Plan your communication strategy
-§ What do we can to learn from them? How can we improve our listening? § What do we want to communicate? How can we do so persuasively?
+§ What do we can to learn from them? How can we improve our listening? § What do we want to communicate? How can we do so 
+persuasively?
 § What are our agenda and plan for the negotiation?
 § How should we handle inevitable disagreement?
   Schulz's "Being Wrong"
-"When one admits that nothing is certain, one must, I think, also add that some things are much more nearly certain than others." -- Bertrand Russell
+"When one admits that nothing is certain, one must, I think, also add that some things are much more nearly certain than others." -- 
+Bertrand Russell
 Descartes defined error not as believing something that isn't true, but as believing something based on insufficient evidence.
-How can I be sure that all swans are white if I myself have seen only a tiny fraction of all the swans that have ever existed? Karl Popper
+How can I be sure that all swans are white if I myself have seen only a tiny fraction of all the swans that have ever existed? Karl
+ Popper
    106
 
-Francis Bacon's four major sources of human error, aka "The Four Idols" (note that he believed most errors as stemming from collective social forces rather than individual cognitive ones)
+Francis Bacon's four major sources of human error, aka "The Four Idols" (note that he believed most errors as stemming from 
+collective social forces rather than individual cognitive ones)
 • the idol of the Tribe (universal, species-wide cognitive habits that can lead us into error)
 • the idol of the Cave (chauvinism; the tendency to distrust or dismiss all peoples and beliefs foreign to
 our own clan)
@@ -3555,8 +4249,13 @@ our own clan)
 misleading efects of language and rhetoric)
 • the idol of the Theater (the false doctrines that are propagated by religious, scientific, or philosophical
 authorities, and that are so basic to a society's worldview that they are no longer questioned)
-"If I were going to flip a coin a million tmes, I'd be damn sure I wasn't going to get all heads. I'm not a betting man, but I'd be so sure that I'd be my life or my soul on it...I'm absolutely certain that the laws of large numbers -- probability theory -- will work and protect me. All of science is based on it. [But] I can't prove it, and I don't really know why it works." -- Leonard Susskind, professor of theoretical physics at Stanford University, member of the National Academy of Sciences, and a founder of string theory
-"A mode of thinking that people engage in when they are deeply involved in a cohesive in-group, when the members' strivings for unaminimty override their motivation to realistically appraise alternative courses of action." -- Irving Janis
+"If I were going to flip a coin a million tmes, I'd be damn sure I wasn't going to get all heads. I'm not a betting man, but I'd be 
+so sure that I'd be my life or my soul on it...I'm absolutely certain that the laws of large numbers -- probability theory -- will
+ work and protect me. All of science is based on it. [But] I can't prove it, and I don't really know why it works." -- Leonard 
+ Susskind, professor of theoretical physics at Stanford University, member of the National Academy of Sciences, and a founder of 
+ string theory
+"A mode of thinking that people engage in when they are deeply involved in a cohesive in-group, when the members' strivings for 
+unaminimty override their motivation to realistically appraise alternative courses of action." -- Irving Janis
 Common elements of error-prevention techniques and systems:
 • acceptance of the likelihood of error
 • opennesss; extreme transparency
@@ -3565,7 +4264,8 @@ Akre Capital Management
 Investment Approach
 SELECT OPPORTUNITIES CONSERVATIVELY TO PRESERVE CAPITAL
 FOLLOW BOTTOM-UP INVESTING PRINCIPLES TO IDENTIFY COMPANIES WITH:
-1. A strong business model demonstrating consistent earnings growth, high return on equity or high compound growth rate in book value per share
+1. A strong business model demonstrating consistent earnings growth, high return on equity or high compound growth rate in book 
+value per share
 2. High quality management who:
 • Have demonstrated a predisposition toward protecting shareholder value in decision making
 • Act with principle and integrity
@@ -3585,7 +4285,8 @@ Following our initial evaluation of the target's business model, we further our 
 3. Suppliers
 4. Industry specialists in the investment community
 5. Investment community contacts with contrary views
-We seek additional input through conferences, earnings call participation, literature searches and identification of useful analogous examples. We talk with our clients, drawing on their individual and industry knowledge.
+We seek additional input through conferences, earnings call participation, literature searches and identification of useful analogous
+ examples. We talk with our clients, drawing on their individual and industry knowledge.
 Our Long Equity Approach
 We approach the selection of long equity investments by a cascade of key questions and consequent assessment. The key questions are:
 • Do we understand the business?
@@ -3622,16 +4323,29 @@ My Investing Blueprint has ten steps.
 9. Avoid Stupid Mistakes. 10. Be a Learning Machine.
 John Stuart Mill’s model of a bubble
 § Displacement: the birth of a boom – generally an exogenous shock that triggers the creation of profit
-opportunities in some sectors while reducing profitability in other sectors; investment in both physical and financial assets is likely to occur; “a new confidence begins to germinate early in this period, but its growth is slow”
-§ Credit Creation: the nurturing of a bubble – a boom needs credit on which to feed; monetary expansion and credit creation are largely endogenous to the system (i.e., money can be created by the government or existing banks, but also by the creation of new banks, new financial instruments, and the expansion of credit outside the financial system); “the rate of interest [is] almost uniformly low...credit continues to grow more robust, enterprise to increase, and profits to enlarge”
-§ Euphoria – everyone into the pool; price seen as capable only of rising; traditional valuation standards are abandoned and new measures are introduced to justify prices; overoptimism and overconfidence rule; the “new era” dominates conversation, even outside the typical realm; “this time is different” is often uttered; “the tendency is for speculation to attain its most rapid growth exactly when its growth is most dangerous”
-§ Critical Stage/Financial Distress – the bubble peaks and begins to deflate; often characterized by insiders cashing out; rapidly followed by financial distress, in which the excess leverage built up during the boom becomes a major problem; fraud also emerges during this stage
-§ Revulsion – the final stage of the process; investors are so scarred by the events in which they themselves participated that they cannot bring themselves to participate in the market at all; bargain- basement asset prices usually result;
+opportunities in some sectors while reducing profitability in other sectors; investment in both physical and financial assets is 
+likely to occur; “a new confidence begins to germinate early in this period, but its growth is slow”
+§ Credit Creation: the nurturing of a bubble – a boom needs credit on which to feed; monetary expansion and credit creation are 
+largely endogenous to the system (i.e., money can be created by the government or existing banks, but also by the creation of new 
+banks, new financial instruments, and the expansion of credit outside the financial system); “the rate of interest [is] almost 
+uniformly low...credit continues to grow more robust, enterprise to increase, and profits to enlarge”
+§ Euphoria – everyone into the pool; price seen as capable only of rising; traditional valuation standards are abandoned and new 
+measures are introduced to justify prices; overoptimism and overconfidence rule; the “new era” dominates conversation, even outside
+ the typical realm; “this time is different” is often uttered; “the tendency is for speculation to attain its most rapid growth 
+ exactly when its growth is most dangerous”
+§ Critical Stage/Financial Distress – the bubble peaks and begins to deflate; often characterized by insiders cashing out; rapidly
+ followed by financial distress, in which the excess leverage built up during the boom becomes a major problem; fraud also emerges 
+ during this stage
+§ Revulsion – the final stage of the process; investors are so scarred by the events in which they themselves participated that they
+ cannot bring themselves to participate in the market at all; bargain- basement asset prices usually result;
 Buffett and Munger’s Focus
      109
 
-Buffett admits he can't predict which way the markets will move in the short term -- and he is quite certain no one else can, either. Instead of worrying about the short term, he and partner Charlie Munger focus year after year and decade after decade on four simple goals:
-1. Maintaining Berkshire’s Gibraltar-like financial position, which features huge amounts of excess liquidity, near-term obligations that are modest, and dozens of sources of earnings and cash
+Buffett admits he can't predict which way the markets will move in the short term -- and he is quite certain no one else can, either
+. Instead of worrying about the short term, he and partner Charlie Munger focus year after year and decade after decade on four 
+simple goals:
+1. Maintaining Berkshire’s Gibraltar-like financial position, which features huge amounts of excess liquidity, near-term obligations
+ that are modest, and dozens of sources of earnings and cash
 2. Widening the “moats” around Berkshire's operating businesses that give them durable competitive advantages
 3. Acquiring and developing new and varied streams of earnings
 4. Expanding and nurturing the cadre of outstanding operating managers who, over the years, have
@@ -3644,7 +4358,8 @@ o Increased security/margin of safety, or:
 § Equivalent security with larger yield
 § Equivalent security with greater chance for profit § Equivalent security with better marketability
 Charlie Munger
-"Checklist routines avoid a lot of errors. You should have all this elementary [worldly] wisdom and then you should go through a mental checklist in order to use it. There is no other procedure in the world that will work as well." -- Charlie Munger, 2007
+"Checklist routines avoid a lot of errors. You should have all this elementary [worldly] wisdom and then you should go through a
+ mental checklist in order to use it. There is no other procedure in the world that will work as well." -- Charlie Munger, 2007
 Charlie Munger’s Two-Track Analysis:
 1. What are the factors that really govern the interests involved, rationally considered?
 2. What are the subconscious influences where the brain at a subconscious level is automatically doing
@@ -3706,7 +4421,8 @@ Cognitive Dissonance
 The Program for Correcting Behavioral Biases
 These are the critical components of a solution:
 1. Choosing curiosity over defensiveness (addresses overconfidence especially)
-2. Choosing candor over concealing (addresses many blindspots around biases such as anchoring and recency) 3. Choosing accountability over concealing (addresses hindsight and self attribution bias,
+2. Choosing candor over concealing (addresses many blindspots around biases such as anchoring and recency) 3. Choosing accountability
+ over concealing (addresses hindsight and self attribution bias,
 Greatly improves post mortems)
 4. 360 Feedback from team members on each person’s biases (critical to self-awareness)
 5. Journal tracking and accurate post-mortems (key to learning and improving)
@@ -3718,7 +4434,8 @@ Thinks of Black Swans as dominant source of randomness
 Prefers to be broadly right
 Does not believe that we can easily compute probabilities
 Develops intuitions from practice, goes from observations to books
-Not inspired by any sciences, uses messy mathematics and computational methods Ideas based on skepticism; on the unread books in the library
+Not inspired by any sciences, uses messy mathematics and computational methods Ideas based on skepticism; on the unread books in 
+the library
 Seeks to be approximately right across a broad set of eventualities
 Platonists: investors and Nobel winners
 Respond, “you keep criticizing these models, but they are all we have.”
@@ -3729,13 +4446,16 @@ Relies on scientific papers, goes from books to practice
 Inspired by physics, relies on abstract mathematics
 Ideas based on beliefs; on what they think they know
 Seeks to be perfectly right in a narrow model, under precise assumptions
-Another major distinction that Taleb makes is between the “bell curve” people who inhabit the world of Mediocristan v. the Mandelbrotian people who inhabit the world of Extremistan. Taleb provides the following table: Extremistan (Taleb, et. al.) Mediocristan (most investors and Nobel
+Another major distinction that Taleb makes is between the “bell curve” people who inhabit the world of Mediocristan v. the 
+Mandelbrotian people who inhabit the world of Extremistan. Taleb provides the following table: Extremistan (Taleb, et. al.) 
+Mediocristan (most investors and Nobel
 winners)
   112
 
 Scalable
 Wild (even superwild) or type 2 random- ness
-The most “typical” is either giant or dwarf, i.e. there is no typical member Winner-take-almost-all effects Vulnerable to Black Swan
+The most “typical” is either giant or dwarf, i.e. there is no typical member Winner-take-almost-all effects Vulnerable to Black
+ Swan
 Corresponds to numbers, say, wealth
 Total will be determined by a small num- ber of extreme events
 It takes a long time to know what is going on
@@ -3843,7 +4563,13 @@ Numbers
 4. Are folks who use the service happy to leave some cash crumbs on the table? 5. Is the value the company provides intangible?
 6. Will existing customers stay even if a competitor lowers its price?
 Munger and Buffett’s checklist for picking a company to invest in
-CM: We have to deal with things that we’re capable of understanding and then, once we’re over that filter we need to have a business with some characteristics that give us a durable competitive advantage and them, of course, we would vastly prefer management in place with a lot of integrity and talent and finally, no matter how wonderful it is, it’s not worth an infinite price. We have to have a price that makes sense and gives a margin of safety considering the normal vicissitudes of life It’s a very simple set of ideas and the reason that our ideas have not spread faster is they’re too simple. The professional classes can’t justify their existence if that’s all they have to say. It’s all so obvious and so simple what would they have to do with the rest of the semester?
+CM: We have to deal with things that we’re capable of understanding and then, once we’re over that filter we need to have a business
+ with some characteristics that give us a durable competitive advantage and them, of course, we would vastly prefer management in 
+ place with a lot of integrity and talent and finally, no matter how wonderful it is, it’s not worth an infinite price. We have to
+  have a price that makes sense and gives a margin of safety considering the normal vicissitudes of life It’s a very simple set of
+   ideas and the reason that our ideas have not spread faster is they’re too simple. The professional classes can’t justify their
+    existence if that’s all they have to say. It’s all so obvious and so simple what would they have to do with the rest of the 
+    semester?
 Graham’s “Screen”
 1. Earnings yield ≥ 2x AAA corporate bond yield
 2. Returning cash to owners: dividend yield ≥ 2/3 AAA corporate bond yield
@@ -3898,31 +4624,56 @@ Some Financial Metrics
 16 Investing Rules from Walter Schloss
 From a 1994 lecture given by the legendary investor walter schloss
 1. PRICE IS THE MOST IMPORTANT FACTOR TO USE IN RELATION TO VALUE
-2. TRY TO ESTABLISH THE VALUE OF THE COMPANY. REMEMBER THAT A SHARE OF STOCK REPRESENTS A PART OF A BUSINESS AND IS NOT JUST A PIECE OF PAPER.
-3. USE BOOK VALUE AS A STARTING POINT TO TRY AND ESTABLISH THE VALUE OF THE ENTERPRISE. BE SURE THAT DEBT DOES NOT EQUAL 100% OF THE EQUITY. (CAPITAL AND SURPLUS FOR THE COMMON STOCK).
+2. TRY TO ESTABLISH THE VALUE OF THE COMPANY. REMEMBER THAT A SHARE OF STOCK REPRESENTS A PART OF A BUSINESS AND IS NOT JUST A PIECE 
+OF PAPER.
+3. USE BOOK VALUE AS A STARTING POINT TO TRY AND ESTABLISH THE VALUE OF THE ENTERPRISE. BE SURE THAT DEBT DOES NOT EQUAL 100% OF THE
+ EQUITY. (CAPITAL AND SURPLUS FOR THE COMMON STOCK).
 4. HAVE PATIENCE. STOCKS DON'T GO UP IMMEDIATELY.
 5. DON'T BUY ON TIPS OR FOR A QUICK MOVE. LET THE PROFESSIONALS DO THAT, IF THEY CAN. DON'T SELL ON BAD NEWS.
-6. DON'T BE AFRAID TO BE A LONER BUT BE SURE THAT YOU ARE CORRECT IN YOUR JUDGMENT. YOU CAN'T BE 100% CERTAIN BUT TRY TO LOOK FOR THE WEAKNESSES IN YOUR THINKING. BUY ON A SCALE DOWN AND SELL ON A SCALE UP.
+6. DON'T BE AFRAID TO BE A LONER BUT BE SURE THAT YOU ARE CORRECT IN YOUR JUDGMENT. YOU CAN'T BE 100% CERTAIN BUT TRY TO LOOK FOR 
+THE WEAKNESSES IN YOUR THINKING. BUY ON A SCALE DOWN AND SELL ON A SCALE UP.
 7. HAVE THE COURAGE OF YOUR CONVICTIONS ONCE YOU HAVE MADE A DECISION.
 8. HAVE A PHILOSOPHY OF INVESTMENT AND TRY TO FOLLOW IT. THE ABOVE IS A WAY THAT I'VE FOUND SUCCESSFUL.
-9. DON'T BE IN TOO MUCH OF A HURRY TO SEE. IF THE STOCK REACHES A PRICE THAT YOU THINK IS A FAIR ONE, THEN YOU CAN SELL BUT OFTEN BECAUSE A STOCK GOES UP SAY 50%, PEOPLE SAY SELL IT AND BUTTON UP YOUR PROFIT. BEFORE SELLING TRY TO REEVALUATE THE COMPANY AGAIN AND SEE WHERE THE STOCK SELLS IN RELATION TO ITS BOOK VALUE. BE AWARE OF THE LEVEL OF THE STOCK MARKET. ARE YIELDS LOW AND P-E RATIONS HIGH. IF THE STOCK MARKET HISTORICALLY HIGH. ARE PEOPLE VERY OPTIMISTIC ETC?
-10. WHEN BUYING A STOCK, I FIND IT HELDFUL TO BUY NEAR THE LOW OF THE PAST FEW YEARS. A STOCK MAY GO AS HIGH AS 125 AND THEN DECLINE TO 60 AND YOU THINK IT ATTRACTIVE. 3 YEAS BEFORE THE STOCK SOLD AT 20 WHICH SHOWS THAT THERE IS SOME VULNERABILITY IN IT.
-11. TRY TO BUY ASSETS AT A DISCOUNT THAN TO BUY EARNINGS. EARNING CAN CHANGE DRAMATICALLY IN A SHORT TIME. USUALLY ASSETS CHANGE SLOWLY. ONE HAS TO KNOW MUCH MORE ABOUT A COMPANY IF ONE BUYS EARNINGS.
+9. DON'T BE IN TOO MUCH OF A HURRY TO SEE. IF THE STOCK REACHES A PRICE THAT YOU THINK IS A FAIR ONE, THEN YOU CAN SELL BUT OFTEN
+ BECAUSE A STOCK GOES UP SAY 50%, PEOPLE SAY SELL IT AND BUTTON UP YOUR PROFIT. BEFORE SELLING TRY TO REEVALUATE THE COMPANY AGAIN 
+ AND SEE WHERE THE STOCK SELLS IN RELATION TO ITS BOOK VALUE. BE AWARE OF THE LEVEL OF THE STOCK MARKET. ARE YIELDS LOW AND P-E 
+ RATIONS HIGH. IF THE STOCK MARKET HISTORICALLY HIGH. ARE PEOPLE VERY OPTIMISTIC ETC?
+10. WHEN BUYING A STOCK, I FIND IT HELDFUL TO BUY NEAR THE LOW OF THE PAST FEW YEARS. A STOCK MAY GO AS HIGH AS 125 AND THEN DECLINE 
+TO 60 AND YOU THINK IT ATTRACTIVE. 3 YEAS BEFORE THE STOCK SOLD AT 20 WHICH SHOWS THAT THERE IS SOME VULNERABILITY IN IT.
+11. TRY TO BUY ASSETS AT A DISCOUNT THAN TO BUY EARNINGS. EARNING CAN CHANGE DRAMATICALLY IN A SHORT TIME. USUALLY ASSETS CHANGE 
+LOWLY. ONE HAS TO KNOW MUCH MORE ABOUT A COMPANY IF ONE BUYS EARNINGS.
    117
 
-12. LISTEN TO SUGGESTIONS FROM PEOPLE YOU RESPECT. THIS DOESN'T MEAN YOU HAVE TO ACCEPT THEM. REMEMBER IT'S YOUR MONEY AND GENERALLY IT IS HARDER TO KEEP MONEY THAN TO MAKE IT. ONCE YOU LOSE A LOT OF MONEY, IT IS HARD TO MAKE IT BACK.
-13. TRY NOT TO LET YOUR EMOTIONS AFFECT YOUR JUDGMENT. FEAR AND GREED ARE PROBABLY THE WORST EMOTIONS TO HAVE INCONNECTION WITH PURCHASE AND SALE OF STOCKS.
-14. REMEMBER THE WORK COMPOUNDING. FOR EXAMPLE, IF YOU CAN MAKE 12% A YEAR AND REINVEST THE MONEY BACK, YOU WILL DOUBLE YOUR MONEY IN 6 YRS, TAXES EXCLUDED. REMEMBER THE RULE OF 72. YOUR RATE OF RETURN INTO 72 WILL TELL YOU THE NUMBER OF YEARS TO DOUBLE YOUR MONEY.
+12. LISTEN TO SUGGESTIONS FROM PEOPLE YOU RESPECT. THIS DOESN'T MEAN YOU HAVE TO ACCEPT THEM. REMEMBER IT'S YOUR MONEY AND GENERALLY
+ IT IS HARDER TO KEEP MONEY THAN TO MAKE IT. ONCE YOU LOSE A LOT OF MONEY, IT IS HARD TO MAKE IT BACK.
+13. TRY NOT TO LET YOUR EMOTIONS AFFECT YOUR JUDGMENT. FEAR AND GREED ARE PROBABLY THE WORST EMOTIONS TO HAVE INCONNECTION WITH 
+PURCHASE AND SALE OF STOCKS.
+14. REMEMBER THE WORK COMPOUNDING. FOR EXAMPLE, IF YOU CAN MAKE 12% A YEAR AND REINVEST THE MONEY BACK, YOU WILL DOUBLE YOUR MONEY 
+IN 6 YRS, TAXES EXCLUDED. REMEMBER THE RULE OF 72. YOUR RATE OF RETURN INTO 72 WILL TELL YOU THE NUMBER OF YEARS TO DOUBLE YOUR 
+MONEY.
 15. PREFER STOCK OVER BONDS. BONDS WILL LIMIT YOUR GAINS AND INFLATION WILL REDUCE YOUR PURCHASING POWER.
 16. BE CAREFUL OF LEVERAGE. IT CAN GO AGAINST YOU.
 Berkowitz
 • Review all securities in the capital structure of a company rather than just the common stock. Common
-stock should be viewed as the most junior “bond” in a company’s capital structure. The free cash flow generated by the business is akin to a coupon without a maturity date. Count the cash after all bills, interest on senior securities, and maintenance capital expenditures. The free cash flow can then be compared to market prices to come up with free cash flow yields.
-• Fairholme reviews SEC reports, company conference calls, presentations, and other sources when researching an investment. It is important to focus on every business element that requires management to exercise judgment. Examine the accounting carefully and pay particular attention to pensions, health care liabilities, regulatory, and tax issues. Management is “guilty until proven innocent” if there are inconsistencies between the balance sheet, income statement, and cash flow statements. Be particularly wary of “kitchen sink” charges that could enter into the picture.
-• Examine whether a business model can exist without leverage. Avoid having to rely on the “kindness of strangers” whenever possible. Examine where the security being analyzed lies within the overall capital structure.
-• Examine whether managers are true owners rather than just option holders. This test can be applied by determining whether an executive has actually purchased shares in the open market rather than only through option grants. It is hard to make a good investment with bad people. Examine their capital allocation decisions over time.
-• Try to “kill the investment idea”. If you cannot kill the idea, then it should be compared to other investment candidates that have gone through the same research process as well as existing portfolio companies. Fairholme focuses on fewer investments than most others in order to have superior understanding of the businesses. They try to avoid growing their circle of competence too quickly if the risk is losing money.
-• Fairholme uses industry experts and consultants as part of the research process in order to contain costs by avoiding the need to retain such experts on payroll on a full time basis.
+stock should be viewed as the most junior “bond” in a company’s capital structure. The free cash flow generated by the business is 
+akin to a coupon without a maturity date. Count the cash after all bills, interest on senior securities, and maintenance capital 
+expenditures. The free cash flow can then be compared to market prices to come up with free cash flow yields.
+• Fairholme reviews SEC reports, company conference calls, presentations, and other sources when researching an investment. It is 
+important to focus on every business element that requires management to exercise judgment. Examine the accounting carefully and pay
+ particular attention to pensions, health care liabilities, regulatory, and tax issues. Management is “guilty until proven innocent”
+  if there are inconsistencies between the balance sheet, income statement, and cash flow statements. Be particularly wary of 
+  “kitchen sink” charges that could enter into the picture.
+• Examine whether a business model can exist without leverage. Avoid having to rely on the “kindness of strangers” whenever 
+possible. Examine where the security being analyzed lies within the overall capital structure.
+• Examine whether managers are true owners rather than just option holders. This test can be applied by determining whether an 
+executive has actually purchased shares in the open market rather than only through option grants. It is hard to make a good 
+investment with bad people. Examine their capital allocation decisions over time.
+• Try to “kill the investment idea”. If you cannot kill the idea, then it should be compared to other investment candidates that 
+have gone through the same research process as well as existing portfolio companies. Fairholme focuses on fewer investments than
+ most others in order to have superior understanding of the businesses. They try to avoid growing their circle of competence too
+  quickly if the risk is losing money.
+• Fairholme uses industry experts and consultants as part of the research process in order to contain costs by avoiding the need 
+to retain such experts on payroll on a full time basis.
 Valuation
 • net-net (cash & STI + (.75 * accounts receivable) + (.50 * inventory) – total liabilities) 118
     
@@ -3965,11 +4716,15 @@ Graham formula: E (2g + 8.5) * (U.S. Treasury yield / AAA corporate yield) Where
 • 8.5 = Graham’s multiple for a firm with no growth
 • AAA corporate yield
 Graham’s 9+1 Commandments of Value Investing
-1. Be an investor, not a speculator. Graham believed that investors bought companies for the long term, but speculators looked for short term profits.
+1. Be an investor, not a speculator. Graham believed that investors bought companies for the long term, but speculators looked for
+ short term profits.
 2. Know the asking price. Even the best company can be a poor investment at the wrong (too high) price.
 3. Rake the market for bargains. Markets make mistakes.
 4. Stay disciplined and buy the formula: E (2g + 8.5) * T.Bond rate/Y where E = Earnings per share, g=
-Expected growth rate in earnings, Y is the yield on AAA rated corporate bonds and 8.5 is the appropriate multiple for a firm with no growth. For example consider a stock with $ 2 in earnings in 2002 and 10% growth rate, when the treasury bond rate was 5% and the AAA bond rate was 6%. The formula would have yielded the following price: Price = $2.00 (2 (10)+8.5)* (5/6) = $47.5 If the stock traded at less than this price, you would buy the stock.
+Expected growth rate in earnings, Y is the yield on AAA rated corporate bonds and 8.5 is the appropriate multiple for a firm with 
+no growth. For example consider a stock with $ 2 in earnings in 2002 and 10% growth rate, when the treasury bond rate was 5% and 
+the AAA bond rate was 6%. The formula would have yielded the following price: Price = $2.00 (2 (10)+8.5)* (5/6) = $47.5 If the stock
+ traded at less than this price, you would buy the stock.
 5. Regard corporate figures with suspicion, advice that carries resonance in the aftermath of recent accounting scandals.
 6. Diversify. Don’t bet it all on one or a few stocks.
 7. When in doubt, stick to quality.
@@ -3977,7 +4732,8 @@ Expected growth rate in earnings, Y is the yield on AAA rated corporate bonds an
 was one of the first advocates of corporate governance.
 9. Be patient. This follows directly from the first maxim.
 10. [addendum] It was Ben Graham who created the figure of Mr. Market which was later much referenced
-by Warren Buffett. As described by Mr. Graham, Mr Market was a manic-depressive who does not mind being ignored, and is there to serve and not to lead you. Investors, he argued, could take advantage of Mr. Market’s volatile disposition to make money.
+by Warren Buffett. As described by Mr. Graham, Mr Market was a manic-depressive who does not mind being ignored, and is there to 
+serve and not to lead you. Investors, he argued, could take advantage of Mr. Market’s volatile disposition to make money.
 Klarman: 20-25 unrelated securities comprise a proper portfolio
   maxims of Bruce Berkowitz's Fairholme Capital Management:
 1) A to Z (research all aspects of a company)
@@ -4008,7 +4764,9 @@ Klarman: 20-25 unrelated securities comprise a proper portfolio
 24) X-ing the lines (research across disciplines)
 25) You’re the one (we do what’s right for you)
 26) Zero can’t grow (Don’t lose)
-Difference between adjusted net income and CFFO where ANI is net income plus permanent non-cash expenses such as depreciation, amortization, stock-based comp, etc. Large or growing differences between ANI and CFFO could warrant a further look into operating accruals, particularly accounts receivable and deferred revenue.
+Difference between adjusted net income and CFFO where ANI is net income plus permanent non-cash expenses such as depreciation, 
+amortization, stock-based comp, etc. Large or growing differences between ANI and CFFO could warrant a further look into operating
+ accruals, particularly accounts receivable and deferred revenue.
 Cash conversion cycle • DSO
 • A/R Capitalized costs
 Patrick Lencioni lists five temptations of a CEO. These temptations are all derived from psychology.
@@ -4021,7 +4779,8 @@ Over-influence from precision/models
 Introduction to Mental Models Psychology (misjudgments)
   121
 
-1. Bias from Availability -- including ease of recall, vividness, exposure, memory structure limitations, Von Restorff Effect, and love of a story. (introduction | all posts)
+1. Bias from Availability -- including ease of recall, vividness, exposure, memory structure limitations, Von Restorff Effect, and 
+love of a story. (introduction | all posts)
 2. Bias from the most recent evidence
 3. Bias from denial
 4. Bias from insensitivity to base rates
@@ -4157,8 +4916,10 @@ Screens
 • Net-net (working capital less all liabilities)
 o Graham: market cap < 2/3 of net-net value
 § Or: Cash + STI + (.75 * accounts receivable) + (.50 * inventory) – all liabilities
-a checklist from South African value investor Tim du Toit who writes at EuruShareLab. I am posting it because it is well thought out and a provides a good point of departure for developing one's own list.
+a checklist from South African value investor Tim du Toit who writes at EuruShareLab. I am posting it because it is well thought out
+ and a provides a good point of departure for developing one's own list.
 1. Operating cash flow higher than earnings per share 2. Free Cash Flow/Share higher than dividends paid 3. Debt to equity below 35%
+
 4. Debt less than book value
 5. LT debt less than 2 times working capital 6. Pre-tax margins higher than 15%
 7. FCF Margin higher than 10%
@@ -4201,15 +4962,20 @@ and he’s wrong?
 2. Valuation methodology – e.g., Graham/Security Analysis
 3. Discipline and patience
 Graham on Liquidations
-“A company’s balance sheet does not convey exact information as to its value in liquidation, but it does supply clues or hints which may prove useful. The first rule in calculating liquidating value is that the liabilities are real but the assets are of questionable value. This means that all true liabilities shown on the books must be deducted at their face amount. The value to be ascribed to the assets, however, will vary according to their character.” – Ben Graham, Security Analysis
+“A company’s balance sheet does not convey exact information as to its value in liquidation, but it does supply clues or hints which
+ may prove useful. The first rule in calculating liquidating value is that the liabilities are real but the assets are of 
+ questionable value. This means that all true liabilities shown on the books must be deducted at their face amount. The value to be
+  ascribed to the assets, however, will vary according to their character.” – Ben Graham, Security Analysis
 Rough guidelines:
 • Cash, including securities at market – 100%
 • Receivables (less usual reserves) – between 75% and 90%, with an average of 80%
 o Graham noted that retail installment receivables should be liquidated at a lower rate of 30% to 60% with an average of about 50%
-• Inventories (at a lower of cost or market) – between 50% and 70% with an average of 66.7% o Note: consider mix of WIP, finished goods, and raw materials, as well as the risk of
+• Inventories (at a lower of cost or market) – between 50% and 70% with an average of 66.7% o Note: consider mix of WIP, finished 
+goods, and raw materials, as well as the risk of
 technological obsolescence, fashion trends,
 • Fixed and miscellaneous assets (real estate, buildings, machinery, equipment, nonmarketable securities,
-intangibles, etc.) – between 1% and 50% with an approximate average of 15% o I.e., a heavy emphasis should be placed on current assets
+intangibles, etc.) – between 1% and 50% with an approximate average of 15% o I.e., a heavy emphasis should be placed on current 
+assets
 • Adjust liabilities for:
 o Off-balance sheet obligations (e.g., operating leases, structured vehicles, etc.)
 o Wind-down or liquidation obligations (e.g., plant-closing costs, severance, environmental
@@ -4249,7 +5015,8 @@ Table of Contents:
 • Disclosure
 • Comments (3)
 1. Three Stock Valuation Methods
-“Price is what you pay, value is what you get.” In other words, price determines value. It’s important to know what price to pay based on what the valuation is.
+“Price is what you pay, value is what you get.” In other words, price determines value. It’s important to know what price to pay 
+based on what the valuation is.
 Discounted Cash Flow
 Modernized Benjamin Graham Formula
 Earnings Power Value
@@ -4257,74 +5024,125 @@ Always with a healthy margin of safety.
 2. Tangible Book Value and NNWC
    127
 
-Tangible book value is a great way to view the asset value of the company at it’s face value. A share price made up of a lot of tangible assets will provide downside protection. Intangibles are never easy to value especially if it consists of patents, goodwill and other intellectual property.
-Net Net Working Capital. Even better than tangible book value because you adjust the balance sheet items to properly reflect the company. The most accurate liquidation value analysis to date. No one can beat Benjamin Graham when it comes to asset based valuation and balance sheet analysis.
+Tangible book value is a great way to view the asset value of the company at it’s face value. A share price made up of a lot of 
+tangible assets will provide downside protection. Intangibles are never easy to value especially if it consists of patents, goodwill
+ and other intellectual property.
+Net Net Working Capital. Even better than tangible book value because you adjust the balance sheet items to properly reflect the 
+company. The most accurate liquidation value analysis to date. No one can beat Benjamin Graham when it comes to asset based valuation
+ and balance sheet analysis.
 3. Free Cash Flow (FCF) Growth
-Growth rate over a rolling 5 year or 10 year history using the median. Provides smoothing of FCF to determine how the company has grown intrinsically.
+Growth rate over a rolling 5 year or 10 year history using the median. Provides smoothing of FCF to determine how the company has 
+grown intrinsically.
 4. Cash Return on Invested Capital (CROIC) Growth
-A way to determine how much cash a company can make off every dollar it invests into its operations. I was first introduced to the concept of CROIC by F Wall Street and it has been an invaluable tool ever since. Love it. The growth rate is determined by using the median of rolling 5 and 10 year medians.
+A way to determine how much cash a company can make off every dollar it invests into its operations. I was first introduced to the 
+concept of CROIC by F Wall Street and it has been an invaluable tool ever since. Love it. The growth rate is determined by using the
+ median of rolling 5 and 10 year medians.
 5. FCF to Sales
-The two ratios above show companies that can deliver strong FCF growth but that shouldn’t be where it ends. A marginally profitable company could be an even better investment if the company can product solid cash flow for each dollar of sales. FCF/sales will show you how profitable the company really is. i.e generating excess cash.
+The two ratios above show companies that can deliver strong FCF growth but that shouldn’t be where it ends. A marginally profitable
+ company could be an even better investment if the company can product solid cash flow for each dollar of sales. FCF/sales will show
+  you how profitable the company really is. i.e generating excess cash.
 Even simpler, it shows the amount of sales converted to FCF.
 6. Cash From Operations Growth
-The growth is again computed based on a rolling 5 year and 10 year multiple timeframes. Cash from operations as well as the value of growth is then compared with how net income has pared over time. Should be parallel otherwise it signals an accounting red flag.
+The growth is again computed based on a rolling 5 year and 10 year multiple timeframes. Cash from operations as well as the value of
+ growth is then compared with how net income has pared over time. Should be parallel otherwise it signals an accounting red flag.
 7. Earnings Yield
 Popularized by Joel Greenblatt’s Magic Formula Investing.
 Earnings Yield = Net Profit / Market Cap or P/E upside down
-Earnings yield shows the percentage of each dollar invested in the stock that was earning by the company. Good way to compare to the treasury or bond yields to determine the attractiveness of an investment.
+Earnings yield shows the percentage of each dollar invested in the stock that was earning by the company. Good way to compare to the
+ treasury or bond yields to determine the attractiveness of an investment.
 8. FCF Yield
-Same concept to earnings yield. Recently started looking at this number after I read it in F Wall Street and Value Investor Today mentioned it.
+Same concept to earnings yield. Recently started looking at this number after I read it in F Wall Street and Value Investor Today 
+mentioned it.
 The common formula is
 FCF Yield = FCF/Market Cap
 but I use
 FCF Yield = FCF/Enterprise Value
-as it includes debt, value of preferred shares and minority interest and subtracts cash and equivalents which more accurately values a business. Look for higher yields.
+as it includes debt, value of preferred shares and minority interest and subtracts cash and equivalents which more accurately values
+ a business. Look for higher yields.
 9. Price to FCF
 Great for multiples based stock analysis. Self explanatory.
 10. EV/FCF
-Rather than using EV/EBITDA or PE, I prefer EV/FCF. Always best to use FCF or owner earnings since that is what I view as the real earnings to a company.
+Rather than using EV/EBITDA or PE, I prefer EV/FCF. Always best to use FCF or owner earnings since that is what I view as the real 
+earnings to a company.
 In case you haven’t noticed, this is the inverse of FCF yield.
 11. ROA, ROE, Margins
-Self explanatory but it helps me to see the company strategy, especially if they have a long history. I’m sure you know already but WalMart and Costco are perfect examples where margins and management returns show what type of strategy they employ. Retail are the easiest to figure out as well.
+Self explanatory but it helps me to see the company strategy, especially if they have a long history. I’m sure you know already but
+WalMart and Costco are perfect examples where margins and management returns show what type of strategy they employ. Retail are the
+ easiest to figure out as well.
 12. Inventory Turnover & Receivables Turnover
   128
 
-Shows how many times a company will completely turnover its inventory. Low turnover implies poor sales and/or excess inventory while high turnovers suggests strong sales or ineffective pricing. But again, it depends on what company you are looking at.
-Receivables turnover shows how efficiently a company is using its assets. How effective they are in extending credit as well as collecting debt.
+Shows how many times a company will completely turnover its inventory. Low turnover implies poor sales and/or excess inventory while
+ high turnovers suggests strong sales or ineffective pricing. But again, it depends on what company you are looking at.
+Receivables turnover shows how efficiently a company is using its assets. How effective they are in extending credit as well as 
+collecting debt.
 13. Debt to Equity
-Indicates the proportion of equity and debt used to finance the company’s assets. The higher the number, the more debt the company is using and vice versa.
+Indicates the proportion of equity and debt used to finance the company’s assets. The higher the number, the more debt the company 
+is using and vice versa.
 14. FCF to Debt
-Indicator to show whether a company’s FCF can cover the debt expenses. Obviously, a higher number means that there is ample FCF from operations to cover debt and interest expenses.
+Indicator to show whether a company’s FCF can cover the debt expenses. Obviously, a higher number means that there is ample FCF 
+from operations to cover debt and interest expenses.
 I referred to this ratio and variants in my analysis of my collection of radio stocks.
 15. Piotroski F-score
-The only stock strategy that produced positive results in 2008. There has been some good stuff here and Greenbackd has also done a great job on his Piotroski articles as well.
+The only stock strategy that produced positive results in 2008. There has been some good stuff here and Greenbackd has also done a 
+great job on his Piotroski articles as well.
 Greenbackd
 Two types of invesments:
 1. Liquidations – deduct 6-12 months of cash burn, contractual liabilities and professional fees from
 adjusted [net] asset value. Zero value for IP. Broken business model or no business model companies.
 2. Marginal companies – beaten down equities with some ongoing business prospects. Buffett’s “limping
-horse – sell it when it walks again but bear in mind that you might take it to the glue factory.” Liquidation value is the downside – exclude contractual liabilities and professional fees, but potentially include some cash burn (6-12 months) in the net asset value.
+horse – sell it when it walks again but bear in mind that you might take it to the glue factory.” Liquidation value is the downside
+ – exclude contractual liabilities and professional fees, but potentially include some cash burn (6-12 months) in the net asset value.
 “Less Wrong”: 11 Core Rationalist Skills
-   An excellent way to improve one's skill as a rationalist is to identify one's strengths and weaknesses, and then expend effort on the things that one can most effectively improve (which are often the areas where one is weakest). This seems especially useful if one is very specific about the parts of rationality, if one describes them in detail.
-In order to facilitate improving my own and others' rationality, I am posting this list of 11 core rationalist skills, thanks almost entirely to Anna Salamon.
+   An excellent way to improve one's skill as a rationalist is to identify one's strengths and weaknesses, and then expend effort on
+    the things that one can most effectively improve (which are often the areas where one is weakest). This seems especially useful 
+    if one is very specific about the parts of rationality, if one describes them in detail.
+In order to facilitate improving my own and others' rationality, I am posting this list of 11 core rationalist skills, thanks almost
+ entirely to Anna Salamon.
  • •
 •
 Actually want an accurate map, because you have Something to protect.
-Keep your eyes on the prize. Focus your modeling efforts on the issues most relevant to your goals. Be able to quickly refocus a train of thought or discussion on the most important issues, and be able and willing to quickly kill tempting tangents. Periodically stop and ask yourself "Is what I am thinking about at the moment really an effective way to achieve my stated goals?".
-Entangle yourself with the evidence. Realize that true opinions don't come from nowhere and can't just be painted in by choice or intuition or consensus. Realize that it is
+Keep your eyes on the prize. Focus your modeling efforts on the issues most relevant to your goals. Be able to quickly refocus a 
+train of thought or discussion on the most important issues, and be able and willing to quickly kill tempting tangents. Periodically
+ stop and ask yourself "Is what I am thinking about at the moment really an effective way to achieve my stated goals?".
+Entangle yourself with the evidence. Realize that true opinions don't come from nowhere and can't just be painted in by choice or 
+intuition or consensus. Realize that it is
   129
 
  •
 •
-information-theoretically impossible to reliably get true beliefs unless you actually get reliably pushed around by the evidence. Distinguish between knowledge and feelings.
-Be Curious: Look for interesting details; resist cached thoughts; respond to unexpected observations and thoughts. Learn to acquire interesting angles, and to make connections to the task at hand.
-Aumann-update: Update to the right extent from others' opinions. Borrow reasonable practices for grocery shopping, social interaction, etc from those who have already worked out what the best way to do these things is. Take relevant experts seriously. Use outside views to estimate the outcome of one's own projects and the merit of one's own clever ideas. Be willing to depart from consensus in cases where there is sufficient evidence that the consensus is mistaken or that the common practice doesn't serve its ostensible purposes. Have correct models of the causes of others’ beliefs and psychological states, so that you can tell the difference between cases where the vast majority of people believe falsehoods for some specific reason, and cases where the vast majority actually knows best.
-Know standard Biases: Have conscious knowledge of common human error patterns, including the heuristics and biases literature; practice using this knowledge in real-world situations to identify probable errors; practice making predictions and update from the track record of your own accurate and inaccurate judgments.
-Know Probability theory: Have conscious knowledge of probability theory; practice applying probability theory in real-world instances and seeing e.g. how much to penalize conjunctions, how to regress to the mean, etc.
-Know your own mind: Have a moment-to-moment awareness of your own emotions and of the motivations guiding your thoughts. (Are you searching for justifications? Shying away from certain considerations out of fear?) Be willing to acknowledge all of yourself, including the petty and unsavory parts. Knowledge of your own track record of accurate and inaccurate predictions, including in cases where fear, pride, etc. were strong.
-Be well calibrated: Avoid over- and under-confidence. Know how much to trust your judgments in different circumstances. Keep track of many levels of confidence, precision, and surprisingness; dare to predict as much as you can, and update as you test the limits of your knowledge. Develop as precise a world-model as you can manage. (Tom McCabe wrote a quiz to test some simple aspects of your calibration.)
-Use analytic philosophy: understand the habits of thought taught in analytic philosophy; the habit of following out lines of thought, of taking on one issue at a time, of searching for counter-examples, and of carefully keeping distinct concepts distinct (e.g. not confusing heat and temperature; free will and lack of determinism; systems for talking about Peano arithmetic and systems for talking about systems for talking about Peano arithmetic).
-Resist Thoughtcrime. Keep truth and virtue utterly distinct in your mind. Give no quarter to claims of the sort "I must believe X, because otherwise I will be {racist / without morality / at risk of coming late to work/ kicked out of the group / similar to stupid people}". Decide that it is better to merely lie to others than to lie to others and to yourself. Realize that goals and world maps can be separated; one can pursue the goal of fighting against climate change
+information-theoretically impossible to reliably get true beliefs unless you actually get reliably pushed around by the evidence. 
+Distinguish between knowledge and feelings.
+Be Curious: Look for interesting details; resist cached thoughts; respond to unexpected observations and thoughts. Learn to acquire
+ interesting angles, and to make connections to the task at hand.
+Aumann-update: Update to the right extent from others' opinions. Borrow reasonable practices for grocery shopping, social 
+interaction, etc from those who have already worked out what the best way to do these things is. Take relevant experts seriously.
+ Use outside views to estimate the outcome of one's own projects and the merit of one's own clever ideas. Be willing to depart from
+  consensus in cases where there is sufficient evidence that the consensus is mistaken or that the common practice doesn't serve its
+   ostensible purposes. Have correct models of the causes of others’ beliefs and psychological states, so that you can tell the 
+   difference between cases where the vast majority of people believe falsehoods for some specific reason, and cases where the vast
+    majority actually knows best.
+Know standard Biases: Have conscious knowledge of common human error patterns, including the heuristics and biases literature; 
+practice using this knowledge in real-world situations to identify probable errors; practice making predictions and update from the
+ track record of your own accurate and inaccurate judgments.
+Know Probability theory: Have conscious knowledge of probability theory; practice applying probability theory in real-world 
+instances and seeing e.g. how much to penalize conjunctions, how to regress to the mean, etc.
+Know your own mind: Have a moment-to-moment awareness of your own emotions and of the motivations guiding your thoughts. (Are you 
+searching for justifications? Shying away from certain considerations out of fear?) Be willing to acknowledge all of yourself, 
+including the petty and unsavory parts. Knowledge of your own track record of accurate and inaccurate predictions, including in 
+cases where fear, pride, etc. were strong.
+Be well calibrated: Avoid over- and under-confidence. Know how much to trust your judgments in different circumstances. Keep track
+ of many levels of confidence, precision, and surprisingness; dare to predict as much as you can, and update as you test the limits
+  of your knowledge. Develop as precise a world-model as you can manage. (Tom McCabe wrote a quiz to test some simple aspects of your
+   calibration.)
+Use analytic philosophy: understand the habits of thought taught in analytic philosophy; the habit of following out lines of thought,
+ of taking on one issue at a time, of searching for counter-examples, and of carefully keeping distinct concepts distinct (e.g. not
+  confusing heat and temperature; free will and lack of determinism; systems for talking about Peano arithmetic and systems for 
+  talking about systems for talking about Peano arithmetic).
+Resist Thoughtcrime. Keep truth and virtue utterly distinct in your mind. Give no quarter to claims of the sort "I must believe X,
+ because otherwise I will be {racist / without morality / at risk of coming late to work/ kicked out of the group / similar to 
+ stupid people}". Decide that it is better to merely lie to others than to lie to others and to yourself. Realize that goals and 
+ world maps can be separated; one can pursue the goal of fighting against climate change
 •
 •
 •
@@ -4333,7 +5151,8 @@ Resist Thoughtcrime. Keep truth and virtue utterly distinct in your mind. Give n
 •
   130
 
- without deliberately fooling oneself into having too high an estimate (given the evidence) of the probability that the anthropogenic climate change hypothesis is correct.
+ without deliberately fooling oneself into having too high an estimate (given the evidence) of the probability that the anthropogenic
+  climate change hypothesis is correct.
 Presence of wasting assets
 o Options are by definition a wasting asset, since if they are not in the money at maturity they are
 worthless by definition
@@ -4357,16 +5176,23 @@ o Prepaid expense and other current assets at carrying value
 o Deferred tax assets discounted over one year at the firm’s discount factor23 o PPE
 o Land, buildings, construction at adjusted market or reproduction value (generally higher than historical cost for real estate)
 o Machinery and equipment at adjusted reproduction value (generally lower than carrying value...e.g., 50%)
-o Furniture, fixtures, IT, autos, lease improvements, other at adjusted reproduction value (generally lower than carrying value...e.g., 50%)
-o Goodwill (which here is not the premium paid for an asset over its book value, but rather the intangible assets a firm uses to create value...e.g., product portfolio, customer relationships, organizational structure, competitive advantage, licenses, etc.) adjusted by adding “some multiple of SG&A, in most cases between one and three years’ worth”
+o Furniture, fixtures, IT, autos, lease improvements, other at adjusted reproduction value (generally lower than carrying value...e.g.,
+ 50%)
+o Goodwill (which here is not the premium paid for an asset over its book value, but rather the intangible assets a firm uses to 
+create value...e.g., product portfolio, customer relationships, organizational structure, competitive advantage, licenses, etc.) 
+adjusted by adding “some multiple of SG&A, in most cases between one and three years’ worth”
 Liabilities
 o All at carrying value except:
 o Add a liability for future lease payments
 o Add a liability for future option/stock expense
 o Add or a adjust liability for pension/OPEB
-o Add a liability for any off-balance sheet liabilities (securitizations, SPVs, L/Cs, guarantees, etc.) o Adjust deferred taxes as above
+o Add a liability for any off-balance sheet liabilities (securitizations, SPVs, L/Cs, guarantees, etc.) o Adjust deferred taxes as 
+above
 Earnings Power Value
-22 “...adds the bad debt allowance back to accounts receivable to arrive at an estimate of this line item’s economic value” – “it is necessary to add this allowance back on the balance sheet in order to reproduce this particular asset adequately.” Bruce Greenwald: “A new firm starting out is even more likely to get stuck by customers who for some reason or another do not pay their bills, so the cost of reproducing an existing firm’s accounts receivable is probably more than the book amount.”
+22 “...adds the bad debt allowance back to accounts receivable to arrive at an estimate of this line item’s economic value” – “it 
+is necessary to add this allowance back on the balance sheet in order to reproduce this particular asset adequately.” Bruce 
+Greenwald: “A new firm starting out is even more likely to get stuck by customers who for some reason or another do not pay their
+ bills, so the cost of reproducing an existing firm’s accounts receivable is probably more than the book amount.”
 23 WACC or cost of equity or other as applicable
     132
 
@@ -4425,10 +5251,13 @@ value.
 2. Tight coupling. There is limited to no flexibility available to the absorb “the effect of miscalculations or
 worse than average luck” (Graham). Also know as investing without a significant margin of safety. Is a
 premium being paid? If so how is it justified?
-3. Unusual business environment. Turbulence in the business environment can produce or contribute to valuation errors. [Note: can be positive or negative factors.]
-4. Cognitive biases. Examples include overoptimism and arrogance. [Also think critically about incentives, especially earn-outs, retained ownership stake, etc.]
+3. Unusual business environment. Turbulence in the business environment can produce or contribute to valuation errors. [Note: can 
+be positive or negative factors.]
+4. Cognitive biases. Examples include overoptimism and arrogance. [Also think critically about incentives, especially earn-outs, 
+retained ownership stake, etc.]
 5. Adverse management choices. “Unintended consequences can increase the risk of a deal.” Have contingency plans been made?
-6. Operational team flaws. These [can] arise from cultural differences, lack of candor, political infighting, and aberrant leadership.
+6. Operational team flaws. These [can] arise from cultural differences, lack of candor, political infighting, and aberrant 
+leadership.
 Operational Team flaws – Proactive Assessments
       People
 Process
@@ -4453,7 +5282,8 @@ Initial Valuation
 o NAV adjustments
 o EPV assumptions
 o Franchise value analysis – identifying competitive advantage
-§ Clearly identify a firm’s strategy and the risks that could jeopardize it § Validate the strategy’s viability over time (minimum 5-10 years)
+§ Clearly identify a firm’s strategy and the risks that could jeopardize it § Validate the strategy’s viability over time (minimum
+ 5-10 years)
    134
 
 § Evaluate management’s commitment to defending and perpetuating the franchise over time
@@ -4466,23 +5296,43 @@ Validations
 Final Valuation
 • Margin of safety assessment
 15 Inviolable Rules for Dealing with Wall Street – Barry Ritholz
-1. Reward is ALWAYS relative to Risk: If any product or investment sounds like it has lots of upside, it also has lots of risk. (If you can disprove this, there is a Nobel waiting for you).
-2. Overly Optimistic Assumptions: Imagine the worst case scenario. How bad is it? Now multiply it by 3X, 5X 10X, 100X. Due to your own flawed wetware, cognitive preferences, and inherent biases, you have a strong disinclination – even an inability — to consider the true, Armageddon-like worst case scenario.
-3. Legal Docs protect the preparer (and its firm), not you: Ask yourself this question: How often in the history of modern finance has any huge legal document gone against its drafters? PPMs, Sales agreement, arbitration clauses — firms put these in to protect themselves, not your organization. An investment that requires a 50-100 page legal document means that legal rights accrue to the firms that underwrote the offering, and not you, the investor. Hard stop, next subject.
-4. Asymmetrical Information: In all negotiated sales, one party has far more information, knowledge and data about the product being bought and sold. One party knows its undisclosed warts and risks better than the other. Which person are you?
-5. Motivation: What is the motivation of the person selling you any product? Is it the long term stability and financial health of your organization — or their own fees and commissions?
-6. Performance: Speaking of long term health: How significantly do the fees, taxes, commissions, etc., impact the performance of this investment vehicle over time?
-7. Shareholder obligation: All publicly traded firms (including iBanks) have a fiduciary obligation to their shareholders to maximize profits. This is far greater than any duty owed to you, the client. Ask yourself: Does this product benefit the S/Hs, or my organization? (This is acutely important for untested products).
-8. Other People’s Money (OPM): When handing money over to someone to manage, understand the difference between self-directed management and OPM. What hidden incentives are there to take more risk than would otherwise exist if you were managing your own assets?
+1. Reward is ALWAYS relative to Risk: If any product or investment sounds like it has lots of upside, it also has lots of risk. (If
+ you can disprove this, there is a Nobel waiting for you).
+2. Overly Optimistic Assumptions: Imagine the worst case scenario. How bad is it? Now multiply it by 3X, 5X 10X, 100X. Due to your 
+own flawed wetware, cognitive preferences, and inherent biases, you have a strong disinclination – even an inability — to consider 
+the true, Armageddon-like worst case scenario.
+3. Legal Docs protect the preparer (and its firm), not you: Ask yourself this question: How often in the history of modern finance 
+has any huge legal document gone against its drafters? PPMs, Sales agreement, arbitration clauses — firms put these in to protect 
+themselves, not your organization. An investment that requires a 50-100 page legal document means that legal rights accrue to the 
+firms that underwrote the offering, and not you, the investor. Hard stop, next subject.
+4. Asymmetrical Information: In all negotiated sales, one party has far more information, knowledge and data about the product 
+being bought and sold. One party knows its undisclosed warts and risks better than the other. Which person are you?
+5. Motivation: What is the motivation of the person selling you any product? Is it the long term stability and financial health of 
+your organization — or their own fees and commissions?
+6. Performance: Speaking of long term health: How significantly do the fees, taxes, commissions, etc., impact the performance of 
+this investment vehicle over time?
+7. Shareholder obligation: All publicly traded firms (including iBanks) have a fiduciary obligation to their shareholders to 
+maximize profits. This is far greater than any duty owed to you, the client. Ask yourself: Does this product benefit the S/Hs, or
+ my organization? (This is acutely important for untested products).
+8. Other People’s Money (OPM): When handing money over to someone to manage, understand the difference between self-directed 
+management and OPM. What hidden incentives are there to take more risk than would otherwise exist if you were managing your own
+assets?
    135
 
-9. Zero Sum Game: If I am winning, who is losing? And who wins if I lose? Does this product incentivize any gunslingers to make bets against my investments –or my firm?
-10. Keep it Simple, Stupid (KISS): Its easy to make things complicated, but its very challenging to make them simple. The more complexity brought to a problem, the greater the potential for things to go awry – and not just wrong, but very, very wrong.
-11. Counter-Parties: Who is on the other side of your trade? Any income/revenue/dividend hedging you do means there is a party that stands to win if you lose. Who are they, what are their motivations?
-12. Reputational Risk: Who suffers if this investment goes down the drain? Who gets fired or voted out of office if this blows up? Who suffers reputational risk?
-13. New Products & Services: The rules of consumer technology also apply to finance: Never buy 1.0 of anything. Before buying a new-fangled service, is there a compelling reason not to wait an upgrade cycle? Why not let some other schmuck be the guinea pig?
-14. Lawyer Up: The people on the street buy the best legal talent on the planet, with money no object. Make sure you have damned good lawyers working for you as well . . .
-15. There is no free lunch: Repeat after me: There is no free money, no riskless trade, no way to turn lead into gold. If you remember no other rule, this one wills ave your bacon time and again.
+9. Zero Sum Game: If I am winning, who is losing? And who wins if I lose? Does this product incentivize any gunslingers to make bets
+ against my investments –or my firm?
+10. Keep it Simple, Stupid (KISS): Its easy to make things complicated, but its very challenging to make them simple. The more 
+complexity brought to a problem, the greater the potential for things to go awry – and not just wrong, but very, very wrong.
+11. Counter-Parties: Who is on the other side of your trade? Any income/revenue/dividend hedging you do means there is a party that
+ stands to win if you lose. Who are they, what are their motivations?
+12. Reputational Risk: Who suffers if this investment goes down the drain? Who gets fired or voted out of office if this blows up? 
+Who suffers reputational risk?
+13. New Products & Services: The rules of consumer technology also apply to finance: Never buy 1.0 of anything. Before buying a new-
+fangled service, is there a compelling reason not to wait an upgrade cycle? Why not let some other schmuck be the guinea pig?
+14. Lawyer Up: The people on the street buy the best legal talent on the planet, with money no object. Make sure you have damned good
+ lawyers working for you as well . . .
+15. There is no free lunch: Repeat after me: There is no free money, no riskless trade, no way to turn lead into gold. If you 
+remember no other rule, this one wills ave your bacon time and again.
 INVESTMENT FRAMEWORK Industry Study
 • Is this a good business? What are the key success factors to superior performance in this industry? (Value Added Research “VAR”)
 • Define the market opportunity. How do competitive products address this opportunity?
@@ -4501,7 +5351,8 @@ Business Model (VAR)
 • Is this company growing by acquisition? How sustainable is that?
 • Be able to easily describe the entire sales process – from order to fulfillment.
 Management (VAR)
-• What is their background, and what do their former colleagues, investors, classmates, say about them? Have they been successful in the past? (Very important)
+• What is their background, and what do their former colleagues, investors, classmates, say about them? Have they been successful in
+ the past? (Very important)
 • How are they compensated? Are their interests aligned with shareholders?
 • Have they been good at allocating capital?
 • Are they buying or selling stock? How much as a percentage of their holdings, and why?
@@ -4511,7 +5362,8 @@ Company/Cultural Issues (VAR)
 • If you had access to unlimited capital, how would you feel about your chances of successfully
 competing against this company?
 • Compare to a weak competitor in the same industry. What is the difference and why?
-Financial Measures First Step: Check against all the accounting shenanigans in Howard Schilit’s book (Financial Shenanigans: How to Detect Accounting Gimmicks & Fraud in Financial Reports, Third Edition) Balance Sheet
+Financial Measures First Step: Check against all the accounting shenanigans in Howard Schilit’s book (Financial Shenanigans: How to 
+Detect Accounting Gimmicks & Fraud in Financial Reports, Third Edition) Balance Sheet
 • What is the company’s capital structure, and how does it compare to its peers?
 • What are the trends in inventory turns, days payable/receivable, and working capital?
 • What are its coverage ratios on interest payments?
@@ -4587,10 +5439,14 @@ there is universal bearishness. 6. Timing
 • Even if the stock down significantly from its high, if answering all these questions convinces you that it
 is still a short, do not cover and consider adding. See below
 • Does waiting for the new financials feel like waiting for Christmas? IF “YES” —–> ADD. ------------
-Few topics in psychology get as much attention as the telltale signs of deception. The emphasis on this topic has intensified tenfold over the last decade in response to terrorism, and a great deal of research has
+Few topics in psychology get as much attention as the telltale signs of deception. The emphasis on this topic has intensified tenfold
+ over the last decade in response to terrorism, and a great deal of research has
 been initiated by Homeland Security and police departments as a means to inform and train their personnel.
-One of the leading researchers in this field is UCLA professor of psychology R. Edward Geiselman. His studies have served as a the basis for training thousands of detectives, intelligence officers, police officers, and military personnel.
-The sidebar benefit of all this research for us (in addition to the benefits of greater security) is that we can learn to nail liars in the act. A recent paper by Dr. Geiselman and three of his students in the American Journal of Forensic Psychiatry summarizes findings from 60 studies on detecting deception.
+One of the leading researchers in this field is UCLA professor of psychology R. Edward Geiselman. His studies have served as a the 
+basis for training thousands of detectives, intelligence officers, police officers, and military personnel.
+The sidebar benefit of all this research for us (in addition to the benefits of greater security) is that we can learn to nail liars
+ in the act. A recent paper by Dr. Geiselman and three of his students in the American Journal of Forensic Psychiatry summarizes
+ findings from 60 studies on detecting deception.
 The most reliable indicators of lying, according to Geiselman, include:
 • When questioned, deceptive people say as little as possible
 • Though they say little, they tend to spontaneously give a justification for what they are saying, usually without being prompted
@@ -4601,27 +5457,43 @@ The most reliable indicators of lying, according to Geiselman, include:
 convincing or not
 • They start speaking slowly as they are creating their story and gradually get faster
 • They tend to speak in sentence fragments
-• They will often gesture to themselves and engage in "grooming behaviors" like playing with their hair (gestures toward oneself correlate strongly with deception; outward gestures correlate with truthfulness)
-• When pressed, liars will generally not provide more details, while truthful people will deny they are lying and provide more and more details of events to buttress their explanation
-• Truthful people tend to look away when answering a difficult question because they are concentrating, while liars will look away only briefly if at all
-Geiselman also notes that when deceptive people attempt to cover up these typical reactions to lying, they become more obvious liars. The reason is that a liar's "cognitive load" is already high from manufacturing a story and trying to delivery it convincingly. Geiselman instructs his trainees on ways to increase this cognitive load to push the liar over the edge. Ways of doing this include:
+• They will often gesture to themselves and engage in "grooming behaviors" like playing with their hair (gestures toward oneself 
+correlate strongly with deception; outward gestures correlate with truthfulness)
+• When pressed, liars will generally not provide more details, while truthful people will deny they are lying and provide more and 
+more details of events to buttress their explanation
+• Truthful people tend to look away when answering a difficult question because they are concentrating, while liars will look away 
+only briefly if at all
+Geiselman also notes that when deceptive people attempt to cover up these typical reactions to lying, they become more obvious 
+liars. The reason is that a liar's "cognitive load" is already high from manufacturing a story and trying to delivery it convincingly.
+ Geiselman instructs his trainees on ways to increase this cognitive load to push the liar over the edge. Ways of doing this include:
 • Starting with general questions and then asking open-ended questions that require as much detail as possible.
 • Not interrupting the person when he/she attempts to answer -- simply let them attempt to fill out the story on their own
-• Asking that the person tell the story backwards ("Ok, let's review your story again, but this time let's rewind the tape and hear it the other way around")
-How hard is it to catch liars? Very, according to Geiselman and Dr. Paul Ekman, another researcher who has devoted his career to identifying the signs of deception. In previous studies, Ekman found that without training, the average person's abilty to identify a liar is roughly the same as chance.
-Buffett has correctly pointed out that the correct way to value a business is to calculate the discounted value of all its future cash flows. The concept is simple. The application is not.
+• Asking that the person tell the story backwards ("Ok, let's review your story again, but this time let's rewind the tape and hear 
+it the other way around")
+How hard is it to catch liars? Very, according to Geiselman and Dr. Paul Ekman, another researcher who has devoted his career to 
+identifying the signs of deception. In previous studies, Ekman found that without training, the average person's abilty to identify 
+a liar is roughly the same as chance.
+Buffett has correctly pointed out that the correct way to value a business is to calculate the discounted value of all its future 
+cash flows. The concept is simple. The application is not.
 For many businesses, it is difficult to calculate this with a level of precision that has much utility.
-Some businesses are sufficiently predictable that a careful business analyst can make a reasonable and useful calculation of its DCF, or what Buffett calls its intrinsic value.
+Some businesses are sufficiently predictable that a careful business analyst can make a reasonable and useful calculation of its 
+DCF, or what Buffett calls its intrinsic value.
    140
 
-Also, sometimes in periods of extreme dislocation, a business will sell at such a depressed price that you can reasonably conclude that the market price is below intrinsic value, even if the range of possible DCFs is large.
+Also, sometimes in periods of extreme dislocation, a business will sell at such a depressed price that you can reasonably conclude 
+that the market price is below intrinsic value, even if the range of possible DCFs is large.
 The multiple at which a stock trades is nothing more than a shorthand proxy for its DCF.
-In Buffett’s 1991 letter to shareholders, he concluded that, assuming a discount rate of 10%, a business earning $1 million of free-cash and with long-term growth prospects of 6% would be worth $25 million or 25 times earnings.
+In Buffett’s 1991 letter to shareholders, he concluded that, assuming a discount rate of 10%, a business earning $1 million of 
+free-cash and with long-term growth prospects of 6% would be worth $25 million or 25 times earnings.
 A no-growth business also earning $1 million would be worth about 10 times earnings. Business 1: $1 million / (10%-6%) = $25 million
 Business 2: $ 1 million / (10%) = $10 million
-As a practical matter, what types of things should you be thinking about when deciding if you are dealing with a company that deserves a multiple of 25 times earnings versus one that only deserves a multiple of ten times earnings. There are many factors to consider.
-Venture capitalist Bill Gurley has written an excellent list of characteristics to consider when evaluating a company and determining what multiple to use when valuing its earnings.
-You should carefully think about each of these and add them to your checklists for evaluating a business. I’ve put Gurley’s characteristics in the form of a question.
+As a practical matter, what types of things should you be thinking about when deciding if you are dealing with a company that 
+deserves a multiple of 25 times earnings versus one that only deserves a multiple of ten times earnings. There are many factors to 
+consider.
+Venture capitalist Bill Gurley has written an excellent list of characteristics to consider when evaluating a company and 
+determining what multiple to use when valuing its earnings.
+You should carefully think about each of these and add them to your checklists for evaluating a business. I’ve put Gurley’s 
+characteristics in the form of a question.
 1. Does the business have a sustainable competitive advantage (Buffett’s moat)?
 2. Does the business benefit from any network effects?
 3. Are the business’s revenue and earnings visible and predictable? 4. Are customers locked in? Are there high switching costs?
@@ -4629,27 +5501,41 @@ You should carefully think about each of these and add them to your checklists f
 6. Is marginal profitability expected to increase or decline?
 7. Is a material part of sales concentrated in a few powerful customers?
 8. Is the business dependent on one or more major partners?
-9. Is the business growing organically or is heavy marketing spending required for growth? 10. How fast and how much is the business expected to grow?
+9. Is the business growing organically or is heavy marketing spending required for growth? 10. How fast and how much is the 
+business expected to grow?
 The 10 Commandments Of Insurance Investing. From a fellow by the name of Harry Long:
    141
 
 I. Thou shalt protect thy ass, capital being an extension of it. Keep this above all other Commandments.
 II. Thou shalt not sacrifice Quality for Price.
-III. Thou shalt Live by the Dice and Die by the Dice. Make sure thy Dice be Loadeth in thy favor if thou wish for thy days to be long with capital on this Earth.
+III. Thou shalt Live by the Dice and Die by the Dice. Make sure thy Dice be Loadeth in thy favor if thou wish for thy days to be 
+long with capital on this Earth.
 IV. Thou shalt not believe in the craven image that paying a discount to book value will save thou from loss of capital.
-V. Thou shalt pay special attention to the combined ratio during a period of weak pricing in the industry. Such periods reveal the True Character of the Underwriters and in the strength of the Loadeth Dice.
+V. Thou shalt pay special attention to the combined ratio during a period of weak pricing in the industry. Such periods reveal the 
+True Character of the Underwriters and in the strength of the Loadeth Dice.
 VI. Thou shalt respect thy Reserving Tables.
-VII. Thou shalt buy the insurer for its underwriting prowess if thou art an investor. If thou taketh the insurer over, firing its incompetent portfolio managers is but a small feat, but bad underwriting may take a decade to dig thy self out of if the tail of the insurance be long.
-VIII. Thou shalt pay special attention to the Premium to Surplus ratio. If it be high, and the underwriting be solid, thou art probably safe, but if it be high and the combined ratio be over 100, Woe unto you! Short are thy days with thy capital on this Earth!
-IX. Thou shalt attempt to find insurers which can underwrite with a combined ratio below 90. Such a situation is Heaven on Earth for they who live by Loading the Dice.
-X. Thou shalt not believe the foolish soothsayers who say that it is impossible to find a fine underwriter that is selling cheaply. Have faith in thy research and the eternal patience to keep honor with the nobility and sanctity of thy quest.
+VII. Thou shalt buy the insurer for its underwriting prowess if thou art an investor. If thou taketh the insurer over, firing its 
+incompetent portfolio managers is but a small feat, but bad underwriting may take a decade to dig thy self out of if the tail of 
+the insurance be long.
+VIII. Thou shalt pay special attention to the Premium to Surplus ratio. If it be high, and the underwriting be solid, thou art
+ probably safe, but if it be high and the combined ratio be over 100, Woe unto you! Short are thy days with thy capital on this 
+ Earth!
+IX. Thou shalt attempt to find insurers which can underwrite with a combined ratio below 90. Such a situation is Heaven on Earth 
+for they who live by Loading the Dice.
+X. Thou shalt not believe the foolish soothsayers who say that it is impossible to find a fine underwriter that is selling cheaply.
+ Have faith in thy research and the eternal patience to keep honor with the nobility and sanctity of thy quest.
 What they Used to Teach You at Stanford Business School
-Chris Wyser-Pratte, who got his MBA from Stanford in 1972 and then spent the next 23 years as an investment banker, sent me the following note last night. I'm reprinting it here with his permission:
-I learned exactly seven things at Stanford Graduate School of Business getting an MBA degree in 1972. I always used them and never wavered. They were principles that enabled me to put the cookbook formulas that everyone revered in context and in perspective. I think they served my clients (and perhaps me) rather well. Here are those seven principles, and who taught them to me:
+Chris Wyser-Pratte, who got his MBA from Stanford in 1972 and then spent the next 23 years as an investment banker, sent me the 
+following note last night. I'm reprinting it here with his permission:
+I learned exactly seven things at Stanford Graduate School of Business getting an MBA degree in 1972. I always used them and never
+ wavered. They were principles that enabled me to put the cookbook formulas that everyone revered in context and in perspective. I 
+ think they served my clients (and perhaps me) rather well. Here are those seven principles, and who taught them to me:
     142
 
-1. Don't use many financial ratios or formulas, and when you've picked the few that will actually tell you what you want to know, don't believe them very much (Prof. James T.S. Porterfield);
-2. Remember that any damn fool can compute an IRR or DCF. The trick is to find a business that can return 20% after tax, understand its critical indigenous and exogenous variables, and then run it so it meets its return target. (Prof. Alexander Robichek.)
+1. Don't use many financial ratios or formulas, and when you've picked the few that will actually tell you what you want to know, 
+don't believe them very much (Prof. James T.S. Porterfield);
+2. Remember that any damn fool can compute an IRR or DCF. The trick is to find a business that can return 20% after tax, understand 
+its critical indigenous and exogenous variables, and then run it so it meets its return target. (Prof. Alexander Robichek.)
 3. Always ask what can go wrong (Porterfield);
 4. Never extrapolate beyond the observed points of a distribution, you have absolutely no information
 outside the observed range (Prof. J. Michael Harrison);
