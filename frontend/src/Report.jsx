@@ -139,7 +139,7 @@ function Report() {
   };
 
   const renderChart = (label, plot_data, color, label_list = data.year_list) => {
-    const pointRadius = label_list.length > 100 ? 0 : 3;
+    const pointRadius = label_list.length > 50 ? 0 : 3;
     const extendLabelGraphList = ['Revenue', 'Expenses', 'Gross Expense', 'Gross Profit', 'Operating Profit',
       'Net Profit', 'Total Assets', 'Equity', 'Cash Equivalents', 'Trade Receivables', 'Borrowings',
       'Cash from Operations', 'Cash from Investing', 'EPS Values'];

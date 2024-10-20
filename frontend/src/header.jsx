@@ -12,11 +12,11 @@ const Header = () => {
             </div>
         </a>
         <nav className="navbar">
-            <a href="#portfolio" className="nav-item">Core Portfolio</a>
-            <Link to="/analyser" className="nav-item">Slipstream Finder</Link>
-            <Link to="/indian-industries" className="nav-item">Indian Industries</Link>
-            <Link to="/indian-economy" className="nav-item">Indian Economy</Link>
-            <Link to="/rulebook" className="nav-item">Master Work Book</Link>
+            <a href="#portfolio" className="nav-item">Portfolio</a>
+            <Link to="/analyser" className="nav-item">Finder</Link>
+            <Link to="/indian-industries" className="nav-item">Industries</Link>
+            <Link to="/indian-economy" className="nav-item">Economy</Link>
+            <Link to="/rulebook" className="nav-item">Work Book</Link>
             <a href="#about-us" className="nav-item">About Us</a>
         </nav>
     </header>)
