@@ -667,6 +667,18 @@ class AnalysisView(APIView):
         soup = BeautifulSoup(screener_resp, 'html.parser')
         table = soup.find_all('table')
         company_id = int(soup.find('div', {'id': 'company-info'})['data-company-id'])
+
+        report_links = {}
+        for i in soup.find('div', {'class': 'annual-reports'}).find_all('a'):
+            try:
+                i.find('div', {'class':'smaller'}).decompose()
+            except:
+                pass
+            report_links[i.get_text().strip()] = i['href']  
+        credit_ratings = {}
+        for i in soup.find('div', {'class': 'credit-ratings'}).find_all('a'):
+            credit_ratings[i.find('div').get_text().strip()] = i['href']  
+
         financial_statement = pd.read_html(StringIO(str(table)))
         df = financial_statement[1]
         data = df.to_dict()
@@ -1146,9 +1158,17 @@ class AnalysisView(APIView):
 
         key_insights = ''
         for para in soup_key_insights.find_all('p'):
-            key_insights += para.text
+            key_content = para.text.split('\n')
+            if len(key_content[0]) < 50:
+                key_insights += '<strong>' + key_content[0] + '</strong>\n'
+            else:
+                key_insights += key_content[0] + '\n'
+            for i in key_content[1:]:
+                key_insights += i
+                key_insights += '\n'
+            key_insights += '\n\n'
         key_insights = key_insights.split('Last edited')[0]
-        key_insights = re.sub(r'\[.*?\]', '\n', key_insights)
+        key_insights = re.sub(r'\[.*?\]', '', key_insights)
         if key_insights == '':
             key_insights = 'No key insights available'
         eps_data = pe_resp['datasets'][0]
@@ -1490,6 +1510,10 @@ class AnalysisView(APIView):
             data['trade_receivables_by_total_assets'] = trade_receivables_by_total_assets
         if cash_conversion_cycle:
             data['cash_conversion_cycle'] = cash_conversion_cycle
+        if credit_ratings:
+            data['credit_ratings'] = credit_ratings
+        if report_links:
+            data['report_links'] = report_links
         return Response(data)
 
 class IndianEconomy(APIView):
@@ -1521,7 +1545,5 @@ class IndianIndustry(APIView):
         if data is None:
             return Response('No data available! Please retry after some time')
         final_data = str(''.join([str(i) for i in data.contents])).replace('\n', '').replace('\t', '').replace('\r', '')
-        from pyperclip import copy
-        copy(final_data)
         return Response(final_data)
 

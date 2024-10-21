@@ -566,7 +566,7 @@ function Report() {
   };
 
   return (
-    <div>
+    <div className='report-wrapper'>
       {company ? (
         <div>
           <h1 className='comapny-heading'>{company.name}</h1>
@@ -589,6 +589,26 @@ function Report() {
               <div>
                 <h3>Key Performing Indicators and Constraints</h3>
                 <p dangerouslySetInnerHTML={{ __html: getKPI(data.sector).replace(/\n/g, '<br>') }}></p>
+              </div>
+              <div>
+                <h3>Report Links</h3>
+                <ul>
+                  {Object.entries(data.report_links).map(([year, link]) => (
+                    <li key={year}>
+                      <a href={link} target="_blank" rel="noopener noreferrer">{year}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3>Credit Ratings</h3>
+                <ul>
+                  {Object.entries(data.credit_ratings).map(([date, link]) => (
+                    <li key={date}>
+                      <a href={link} target="_blank" rel="noopener noreferrer">{date}</a>
+                    </li>
+                  ))}
+                </ul>
               </div>
               {renderEconomicLandscapeGraphs(data)}
               <div className='graph-wrapper'>

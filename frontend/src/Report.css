@@ -78,3 +78,6 @@
     display: block; /* Ensures no extra space below the canvas */
 }
 
+.report-wrapper{
+  padding: 1rem 1rem 1rem 1rem;
+}
