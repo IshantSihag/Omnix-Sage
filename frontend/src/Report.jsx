@@ -652,6 +652,15 @@ function Report() {
                 <span className='graph-explaination'>The operating profit margin is a financial ratio that shows the percentage of revenue that remains as operating profit after covering operating expense</span>
               </div>
               <div className='graph-wrapper'>
+                {renderChartWithRating('Financing Profit', data.financing_profit, 'rgba(255, 206, 86, 1)')}
+                <span className='graph-explaination'></span>
+              </div>
+              <div className='graph-wrapper'>
+                {renderChartWithRating('Financing Profit Margin', data.financing_profit_margin, 'rgba(54, 162, 235, 1)')}
+                <span className='graph-explaination'></span>
+              </div>
+              
+              <div className='graph-wrapper'>
                 {renderChartWithRating('Interest', data.interest_list, 'rgba(153, 102, 255, 1)')}
                 <span className='graph-explaination'>Interest is the cost of borrowing money. It is calculated as a percentage of the principal amount borrowed and is typically paid periodically, such as monthly or annually.</span>
               </div>

@@ -826,57 +826,96 @@ class AnalysisView(APIView):
                 sales_list.append(None)
             if sales_list[-1] != sales_list[-1]:
                 sales_list[-1] = None
+        
         expenses_list = []
-        for i in range(1, years+1):
-            try:
-                expenses_list.append(float(data[list(data)[i]][1]))
-            except:
-                expenses_list.append(None)
-            if expenses_list[-1] != expenses_list[-1]:
-                expenses_list[-1] = None
+        if data[list(data)[0]][1].count('Expenses'):
+            for i in range(1, years+1):
+                try:
+                    expenses_list.append(float(data[list(data)[i]][1]))
+                except:
+                    expenses_list.append(None)
+                if expenses_list[-1] != expenses_list[-1]:
+                    expenses_list[-1] = None
+        
+        financing_profit = []
+        if data[list(data)[0]][3].count('Financing Profit'):
+            for i in range(1, years+1):
+                try:
+                    financing_profit.append(float(data[list(data)[i]][3]))
+                except:
+                    financing_profit.append(None)
+                if financing_profit[-1] != financing_profit[-1]:
+                    financing_profit[-1] = None
+        
+        financing_profit_margin = []
+        if data[list(data)[0]][4].count('Financing Margin'):
+            for i in range(1, years+1):
+                try:
+                    financing_profit_margin.append(float(data[list(data)[i]][4][:-1]))
+                except:
+                    financing_profit_margin.append(None)
+                if financing_profit_margin[-1] != financing_profit_margin[-1]:
+                    financing_profit_margin[-1] = None
+        
+            
 
         opm_percent_list = []
-        for i in range(1, years+1):
-            try:
-                opm_percent_list.append(float(data[list(data)[i]][3][:-1].replace(',','')))
-            except:
-                opm_percent_list.append(None)
-            if opm_percent_list[-1] != opm_percent_list[-1]:
-                opm_percent_list[-1] = None
+        if data[list(data)[0]][3].count('OPM'):
+            for i in range(1, years+1):
+                try:
+                    opm_percent_list.append(float(data[list(data)[i]][3][:-1].replace(',','')))
+                except:
+                    opm_percent_list.append(None)
+                if opm_percent_list[-1] != opm_percent_list[-1]:
+                    opm_percent_list[-1] = None
 
         interest_list = []
-        for i in range(1, years+1):
-            try:
-                interest_list.append(float(data[list(data)[i]][5]))
-            except:
-                interest_list.append(None)
-            if interest_list[-1] != interest_list[-1]:
-                interest_list[-1] = None
+        if data[list(data)[0]][5].count('Interest'):
+            for i in range(1, years+1):
+                try:
+                    interest_list.append(float(data[list(data)[i]][5]))
+                except:
+                    interest_list.append(None)
+                if interest_list[-1] != interest_list[-1]:
+                    interest_list[-1] = None
+        elif data[list(data)[0]][1].count('Interest'):
+            for i in range(1, years+1):
+                try:
+                    interest_list.append(float(data[list(data)[i]][1]))
+                except:
+                    interest_list.append(None)
+                if interest_list[-1] != interest_list[-1]:
+                    interest_list[-1] = None
 
         depreciation_list = []
-        for i in range(1, years+1):
-            try:
-                depreciation_list.append(float(data[list(data)[i]][6]))
-            except:
-                depreciation_list.append(None)
-            if depreciation_list[-1] != depreciation_list[-1]:
-                depreciation_list[-1] = None
+        if data[list(data)[0]][6].count('Depreciation'):
+            for i in range(1, years+1):
+                try:
+                    depreciation_list.append(float(data[list(data)[i]][6]))
+                except:
+                    depreciation_list.append(None)
+                if depreciation_list[-1] != depreciation_list[-1]:
+                    depreciation_list[-1] = None
+        
         net_profit_list = []
-        for i in range(1, years+1):
-            try:
-                net_profit_list.append(float(data[list(data)[i]][9]))
-            except:
-                net_profit_list.append(None)
-            if net_profit_list[-1] != net_profit_list[-1]:
-                net_profit_list[-1] = None
+        if data[list(data)[0]][9].count('Net Profit'):
+            for i in range(1, years+1):
+                try:
+                    net_profit_list.append(float(data[list(data)[i]][9]))
+                except:
+                    net_profit_list.append(None)
+                if net_profit_list[-1] != net_profit_list[-1]:
+                    net_profit_list[-1] = None
+
         eps = []
-        for i in range(1, years+1):
-            try:
-                eps.append(float(data[list(data)[i]][10]))
-            except:
-                eps.append(None)
-            if eps[-1] != eps[-1]:
-                eps[-1] = None
+        if data[list(data)[0]][10].count('EPS'):
+            for i in range(1, years+1):
+                try:
+                    eps.append(float(data[list(data)[i]][10]))
+                except:
+                    eps.append(None)
+                if eps[-1] != eps[-1]:
+                    eps[-1] = None
         eps_cagr = calculate_cagr(eps) * 100
 
         material_cost_percent = []
@@ -980,38 +1019,60 @@ class AnalysisView(APIView):
             pass
         balance_sheet = financial_statement[6].to_dict()
         total_assets = []
-        for i in range(1, years+1):
-            try:
-                total_assets.append(float(balance_sheet[list(balance_sheet)[i]][9]))
-            except:
-                total_assets.append(None)
-            if total_assets[-1] != total_assets[-1]:
-                total_assets[-1] = None
+        if balance_sheet[list(balance_sheet)[0]][9].count('Total Assets'):
+            for i in range(1, years+1):
+                try:
+                    total_assets.append(float(balance_sheet[list(balance_sheet)[i]][9]))
+                except:
+                    total_assets.append(None)
+                if total_assets[-1] != total_assets[-1]:
+                    total_assets[-1] = None
+        equity_partial = []
+        if balance_sheet[list(balance_sheet)[0]][0].count('Equity'):
+            for i in range(1, years+1):
+                try:
+                    equity_partial.append(float(balance_sheet[list(balance_sheet)[i]][0]))
+                except:
+                    equity_partial.append(None)
+                if equity_partial[-1] != equity_partial[-1]:
+                    equity_partial[-1] = None
+        reserves = []
+        if balance_sheet[list(balance_sheet)[0]][1].count('Reserves'):
+            for i in range(1, years+1):
+                try:
+                    reserves.append(float(balance_sheet[list(balance_sheet)[i]][1]))
+                except:
+                    reserves.append(None)
+                if reserves[-1] != reserves[-1]:
+                    reserves[-1] = None
         equity = []
-        for i in range(1, years+1):
+        for i in range(0, years):
             try:
-                equity.append(float(balance_sheet[list(balance_sheet)[i]][1]))
+                equity.append(equity_partial[i] + reserves[i])
             except:
                 equity.append(None)
-            if equity[-1] != equity[-1]:
-                equity[-1] = None
+
+
         borrowings = []
-        for i in range(1, years+1):
-            try:
-                borrowings.append(float(balance_sheet[list(balance_sheet)[i]][2]))
-            except:
-                borrowings.append(None)
-            if borrowings[-1] != borrowings[-1]:
-                borrowings[-1] = None
+        if balance_sheet[list(balance_sheet)[0]][2].count('Borrowings'):
+            for i in range(1, years+1):
+                try:
+                    borrowings.append(float(balance_sheet[list(balance_sheet)[i]][2]))
+                except:
+                    borrowings.append(None)
+                if borrowings[-1] != borrowings[-1]:
+                    borrowings[-1] = None
         cash_flow = financial_statement[7].to_dict()
         cash_from_operation_list = []
-        for i in range(1, years+1):
-            try:
-                cash_from_operation_list.append(float(cash_flow[list(cash_flow)[i]][0]))
-            except:
-                cash_from_operation_list.append(None)
-            if cash_from_operation_list[-1] != cash_from_operation_list[-1]:
-                cash_from_operation_list[-1] = None
+        if cash_flow[list(cash_flow)[0]][0].count('Cash from Operating Activity'):
+            for i in range(1, years+1):
+                try:
+                    cash_from_operation_list.append(float(cash_flow[list(cash_flow)[i]][0]))
+                except:
+                    cash_from_operation_list.append(None)
+                if cash_from_operation_list[-1] != cash_from_operation_list[-1]:
+                    cash_from_operation_list[-1] = None
+
         shareholding_pattern = financial_statement[10].to_dict()
         promoter_holding = []
         promoter_holding_years = []
@@ -1023,23 +1084,32 @@ class AnalysisView(APIView):
                 pass
         ratios = financial_statement[8].to_dict()
         cash_conversion_cycle = []
-        for i in range(1, years+1):
-            try:
-                cash_conversion_cycle.append(float(ratios[list(ratios)[i]][3]))
-            except:
-                cash_conversion_cycle.append(None)
-            if cash_conversion_cycle[-1] != cash_conversion_cycle[-1]:
-                cash_conversion_cycle[-1] = None
+        try:
+            if ratios[list(ratios)[0]][3].count('Cash Conversion Cycle'):
+                for i in range(1, years+1):
+                    try:
+                        cash_conversion_cycle.append(float(ratios[list(ratios)[i]][3]))
+                    except:
+                        cash_conversion_cycle.append(None)
+                    if cash_conversion_cycle[-1] != cash_conversion_cycle[-1]:
+                        cash_conversion_cycle[-1] = None
+        except:
+            pass
+
         if all([i==None for i in cash_conversion_cycle]):
             cash_conversion_cycle = []
         roce_percent = []
-        for i in range(1, years+1):
-            try:
-                roce_percent.append(float(ratios[list(ratios)[i]][5][:-1]))
-            except:
-                roce_percent.append(None)
-            if roce_percent[-1] != roce_percent[-1]:
-                roce_percent[-1] = None
+        try:
+            if ratios[list(ratios)[0]][5].count('ROCE'):
+                for i in range(1, years+1):
+                    try:
+                        roce_percent.append(float(ratios[list(ratios)[i]][5][:-1]))
+                    except:
+                        roce_percent.append(None)
+                    if roce_percent[-1] != roce_percent[-1]:
+                        roce_percent[-1] = None
+        except:
+            pass
         if all([i==None for i in roce_percent]):
             roce_percent = []
         year_list = []
@@ -1061,6 +1131,9 @@ class AnalysisView(APIView):
                 operating_profit_list.append(None)
             if operating_profit_list[-1] != operating_profit_list[-1]:
                 operating_profit_list[-1] = None
+        if all([i==None for i in operating_profit_list]):
+            operating_profit_list = []
+
         net_profit_by_sales = []
         for i in range(0, years):
             try:
@@ -1245,17 +1318,17 @@ class AnalysisView(APIView):
 
 
         trading_data_required = {
-            'USD_INR' : 'USDINR',
-            'nifty_50' : 'NSE:NIFTY',
-            'dow_jones' : 'DJI',
-            'india_GDP' : 'INGDP',
-            'india_GDP_per_capita' : 'INGDPPC',
-            'india_GDP_growth_rate' : 'INGDPQQ',
-            'india_interest_rate' : 'ININTR',
-            'india_inflation_rate' : 'INIRYY',
-            'india_unemployment_rate' : 'INUR',
-            'india_population' : 'INPOP',
-            'india_government_debt' : 'INGDG',
+            # 'USD_INR' : 'USDINR',
+            # 'nifty_50' : 'NSE:NIFTY',
+            # 'dow_jones' : 'DJI',
+            # 'india_GDP' : 'INGDP',
+            # 'india_GDP_per_capita' : 'INGDPPC',
+            # 'india_GDP_growth_rate' : 'INGDPQQ',
+            # 'india_interest_rate' : 'ININTR',
+            # 'india_inflation_rate' : 'INIRYY',
+            # 'india_unemployment_rate' : 'INUR',
+            # 'india_population' : 'INPOP',
+            # 'india_government_debt' : 'INGDG',
         }
         trading_data = {}
 
@@ -1318,6 +1391,10 @@ class AnalysisView(APIView):
             graph_ratings_and_weightage['operatingprofit'] = {'rating':rate_graph(operating_profit_list,growth_percent=0.2), 'weightage':9}
         if opm_percent_list: 
             graph_ratings_and_weightage['operatingprofitmargin'] = {'rating':rate_graph_anchor(opm_percent_list, 15, weight_anchor=0.2, weight_growth=0.8), 'weightage':9}
+        if financing_profit:
+            graph_ratings_and_weightage['financingprofit'] = {'rating':rate_graph(financing_profit, growth_percent=0.2), 'weightage':8}
+        if financing_profit_margin:
+            graph_ratings_and_weightage['financingprofitmargin'] = {'rating':rate_graph_anchor(financing_profit_margin, 15, weight_anchor=0.2, weight_growth=0.8), 'weightage':9}
         if interest_list: 
             graph_ratings_and_weightage['interest'] = {'rating':rate_graph_anchor(interest_list, 0, False, weight_anchor=0.3, weight_growth=0.7), 'weightage':6}
         if interest_by_sales: 
@@ -1424,6 +1501,10 @@ class AnalysisView(APIView):
             data['percent_change_sales']= percent_change_sales
         if operating_profit_list:
             data['operating_profit_list']= operating_profit_list
+        if financing_profit:
+            data['financing_profit']= financing_profit
+        if financing_profit_margin:
+            data['financing_profit_margin']= financing_profit_margin
         if net_profit_by_sales:
             data['net_profit_by_sales']= net_profit_by_sales
         if capex_by_income:
