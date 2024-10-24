@@ -1,0 +1,4794 @@
+/company/532825/	Jagjanani Text.
+/company/512595/	Manbro Indust.
+/company/539096/	Aananda Lakshmi
+/company/505343/	Monotype India
+/company/517393/	Vintron Info.
+/company/526301/consolidated/	Medinova Diagno.
+/company/526827/	Spice IslandsInd
+/company/KSOLVES/	Ksolves India
+/company/544168/	Varyaa Creations
+/company/513337/consolidated/	Guj. Toolroom
+/company/544183/	Associated
+/company/NESTLEIND/	Nestle India
+/company/517360/consolidated/	SBEC Systems
+/company/503816/	Swadeshi Polytex
+/company/506808/	Tuticorin Alkali
+/company/509732/	Kothari Indl
+/company/517429/consolidated/	Athena Global
+/company/537985/	Infronics Sys.
+/company/526439/	Ambitious Plasto
+/company/MAHAPEXLTD/consolidated/	Maha Rashtra Apx
+/company/540190/	Franklin Indust.
+/company/SSEGL/	Sathlokhar
+/company/526773/consolidated/	Press. Senstive
+/company/502281/	Triveni Glass
+/company/PGHH/	P & G Hygiene
+/company/504346/	RRPSemiconductor
+/company/531982/	Spectrum Foods
+/company/TIPSMUSIC/	Tips Music
+/company/534618/consolidated/	Waaree Renewab.
+/company/532183/	Gayatri Sugars
+/company/539561/	Remedium Life
+/company/539762/	Modern Engineer.
+/company/530249/	Bridge Securitie
+/company/BLUEPEBBLE/	Blue Pebble
+/company/COLPAL/	Colgate-Palmoliv
+/company/POSITRON/consolidated/	Positron
+/company/501421/consolidated/	Technvision Ven.
+/company/531997/	Vuenow Infratech
+/company/514028/	Rajkamal Synth.
+/company/530705/	Flora Textiles
+/company/539594/consolidated/	Mishtann Foods
+/company/SHUBHSHREE/	Shubhshree
+/company/514330/	One Global Serv
+/company/NPST/consolidated/	Network People
+/company/21STCENMGM/consolidated/	21st Cent. Mgmt.
+/company/LLOYDSME/	Lloyds Metals
+/company/540850/	Jhandewala Foods
+/company/526269/	Crestchem
+/company/AKIKO/	Akiko
+/company/ESABINDIA/	Esab India
+/company/TGL/	Teerth
+/company/531201/	Shilchar Tech.
+/company/ENVIRO/	Envirotech
+/company/500143/	P. H. Capital
+/company/LICI/consolidated/	Life Insurance
+/company/PRIZOR/	Prizor Viztech
+/company/544245/	Naturewings Hol.
+/company/SANOFI/	Sanofi India
+/company/519463/	IB Infotech
+/company/ROCKINGDCE/	Rockingdeals Cir
+/company/543578/	Olatech Solution
+/company/526488/	Bhudevi Infra
+/company/503837/	Sh. Rajas. Synt.
+/company/536846/	Yuranus Infrast.
+/company/544251/	Share
+/company/509026/consolidated/	VJTF Eduservices
+/company/TROM/	Trom
+/company/VIPULLTD/consolidated/	Vipul Ltd
+/company/538874/	Nexus Surgical
+/company/514448/	Jyoti Resins
+/company/VERITAAS/	Veritaas
+/company/509423/	Sanathnagar Ent.
+/company/508571/	Cochin Malabar
+/company/SAHASRA/	Sahasra Electro.
+/company/523105/	Cropster Agro
+/company/NINSYS/	NINtec Systems
+/company/TCS/consolidated/	TCS
+/company/BASILIC/	Basilic Fly Stud
+/company/MYMUDRA/	My Mudra Fin.
+/company/COALINDIA/consolidated/	Coal India
+/company/ZTECH/consolidated/	Z-Tech
+/company/JAIBALAJI/consolidated/	Jai Balaji Inds.
+/company/530809/	BNR Udyog
+/company/526494/	Promact Impex
+/company/507946/	Kiduja India
+/company/WANBURY/consolidated/	Wanbury
+/company/TRUST/	Trust Fintech
+/company/514358/	Everlon Fin.
+/company/NEPHROCARE/	Nephro Care
+/company/SLONE/	Slone
+/company/531569/	Sanjiv.Parant.
+/company/544201/	Dindigul Farm
+/company/EFACTOR/consolidated/	E Factor Experie
+/company/GILLETTE/	Gillette India
+/company/532070/	Sumuka Agro
+/company/JSLL/	Jeena Sikho
+/company/QUESTLAB/	Quest
+/company/507948/	Key Corp
+/company/ACCELYA/consolidated/	Accelya Solution
+/company/WEALTH/	Wealth First Por
+/company/BRACEPORT/	Brace Port
+/company/CASTROLIND/	Castrol India
+/company/544186/	Forbes Precision
+/company/519299/	Prime Industries
+/company/543787/	Macfos
+/company/LAKSHYA/	Lakshya Powertec
+/company/SBGLP/consolidated/	Suratwwala Busi.
+/company/534691/	Comfort Comtrade
+/company/TAC/	TAC Infosec
+/company/GLOBAL/	Global Education
+/company/WINSOL/consolidated/	Winsol
+/company/OSELDEVICE/	OSEL Devices
+/company/543244/consolidated/	Shine Fashions
+/company/IRCTC/	I R C T C
+/company/SIGMA/consolidated/	Sigma Solve
+/company/544199/	Gem Enviro
+/company/TUNWAL/	Tunwal E-Motors
+/company/OWAIS/	Owais Metal
+/company/MONARCH/consolidated/	Monarch Networth
+/company/SWARAJENG/	Swaraj Engines
+/company/KRONOX/	Kronox Lab
+/company/INGERRAND/	Ingersoll-Rand
+/company/GLAXO/consolidated/	Glaxosmi. Pharma
+/company/HYUNDAI/consolidated/	Hyundai Motor I
+/company/543938/	AccelerateBS Ind
+/company/ANANDRATHI/consolidated/	Anand Rathi Wea.
+/company/RULKA/	Rulka
+/company/PCCL/	Petro Carbon
+/company/DHARIWAL/	Dhariwalcorp
+/company/DCM/consolidated/	DCM
+/company/WOL3D/	WOL 3D
+/company/543324/consolidated/	Gretex Corporate
+/company/544105/	Harshdeep
+/company/IEX/	Indian Energy Ex
+/company/512591/	Pulsar Intl.
+/company/GARUDA/	Garuda Cons
+/company/535916/	Alacrity Sec.
+/company/BRITANNIA/consolidated/	Britannia Inds.
+/company/513498/	South. Magnesium
+/company/543619/	Concord Control
+/company/SANSTAR/	Sanstar
+/company/CAMS/consolidated/	Cams Services
+/company/HBSL/consolidated/	HB Stockholdings
+/company/526506/consolidated/	Systematix Corp.
+/company/543991/	Techknowgreen
+/company/ADVANIHOTR/	Advani Hotels.
+/company/538787/	Goenka Business
+/company/MSUMI/	Motherson Wiring
+/company/TTML/	Tata Tele. Mah.
+/company/543620/consolidated/	Insolation Ener
+/company/AVANTEL/	Avantel
+/company/539469/consolidated/	Panorama Studios
+/company/540097/	Visco Trade
+/company/SAHANA/	Sahana Systems
+/company/CGPOWER/consolidated/	CG Power & Ind
+/company/511571/	Som Datt Finance
+/company/507180/	Kesar Enterprise
+/company/JNKINDIA/consolidated/	JNK
+/company/ASAL/	Automotive Stamp
+/company/544171/	Storage Tech
+/company/HINDZINC/consolidated/	Hindustan Zinc
+/company/531688/	Prithvi Exchange
+/company/ZENTEC/consolidated/	Zen Technologies
+/company/544101/	Brisk Technovisi
+/company/ABBOTINDIA/	Abbott India
+/company/DREAMFOLKS/consolidated/	Dreamfolks Servi
+/company/530601/	Jagsonpal Fin.
+/company/KRISHCA/	Krishca Strapp.
+/company/EFFWA/	Effwa Infra
+/company/CYBERMEDIA/consolidated/	Cyber Media Ind
+/company/544173/	Finelistings
+/company/523411/	ADC India
+/company/ARKADE/consolidated/	Arkade
+/company/SSDL/consolidated/	Saraswati
+/company/PAGEIND/	Page Industries
+/company/GANESHHOUC/consolidated/	Ganesh Housing
+/company/506879/	Guj. Themis Bio.
+/company/DENTALKART/	Vasa Denticity
+/company/PGHL/	P & G Health Ltd
+/company/544237/	Rapid Multimodal
+/company/508486/	Hawkins Cookers
+/company/RSSOFTWARE/consolidated/	R S Software (I)
+/company/524632/	Shukra Pharma.
+/company/DSSL/	Dynacons Sys.
+/company/MAZDOCK/consolidated/	Mazagon Dock
+/company/DIGIKORE/	Digikore Studios
+/company/APARINDS/consolidated/	Apar Inds.
+/company/505685/	Taparia Tools
+/company/PULZ/consolidated/	Pulz Electronics
+/company/543709/	PNGS Gargi FJ
+/company/EASEMYTRIP/	Easy Trip Plann.
+/company/PRUDENT/consolidated/	Prudent Corp.
+/company/526721/	Nicco Parks
+/company/EFORCE/	Electro Force
+/company/MARICO/consolidated/	Marico
+/company/INOXINDIA/consolidated/	Inox India
+/company/TBOTEK/consolidated/	TBO Tek
+/company/ECOSMOBLTY/consolidated/	Ecos (India)
+/company/504605/	Uni Abex Alloy
+/company/540455/	Escorp Asset Mgt
+/company/TATAELXSI/	Tata Elxsi
+/company/BEACON/consolidated/	Beacon
+/company/MACOBSTECH/	Macobs
+/company/ACE/consolidated/	Action Const.Eq.
+/company/AKZOINDIA/	Akzo Nobel
+/company/VDEAL/	Vdeal
+/company/526443/	Artificial Elect
+/company/KRN/	KRN Heat Exchan
+/company/543547/	DDev Plastiks
+/company/SHAREINDIA/consolidated/	Share India Sec.
+/company/BULKCORP/	Bulkcorp
+/company/BOSS/	Boss Packaging
+/company/CRISIL/consolidated/	CRISIL
+/company/KOTHARIPET/	Kothari Petroche
+/company/FONEBOX/	Fonebox
+/company/531176/consolidated/	Mefcom Capital
+/company/509040/	Netlink Solns(I)
+/company/539686/consolidated/	K.P. Energy
+/company/523850/	Axtel Industries
+/company/509438/	Benares Hotels
+/company/KDL/	Kore Digital
+/company/INFOLLION/	Infollion Resea.
+/company/505690/	Brady & Morris
+/company/GPECO/	GP Eco
+/company/MANAV/	Manav Infra
+/company/532329/	Danlaw Tech.
+/company/CDSL/consolidated/	C D S L
+/company/ELECTHERM/consolidated/	Electrotherm(I)
+/company/LAWSIKHO/	Addictive Learn
+/company/531889/consolidated/	Integ. Industrie
+/company/INFY/consolidated/	Infosys
+/company/STEELCAS/	Steelcast
+/company/JAYBEE/	Jay Bee Laminati
+/company/OFSS/consolidated/	Oracle Fin.Serv.
+/company/VLINFRA/	V.L.Infraproject
+/company/541228/	Taylormade Renew
+/company/SAHAJSOLAR/consolidated/	Sahaj Solar
+/company/AIIL/	Authum Invest
+/company/SHARDAMOTR/	Sharda Motor
+/company/543542/	Kesar India
+/company/ROXHITECH/	ROX Hi-Tech
+/company/FOCUS/consolidated/	Focus Lighting
+/company/REVATHIEQU/	Revathi Equip
+/company/544178/	Piotex
+/company/HAL/	Hind.Aeronautics
+/company/ANGELONE/consolidated/	Angel One
+/company/FCL/consolidated/	Fineotex Chem
+/company/531205/	Spright Agro
+/company/530797/	Sh. Ganesh Elas.
+/company/519152/	Vadilal Enterp.
+/company/FAALCON/	Faalcon Concepts
+/company/GGBL/consolidated/	Ganesh Green
+/company/NETWEB/	Netweb Technol.
+/company/521216/	Dhanalaxmi Roto
+/company/KPITTECH/consolidated/	KPIT Technologi.
+/company/INDRAMEDCO/	Indrapr.Medical
+/company/TRITURBINE/consolidated/	Triveni Turbine
+/company/TANLA/consolidated/	Tanla Platforms
+/company/RAPPID/	Rappid Valves
+/company/PNGJL/	P N Gadgil Jewe.
+/company/530997/	Unique Organics
+/company/AXITA/	Axita Cotton
+/company/HDFCAMC/	HDFC AMC
+/company/HOACFOODS/	Hoac Foods
+/company/TRF/consolidated/	TRF
+/company/ORIANA/consolidated/	Oriana Power Ltd
+/company/ENSER/	Enser
+/company/ASIANPAINT/consolidated/	Asian Paints
+/company/ITC/consolidated/	ITC
+/company/THESL/	Thinking
+/company/543230/consolidated/	Advait Infratech
+/company/SUPREMEPWR/	Supreme Power
+/company/SCHNEIDER/	Schneider Elect.
+/company/RADIOWALLA/consolidated/	Radiowalla
+/company/AESTHETIK/	Aesthetik
+/company/531278/consolidated/	Elixir Capital
+/company/DCG/	DCG Cables
+/company/544224/	Afcom
+/company/DECCANTRAN/consolidated/	Deccan Transcon
+/company/MGL/	Mahanagar Gas
+/company/VRAJ/consolidated/	Vraj Iron
+/company/AERON/	Aeron Composites
+/company/544037/consolidated/	Amic Forging
+/company/ASPIRE/	Aspire & Innovat
+/company/542668/	Evans Electric
+/company/CELLO/consolidated/	Cello World
+/company/NAM-INDIA/consolidated/	Nippon Life Ind.
+/company/ALUWIND/	Aluwind
+/company/524727/consolidated/	Span Divergent
+/company/531735/	Prism Finance
+/company/HBLPOWER/consolidated/	HBL Power System
+/company/K2INFRA/consolidated/	K2 Infragen
+/company/THOMASCOTT/	Thomas Scott
+/company/MPSLTD/consolidated/	MPS
+/company/538952/	Abhinav Leasing
+/company/543971/consolidated/	Bondada Engineer
+/company/544090/consolidated/	Sayaji Hot. Pune
+/company/SONAMAC/	Sona Machinery
+/company/SONATSOFTW/consolidated/	Sonata Software
+/company/543895/consolidated/	Exhicon Events
+/company/CHENNPETRO/	C P C L
+/company/SKMEGGPROD/consolidated/	SKM Egg Prod.
+/company/ARROWGREEN/consolidated/	Arrow Greentech
+/company/CUMMINSIND/	Cummins India
+/company/506532/consolidated/	Nitta Gelatin
+/company/544023/	Kalyani Cast-Tec
+/company/RKSWAMY/consolidated/	R K Swamy
+/company/SHEKHAWATI/	Shekhawati Inds
+/company/KAMDHENU/	Kamdhenu
+/company/539788/	Khemani Distrib.
+/company/MAGSON/consolidated/	Magson Retail
+/company/ABSLAMC/consolidated/	Aditya AMC
+/company/530167/	Moongipa Capital
+/company/544177/	Aztec Fluids
+/company/527005/consolidated/	Shree Pacetronix
+/company/524136/	Pee Cee Cosma
+/company/RPGLIFE/	RPG LifeScience.
+/company/MSTCLTD/consolidated/	MSTC
+/company/BEL/consolidated/	Bharat Electron
+/company/IIFLSEC/consolidated/	IIFL Securities
+/company/GEEKAYWIRE/	Geekay Wires
+/company/INDOTECH/	Indo Tech.Trans.
+/company/VISHNUINFR/	Vishnusurya
+/company/AIMTRON/	Aimtron
+/company/SATECH/	S A Tech
+/company/ICEMAKE/consolidated/	ICE Make Refrig.
+/company/KRITINUT/	Kriti Nutrients
+/company/530643/	Eco Recyc.
+/company/SHREDIGCEM/	Sh. Digvijay Cem
+/company/VIVIANA/	Viviana Power
+/company/544170/consolidated/	Sai Swami Metals
+/company/ORIENTTECH/	Orient
+/company/BAYERCROP/	Bayer Crop Sci.
+/company/543239/	G M Polyplast
+/company/NIRMAN/	Nirman Agri
+/company/512014/	Sobhagya Mercant
+/company/STYLAMIND/	Stylam Industrie
+/company/SBCL/	Shivalik Bimetal
+/company/NIITMTS/consolidated/	NIIT Learning
+/company/531911/	Galaxy Agrico
+/company/BAJAJ-AUTO/consolidated/	Bajaj Auto
+/company/CANARYS/consolidated/	Canarys
+/company/KROSS/	Kross Ltd
+/company/SHANTIGEAR/	Shanthi Gears
+/company/511768/consolidated/	Master Trust
+/company/538732/consolidated/	Vibrant Glo. Cap
+/company/500414/	Timex Group
+/company/LTTS/	L&T Technology
+/company/538565/	Vistar Amar
+/company/NEULANDLAB/consolidated/	Neuland Labs.
+/company/506854/	Tanfac Inds.
+/company/SJLOGISTIC/consolidated/	S J Logistics (I
+/company/3MINDIA/	3M India
+/company/BETA/consolidated/	Beta Drugs Ltd
+/company/VINSYS/consolidated/	Vinsys IT Serv.
+/company/PPL/	Prakash Pipes
+/company/513173/consolidated/	Steel Strips Inf
+/company/538452/	Quasar India
+/company/543598/	Shantidoot Infra
+/company/530475/consolidated/	Tinna Rubber
+/company/LIKHITHA/	Likhitha Infra.
+/company/517238/consolidated/	Dynavision
+/company/EMMIL/	Energy-Mission
+/company/YASHOPTICS/	Yash Optics
+/company/543372/	Getalong Enterp.
+/company/SOLARINDS/consolidated/	Solar Industries
+/company/531778/	Kachchh Minerals
+/company/EXCELLENT/	Excellent Wires
+/company/NAGREEKCAP/	Nagreeka Cap.
+/company/ESCONET/	Esconet
+/company/539273/	Pecos Hotels
+/company/ADANIPOWER/consolidated/	Adani Power
+/company/VSTIND/	VST Industries
+/company/INNOVANA/consolidated/	Innovana Think.
+/company/BPCL/consolidated/	B P C L
+/company/GOPAL/	Gopal Snacks
+/company/522017/	Fluidomat
+/company/NBCC/consolidated/	NBCC
+/company/526703/consolidated/	Ecoplast
+/company/NUCLEUS/consolidated/	Nucleus Soft.
+/company/538273/consolidated/	Response Info.
+/company/PRATHAM/	Pratham EPC
+/company/PHANTOMFX/	Phantom Digital
+/company/ECLERX/consolidated/	eClerx Services
+/company/EMAMILTD/consolidated/	Emami
+/company/FOSECOIND/	Foseco India
+/company/KEYFINSERV/consolidated/	Keynote Finan.
+/company/540358/	RMC Switchgears
+/company/JWL/	Jupiter Wagons
+/company/AJANTPHARM/consolidated/	Ajanta Pharma
+/company/543963/	Shelter Pharma
+/company/VOLTAMP/	Volt.Transform.
+/company/GANDHITUBE/	Gandhi Spl. Tube
+/company/STYRENIX/	Styrenix Perfor.
+/company/ITDC/consolidated/	I T D C
+/company/SHAKTIPUMP/consolidated/	Shakti Pumps
+/company/MOLDTECH/consolidated/	Mold-Tek Technol
+/company/SUNLITE/	Sunlite
+/company/POLYCAB/consolidated/	Polycab India
+/company/ELECON/consolidated/	Elecon Engg.Co
+/company/539956/consolidated/	TAAL Enterprises
+/company/SHREYANIND/	Shreyans Inds.
+/company/CIGNITITEC/consolidated/	Cigniti Tech.
+/company/LTIM/consolidated/	LTIMindtree
+/company/EICHERMOT/consolidated/	Eicher Motors
+/company/IEML/	Indian
+/company/ASTRAZEN/	Astrazeneca Phar
+/company/NAMAN/	Naman In-Store
+/company/INM/	Interiors
+/company/513548/	Sharda Ispat
+/company/SAFARI/consolidated/	Safari Inds.
+/company/BLS/consolidated/	BLS Internat.
+/company/KKCL/consolidated/	Kewal Kir.Cloth.
+/company/ACCENTMIC/	Accent Microcell
+/company/RAYMOND/consolidated/	Raymond
+/company/BCG/consolidated/	Brightcom Group
+/company/NMDC/consolidated/	NMDC
+/company/BBOX/consolidated/	Black Box
+/company/PROLIFE/	Prolife Indust.
+/company/544112/	Jasch Gauging
+/company/BALUFORGE/consolidated/	Balu Forge
+/company/MANYAVAR/consolidated/	Vedant Fashions
+/company/JAMNAAUTO/consolidated/	Jamna Auto Inds.
+/company/ABB/	A B B
+/company/530477/	Vikram Thermo
+/company/DOMS/consolidated/	Doms Industries
+/company/MAXPOSURE/	Maxposure
+/company/ENFUSE/	Enfuse
+/company/544265/	Nexxus Petro
+/company/ALLDIGI/consolidated/	Alldigi Tech
+/company/509960/	U P Hotels
+/company/ZEAL/consolidated/	Zeal Global Serv
+/company/531237/	Dhruva Cap.Serv.
+/company/531169/	SKP Securities
+/company/GPTHEALTH/	GPT Healthcare
+/company/KFINTECH/consolidated/	KFin Technolog.
+/company/CMRSL/consolidated/	Cyber Media Res.
+/company/RNFI/consolidated/	RNFI
+/company/NATCOPHARM/consolidated/	Natco Pharma
+/company/KINGFA/	Kingfa Science
+/company/HVAX/	HVAX Technolog.
+/company/RADIANTCMS/	Radiant Cash
+/company/BMETRICS/	Bombay Metrics
+/company/BLUEJET/	Blue Jet Health
+/company/SPCL/	Shivalic
+/company/PARTYCRUS/consolidated/	Party Cruisers
+/company/DRCSYSTEMS/consolidated/	DRC Systems
+/company/544150/	KP Green Engg.
+/company/543916/	Hemant Surgical
+/company/CEIGALL/consolidated/	Ceigall India
+/company/514280/	Sanrhea Tech.
+/company/BSOFT/consolidated/	Birlasoft Ltd
+/company/URBAN/	Urban Enviro
+/company/PIDILITIND/consolidated/	Pidilite Inds.
+/company/MACPOWER/	Macpower CNC
+/company/BIKAJI/	Bikaji Foods
+/company/519238/	Saptarishi Agro
+/company/HCLTECH/consolidated/	HCL Technologies
+/company/530305/consolidated/	Piccadily Agro
+/company/CLEAN/consolidated/	Clean Science
+/company/544242/	Travels
+/company/UYFINCORP/	U. Y. Fincorp
+/company/531390/	Upsurge Invest.
+/company/DLINKINDIA/	D-Link India
+/company/TECHLABS/	Trident Techlabs
+/company/544036/	Deepak
+/company/MANINFRA/consolidated/	Man Infra
+/company/DCI/	DC Infotech
+/company/EMSLIMITED/consolidated/	EMS
+/company/PRAJIND/consolidated/	Praj Industries
+/company/WSTCSTPAPR/consolidated/	West Coast Paper
+/company/REDTAPE/consolidated/	Redtape
+/company/511609/	ISL Consulting
+/company/PREMIERPOL/	Premier Polyfilm
+/company/542918/	Gian Lifecare
+/company/CELLECOR/	Cellecor Gadgets
+/company/GPIL/consolidated/	Godawari Power
+/company/PERSISTENT/consolidated/	Persistent Sys
+/company/543615/	Silicon Rental
+/company/DIXON/consolidated/	Dixon Technolog.
+/company/SKFINDIA/	SKF India
+/company/PSFL/	Paramount Specia
+/company/PRANIK/	Pranik Logistics
+/company/HEROMOTOCO/consolidated/	Hero Motocorp
+/company/FINEORG/	Fine Organic
+/company/INDGN/consolidated/	Indegene
+/company/INSPIRISYS/consolidated/	Inspirisys Sol.
+/company/PRLIND/	Premier Road
+/company/ARIHANTCAP/consolidated/	Arihant Capital
+/company/PARAGON/	Paragon Fine
+/company/542627/	Chandni Machines
+/company/512393/consolidated/	Shardul Sec.
+/company/VMARCIND/	V-Marc India
+/company/VBL/consolidated/	Varun Beverages
+/company/IGL/	Indraprastha Gas
+/company/SURAJEST/consolidated/	Suraj Estate
+/company/RBMINFRA/	RBM Infracon
+/company/544221/	Kizi Apparels
+/company/LLOYDSENGG/	Lloyds Engineeri
+/company/512399/	Sera Investments
+/company/COFORGE/consolidated/	Coforge
+/company/534623/consolidated/	Jupiter Info.
+/company/SUPREMEIND/consolidated/	Supreme Inds.
+/company/523019/consolidated/	B N Rathi Sec.
+/company/530585/consolidated/	Swastika Investm
+/company/INTERARCH/	Interarch Build.
+/company/KODYTECH/	Kody Technolab
+/company/VENUSPIPES/	Venus Pipes
+/company/SYSTANGO/consolidated/	Systango Tech
+/company/543982/	Meson Valves Ind
+/company/539227/	Loyal Equipments
+/company/542753/	Seacoast Ship.
+/company/BBTC/consolidated/	Bombay Burmah
+/company/THEJO/consolidated/	Thejo Engg.
+/company/512038/consolidated/	TCC Concept
+/company/TATATECH/consolidated/	Tata Technolog.
+/company/523160/	Morganite Crucib
+/company/INDOTHAI/consolidated/	Indo Thai Sec.
+/company/CGRAPHICS/consolidated/	Creative Graphic
+/company/522101/	Kilburn Engg.
+/company/539041/	Ganesha Ecoverse
+/company/GLS/	Glenmark Life
+/company/CRAYONS/	Crayons Advertis
+/company/SRM/consolidated/	SRM Contractors
+/company/539300/	A K Spintex
+/company/ROLEXRINGS/	Rolex Rings
+/company/543515/	Sunrise Efficie.
+/company/INFINIUM/consolidated/	Infinium Pharma
+/company/504176/	High Energy Bat.
+/company/UNITDSPR/consolidated/	United Spirits
+/company/SHRIPISTON/consolidated/	Shriram Pistons
+/company/CONCORDBIO/	Concord Biotech
+/company/GRAVITA/consolidated/	Gravita India
+/company/540737/	Shree Ganesh Rem
+/company/ALBERTDAVD/	Albert David
+/company/ATMASTCO/consolidated/	Atmastco Ltd
+/company/500307/	Nirlon
+/company/RATNAMANI/consolidated/	Ratnamani Metals
+/company/530741/	Ovobel Foods
+/company/SAKSOFT/consolidated/	Saksoft
+/company/526073/	Galaxy Bearings
+/company/500123/	Elantas Beck
+/company/DOLATALGO/	Dolat Algotech
+/company/UNIECOM/	Unicommerce
+/company/WOMANCART/consolidated/	Womancart
+/company/505893/	Hindustan Hardy
+/company/BERGEPAINT/consolidated/	Berger Paints
+/company/544001/	Sunita Tools Ltd
+/company/IONEXCHANG/consolidated/	ION Exchange
+/company/ALPEXSOLAR/consolidated/	Alpex Solar
+/company/ZENITHDRUG/	Zenith
+/company/GRSE/	Garden Reach Sh.
+/company/KIRLOSBROS/consolidated/	Kirl. Brothers
+/company/539218/	Saumya Cons
+/company/HINDUNILVR/consolidated/	Hind. Unilever
+/company/523309/	Shri Gang Indus
+/company/KEI/	KEI Industries
+/company/GULFOILLUB/	Gulf Oil Lubric.
+/company/PLATIND/consolidated/	Platinum Industr
+/company/ASHOKA/consolidated/	Ashoka Buildcon
+/company/VADILALIND/consolidated/	Vadilal Inds.
+/company/DPABHUSHAN/	D.P. Abhushan
+/company/ITDCEM/consolidated/	ITD Cem
+/company/CUPID/	Cupid
+/company/543410/	DMR Hydroengg.
+/company/SILKFLEX/	Silkflex
+/company/MEGATHERM/	Megatherm
+/company/532053/	Wallfort Fin.
+/company/CREATIVE/consolidated/	Creative Newtech
+/company/JYOTHYLAB/consolidated/	Jyothy Labs
+/company/538891/consolidated/	Magellanic Cloud
+/company/BANCOINDIA/consolidated/	Banco Products
+/company/CMSINFO/consolidated/	CMS Info Systems
+/company/DHANUKA/consolidated/	Dhanuka Agritech
+/company/PDMJEPAPER/	Pudumjee Paper
+/company/543363/	Prevest Denpro
+/company/IRIS/consolidated/	IRIS Business
+/company/GABRIEL/	Gabriel India
+/company/SCHAEFFLER/	Schaeffler India
+/company/DELAPLEX/	Delaplex
+/company/AUTOAXLES/	Automotive Axles
+/company/FIEMIND/consolidated/	Fiem Industries
+/company/538890/consolidated/	M K Exim India
+/company/539814/	Le Lavoir
+/company/513353/	Cochin Minerals
+/company/NEWGEN/	Newgen Software
+/company/NH/consolidated/	Narayana Hrudaya
+/company/DRREDDY/consolidated/	Dr Reddy's Labs
+/company/TCIEXP/	TCI Express
+/company/AEROFLEX/	Aeroflex
+/company/CAPLIPOINT/consolidated/	Caplin Point Lab
+/company/WTICAB/consolidated/	Wise Travel
+/company/PETRONET/	Petronet LNG
+/company/505737/	Intl. Combustion
+/company/REFEX/consolidated/	Refex Industries
+/company/AVPINFRA/	AVP Infracon
+/company/TIINDIA/consolidated/	Tube Investments
+/company/RAJINDLTD/	Rajputana
+/company/FOCE/consolidated/	Foce India
+/company/SUNTV/consolidated/	Sun TV Network
+/company/524731/	Jenburkt Pharma
+/company/506605/	Polychem
+/company/MAPMYINDIA/consolidated/	C.E. Info System
+/company/PENINLAND/consolidated/	Peninsula Land
+/company/519230/	Kisaan Parivar
+/company/VESUVIUS/	Vesuvius India
+/company/RSYSTEMS/consolidated/	R Systems Intl.
+/company/505710/consolidated/	Grauer & Weil
+/company/524717/	Titan Biotech
+/company/513460/	Mahalaxmi Seam.
+/company/HOLMARC/	Holmarc Opto
+/company/518075/	Suraj Products
+/company/COROMANDEL/consolidated/	Coromandel Inter
+/company/543282/	Niks Technology
+/company/TECHERA/	Techera
+/company/500068/	Disa India
+/company/530245/consolidated/	Aryaman Fin.Serv
+/company/KNRCON/consolidated/	KNR Construct.
+/company/MRPL/consolidated/	M R P L
+/company/ACI/	Archean Chemical
+/company/TEMBO/	Tembo Global
+/company/514113/	Adinath Textiles
+/company/UDS/consolidated/	Updater Services
+/company/506260/	Anuh Pharma
+/company/523606/consolidated/	Sika Interplant
+/company/505750/consolidated/	Josts Engg. Co.
+/company/524628/	Parker Agrochem
+/company/506528/	Keltech Energies
+/company/BLUESTARCO/consolidated/	Blue Star
+/company/TDPOWERSYS/consolidated/	TD Power Systems
+/company/RITES/consolidated/	Rites
+/company/PRECWIRE/	Prec. Wires (I)
+/company/BECTORFOOD/consolidated/	Mrs Bectors
+/company/526901/	Sonal Adhesives
+/company/538894/consolidated/	Octal Credit Cap
+/company/MHLXMIRU/	Mahalaxmi Rubtec
+/company/543939/	Kaka Industries
+/company/WSI/consolidated/	W S Inds.
+/company/PREMIERENE/consolidated/	Premier Energies
+/company/530171/	Daulat Securitie
+/company/FELIX/consolidated/	Felix Industries
+/company/APLAPOLLO/consolidated/	APL Apollo Tubes
+/company/526071/	Stellant Secu.
+/company/LALPATHLAB/consolidated/	Dr Lal Pathlabs
+/company/SAIFL/	Sameera Agro
+/company/ZENSARTECH/consolidated/	Zensar Tech.
+/company/544257/	Sodhani Academy
+/company/AGIIL/	AGI Infra
+/company/DBCORP/consolidated/	D B Corp
+/company/RMDRIP/	R M Drip & Sprin
+/company/JASH/consolidated/	Jash Engineering
+/company/KALANA/	Kalana
+/company/EIHAHOTELS/	EIH Assoc.Hotels
+/company/524634/	Alufluoride
+/company/538634/	Vasundhara Rasy.
+/company/538817/	Captain Pipes
+/company/BCONCEPTS/	Brand Concepts
+/company/E2E/	E2E Networks
+/company/543753/	Dharni Capital
+/company/PAR/	Par Drugs & Che.
+/company/BASF/	BASF India
+/company/526508/	Shahi Shipping
+/company/CHOICEIN/consolidated/	Choice Intl.
+/company/TITAGARH/consolidated/	Titagarh Rail
+/company/MAANALU/	Maan Aluminium
+/company/SUZLON/consolidated/	Suzlon Energy
+/company/AURDIS/	Aurangabad Dist.
+/company/543744/	Rex Sealing
+/company/544213/consolidated/	Aelea
+/company/544025/	Arrowhead Sepera
+/company/LFIC/	Lak. Fin. & Indl
+/company/504132/	Permanent Magnet
+/company/TIMESCAN/	Timescan Logist.
+/company/VPRPL/	Vishnu Prakash R
+/company/WENDT/consolidated/	Wendt India
+/company/ANDHRAPAP/	Andhra Paper
+/company/CERA/	Cera Sanitary.
+/company/GRINDWELL/consolidated/	Grindwell Norton
+/company/KAUSHALYA/consolidated/	Kaushalya Infra.
+/company/RADHIKAJWE/	Radhika Jeweltec
+/company/DPWIRES/	D P Wires
+/company/MANKIND/	Mankind Pharma
+/company/TBI/	TBI Corn
+/company/ROTO/consolidated/	Roto Pumps
+/company/CHAVDA/	Chavda Infra Ltd
+/company/JBCHEPHARM/consolidated/	J B Chemicals &
+/company/INDIGO/	Interglobe Aviat
+/company/PRICOLLTD/consolidated/	Pricol Ltd
+/company/SBC/	SBC Exports
+/company/PANAMAPET/consolidated/	Panama Petrochem
+/company/508875/	Nitin Castings
+/company/BEPL/	Bhansali Engg.
+/company/EXICOM/	Exicom Tele-Sys.
+/company/GALAPREC/	Gala Precis. Eng
+/company/505299/	KPT Industries
+/company/HAVELLS/consolidated/	Havells India
+/company/SHRITECH/	Shri Techtex
+/company/538674/	City Online Ser.
+/company/530431/consolidated/	Ador Fontech
+/company/521080/	Pasari Spinning
+/company/504084/	Kaycee Inds.
+/company/505358/	Integra Engg.
+/company/530361/	Prabhhans Inds
+/company/JUBLINDS/consolidated/	Jubilant Inds.
+/company/ASKAUTOLTD/consolidated/	ASK Automotive
+/company/BDL/	Bharat Dynamics
+/company/ADORWELD/	Ador Welding
+/company/539195/	POCL Enterprises
+/company/HGINFRA/consolidated/	H.G. Infra Engg.
+/company/ATAM/	Atam Valves
+/company/544074/	Shri Balaji
+/company/DYCL/	Dynamic Cables
+/company/SURAJLTD/consolidated/	Suraj
+/company/BIGBLOC/consolidated/	BIGBLOC Const.
+/company/DIVYADHAN/	Divyadhan Recy.
+/company/SONACOMS/consolidated/	Sona BLW Precis.
+/company/543920/	CFF Fluid
+/company/PIIND/consolidated/	P I Industries
+/company/SIRCA/	Sirca Paints
+/company/543273/consolidated/	Knowledge Marine
+/company/MPHASIS/consolidated/	Mphasis
+/company/PRITI/	Priti Internati.
+/company/INDIAMART/consolidated/	Indiamart Inter.
+/company/KOTYARK/	Kotyark Indust.
+/company/BSHSL/	Bombay Super Hyb
+/company/521178/	Sri Ramakr. Mill
+/company/YATHARTH/consolidated/	Yatharth Hospit.
+/company/UTSSAV/	Utssav
+/company/MODTHREAD/	Modern Threads
+/company/ACSAL/	Arvind & Company
+/company/ALLETEC/consolidated/	All E Tech
+/company/AHLUCONT/consolidated/	Ahluwalia Contr.
+/company/507944/consolidated/	Bajaj Steel Inds
+/company/FORCEMOT/consolidated/	Force Motors
+/company/INTLCONV/consolidated/	Intl. Conveyors
+/company/TRENT/consolidated/	Trent
+/company/POWERMECH/consolidated/	Power Mech Proj.
+/company/531067/	Contil India
+/company/IMFA/consolidated/	Indian Metals
+/company/KTL/	Kalahridhaan
+/company/511760/	Seven Hill Inds.
+/company/LINC/	Linc
+/company/ITALIANE/	Italian
+/company/522257/	Rajoo Engineers
+/company/VEEDOL/consolidated/	Veedol Corporat
+/company/544083/	Shree Marutinand
+/company/UNIVASTU/consolidated/	Univastu India
+/company/517170/consolidated/	Edvenswa Enter
+/company/INSPIRE/	Inspire
+/company/SMLISUZU/	SML ISUZU
+/company/EIHOTEL/consolidated/	EIH
+/company/POLYMED/consolidated/	Poly Medicure
+/company/512415/	Mercury Trade Li
+/company/543937/	Alphalogic Indu
+/company/CONTROLPR/consolidated/	Control Print
+/company/SGIL/	Synergy Green
+/company/GMBREW/	G M Breweries
+/company/FORGEAUTO/	Forge Auto
+/company/TRANSTEEL/	Transteel Seatin
+/company/531340/	Bervin Invest.
+/company/JTLIND/	JTL Industries
+/company/NELCO/consolidated/	NELCO
+/company/GOKULAGRO/consolidated/	Gokul Agro
+/company/TIMKEN/	Timken India
+/company/SATIA/	Satia Industries
+/company/AMNPLST/consolidated/	Amines & Plast.
+/company/KSB/consolidated/	KSB
+/company/538401/	M E T S
+/company/DRONE/	Drone Destinatio
+/company/SIGNPOST/consolidated/	Signpost India
+/company/539255/	Star Delta Trans
+/company/BEWLTD/	BEW Engg
+/company/SHREEOSFM/	Shree OSFM
+/company/MEDIASSIST/consolidated/	Medi Assist Ser.
+/company/522134/	Artson Engg.
+/company/INDIGOPNTS/	Indigo Paints
+/company/GOACARBON/	Goa Carbon
+/company/ASTRAL/consolidated/	Astral
+/company/TORNTPHARM/consolidated/	Torrent Pharma.
+/company/543065/	SM Auto Stamping
+/company/GET&D/	GE T&D India
+/company/GARFIBRES/consolidated/	Garware Tech.
+/company/RPPINFRA/consolidated/	RPP Infra Proj.
+/company/532992/consolidated/	CHL
+/company/500213/	Intl. Travel Hse
+/company/544072/	Aik Pipes & Poly
+/company/531360/	Golech.Glob.Fin.
+/company/KEEPLEARN/	DSJ Keep Learn
+/company/540080/consolidated/	Dhatre Udyog
+/company/526492/	Rishiroop
+/company/MAHSEAMLES/consolidated/	Mah. Seamless
+/company/512589/	Sita Enterprises
+/company/DEVIT/consolidated/	Dev Information
+/company/DKEGL/consolidated/	D.K. Enterprises
+/company/543953/	Khazanchi Jewell
+/company/LGBBROSLTD/consolidated/	L G Balakrishnan
+/company/CIPLA/consolidated/	Cipla
+/company/BAJAJCON/consolidated/	Bajaj Consumer
+/company/531667/	RR Metalmakers
+/company/DBREALTY/consolidated/	Valor Estate
+/company/530951/	Ram Info
+/company/FIDEL/	Fidel Softech
+/company/AIAENG/consolidated/	AIA Engineering
+/company/RPEL/consolidated/	Raghav Product.
+/company/TITAN/consolidated/	Titan Company
+/company/HAPPYFORGE/	Happy Forgings
+/company/GPPL/consolidated/	Guj Pipavav Port
+/company/VINYLINDIA/	Vinyl Chemicals
+/company/544189/consolidated/	Sattrix
+/company/FLAIR/	Flair Writing
+/company/513507/	Guj. Containers
+/company/538834/	JMJ Fintech
+/company/531727/	Menon Pistons
+/company/PIXTRANS/consolidated/	Pix Transmission
+/company/523323/	Kovai Medical
+/company/UTIAMC/consolidated/	UTI AMC
+/company/SIDDHIKA/	Siddhika Coatins
+/company/504646/	Bhagwati Auto
+/company/ANUP/	The Anup Enginee
+/company/530663/	Goyal Associates
+/company/KCEIL/	Kay Cee
+/company/544219/consolidated/	VVIP Infratech
+/company/MENONBE/	Menon Bearings
+/company/ICICIGI/	ICICI Lombard
+/company/531314/	Integra Capital
+/company/PUNJABCHEM/consolidated/	Punjab Chemicals
+/company/522251/	Cenlub Industrie
+/company/SPLPETRO/	Supreme Petroch.
+/company/OSIAHYPER/	Osia Hyper Reta.
+/company/538734/consolidated/	Ceinsys Tech
+/company/GRCL/	Gayatri Rubbers
+/company/NESCO/	NESCO
+/company/ZODIAC/	Zodiac Energy
+/company/ABINFRA/	A B Infrabuild
+/company/544169/	Amkay Products
+/company/ZYDUSLIFE/consolidated/	Zydus Lifesci.
+/company/ONEPOINT/consolidated/	One Point One
+/company/526795/	Mahasagar Travel
+/company/APS/	Australian Prem
+/company/DABUR/consolidated/	Dabur India
+/company/ELGIEQUIP/consolidated/	Elgi Equipments
+/company/AURIONPRO/consolidated/	Aurionpro Sol.
+/company/LINCOLN/consolidated/	Lincoln Pharma.
+/company/JSL/consolidated/	Jindal Stain.
+/company/530845/	Sunshield Chem.
+/company/514248/	Sreechem Resins
+/company/SANGHVIMOV/	Sanghvi Movers
+/company/ENGINERSIN/consolidated/	Engineers India
+/company/MADHUSUDAN/	Madhusudan Masa
+/company/AMIABLE/	Amiable Logistic
+/company/504080/	JSL Industries
+/company/GODFRYPHLP/consolidated/	Godfrey Phillips
+/company/JLHL/	Jupiter Life Lin
+/company/SUPRIYA/	Supriya Lifesci.
+/company/ARHAM/	Arham Tech
+/company/TI/consolidated/	Tilaknagar Inds.
+/company/NCC/consolidated/	NCC
+/company/USHAMART/consolidated/	Usha Martin
+/company/INDUSTOWER/consolidated/	Indus Towers
+/company/DODLA/consolidated/	Dodla Dairy
+/company/543364/consolidated/	Markolines Pavem
+/company/PROPEQUITY/consolidated/	P.E. Analytics
+/company/USK/	Udayshivakumar
+/company/543435/	Clara Industries
+/company/531994/	Auto Pins (I)
+/company/500168/	Goodyear India
+/company/531253/	India Gelatine
+/company/PFIZER/	Pfizer
+/company/ANLON/	Anlon Tech
+/company/DENORA/	DE Nora India
+/company/539494/	Smart Finsec
+/company/HIGREEN/	Hi-Green Carbon
+/company/544157/	Vruddhi Engineer
+/company/ARMANFIN/consolidated/	Arman Financial
+/company/543516/	Dhyaani Trade
+/company/WCIL/	Western Carriers
+/company/505725/	Algoquant Fin
+/company/CYIENT/consolidated/	Cyient
+/company/512020/	Saraswati Commer
+/company/MARUTI/consolidated/	Maruti Suzuki
+/company/HAPPSTMNDS/	Happiest Minds
+/company/544121/	Rudra Gas
+/company/NOVAAGRI/consolidated/	Nova Agritech
+/company/KSCL/consolidated/	Kaveri Seed Co.
+/company/540205/	Aditya Vision
+/company/KIRLPNU/	Kirl.Pneumatic
+/company/RRKABEL/	R R Kabel
+/company/20MICRONS/consolidated/	20 Microns
+/company/IKIO/consolidated/	IKIO Lighting
+/company/524520/	KMC Speciality
+/company/ONWARDTEC/consolidated/	Onward Technolog
+/company/DEEPAKNTR/consolidated/	Deepak Nitrite
+/company/GPTINFRA/consolidated/	GPT Infraproject
+/company/GANDHAR/consolidated/	Gandhar Oil Ref.
+/company/SUYOG/	Suyog Telematics
+/company/COCHINSHIP/	Cochin Shipyard
+/company/KPIGREEN/consolidated/	KPI Green Energy
+/company/539196/	Amba Enterprises
+/company/SRIVASAVI/	Srivasavi Adhes.
+/company/SJS/consolidated/	SJS Enterprises
+/company/500220/	Jasch Industries
+/company/GSPL/consolidated/	Guj.St.Petronet
+/company/HCC/consolidated/	Hind.Construct.
+/company/TALBROAUTO/consolidated/	Talbros Auto.
+/company/BALAXI/consolidated/	Balaxi Pharma
+/company/540693/	Shish Industries
+/company/531671/	Bisil Plast
+/company/PGIL/consolidated/	Pearl Global Ind
+/company/ICRA/consolidated/	ICRA
+/company/JINDALSAW/consolidated/	Jindal Saw
+/company/LAL/	Lorenzini Appar.
+/company/544082/	New Swan
+/company/LGHL/	Laxmi Goldorna
+/company/AMRUTANJAN/	Amrutanjan Healt
+/company/MEDICO/	Medico Remedies
+/company/DBSTOCKBRO/	DB Intl.Stock
+/company/MAZDA/	Mazda
+/company/HINDPETRO/consolidated/	H P C L
+/company/RAJMET/	Rajnandini Metal
+/company/PAKKA/	Pakka
+/company/ASHALOG/consolidated/	Ashapura
+/company/JYOTICNC/consolidated/	Jyoti CNC Auto.
+/company/DATAMATICS/consolidated/	Datamatics Glob.
+/company/514183/consolidated/	Black Rose Indus
+/company/ATGL/consolidated/	Adani Total Gas
+/company/509053/	Banas Finance
+/company/SECURCRED/	SecUR Credential
+/company/RAMKY/consolidated/	Ramky Infra
+/company/KAJARIACER/consolidated/	Kajaria Ceramics
+/company/IOC/consolidated/	I O C L
+/company/540956/	Bhatia Communic.
+/company/539098/	Filtra Consult.
+/company/511628/consolidated/	Fedders Holding
+/company/LTFOODS/consolidated/	L T Foods
+/company/KARNIKA/	Karnika Industri
+/company/512453/	Sh. Jagdamba Pol
+/company/538668/	Meghna Infracon
+/company/NITIRAJ/	Nitiraj Engineer
+/company/PYRAMID/	Pyramid Technopl
+/company/KORE/	Jay Jalaram Tech
+/company/532067/consolidated/	3B Blackbio
+/company/NEWJAISA/	Newjaisa Tech
+/company/543993/consolidated/	ARCL Organics
+/company/514360/consolidated/	K&R Rail Engine.
+/company/531489/consolidated/	CG-VAK Software
+/company/VEDL/consolidated/	Vedanta
+/company/543806/	ITCONS E-Soluti.
+/company/ZFCVINDIA/	ZF Commercial
+/company/SANDESH/	Sandesh
+/company/501391/consolidated/	W H Brady
+/company/VILAS/	Vilas Transcore
+/company/523844/	Constronics
+/company/SUMICHEM/	Sumitomo Chemi.
+/company/MATRIMONY/consolidated/	Matrimony.com
+/company/SURYAROSNI/	Surya Roshni
+/company/539662/	BFL Asset Finves
+/company/ROUTE/consolidated/	Route Mobile
+/company/541973/	Mac Hotels
+/company/MOTILALOFS/consolidated/	Motil.Oswal.Fin.
+/company/SIKKO/	Sikko Industries
+/company/SIEMENS/	Siemens
+/company/GHCL/consolidated/	GHCL
+/company/KPRMILL/consolidated/	K P R Mill Ltd
+/company/BOSCHLTD/	Bosch
+/company/524828/	BDH Industries
+/company/MARKSANS/consolidated/	Marksans Pharma
+/company/534732/consolidated/	Caspian Corporat
+/company/514428/	Hind.Adhesive
+/company/CARERATING/consolidated/	CARE Ratings
+/company/514238/	MKVentures Cap.
+/company/540550/	Yug Decor
+/company/521005/	Titan Intech
+/company/522195/	Frontier Springs
+/company/RBL/	Rane Brake Lin.
+/company/GUJGASLTD/	Gujarat Gas
+/company/539761/	Vantage Knowledg
+/company/SIYSIL/	Siyaram Silk
+/company/EXPLEOSOL/consolidated/	Expleo Solutions
+/company/AGARIND/consolidated/	Agarwal Indl.
+/company/519262/	Prima Agro
+/company/CEATLTD/consolidated/	CEAT
+/company/505872/consolidated/	WPIL
+/company/MASTER/	Master Component
+/company/530233/	Auro Labs.
+/company/523186/	B & A Packaging
+/company/KRYSTAL/	Krystal Integrat
+/company/515043/	Saint-Gob. Sekur
+/company/539090/	Rajputana Invest
+/company/SKIPPER/	Skipper
+/company/INTELLECT/consolidated/	Intellect Design
+/company/517449/	Magna Electrocas
+/company/THANGAMAYL/	Thangamayil Jew.
+/company/EIDPARRY/consolidated/	EID Parry
+/company/JKPAPER/consolidated/	JK Paper
+/company/539760/	Relicab Cable
+/company/CLSEL/	Chamanlal Setia
+/company/RAILTEL/	Railtel Corpn.
+/company/UNIHEALTH/consolidated/	Unihealth Consul
+/company/VISHWAS/	Vishwas Agri
+/company/SESHAPAPER/	Seshasayee Paper
+/company/SCPL/	Sheetal Cool
+/company/CHAMBLFERT/consolidated/	Chambal Fert.
+/company/WELCORP/consolidated/	Welspun Corp
+/company/KLL/consolidated/	Kaushalya
+/company/537536/	Denis Chem Lab
+/company/CARBORUNIV/consolidated/	Carborundum Uni.
+/company/540192/	LKP Securities
+/company/TATAMOTORS/consolidated/	Tata Motors
+/company/544073/	Manoj Ceramic
+/company/540404/	Prime Fresh
+/company/PITTIENG/	Pitti Engg.
+/company/TCPLPACK/	TCPL Packaging
+/company/SHERA/consolidated/	Shera Energy
+/company/500365/	Welspun Special.
+/company/VISHNU/consolidated/	Vishnu Chemicals
+/company/AVANTIFEED/consolidated/	Avanti Feeds
+/company/ABSMARINE/consolidated/	ABS Marine
+/company/INNOMET/	Innomet
+/company/CRAFTSMAN/consolidated/	Craftsman Auto
+/company/526739/	Narmada Gelatine
+/company/BSE/consolidated/	BSE
+/company/531797/	Scan Projects
+/company/513532/consolidated/	Pradeep Metals
+/company/UNOMINDA/consolidated/	Uno Minda
+/company/544270/	Khyati
+/company/535136/	NIBE
+/company/TCI/consolidated/	Transport Corp.
+/company/RCDL/	Rajgor Castor
+/company/HINDNATGLS/	Hind.Natl.Glass
+/company/AZAD/consolidated/	Azad Engineering
+/company/HONAUT/	Honeywell Auto
+/company/AARON/	Aaron Industries
+/company/AUROIMPEX/	Auro Impex
+/company/IRISDOREME/	Iris Clothings
+/company/DGCONTENT/consolidated/	Digicontent
+/company/KUANTUM/	Kuantum Papers
+/company/GOLDIAM/consolidated/	Goldiam Intl.
+/company/S&SPOWER/consolidated/	S & S Power Swit
+/company/WONDERLA/	Wonderla Holiday
+/company/ROHLTD/consolidated/	Royal Orch.Hotel
+/company/WABAG/consolidated/	Va Tech Wabag
+/company/GIRIRAJ/	Giriraj Civil
+/company/543460/consolidated/	Quality RO Indu.
+/company/ISEC/consolidated/	ICICI Securities
+/company/DIFFNKG/consolidated/	Diffusion Eng
+/company/SATIPOLY/	Sati Poly
+/company/DATAPATTNS/	Data Pattern
+/company/SILVERTUC/consolidated/	Silver Touch
+/company/ALKEM/consolidated/	Alkem Lab
+/company/METROBRAND/consolidated/	Metro Brands
+/company/ANNAPURNA/	Annapurna Swadi.
+/company/SAREGAMA/consolidated/	Saregama India
+/company/INDSWFTLAB/consolidated/	Ind-Swift Labs.
+/company/524502/	Raaj Medisafe
+/company/SVLL/	Shree Vasu Logis
+/company/ADFFOODS/consolidated/	ADF Foods
+/company/AMEYA/	Ameya Precision
+/company/VIJAYA/consolidated/	Vijaya Diagnost.
+/company/505890/	Kennametal India
+/company/543443/	Ascensive Educa.
+/company/544059/	Shanti Spintex
+/company/530129/	NILE
+/company/VINYAS/	Vinyas Innovativ
+/company/REDINGTON/consolidated/	Redington
+/company/540652/	Captain Techno.
+/company/SDBL/consolidated/	Som Distilleries
+/company/DMART/consolidated/	Avenue Super.
+/company/NDRAUTO/consolidated/	NDR Auto Compon.
+/company/FAIRCHEMOR/	Fairchem Organic
+/company/MUFTI/	Credo Brands
+/company/MEDANTA/consolidated/	Global Health
+/company/531762/	Unjha Formul.
+/company/EMKAYTOOLS/	Emkay Taps & Cut
+/company/JKTYRE/consolidated/	JK Tyre & Indust
+/company/522650/consolidated/	Bemco Hydraulics
+/company/BLUEDART/consolidated/	Blue Dart Expres
+/company/KRITI/consolidated/	Kriti Industries
+/company/TEGA/consolidated/	Tega Inds.
+/company/SAAKSHI/	Saakshi Medtech
+/company/SINCLAIR/	Sinclairs Hotels
+/company/TOUCHWOOD/	Touchwood Enter.
+/company/544151/	Chatha Foods
+/company/544259/	Popular
+/company/538713/	Atishay
+/company/HSCL/consolidated/	Himadri Special
+/company/531910/consolidated/	Madhuveer Com
+/company/GMMPFAUDLR/consolidated/	GMM Pfaudler
+/company/PSPPROJECT/	PSP Projects
+/company/RAINBOW/consolidated/	Rainbow Child.
+/company/539275/	MANGALAM SEEDS
+/company/THOMASCOOK/consolidated/	Thomas Cook (I)
+/company/542013/	Dolfin Rubbers
+/company/532139/	G-Tech Info.
+/company/526117/consolidated/	Shervani Indl Sy
+/company/GODREJCP/consolidated/	Godrej Consumer
+/company/TPLPLASTEH/	TPL Plastech
+/company/538778/consolidated/	Kalyan Capitals
+/company/543814/	Prospect Consum.
+/company/SERVICE/	Service Care Ltd
+/company/INNOVACAP/consolidated/	Innova Captab
+/company/BAWEJA/	Baweja Studios L
+/company/SIGNORIA/	Signoria Creatio
+/company/DJML/	DJ Mediaprint
+/company/536974/	Captain Polyplas
+/company/540843/	Rithwik Facility
+/company/543538/	Goel Food
+/company/NGLFINE/	NGL Fine Chem
+/company/526775/consolidated/	Valiant Commun.
+/company/TAJGVK/consolidated/	TajGVK Hotels
+/company/PRESSTONIC/	Presstonic
+/company/538715/consolidated/	Dhabriya Poly.
+/company/SYMPHONY/consolidated/	Symphony
+/company/MUKKA/consolidated/	Mukka Proteins
+/company/SKYGOLD/	Sky Gold
+/company/GEOJITFSL/consolidated/	Geojit Fin. Ser.
+/company/SUVENPHAR/consolidated/	Suven Pharma
+/company/ASTRAMICRO/consolidated/	Astra Microwave
+/company/MAYURUNIQ/	Mayur Uniquoters
+/company/511658/consolidated/	Nettlinx
+/company/ARE&M/	Amara Raja Ener.
+/company/INDOBORAX/consolidated/	Indo Borax & Ch.
+/company/MKPL/	M K Proteins
+/company/512008/consolidated/	EFC (I)
+/company/PGEL/consolidated/	PG Electroplast
+/company/BHARATWIRE/	Bharat Wire
+/company/543618/	Cargotrans Marit
+/company/SOTL/	Savita Oil Tech
+/company/504240/	Delton Cables
+/company/RKFORGE/consolidated/	Ramkrishna Forg.
+/company/RVNL/	Rail Vikas
+/company/530765/	Agarwal Fortune
+/company/LAOPALA/	La Opala RG
+/company/505827/	SNL Bearings
+/company/TIIL/consolidated/	Technocraf.Inds.
+/company/505036/	Auto.Corp.of Goa
+/company/BATAINDIA/consolidated/	Bata India
+/company/KDDL/consolidated/	KDDL Ltd
+/company/538119/consolidated/	R&B Denims
+/company/DYNAMIC/	Dynamic Services
+/company/SULA/	Sula Vineyards
+/company/EMCURE/consolidated/	Emcure Pharma
+/company/BALAJEE/consolidated/	Shree TirupatiBa
+/company/538081/	Haria Apparels
+/company/APTECHT/consolidated/	Aptech
+/company/544269/	Neopolitan Pizza
+/company/SDREAMS/	S D Retail
+/company/BALCO/	Solve
+/company/VINATIORGA/	Vinati Organics
+/company/SUNDRMFAST/consolidated/	Sundram Fasten.
+/company/KATARIA/	Kataria
+/company/FINCABLES/consolidated/	Finolex Cables
+/company/ORBTEXP/consolidated/	Orbit Exports
+/company/ARABIAN/	Arabian Petrol.
+/company/GESHIP/consolidated/	GE Shipping Co
+/company/531398/	Source Natural
+/company/543805/	Resgen
+/company/504908/	Duncan Engg.
+/company/519457/	Virat Crane Inds
+/company/JKIL/	J Kumar Infra
+/company/ONGC/consolidated/	O N G C
+/company/HINDOILEXP/consolidated/	Hind.Oil Explor.
+/company/WELENT/consolidated/	Welspun Enterp
+/company/KONTOR/	Kontor Space
+/company/CROWN/	Crown Lifters
+/company/FDC/consolidated/	FDC
+/company/540874/	7Seas Enter.
+/company/526783/	Dr Agarwal's Eye
+/company/BTML/consolidated/	Bodhi Tree
+/company/CIEINDIA/consolidated/	CIE Automotive
+/company/TIRUPATIFL/	Tirupati Forge
+/company/542865/consolidated/	Anuroop Packagin
+/company/ICIL/consolidated/	Indo Count Inds.
+/company/KECL/consolidated/	Kirl. Electric
+/company/POKARNA/consolidated/	Pokarna
+/company/REXPIPES/	Rex Pipes&Cables
+/company/THYROCARE/	Thyrocare Tech.
+/company/540401/consolidated/	Maximus Interna.
+/company/543544/	Jayant Infratech
+/company/UNILEX/	Unilex Colour &C
+/company/KRISHNADEF/	Krishna Defence
+/company/507912/consolidated/	LKP Finance
+/company/WINDLAS/consolidated/	Windlas Biotech
+/company/KEL/	Kundan Edifice
+/company/GANESHBE/	Ganesh Benzopl.
+/company/IRCON/consolidated/	Ircon Intl.
+/company/UNIPARTS/consolidated/	Uniparts India
+/company/ROSSARI/consolidated/	Rossari Biotech
+/company/LMW/consolidated/	LMW
+/company/531287/	National Plastic
+/company/524202/	Lactose (India)
+/company/CENTURYPLY/consolidated/	Century Plyboard
+/company/MASTEK/consolidated/	Mastek
+/company/MAITREYA/consolidated/	Maitreya
+/company/HINDCOPPER/	Hindustan Copper
+/company/SMCGLOBAL/consolidated/	SMC Global Sec.
+/company/PREMEXPLN/	Prem. Explosives
+/company/CANTABIL/	Cantabil Retail
+/company/DPEL/	Divine Power
+/company/501370/	Walchand People
+/company/543766/	Ashika Credit
+/company/SOLEX/	Solex Energy
+/company/FMNL/consolidated/	Future Market
+/company/517477/	Elnet Technolog
+/company/KAMATHOTEL/consolidated/	Kamat Hotels
+/company/HINDCON/consolidated/	Hindcon Chemical
+/company/544267/consolidated/	Subam Papers
+/company/UTTAMSUGAR/	Uttam Sug.Mills
+/company/POWERINDIA/	Hitachi Energy
+/company/538970/	Wardwizard Inno.
+/company/539884/	Darshan Orna
+/company/522294/	T & I Global
+/company/540738/	Shreeji Translog
+/company/520073/consolidated/	RACL Geartech
+/company/532485/consolidated/	Balmer Law. Inv.
+/company/SPIC/consolidated/	S P I C
+/company/523676/	Golkunda Diamond
+/company/ESFL/	Essen Speciality
+/company/539527/	Creative Casting
+/company/GOYALSALT/	Goyal Salt
+/company/531111/	Gothi Plascon
+/company/SMLT/	Sarthak Metals
+/company/543976/	Shradha AI Tech
+/company/AGI/	AGI Greenpac
+/company/HPAL/	HP Adhesives
+/company/543624/consolidated/	Maagh Advertisin
+/company/STARHEALTH/	Star Health Insu
+/company/LUMAXTECH/consolidated/	Lumax Auto Tech.
+/company/OIL/consolidated/	Oil India
+/company/GOODLUCK/consolidated/	Goodluck India
+/company/509470/	Bombay Oxygen
+/company/EMUDHRA/consolidated/	eMudhra
+/company/530215/	Kings Infra
+/company/539521/	Navigant Corp.
+/company/REPL/consolidated/	Rudrabhish. Ent.
+/company/BALKRISIND/consolidated/	Balkrishna Inds
+/company/PENTAGON/	Pentagon Rubber
+/company/502271/	Raasi Refractor
+/company/SPRL/	SP Refractories
+/company/VSTTILLERS/	VST Till. Tract.
+/company/TATACOMM/consolidated/	Tata Comm
+/company/539730/	Fredun Pharma
+/company/PARAMATRIX/consolidated/	Paramatrix Tech.
+/company/GOLDSTAR/	Goldstar Power
+/company/SHANKARA/consolidated/	Shankara Build.
+/company/SPCENET/consolidated/	Spacenet Enterpr
+/company/VSSL/	Vardhman Special
+/company/RAJRATAN/consolidated/	Rajratan Global
+/company/524614/	IEL
+/company/539834/	Balgopal Commer.
+/company/EPIGRAL/	Epigral
+/company/VARROC/consolidated/	Varroc Engineer
+/company/PDSL/consolidated/	PDS
+/company/GALAXYSURF/consolidated/	Galaxy Surfact.
+/company/RATEGAIN/consolidated/	Rategain Travel
+/company/SSWL/consolidated/	Steel Str. Wheel
+/company/523594/	Kunststoff Inds.
+/company/TIRUPATI/	Shree Tirupati
+/company/531212/	Nalin Lease Fin.
+/company/543351/	Naapbooks
+/company/RAMRAT/consolidated/	Ram Ratna Wires
+/company/LINDEINDIA/	Linde India
+/company/531726/	Panch.Organics
+/company/523586/	Indian Toners
+/company/JEYYAM/	Jeyyam Global
+/company/BEARDSELL/	Beardsell
+/company/530621/	Akar Auto Indust
+/company/504988/	Welcast Steels
+/company/SUNPHARMA/consolidated/	Sun Pharma.Inds.
+/company/MCON/	MCON Rasayan
+/company/512477/	Betex India
+/company/544091/	Qualitek Labs
+/company/530615/	Garg Furnace
+/company/VIDHIING/	Vidhi Specialty
+/company/ACC/consolidated/	ACC
+/company/ASHAPURMIN/consolidated/	Ashapura Minech.
+/company/AMBEY/	Ambey
+/company/ZAGGLE/	Zaggle Prepaid
+/company/500319/	Indian Sucrose
+/company/GUFICBIO/	Gufic BioScience
+/company/AUSL/	Aditya Ultra
+/company/ESSENTIA/consolidated/	Integra Essentia
+/company/LUMAXIND/consolidated/	Lumax Industries
+/company/538546/	Bansal Roofing
+/company/INTENTECH/consolidated/	Intense Tech.
+/company/SEL/	Sungarner Energ.
+/company/GAJANAND/	Gajanand
+/company/REFRACTORY/	Refractory
+/company/533608/	RDB Rasayans
+/company/PIGL/	Power & Instrum.
+/company/ASCOM/	Ascom Leasing &
+/company/TASTYBITE/	Tasty Bite Eat.
+/company/504903/	Rathi Steel
+/company/CENTEXT/	Century Extrus.
+/company/HONASA/	Honasa Consumer
+/company/NILASPACES/consolidated/	Nila Spaces
+/company/542770/consolidated/	Alphalogic Tech.
+/company/CARYSIL/consolidated/	Carysil
+/company/EMKAY/consolidated/	Emk.Global Fin.
+/company/AVROIND/	Avro India
+/company/RITCO/	Ritco Logistics
+/company/JKLAKSHMI/consolidated/	JK Lakshmi Cem.
+/company/KOKUYOCMLN/	Kokuyo Camlin
+/company/SABAR/	Sabar Flex India
+/company/JAGSNPHARM/	Jagsonpal Pharma
+/company/PRAMARA/consolidated/	Pramara Promotio
+/company/XPROINDIA/consolidated/	XPRO India
+/company/517372/	Gujarat Intrux
+/company/530589/consolidated/	Prima Plastics
+/company/NATIONALUM/	Natl. Aluminium
+/company/FACT/	F A C T
+/company/526861/	Rishi Laser
+/company/THERMAX/consolidated/	Thermax
+/company/WIPRO/consolidated/	Wipro
+/company/MARCO/	Marco Cables
+/company/MANGCHEFER/	Mangalore Chem.
+/company/532005/	Sam Industries
+/company/FMGOETZE/consolidated/	Federal-Mogul Go
+/company/GRINFRA/consolidated/	G R Infraproject
+/company/KIMS/consolidated/	Krishna Institu.
+/company/BANSALWIRE/	Bansal Wire Inds
+/company/531412/	Radix Industries
+/company/538647/	Purshottam Inves
+/company/MOREPENLAB/consolidated/	Morepen Labs.
+/company/VIMTALABS/	Vimta Labs
+/company/532435/	Sanmit Infra
+/company/MALLCOM/consolidated/	Mallcom (India)
+/company/BALAMINES/consolidated/	Balaji Amines
+/company/536264/	Tiger Logistics
+/company/543391/	Suyog Gurbaxani
+/company/CAMPUS/	Campus Activewe.
+/company/501430/	Bombay Cycle
+/company/SIGACHI/consolidated/	Sigachi Indust.
+/company/HRHNEXT/	HRH Next
+/company/MOS/consolidated/	MOS Utility
+/company/SATIN/consolidated/	Satin Creditcare
+/company/MOTISONS/	Motisons Jewel
+/company/JTEKTINDIA/	JTEKT India
+/company/508941/	Panasonic Carbon
+/company/KSL/	Kalyani Steels
+/company/543979/	Kahan Packaging
+/company/513369/	Krishanveer Forg
+/company/CYBERTECH/consolidated/	Cybertech Sys.
+/company/543373/	Shri Venkatesh
+/company/AARTIPHARM/consolidated/	Aarti Pharma
+/company/MEDIORG/	Medicamen
+/company/INDOAMIN/consolidated/	Indo Amines
+/company/ENDURANCE/consolidated/	Endurance Tech.
+/company/506166/consolidated/	Apis India
+/company/RBS/	Ramdevbaba Sol.
+/company/538521/	Yaan Enterprises
+/company/523232/	Cont. Petroleums
+/company/KANSAINER/consolidated/	Kansai Nerolac
+/company/532742/	Paushak
+/company/PRIMESECU/consolidated/	Prime Securities
+/company/531254/consolidated/	Optimus Finance
+/company/NUVAMA/consolidated/	Nuvama Wealth
+/company/512634/	Savera Industrie
+/company/TECHNOE/consolidated/	Techno Elec.Engg
+/company/TARACHAND/	Tara Chand Infra
+/company/BLSE/consolidated/	BLS E-Services
+/company/GAEL/	Guj. Ambuja Exp
+/company/GOYALALUM/	Goyal Aluminiums
+/company/539841/consolidated/	Lancer Containe.
+/company/POCL/	Pondy Oxides
+/company/WINNY/	Winny Immigratio
+/company/532404/	Saven Tech.
+/company/DIVISLAB/consolidated/	Divi's Lab.
+/company/503641/consolidated/	Zodiac Vent.
+/company/STARCEMENT/consolidated/	Star Cement
+/company/BESTAGRO/consolidated/	Best Agrolife
+/company/ALKYLAMINE/	Alkyl Amines
+/company/APOLLOTYRE/consolidated/	Apollo Tyres
+/company/SWARAJ/consolidated/	Swaraj Suiting
+/company/530709/	Gowra Leasing
+/company/505336/	Harshil Agrotech
+/company/JSWINFRA/consolidated/	JSW Infrast
+/company/MVGJL/	Manoj Vaibhav
+/company/ZEELEARN/consolidated/	Zee Learn
+/company/537326/	Chemtech Indust.
+/company/ARIHANTSUP/consolidated/	Arihant Super.
+/company/KONSTELEC/	Konstelec Engg.
+/company/544236/	Resourceful
+/company/MINDTECK/consolidated/	Mindteck (India)
+/company/530401/	Vinyoflex
+/company/526159/	Nikhil Adhesives
+/company/522183/consolidated/	ITL Industries
+/company/543874/	Maiden Forgings
+/company/544015/	Mish Designs
+/company/SUBROS/consolidated/	Subros
+/company/EUROBOND/	Euro Panel
+/company/539226/	Rudra Global
+/company/531003/	Swarna Securitie
+/company/519064/	Khandelwal Extra
+/company/532057/	Abhinav Capital
+/company/NAVA/consolidated/	Nava
+/company/BCLIND/consolidated/	BCL Industries
+/company/ELECTCAST/consolidated/	Electrost.Cast.
+/company/AFFLE/consolidated/	Affle India
+/company/NAVNETEDUL/consolidated/	Navneet Educat.
+/company/SPECTRUM/consolidated/	Spectrum Electr.
+/company/IPSL/consolidated/	Integrated Perso
+/company/HERITGFOOD/consolidated/	Heritage Foods
+/company/CAPACITE/consolidated/	Capacit'e Infra.
+/company/AAATECH/	AAA Technologies
+/company/WEIZMANIND/consolidated/	Weizmann
+/company/EVEREADY/consolidated/	Eveready Inds.
+/company/540143/consolidated/	SagarSoft (India
+/company/ORIENTCEM/	Orient Cement
+/company/RBZJEWEL/	RBZ Jewellers Lt
+/company/MRF/consolidated/	MRF
+/company/MOIL/	MOIL
+/company/VGUARD/	V-Guard Industri
+/company/FOODSIN/consolidated/	Foods & Inns
+/company/WELSPUNLIV/consolidated/	Welspun Living
+/company/DCMSRIND/consolidated/	DCM Shriram Inds
+/company/ESCORTS/consolidated/	Escorts Kubota
+/company/543782/	Sealmatic India
+/company/HEIDELBERG/	Heidelberg Cem.
+/company/540696/	KCD Industries
+/company/512437/	Apollo Finvest
+/company/KEC/consolidated/	K E C Intl.
+/company/504093/	Panasonic Energy
+/company/541353/consolidated/	Innovators
+/company/MAXHEALTH/consolidated/	Max Healthcare
+/company/DONEAR/	Donear Inds.
+/company/KPIL/consolidated/	Kalpataru Proj.
+/company/AMIORG/consolidated/	Ami Organics
+/company/523752/	Trans India
+/company/JITFINFRA/consolidated/	JITF Infra Logis
+/company/RKEC/	RKEC Projects
+/company/543285/	Rajeshwari Cans
+/company/JMA/consolidated/	Jullundur Motor
+/company/511754/	Shalibhadra Fin.
+/company/523558/consolidated/	Swiss Military
+/company/ARVSMART/consolidated/	Arvind SmartSp.
+/company/538706/	Ultracab India
+/company/AVTNPL/consolidated/	AVT Natural Prod
+/company/539997/consolidated/	Kwality Pharma
+/company/WEL/	Wonder Electric.
+/company/544188/	Magenta Life
+/company/HIRECT/	Hind Rectifiers
+/company/KELLTONTEC/consolidated/	Kellton Tech
+/company/CPS/	C P S Shapers
+/company/KALAMANDIR/	Sai Silks
+/company/MARATHON/consolidated/	Marathon Nextgen
+/company/544080/	Sayaji (Indore)
+/company/KRBL/consolidated/	KRBL
+/company/PNCINFRA/consolidated/	PNC Infratech
+/company/BEDMUTHA/consolidated/	Bedmutha Indus.
+/company/CROMPTON/consolidated/	Crompton Gr. Con
+/company/RUCHIRA/	Ruchira Papers
+/company/JKCEMENT/consolidated/	J K Cements
+/company/FIVESTAR/	Five-Star Bus.Fi
+/company/METROPOLIS/consolidated/	Metropolis Healt
+/company/NCLIND/	NCL Industries
+/company/DIAMINESQ/consolidated/	Diamines & Chem.
+/company/HOVS/consolidated/	HOV Services
+/company/GICRE/consolidated/	General Insuranc
+/company/505693/	La Tim Metal & I
+/company/SANSERA/consolidated/	Sansera Enginee.
+/company/511122/	First Custodian
+/company/LUPIN/consolidated/	Lupin
+/company/526407/consolidated/	Hampton Sky
+/company/543606/	Containe Tech.
+/company/500672/	Novartis India
+/company/SRHHYPOLTD/	Sr.Rayala.Hypo
+/company/PENIND/consolidated/	Pennar Industrie
+/company/SALASAR/consolidated/	Salasar Techno
+/company/KRITIKA/	Kritika Wires
+/company/511359/	AD Manum Finance
+/company/GOCOLORS/	Go Fashion (I)
+/company/520127/	Balurghat Tech
+/company/538476/	Capital Trade Lk
+/company/BALMLAWRIE/consolidated/	Balmer Lawrie
+/company/TIMETECHNO/consolidated/	Time Technoplast
+/company/544214/	Three M Paper
+/company/RAYMONDLSL/	Raymond Lifestyl
+/company/539533/	Elitecon Inter.
+/company/BAHETI/	Baheti Recycling
+/company/CHEMBOND/consolidated/	Chembond Chem.
+/company/ABDL/consolidated/	Allied Blenders
+/company/511654/	Sugal & Damani
+/company/532284/	TCFC Finance
+/company/530419/consolidated/	Sumedha Fiscal
+/company/531888/	Rexnord Electr.
+/company/526435/	Perfectpac
+/company/HONDAPOWER/	Honda India
+/company/500245/	Kirl. Ferrous
+/company/GRPLTD/consolidated/	GRP
+/company/532102/consolidated/	SBEC Sugar
+/company/PHOGLOBAL/consolidated/	Phoenix Overseas
+/company/KCP/consolidated/	K C P
+/company/516110/	Family Care
+/company/OPTIEMUS/consolidated/	Optiemus Infra.
+/company/IRMENERGY/consolidated/	IRM Energy
+/company/SUNREST/	Sunrest Lifescie
+/company/517246/	B C C Fuba India
+/company/509525/	Empire Inds.
+/company/FSL/consolidated/	Firstsour.Solu.
+/company/SYNOPTICS/consolidated/	Synoptics Techno
+/company/CORDSCABLE/	Cords Cable
+/company/514316/	Raghuvir Synth
+/company/GRANULES/consolidated/	Granules India
+/company/MARINE/consolidated/	Marine Electric.
+/company/HNDFDS/consolidated/	Hindustan Foods
+/company/500012/	Andhra Petrochem
+/company/REMSONSIND/consolidated/	Remsons Ind
+/company/507690/consolidated/	Orient Beverages
+/company/544035/consolidated/	Swashthik
+/company/MANAKCOAT/	Manaksia Coated
+/company/543595/	EP Biocomposites
+/company/PARACABLES/consolidated/	Paramount Comm.
+/company/523289/	Rama Vision
+/company/SARDAEN/consolidated/	Sarda Energy
+/company/517035/consolidated/	RIR Power Electr
+/company/QUICKTOUCH/	Quicktouch Tech
+/company/523229/	Bharat Seats
+/company/512489/	Oasis Securities
+/company/BEML/consolidated/	BEML Ltd
+/company/OBEROIRLTY/consolidated/	Oberoi Realty
+/company/MINDACORP/consolidated/	Minda Corp
+/company/LATENTVIEW/consolidated/	Latent View
+/company/SANDUMA/	Sandur Manganese
+/company/RESPONIND/consolidated/	Responsive Ind
+/company/ADVENZYMES/consolidated/	Advanced Enzyme
+/company/MMFL/	M M Forgings
+/company/GNA/	GNA Axles
+/company/532011/consolidated/	Vashu Bhagnani
+/company/543831/	Bright Outdoor
+/company/ULTRACEMCO/consolidated/	UltraTech Cem.
+/company/APOLLOHOSP/consolidated/	Apollo Hospitals
+/company/INDHOTEL/consolidated/	Indian Hotels Co
+/company/542628/	Northern Spirits
+/company/EPL/consolidated/	EPL Ltd
+/company/526137/	Shetron
+/company/AVG/	AVG Logistics
+/company/HARIOMPIPE/	Hariom Pipe
+/company/KRISHANA/	Krishana Phosch.
+/company/ASHOKLEY/consolidated/	Ashok Leyland
+/company/FAZE3Q/	Faze Three
+/company/526586/	Wim Plast
+/company/TVSHLTD/consolidated/	TVS Holdings
+/company/539692/	Interactive Fin
+/company/ASAHIINDIA/consolidated/	Asahi India Glas
+/company/KIRLOSENG/consolidated/	Kirloskar Oil
+/company/MUTHOOTMF/	Muthoot Microfin
+/company/512099/	Evantra Ventures
+/company/543464/	Maruti Interior
+/company/ORISSAMINE/	Orissa Minerals
+/company/540252/	Veeram Securit.
+/company/ANMOL/	Anmol India
+/company/SAROJA/	Saroja Pharma In
+/company/VSTL/	Vibhor Steel
+/company/531399/	G G Automotive
+/company/530829/	Cil Securities
+/company/510245/	Swasti Vinayaka
+/company/ETHOSLTD/consolidated/	Ethos Ltd
+/company/530925/	Ramsons Projects
+/company/524675/	Kabsons Industri
+/company/GLOBALPET/	Global Pet Indus
+/company/535566/	KIFS Financial
+/company/PRESTIGE/consolidated/	Prestige Estates
+/company/MOKSH/	Moksh Ornaments
+/company/AARTISURF/	Aarti Surfactant
+/company/SIGIND/	Signet Industrie
+/company/TARIL/consolidated/	T R I L
+/company/544220/	Clinitech Lab
+/company/505807/	Rolcon Engg. Co.
+/company/ARIES/consolidated/	Aries Agro
+/company/OLECTRA/consolidated/	Olectra Greentec
+/company/TORNTPOWER/consolidated/	Torrent Power
+/company/TRIVENI/consolidated/	Triven.Engg.Ind.
+/company/540782/consolidated/	Sanghvi Brands
+/company/SHREECEM/consolidated/	Shree Cement
+/company/CREDITACC/	CreditAcc. Gram.
+/company/MWL/	Mangalam World.
+/company/AEGISLOG/consolidated/	Aegis Logistics
+/company/SYNGENE/consolidated/	Syngene Intl.
+/company/MUNJALAU/consolidated/	Munjal Auto Inds
+/company/BABAFP/	Baba Food
+/company/539176/	Hawa Engineers
+/company/522122/	Voith Paper
+/company/506935/	Cont. Chemicals
+/company/PRINCEPIPE/	Prince Pipes
+/company/QMSMEDI/	QMS Medical
+/company/CSLFINANCE/	CSL Finance
+/company/524534/	Bhaskar Agrochem
+/company/STERTOOLS/consolidated/	Sterling Tools
+/company/TVSMOTOR/consolidated/	TVS Motor Co.
+/company/APTUS/consolidated/	Aptus Value Hou.
+/company/517096/	Aplab
+/company/GAIL/consolidated/	GAIL (India)
+/company/ALPA/consolidated/	Alpa Laboratorie
+/company/543616/consolidated/	Trident Lifeline
+/company/530405/	Jindal Capital
+/company/AHLADA/	Ahlada Engineers
+/company/ASALCBR/	Assoc.Alcohols
+/company/MAGADSUGAR/	Magadh Sugar
+/company/NRBBEARING/consolidated/	NRB Bearings
+/company/TTKPRESTIG/consolidated/	TTK Prestige
+/company/537069/	Arnold Holdings
+/company/KAYNES/consolidated/	Kaynes Tech
+/company/512329/	SG Mart
+/company/ALICON/consolidated/	Alicon Cast.
+/company/DHARMAJ/	Dharmaj Crop
+/company/MOLDTKPAC/	Mold-Tek Pack.
+/company/RPTECH/consolidated/	Rashi Peripheral
+/company/QVCEL/consolidated/	QVC Exports
+/company/MANINDS/consolidated/	Man Industries
+/company/MHHL/	Mohini Health
+/company/360ONE/consolidated/	360 ONE
+/company/JBMA/consolidated/	JBM Auto
+/company/SATINDLTD/consolidated/	Sat Industries
+/company/504810/	Informed Techn.
+/company/543746/	Logica Infoway
+/company/INDOUS/	Indo US Bio-Tech
+/company/MICROPRO/	Micropro Softwar
+/company/538610/consolidated/	Unison Metals
+/company/BLISSGVS/consolidated/	Bliss GVS Pharma
+/company/517417/consolidated/	Patels Airtemp
+/company/531739/consolidated/	Gennex Lab.
+/company/IITL/consolidated/	Indl. Inv. Trust
+/company/SOMANYCERA/consolidated/	Somany Ceramics
+/company/DENEERS/	De Neers Tools
+/company/538987/	Talbros Engg.
+/company/GENSOL/consolidated/	Gensol Engineer.
+/company/TNPL/	T N Newsprint
+/company/538716/	Aryaman Capital
+/company/526479/	Sky Industries
+/company/FROG/consolidated/	Frog Cellsat
+/company/544021/consolidated/	Protean eGov
+/company/BLKASHYAP/consolidated/	B.L.Kashyap
+/company/BOROLTD/consolidated/	Borosil
+/company/AHLEAST/consolidated/	Asian Hotels (E)
+/company/544141/consolidated/	Pune e
+/company/539399/	Bella Casa Fashi
+/company/ORIENTELEC/	Orient Electric
+/company/513496/consolidated/	Sizemasters Tech
+/company/544052/	Benchmark Comp.
+/company/505232/	Veljan Denison
+/company/AGUL/	A G Universal
+/company/STANLEY/consolidated/	Stanley Lifesty.
+/company/508807/consolidated/	IST
+/company/MGEL/	Mangalam Global
+/company/CORALFINAC/	Coral India Fin.
+/company/PCBL/consolidated/	PCBL Ltd
+/company/SPANDANA/	Spandana Sphoort
+/company/543539/consolidated/	Modi's Navnirman
+/company/SANGANI/consolidated/	Sangani Hospital
+/company/DEEM/	Deem Roll
+/company/SADHAV/	Sadhav
+/company/FUSION/	Fusion Finance
+/company/SHAILY/consolidated/	Shaily Engineer.
+/company/NRAIL/	N R Agarwal Inds
+/company/JAYNECOIND/	Jayaswal Neco
+/company/533095/consolidated/	Bengal & Assam
+/company/KRISHIVAL/consolidated/	Krishival Foods
+/company/AUROPHARMA/consolidated/	Aurobindo Pharma
+/company/VLSFINANCE/consolidated/	VLS Finance
+/company/535667/consolidated/	India Finsec
+/company/KNAGRI/consolidated/	KN Agri Resource
+/company/CYIENTDLM/	Cyient DLM
+/company/PAISALO/consolidated/	Paisalo Digital
+/company/AMBUJACEM/consolidated/	Ambuja Cements
+/company/VAIBHAVGBL/consolidated/	Vaibhav Global
+/company/UEL/	Ujaas Energy
+/company/KALYANKJIL/consolidated/	Kalyan Jewellers
+/company/500147/	John Cockerill
+/company/HMAAGRO/consolidated/	HMA Agro Inds.
+/company/543928/	Cosmic CRF
+/company/538646/	Qgo Finance
+/company/526445/consolidated/	Indrayani Biotec
+/company/ARVINDFASN/consolidated/	Arvind Fashions.
+/company/BHARTIHEXA/	Bharti Hexacom
+/company/JPPOWER/consolidated/	JP Power Ven.
+/company/544106/	Mayank Cattle Fo
+/company/GRWRHITECH/consolidated/	Garware Hi Tech
+/company/SUPRAJIT/consolidated/	Suprajit Engg.
+/company/CONCOR/consolidated/	Container Corpn.
+/company/UWCSL/	Ultra Wiring
+/company/NRL/consolidated/	Nupur Recyclers
+/company/511391/	Inter Globe Fin
+/company/AWHCL/consolidated/	Antony Waste han
+/company/544094/consolidated/	Euphoria Infotec
+/company/507960/	Gujarat Hotels
+/company/544156/	Gconnect Logitec
+/company/MANBA/	Manba Finance
+/company/RELAXO/	Relaxo Footwear
+/company/PATELENG/consolidated/	Patel Engineerin
+/company/540078/	Mitsu Chem Plast
+/company/DOLLAR/	Dollar Industrie
+/company/AXISCADES/consolidated/	AXISCADES Tech.
+/company/KCPSUGIND/consolidated/	KCP Sugar &Inds.
+/company/SENCO/	Senco Gold
+/company/STEELCITY/consolidated/	Steel City Sec.
+/company/543352/	Platinumone Bus.
+/company/GMDCLTD/consolidated/	G M D C
+/company/KOPRAN/consolidated/	Kopran
+/company/SUMIT/consolidated/	Sumit Woods
+/company/526355/	Duropack
+/company/MANAPPURAM/consolidated/	Manappuram Fin.
+/company/539353/	SAL Automotive
+/company/CONFIPET/consolidated/	Confidence Petro
+/company/DWARKESH/	Dwarikesh Sugar
+/company/GATECH/	GACM Tech
+/company/GODREJAGRO/consolidated/	Godrej Agrovet
+/company/MVKAGRO/consolidated/	M.V.K. Agro
+/company/WORTH/consolidated/	Worth Peripheral
+/company/AARTIDRUGS/	Aarti Drugs
+/company/MOTHERSON/consolidated/	Samvardh. Mothe.
+/company/AISL/consolidated/	ANI Integrated
+/company/532384/	Tyche Industries
+/company/543828/	Sudarshan Pharma
+/company/521244/	MKP Mobility
+/company/POLYSIL/	Polysil Irrigati
+/company/JGCHEM/consolidated/	J.G.Chemicals
+/company/ARTEMISMED/	Artemis Medicare
+/company/KOTARISUG/	Kothari Sugars
+/company/539151/	Arfin India
+/company/543597/	Virtuoso Optoel.
+/company/BIKEWO/	Bikewo Green
+/company/M&M/consolidated/	M & M
+/company/GLAND/consolidated/	Gland Pharma
+/company/532468/consolidated/	Kama Holdings
+/company/EIMCOELECO/	Eimco Elecon(I)
+/company/PVSL/consolidated/	Popular Vehicles
+/company/531227/	Deco-Mica
+/company/SRGHFL/	SRG Housing
+/company/543830/	Labelkraft Tech.
+/company/543926/	Bizotic Commer.
+/company/THEMISMED/consolidated/	Themis Medicare
+/company/544047/	Siyaram
+/company/UBL/consolidated/	United Breweries
+/company/HITECHCORP/	Hitech Corp.
+/company/GVKPIL/consolidated/	GVK Power Infra.
+/company/SPAL/consolidated/	S P Apparels
+/company/OMFURN/	Omfurn India
+/company/APCOTEXIND/	Apcotex Industri
+/company/BALRAMCHIN/consolidated/	Balrampur Chini
+/company/540395/	Chemcrux Enterp.
+/company/MMP/consolidated/	MMP Industries
+/company/LT/consolidated/	Larsen & Toubro
+/company/VERTOZ/consolidated/	Vertoz
+/company/HARSHA/	Harsha Engg Intl
+/company/INDSWFTLTD/	Ind-Swift
+/company/INDBANK/	Indbank Merchant
+/company/538964/	Mercury Labs
+/company/SEJALLTD/consolidated/	Sejal Glass
+/company/539894/consolidated/	Madhav Infra
+/company/STARPAPER/	Star Paper Mills
+/company/MANORAMA/	Manorama Indust.
+/company/CAREERP/consolidated/	Career Point
+/company/543209/	Billwin Indust.
+/company/AILIMITED/	Abhishek Integr.
+/company/507598/	Kovil. Lak. Rol.
+/company/GATECHDVR/consolidated/	GACM Tech-DVR
+/company/HFCL/consolidated/	HFCL
+/company/JSWSTEEL/consolidated/	JSW Steel
+/company/ADROITINFO/consolidated/	Adroit Info.
+/company/539518/	Uday Jewellery
+/company/506365/	Chemo Pharma Lab
+/company/VASWANI/	Vaswani Industri
+/company/VINNY/	Vinny Overseas
+/company/522229/consolidated/	Taneja Aerospace
+/company/ARISTO/	Aristo Bio-Tech
+/company/SBILIFE/	SBI Life Insuran
+/company/DURLAX/	Durlax Top
+/company/INDIANHUME/	Indian Hume Pipe
+/company/534063/	Futuristic Solu
+/company/517437/	Dutron Polymers
+/company/531861/consolidated/	Joindre Capital
+/company/POWERGRID/consolidated/	Power Grid Corpn
+/company/HATSUN/	Hatsun Agro
+/company/PAVNAIND/consolidated/	Pavna Industries
+/company/RANEENGINE/	Rane Engine Val.
+/company/522152/	Solitaire Mach.
+/company/WHEELS/	Wheels India
+/company/RADICO/	Radico Khaitan
+/company/JINDALSTEL/consolidated/	Jindal Steel
+/company/MUTHOOTFIN/	Muthoot Finance
+/company/542669/consolidated/	BMW Industries
+/company/APLLTD/consolidated/	Alembic Pharma
+/company/HLEGLAS/consolidated/	HLE Glascoat
+/company/519295/	Bambino Agro Ind
+/company/505302/	Lak. Auto. Looms
+/company/BHARTIARTL/consolidated/	Bharti Airtel
+/company/SONAMLTD/	Sonam
+/company/TRACXN/	Tracxn Technolo.
+/company/AKANKSHA/consolidated/	Akanksha Power
+/company/HITECH/consolidated/	Hi-Tech Pipes
+/company/ARVIND/consolidated/	Arvind Ltd
+/company/BAJAJHLDNG/consolidated/	Bajaj Holdings
+/company/USASEEDS/	Upsurge Seeds
+/company/523007/consolidated/	Ansal Buildwell
+/company/TEAMLEASE/consolidated/	Team Lease Serv.
+/company/DRL/consolidated/	Dhanuka Realty
+/company/INSECTICID/	Insecticid.India
+/company/APOLLOPIPE/	Apollo Pipes
+/company/540727/	Poojawes. Metal.
+/company/530991/	Roopa Industries
+/company/540481/	Classic Leasing
+/company/513252/	Jay Ushin
+/company/RANEHOLDIN/consolidated/	Rane Holdings
+/company/506134/consolidated/	Gourmet Gateway
+/company/532039/	Zenotech Lab.
+/company/513642/	Axel Polymers
+/company/ADANIPORTS/consolidated/	Adani Ports
+/company/AVADHSUGAR/	Avadh Sugar
+/company/524408/	Universal Starch
+/company/519471/	Ambar Protein
+/company/519421/	KSE
+/company/GRMOVER/	GRM Overseas
+/company/BHARATFORG/consolidated/	Bharat Forge
+/company/506128/consolidated/	Parnax Lab
+/company/5PAISA/	5Paisa Capital
+/company/GREENPANEL/consolidated/	Greenpanel Inds.
+/company/SALZERELEC/	Salzer Electron.
+/company/DRSDILIP/	DRS Dilip Road
+/company/515147/consolidated/	Haldyn Glass
+/company/RATNAVEER/	Ratnaveer Precis
+/company/511147/	WSFX Global
+/company/531233/	Rasi Electrodes
+/company/PGINVIT/	Powergrid Infra.
+/company/SHEETAL/consolidated/	Sheetal Univer.
+/company/KHAITANLTD/	Khaitan (India)
+/company/ASIANENE/consolidated/	Asian Energy
+/company/INDNIPPON/consolidated/	India Nipp.Elec.
+/company/KILITCH/consolidated/	Kilitch Drugs
+/company/PANACHE/consolidated/	Panache Digilife
+/company/IPCALAB/consolidated/	Ipca Labs.
+/company/RAMASTEEL/consolidated/	Rama Steel Tubes
+/company/YASHO/consolidated/	Yasho Industries
+/company/AVIANSH/	Avi Ansh
+/company/IFBIND/	IFB Industries
+/company/AIRAN/consolidated/	Airan
+/company/WALPAR/consolidated/	Walpar Nutrition
+/company/530317/	Godavari Drugs
+/company/531289/	National Fitting
+/company/539479/	GTV Engineering
+/company/EMIL/	Electronics Mart
+/company/BAJAJELEC/	Bajaj Electrical
+/company/FILATEX/	Filatex India
+/company/SRF/consolidated/	SRF
+/company/SCML/	Sharp Chucks and
+/company/DHTL/consolidated/	Docmode Health
+/company/ESPRIT/consolidated/	Esprit
+/company/542446/	Jonjua Overseas
+/company/AFIL/	Akme Fintrade
+/company/544272/	Shiv Texchem
+/company/BRIGADE/consolidated/	Brigade Enterpr.
+/company/KAPSTON/	Kapston Services
+/company/526709/consolidated/	BITS
+/company/539528/	Aayush Wellness
+/company/AAKASH/	Aakash Explor.
+/company/543546/consolidated/	Healthy Life
+/company/BIRLAMONEY/	Adit.Birla Money
+/company/507828/consolidated/	Ansal Housing
+/company/WEWIN/	We Win Ltd
+/company/APOLLO/	Apollo Micro Sys
+/company/511153/	Anjani Foods
+/company/538882/consolidated/	Emerald Finance
+/company/524506/	Coral Labs.
+/company/CHEVIOT/	Cheviot Company
+/company/COMMITTED/	Committed Cargo
+/company/BHARATRAS/consolidated/	Bharat Rasayan
+/company/PARKHOTELS/consolidated/	Apeejay Surrend.
+/company/544190/	3C IT Solutions
+/company/RUBFILA/consolidated/	Rubfila Intl.
+/company/SBICARD/	SBI Cards
+/company/535267/	Comfort Fincap
+/company/521068/	Hisar Spg. Mills
+/company/544000/	City Crops Agro
+/company/542679/	Dhanashree Elect
+/company/HEUBACHIND/	Heubach Colorant
+/company/GATEWAY/	Gateway Distri
+/company/HITECHGEAR/consolidated/	The Hi-Tech Gear
+/company/RPSGVENT/consolidated/	RPSG Ventures
+/company/HUHTAMAKI/	Huhtamaki India
+/company/530789/	Ceejay Finance
+/company/SEAMECLTD/consolidated/	SEAMEC Ltd
+/company/SHK/consolidated/	S H Kelkar & Co.
+/company/512257/	Swasti Vin. Art
+/company/514470/	Winsome Textile
+/company/MODISONLTD/	Modison
+/company/PHOENIXLTD/consolidated/	Phoenix Mills
+/company/RELTD/consolidated/	Ravindra Energy
+/company/SHIVAUM/	Shiv Aum Steels
+/company/539938/consolidated/	Medico Intercon.
+/company/CCL/consolidated/	CCL Products
+/company/CADSYS/consolidated/	Cadsys (India)
+/company/504786/consolidated/	Inv.& Prec.Cast.
+/company/AIROLAM/	Airo Lam
+/company/NIRAJ/	Niraj Cement
+/company/DELTACORP/consolidated/	Delta Corp
+/company/VISAMAN/	Visaman Global
+/company/GLENMARK/consolidated/	Glenmark Pharma.
+/company/JINDALPHOT/consolidated/	Jindal Photo
+/company/SERVOTECH/	Servotech Power
+/company/543262/	MRP Agro
+/company/ATL/consolidated/	Allcargo Termi
+/company/539113/consolidated/	Paul Merchants
+/company/MICEL/	MIC Electronics
+/company/ISGEC/consolidated/	ISGEC Heavy
+/company/IOLCP/	IOL Chemicals
+/company/MUTHOOTCAP/	Muthoot Cap.Serv
+/company/SELAN/	Selan Expl. Tech
+/company/KAMOPAINTS/consolidated/	Kamdhenu Venture
+/company/CLSL/consolidated/	Crop Life Scienc
+/company/524336/	Sh. Hari Chem.
+/company/VERA/	Vera Synthetic
+/company/NILAINFRA/consolidated/	Nila Infrastruct
+/company/531859/consolidated/	Oriental Rail
+/company/SARTELE/consolidated/	Sar Televenture
+/company/LANDMARK/consolidated/	Landmark Cars
+/company/PODDARMENT/	Poddar Pigments
+/company/INDIASHLTR/	INDIA SHELTE FIN
+/company/531608/	Gorani Industrie
+/company/539199/	SG Finserve
+/company/EMAMIPAP/	Emami Paper
+/company/OMINFRAL/consolidated/	Om Infra
+/company/530169/	Mohit Paper Mill
+/company/JAYAGROGN/consolidated/	Jayant Agro Org.
+/company/UGROCAP/	Ugro Capital
+/company/526628/	Ajwa Fun World
+/company/MBAPL/	M B Agro Prod.
+/company/540726/	Trident Texofab
+/company/538788/	Gilada Finance
+/company/BALPHARMA/consolidated/	Bal Pharma
+/company/530711/	Jagan Lamps
+/company/SAURASHCEM/consolidated/	Saurashtra Cem.
+/company/DHRUV/	Dhruv Consultanc
+/company/SONUINFRA/	Sonu Infratech
+/company/530927/	Haryana Fin. Co.
+/company/GREENLAM/consolidated/	Greenlam Industr
+/company/SANDHAR/consolidated/	Sandhar Tech
+/company/530175/	Odyssey Tech.
+/company/PATTECH/	Pattech Fitwell
+/company/BBTCL/	B&B Triplewall
+/company/ELDEHSG/consolidated/	Eldeco Housing
+/company/VETO/consolidated/	Veto Switchgears
+/company/GTPL/consolidated/	GTPL Hathway
+/company/538862/	My Money Sec.
+/company/SASKEN/consolidated/	Sasken Technol.
+/company/530695/consolidated/	Prime Property
+/company/GALLANTT/	Gallantt Ispat L
+/company/531234/	Scoobee Garments
+/company/GULFPETRO/	GP Petroleums
+/company/MANGLMCEM/	Mangalam Cement
+/company/XCHANGING/consolidated/	Xchanging Sol.
+/company/BAJFINANCE/consolidated/	Bajaj Finance
+/company/PRITIKAUTO/consolidated/	Pritika Auto
+/company/524440/	Camex
+/company/537669/	Laxmipati Engg
+/company/TECHM/consolidated/	Tech Mahindra
+/company/RUSHIL/	Rushil Decor
+/company/SHIGAN/	Shigan Quantum
+/company/544160/	Jay Kailash
+/company/HOMESFY/consolidated/	Homesfy Realty
+/company/EKC/consolidated/	Everest Kanto
+/company/LATTEYS/	Latteys Industri
+/company/SHOPERSTOP/consolidated/	Shoppers Stop
+/company/PRECISION/	Precision Metal.
+/company/BANARISUG/	Bannari Amm.Sug.
+/company/531027/	Libord Securitie
+/company/JPOLYINVST/consolidated/	Jindal Poly Inve
+/company/BVCL/consolidated/	Barak Valley
+/company/IIFL/consolidated/	IIFL Finance
+/company/SUKHJITS/consolidated/	Sukhjit Starch
+/company/PRIVISCL/consolidated/	Privi Speci.
+/company/SYLVANPLY/	Sylvan Plyboard
+/company/SARVESHWAR/consolidated/	Sarveshwar Foods
+/company/APRAMEYA/	Aprameya Enginee
+/company/QUESS/consolidated/	Quess Corp
+/company/AARVI/consolidated/	Aarvi Encon
+/company/TRU/	TruCap Finance
+/company/AJMERA/consolidated/	Ajmera Realty
+/company/BAJAJFINSV/consolidated/	Bajaj Finserv
+/company/526711/	Adarsh Plant
+/company/MASFIN/consolidated/	MAS FINANC SER
+/company/539222/consolidated/	Growington Vent
+/company/APOLSINHOT/consolidated/	Apollo Sindoori
+/company/INFOBEAN/consolidated/	InfoBeans Tech.
+/company/500240/	Kinetic Engg.
+/company/511543/	GSB Finance
+/company/MAITHANALL/consolidated/	Maithan Alloys
+/company/522105/consolidated/	Birla Precision
+/company/534060/	PMC Fincorp
+/company/519455/	Narbada Gems
+/company/533427/	VMS Industries
+/company/GRAPHISAD/consolidated/	Graphisads
+/company/524606/	Beryl Drugs
+/company/513307/	Synthiko Foils
+/company/543713/consolidated/	Droneacharya Aer
+/company/526169/	Multibase India
+/company/500267/consolidated/	Majestic Auto
+/company/RADAAN/consolidated/	Radaan Media.
+/company/522231/	Conart Engineers
+/company/LOKESHMACH/	Lokesh Mach.
+/company/NITINSPIN/	Nitin Spinners
+/company/CESC/consolidated/	CESC
+/company/539552/	F Mec Intl. Fin.
+/company/539219/consolidated/	Mauria Udyog
+/company/539620/	Kanoria Energy
+/company/543931/consolidated/	Veefin Solutions
+/company/538868/	Cont. Securities
+/company/517546/	Alfa Transformer
+/company/540267/	Flora Corporatio
+/company/EDELWEISS/consolidated/	Edelweiss.Fin.
+/company/ABCOTS/	AB Cotspin
+/company/CMNL/	Chaman Metallics
+/company/IDEAFORGE/consolidated/	Ideaforge Tech
+/company/DELPHIFX/	Delphi World
+/company/WESTLIFE/consolidated/	Westlife Food
+/company/JFLLIFE/	JFL Life
+/company/NDL/	Nandan Denim
+/company/SMSPHARMA/	SMS Pharma.
+/company/VEEKAYEM/	Veekayem Fash.
+/company/538446/	Moneyboxx Fin.
+/company/LUXIND/	Lux Industries
+/company/539428/	Tejnaksh Health.
+/company/GMRP&UI/consolidated/	GMR Urban
+/company/MTARTECH/	MTAR Technologie
+/company/531268/consolidated/	B2B Soft.Tech.
+/company/SUNDRMBRAK/	Sundaram Brake
+/company/TEXRAIL/	Texmaco Rail
+/company/SUDARSCHEM/consolidated/	Sudarshan Chem.
+/company/LEMONTREE/consolidated/	Lemon Tree Hotel
+/company/AADHARHFC/consolidated/	Aadhar Hsg. Fin.
+/company/524768/	Emmessar Biotech
+/company/DHAMPURSUG/consolidated/	Dhampur Sugar
+/company/RACE/consolidated/	Race Eco
+/company/530043/	Acknit Indus.
+/company/STOVEKRAFT/	Stove Kraft
+/company/HINDALCO/consolidated/	Hindalco Inds.
+/company/UGARSUGAR/	Ugar Sugar Works
+/company/526851/	Arex Industries
+/company/SHRIRAMFIN/consolidated/	Shriram Finance
+/company/ERIS/consolidated/	ERIS Lifescience
+/company/530977/	Shri Keshav
+/company/526490/	Pratik Panels
+/company/ASHIANA/consolidated/	Ashiana Housing
+/company/524592/consolidated/	Jaysynth Orgo
+/company/HOMEFIRST/	Home First Finan
+/company/515059/	Madhusudan Inds.
+/company/NILKAMAL/consolidated/	Nilkamal Ltd
+/company/NORTHARC/consolidated/	Northern ARC
+/company/AMBIKCO/	Ambika Cotton
+/company/505163/	Z F Steering
+/company/508954/	Finkurve Fin.
+/company/AUTOIND/consolidated/	Autoline Industr
+/company/BAIDFIN/	Baid Finserv
+/company/RALLIS/	Rallis India
+/company/532380/	Baba Arts
+/company/JUBLFOOD/consolidated/	Jubilant Food.
+/company/539963/	Zeal Aqua
+/company/HISARMETAL/	Hisar Met.Inds.
+/company/521131/	Shree Bhavya
+/company/540144/	DRA Consultants
+/company/PATANJALI/	Patanjali Foods
+/company/502445/	Citadel Realty
+/company/TVSSRICHAK/consolidated/	TVS Srichakra
+/company/DUGLOBAL/consolidated/	DU Digital
+/company/TATAPOWER/consolidated/	Tata Power Co.
+/company/IVP/	IVP
+/company/539017/	Star Housing Fin
+/company/HPL/consolidated/	HPL Electric
+/company/PLASTIBLEN/	Plastiblends (I)
+/company/MAHESHWARI/	Maheshwari Logi.
+/company/DESTINY/	Destiny Logistic
+/company/530315/	Hind.Tin Works
+/company/UJJIVANSFB/	Ujjivan Small
+/company/523489/	Chennai Meena
+/company/531119/	Ceenik Exports
+/company/519477/	CIAN Agro
+/company/532701/	Cella Space
+/company/542938/	Octavius Plant.
+/company/LODHA/consolidated/	Macrotech Devel.
+/company/531199/	Glance Finance
+/company/531228/	Rander Corpn.
+/company/VR/consolidated/	V R Infraspace
+/company/KESORAMIND/consolidated/	Kesoram Inds.
+/company/530973/	Alfa Ica (I)
+/company/500058/	Bihar Sponge
+/company/INDIAGLYCO/consolidated/	India Glycols
+/company/SHALBY/consolidated/	Shalby
+/company/PARAGMILK/consolidated/	Parag Milk Foods
+/company/UNITEDPOLY/	United Polyfab
+/company/539121/consolidated/	Palco Metals Ltd
+/company/SBFC/	SBFC Finance
+/company/PTCIL/consolidated/	PTC Industries
+/company/531338/consolidated/	Milestone Global
+/company/532113/	Brijlaxmi Leas.
+/company/TBZ/consolidated/	T B Z
+/company/526415/consolidated/	OK Play India
+/company/RELIABLE/consolidated/	Reliable Data
+/company/VINDHYATEL/consolidated/	Vindhya Telelink
+/company/V2RETAIL/	V2 Retail
+/company/542682/	Harish Textile
+/company/542543/consolidated/	India Infr Trust
+/company/531381/consolidated/	Arih.Found.Hsg.
+/company/CELEBRITY/	Celebrity Fash.
+/company/POONAWALLA/consolidated/	Poonawalla Fin
+/company/KHFM/	KHFM Hospitality
+/company/SHYAMMETL/consolidated/	Shyam Metalics
+/company/505212/	Jainex Aamcol
+/company/MUKANDLTD/consolidated/	Mukand
+/company/526935/consolidated/	Arunis Abode
+/company/524400/	Ishita Drugs
+/company/542721/	Anand Rayons
+/company/GOKEX/consolidated/	Gokaldas Exports
+/company/512247/	Ashirwad Cap.
+/company/MUFIN/	Mufin Green
+/company/MAL/	Mangalam Alloys
+/company/DIGISPICE/consolidated/	DigiSpice Tech.
+/company/IPL/	India Pesticides
+/company/539018/	Beekay Steel Ind
+/company/531173/	Syschem (India)
+/company/DEEPAKFERT/consolidated/	Deepak Fertiliz.
+/company/ALANKIT/consolidated/	Alankit
+/company/CHOLAHLDNG/consolidated/	Chola Financial
+/company/540198/consolidated/	Osiajee Texfab
+/company/523826/	Sover. Diamonds
+/company/531402/	LWS Knitwear
+/company/VRLLOG/	VRL Logistics
+/company/ORIENTHOT/consolidated/	Oriental Hotels
+/company/DIAMONDYD/	Prataap Snacks
+/company/GREENPLY/consolidated/	Greenply Industr
+/company/KIRLOSIND/consolidated/	Kirloskar Indus.
+/company/544185/	Adtech Systems
+/company/HIMATSEIDE/consolidated/	Himatsing. Seide
+/company/512165/consolidated/	ABans Enterprise
+/company/539546/consolidated/	Beekay Niryat
+/company/TATACONSUM/consolidated/	Tata Consumer
+/company/530735/	Super Bakers (I)
+/company/532354/	Virgo Global
+/company/504378/consolidated/	Nyssa Corp.
+/company/530253/	Rajas. Tube Mfg
+/company/MONTECARLO/	Monte Carlo Fas.
+/company/535693/consolidated/	Brahmaputra Inf.
+/company/BFINVEST/consolidated/	BF Investment
+/company/OLIL/	OneClick Logisti
+/company/BBL/	Bharat Bijlee
+/company/PRAKASH/	Prakash Industri
+/company/539854/consolidated/	Halder Venture
+/company/531672/	Inani Securities
+/company/REPCOHOME/	Repco Home Fin
+/company/DBL/consolidated/	Dilip Buildcon
+/company/PRITIKA/consolidated/	Pritika Engineer
+/company/530581/consolidated/	Ekam Leasing
+/company/526237/	Morgan Ventures
+/company/AKSHAR/	Akshar Spintex
+/company/541358/	Unifinz Capital
+/company/TFCILTD/	Tour. Fin. Corp.
+/company/530095/	Pradhin
+/company/RITEZONE/	Rite Zone
+/company/513472/	Simplex Castings
+/company/ADSL/consolidated/	Allied Digital
+/company/FEDFINA/	Fedbank Financi.
+/company/NTPC/consolidated/	NTPC
+/company/TPHQ/	Teamo Production
+/company/DYNAMATECH/consolidated/	Dynamatic Tech.
+/company/UNITEDTEA/	United Nilgiri
+/company/KABRAEXTRU/	Kabra Extrusion
+/company/532016/	Espire Hospi
+/company/ROML/	Raj Oil Mills
+/company/NAVINFLUOR/consolidated/	Navin Fluo.Intl.
+/company/TRIDENT/consolidated/	Trident
+/company/YUKEN/consolidated/	Yuken India
+/company/FINPIPE/	Finolex Inds.
+/company/CHOLAFIN/consolidated/	Cholaman.Inv.&Fn
+/company/AWL/	Adani Wilmar
+/company/ATALREAL/	Atal Realtech
+/company/526616/	Natl. Plastic
+/company/531041/	Competent Auto
+/company/PONNIERODE/	Ponni Sug.Erode
+/company/MANCREDIT/	Mangal Credit
+/company/INDOCO/consolidated/	Indoco Remedies
+/company/FORTIS/consolidated/	Fortis Health.
+/company/SIS/consolidated/	SIS
+/company/539985/	Titaanium Ten
+/company/543617/consolidated/	Reetech Intl
+/company/507155/consolidated/	Jagatjit Inds.
+/company/540405/	Oceanic Foods
+/company/PARAS/consolidated/	Paras Defence
+/company/MONOPHARMA/consolidated/	Mono Pharmacare
+/company/MADRASFERT/	Madras Fertilize
+/company/WIPL/consolidated/	W I Plywoods
+/company/542579/	Ashapuri Gold
+/company/539112/consolidated/	SAB Industries
+/company/SHRIRAMPPS/consolidated/	Shriram Properti
+/company/501833/	Chowgule Steam
+/company/543229/	Samrat Forgings
+/company/543737/	Aveer Foods
+/company/STYLEBAAZA/consolidated/	Baazar Style
+/company/540904/	Tirupati Foam
+/company/511066/	Sakthi Finance
+/company/DEEPINDS/consolidated/	Deep Industries
+/company/SYNCOMF/	Syncom Formul.
+/company/MANAKSIA/consolidated/	Manaksia
+/company/IFCI/consolidated/	IFCI
+/company/530057/consolidated/	Vivanza Biosci.
+/company/MANAKSTEEL/consolidated/	Manaksia Steels
+/company/CHEMFAB/consolidated/	Chemfab Alka.
+/company/517288/	Gujarat Poly
+/company/531952/	Riba Textiles
+/company/MILTON/	Milton Industri.
+/company/531780/consolidated/	Kaiser Corporat.
+/company/TEXMOPIPES/consolidated/	Texmo Pipes
+/company/PASHUPATI/	Pashupati Cotsp.
+/company/AMBER/consolidated/	Amber Enterp.
+/company/533170/consolidated/	Tamboli Industri
+/company/506947/	Advance Petroch.
+/company/539011/	Chennai Ferrous
+/company/EXIDEIND/consolidated/	Exide Inds.
+/company/RENUKA/consolidated/	Sh.Renuka Sugar
+/company/SADBHIN/consolidated/	Sadbhav Infra.
+/company/VSCL/	Vadivarhe Speci.
+/company/URAVI/	Uravi T & Wedge
+/company/502015/	Asi Industries
+/company/511535/consolidated/	NDA Securities
+/company/KCK/	KCK Industries
+/company/513059/	G S Auto Intl.
+/company/JMFINANCIL/consolidated/	JM Financial
+/company/RUPA/consolidated/	Rupa & Co
+/company/CENTUM/consolidated/	Centum Electron
+/company/539773/consolidated/	Advik Capital
+/company/SILGO/	Silgo Retail
+/company/KRSNAA/	Krsnaa Diagnost.
+/company/522001/	Cranex
+/company/523373/	Mini Diamonds(I)
+/company/524210/	Pentokey Organy
+/company/SAMMAANCAP/consolidated/	Sammaan Capital
+/company/539659/consolidated/	Vidli Restaurant
+/company/SPORTKING/	Sportking India
+/company/NELCAST/consolidated/	Nelcast
+/company/MANOMAY/	Manomay Tex Indi
+/company/CHALET/consolidated/	Chalet Hotels
+/company/RECLTD/consolidated/	REC Ltd
+/company/531297/	Artefact Project
+/company/526640/	Royale Manor
+/company/UFO/consolidated/	UFO Moviez
+/company/SOTAC/consolidated/	Sotac Pharma.
+/company/SPECTSTM/consolidated/	Spectrum Talent
+/company/531842/consolidated/	Lahoti Overseas
+/company/530331/consolidated/	Premco Global
+/company/508664/	Best Eastern Hot
+/company/512026/	PH Trading
+/company/540082/	Riddhi Steel
+/company/UNIVCABLES/consolidated/	Universal Cables
+/company/519397/	Sharat Industrie
+/company/ALMONDZ/consolidated/	Almondz Global
+/company/ZIMLAB/consolidated/	Zim Laboratories
+/company/DCXINDIA/consolidated/	DCX Systems
+/company/514138/consolidated/	Suryalata Spg.
+/company/JUBLINGREA/consolidated/	Jubilant Ingrev.
+/company/KMSUGAR/	KM Sugar Mills
+/company/SAHYADRI/	Sahyadri Industr
+/company/539875/consolidated/	RSD Finance
+/company/540980/consolidated/	Yamuna Syndicate
+/company/FALCONTECH/	Falcon
+/company/ABCAPITAL/consolidated/	Aditya Birla Cap
+/company/502250/	Lerthai Finance
+/company/LANCORHOL/consolidated/	Lancor Holdings
+/company/511509/consolidated/	Vivo Bio Tech
+/company/538921/consolidated/	Raghuvansh Agro.
+/company/517514/consolidated/	D & H India
+/company/AAVAS/	AAVAS Financiers
+/company/530469/	GSL Securities
+/company/PURVA/consolidated/	Puravankara
+/company/ADANIENT/consolidated/	Adani Enterp.
+/company/543921/	Comrade Applian.
+/company/526761/	Howard Hotels
+/company/517258/	Prec. Electronic
+/company/MANAKALUCO/	Manaksia Alumi.
+/company/PFC/consolidated/	Power Fin.Corpn.
+/company/MITCON/consolidated/	Mitcon Consult.
+/company/DALMIASUG/consolidated/	Dalmia Bharat
+/company/SYRMA/consolidated/	Syrma SGS Tech.
+/company/JINDWORLD/consolidated/	Jindal Worldwide
+/company/523710/consolidated/	Sayaji Hotels
+/company/ADANIGREEN/consolidated/	Adani Green
+/company/RISHABH/consolidated/	Rishabh Instrum.
+/company/OCCL/consolidated/	Oriental Carbon
+/company/NOCIL/consolidated/	NOCIL
+/company/AFFORDABLE/	Affordable Robo.
+/company/MFSL/consolidated/	Max Financial
+/company/540492/	Starlineps Enter
+/company/GENUSPOWER/	Genus Power
+/company/MEGASTAR/	Megastar Foods
+/company/FLUOROCHEM/consolidated/	Gujarat Fluoroch
+/company/512103/consolidated/	Nidhi Granites
+/company/543651/	DAPS Advertising
+/company/532455/	Shalimar Wires
+/company/526971/	Dhoot Indl.Fin
+/company/524314/	Guj. Terce Labs.
+/company/523840/	Innovative Tech
+/company/HILTON/	Hilton Met.Forg.
+/company/KANDARP/	Kandarp Digi
+/company/BHAGCHEM/	Bhagiradha Chem.
+/company/539435/	Richfield Fin
+/company/540175/	Regency Fincorp
+/company/TVTODAY/consolidated/	T.V. Today Netw.
+/company/DEEDEV/consolidated/	DEE Development
+/company/538708/	Econo Trade Indi
+/company/BHANDARI/	Bhandari Hosiery
+/company/PTC/consolidated/	PTC India
+/company/UTKARSHBNK/	Utkarsh Small F.
+/company/543309/	Adeshwar Meditex
+/company/RELIANCE/consolidated/	Reliance Industr
+/company/539120/	Bangalore Fort
+/company/MPTODAY/	Madhya Prad. Tod
+/company/GLOBUSSPR/	Globus Spirits
+/company/520075/	Samkrg Pistons
+/company/IZMO/consolidated/	IZMO
+/company/ONELIFECAP/consolidated/	Onelife Capital
+/company/517494/consolidated/	Accel
+/company/543375/	Promax Power
+/company/DIVGIITTS/	Divgi Torq
+/company/INVENTURE/consolidated/	Inventure Grow.
+/company/SARLAPOLY/consolidated/	Sarla Performanc
+/company/CGCL/consolidated/	Capri Global
+/company/HINDWAREAP/consolidated/	Hindware Home In
+/company/BIRLACABLE/consolidated/	Birla Cable
+/company/BSL/	BSL
+/company/530259/	Inter State Oil
+/company/BAFNAPH/	Bafna Pharma.
+/company/541778/	Deep Polymers
+/company/VIAZ/	Viaz Tyres
+/company/503663/	Tilak Ventures
+/company/LIBERTSHOE/	Liberty Shoes
+/company/MIDHANI/	Mishra Dhatu Nig
+/company/SHUBHLAXMI/	Shubhlaxmi Jewel
+/company/543848/	Dev Labtech
+/company/530265/	Sainik Finance
+/company/530545/	COSCO (India)
+/company/LAGNAM/	Lagnam Spintex
+/company/DUCON/consolidated/	Ducon Tech
+/company/BAJAJHFL/	Bajaj Housing
+/company/JAYBARMARU/	Jay Bharat Maru.
+/company/532933/	Porwal Auto Comp
+/company/LXCHEM/consolidated/	Laxmi Organic
+/company/543951/	Innovatus Enter.
+/company/SETCO/consolidated/	Setco Automotive
+/company/511730/	Avasara Finance
+/company/NEOGEN/consolidated/	Neogen Chemicals
+/company/530449/	Rungta Irrigatn.
+/company/511764/	AastamangalamFin
+/company/ORCHPHARMA/consolidated/	Orchid Pharma
+/company/507998/consolidated/	Simm. Marshall
+/company/541503/	Unick Fix-A-Form
+/company/SPECIALITY/	Speciality Rest.
+/company/532100/	Indo-City Info.
+/company/512379/consolidated/	Cressanda Railwa
+/company/531637/	Praveg
+/company/HESTERBIO/consolidated/	Hester Bios
+/company/504028/	GEE
+/company/530495/	Stratmont Indus.
+/company/GRASIM/consolidated/	Grasim Inds
+/company/IREDA/	Indian Renewable
+/company/SREEL/	Sreeleathers
+/company/532397/	Konndor Indust.
+/company/SOMICONVEY/	Somi Conv.Belt.
+/company/VISHAL/	Vishal Fabrics
+/company/CENTRUM/consolidated/	Centrum Capital
+/company/PNBHOUSING/	PNB Housing
+/company/CANFINHOME/	Can Fin Homes
+/company/536659/	PVV Infra Ltd
+/company/543905/	Innokaiz India
+/company/544165/consolidated/	Shivam
+/company/MALUPAPER/	Malu Paper
+/company/MHRIL/consolidated/	Mahindra Holiday
+/company/532829/	Lehar Footwears
+/company/MMTC/consolidated/	MMTC
+/company/HUDCO/consolidated/	H U D C O
+/company/AHL/consolidated/	Abans Holdings
+/company/544139/	Koura Fine Diamo
+/company/532373/	WEP Solutions
+/company/538714/	Sangam Finserv
+/company/SUNDARMFIN/consolidated/	Sundaram Finance
+/company/IRBINVIT/consolidated/	IRB InvIT Fund
+/company/531814/	Tirupati Sarjan
+/company/530499/consolidated/	A.K.Capital Serv
+/company/AWFIS/consolidated/	AWFIS Space
+/company/521232/	Sunil Industries
+/company/MAKS/	Maks Energy
+/company/SOUTHWEST/	South West Pinn.
+/company/516096/	Sangal Papers
+/company/TNPETRO/consolidated/	T N Petro Prod.
+/company/511377/	Mehta Integrat.
+/company/JAGRAN/consolidated/	Jagran Prakashan
+/company/511710/	Cubical Finan
+/company/ICDSLTD/consolidated/	ICDS
+/company/506687/consolidated/	Transpek Inds.
+/company/524602/consolidated/	Bandaram Pharma
+/company/SPPPOLY/	SPP
+/company/INCREDIBLE/	Incredible Indus
+/company/531454/	Polylink Poly.
+/company/540590/	Riddhi Corporate
+/company/515008/	Modern Insulator
+/company/SHREEPUSHK/consolidated/	Sh.Pushkar Chem.
+/company/COOLCAPS/consolidated/	Cool Caps
+/company/XTGLOBAL/consolidated/	XT Global Infot.
+/company/SHREERAMA/	Sh. Rama Multi.
+/company/507981/	Jindal Hotels
+/company/540361/	Danube Industrie
+/company/BIRLACORPN/consolidated/	Birla Corpn.
+/company/AVSL/	AVSL Industries
+/company/SRD/	Shankar Lal Ram.
+/company/ADANIENSOL/consolidated/	Adani Energy Sol
+/company/ANURAS/consolidated/	Anupam Rasayan
+/company/DCMSHRIRAM/consolidated/	DCM Shriram
+/company/UMA/	Uma Converter
+/company/541144/	Active Clothing
+/company/COMSYN/consolidated/	Commerl. Synbags
+/company/IFGLEXPOR/consolidated/	IFGL Refractori.
+/company/EQUITASBNK/	Equitas Sma. Fin
+/company/524080/	Haryana Leather
+/company/IRB/consolidated/	IRB Infra.Devl.
+/company/ARIHANTACA/	Arihant Academy
+/company/521097/	Amarjothi Spg.
+/company/SAHAJ/	Sahaj Fashions
+/company/VINCOFE/consolidated/	Vintage Coffee
+/company/PFS/	PTC India Fin
+/company/508670/consolidated/	Neelamalai Agro
+/company/HCG/consolidated/	Health.Global
+/company/522005/consolidated/	Austin Engg Co
+/company/ESAFSFB/	ESAF Small Fin
+/company/VARDHACRLC/	Vardhman Acrylic
+/company/511758/	Mansi Fin.(Chen)
+/company/CUBEXTUB/	Cubex Tubings
+/company/530109/	Anupam Finserv
+/company/531161/	ABM Knowledge
+/company/526546/	Choksi Laborator
+/company/532745/consolidated/	Inditrade Cap.
+/company/KALYANIFRG/	Kalyani Forge
+/company/512153/	M Lakhamsi Ind
+/company/539455/	Ecofinity Ato
+/company/ARCHIDPLY/consolidated/	Archidply Inds.
+/company/542862/	Shahlon Silk
+/company/DOLLEX/	Dollex Agrotech
+/company/526614/	Expo Gas Contain
+/company/507663/	Sagar Soya Prod
+/company/537784/	Karnimata Cold
+/company/RPPL/consolidated/	Rajshree Polypac
+/company/531962/	Shree Metalloys
+/company/LICHSGFIN/consolidated/	LIC Housing Fin.
+/company/NARMADA/	Narmada Agrobase
+/company/542057/consolidated/	BCPL Railway
+/company/538881/	Galada Finance
+/company/ICICIPRULI/consolidated/	ICICI Pru Life
+/company/M&MFIN/consolidated/	M & M Fin. Serv.
+/company/539314/	Universal Auto.
+/company/ATUL/consolidated/	Atul
+/company/VTL/consolidated/	Vardhman Textile
+/company/540072/	Shiva Granito
+/company/DEVYANI/consolidated/	Devyani Intl.
+/company/530747/	Challani Capital
+/company/506685/	Ultramarine Pig.
+/company/CTE/consolidated/	Cambridge Tech.
+/company/RELIGARE/consolidated/	Religare Enterp.
+/company/YCCL/consolidated/	Yasons Chemex
+/company/507265/	Emerald Leisures
+/company/TTKHLTCARE/	TTK Healthcare
+/company/LRRPL/	Lead Reclaim
+/company/523054/	Binayaka Tex Pr
+/company/GICL/	Globe Intl. Car.
+/company/523021/	Rishi Techtex
+/company/504380/	Flomic Global
+/company/BANSWRAS/consolidated/	Banswara Syntex
+/company/542864/	Mount Housing
+/company/542866/	Colab Cloud
+/company/DUCOL/	Ducol Organics
+/company/505712/	Him Teknoforg.
+/company/511728/	K Z Leasing
+/company/GSTL/	Globesecure Tech
+/company/SHRADHA/consolidated/	Shradha Infrapr.
+/company/MADHAVBAUG/consolidated/	Vaidya Sane
+/company/BFUTILITIE/	BF Utilities
+/company/SAKUMA/consolidated/	Sakuma Exports
+/company/JSFB/	Jana Small Finan
+/company/531779/	Padmanabh Alloys
+/company/VISHWARAJ/	Vishwaraj Sugar
+/company/CELLPOINT/	Cell Point
+/company/538611/	Real Touch Fin
+/company/JSWENERGY/consolidated/	JSW Energy
+/company/RHIM/consolidated/	RHI Magnesita
+/company/VENUSREM/consolidated/	Venus Remedies
+/company/ANANTRAJ/consolidated/	Anant Raj
+/company/521238/	Bharat Global
+/company/GICHSGFIN/	GIC Housing Fin
+/company/HEG/consolidated/	HEG
+/company/516078/	Jumbo Bag
+/company/CREST/consolidated/	Crest Ventures
+/company/530369/	Vamshi Rubber
+/company/508136/consolidated/	B & A
+/company/VOLTAS/consolidated/	Voltas
+/company/AUSOMENT/	Ausom Enter.
+/company/ZUARI/consolidated/	Zuari Agro Chem.
+/company/KSHITIJPOL/consolidated/	Kshitij Polyline
+/company/PILITA/	Pil Italica Life
+/company/522004/consolidated/	Batliboi
+/company/532659/consolidated/	I D F C
+/company/505978/consolidated/	Triton Valves
+/company/SURYODAY/	Suryoday Small
+/company/IBLFL/	IBL Finance
+/company/BALAJITELE/consolidated/	Balaji Telefilms
+/company/VIPIND/consolidated/	V I P Inds.
+/company/523550/	Krypton Industri
+/company/523248/	Machino Plastics
+/company/530953/	Sunil Agro Foods
+/company/EMMBI/	Emmbi Industries
+/company/VENKEYS/	Venky's (India)
+/company/542019/	Shubham Polyspin
+/company/SURYALAXMI/	Suryalak. Cott.
+/company/HECPROJECT/	HEC Infra Proj.
+/company/RTNPOWER/consolidated/	RattanIndia Pow.
+/company/507852/consolidated/	Addi Industries
+/company/526723/consolidated/	NTC Industries
+/company/539519/	Mayukh Dealtrade
+/company/INDOSTAR/consolidated/	Indostar Capital
+/company/540796/consolidated/	Ratnabhumi Dev.
+/company/RICHA/	Richa Info
+/company/543656/	Technopack Poly.
+/company/WHIRLPOOL/	Whirlpool India
+/company/511092/	JMD Ventures
+/company/513699/consolidated/	Solid Stone Co
+/company/526945/	Tyroon Tea Co.
+/company/JAKHARIA/	Jakharia Fabric
+/company/DAMODARIND/	Damodar Indust.
+/company/540006/consolidated/	East WestFreight
+/company/NXST/consolidated/	Nexus Select
+/company/EPACK/consolidated/	Epack Durable
+/company/SALONA/	Salona Cotspin
+/company/STEELXIND/	Steel Exchange
+/company/ABREL/consolidated/	A B Real Estate
+/company/540168/	Supra Pacific
+/company/GENESYS/consolidated/	Genesys Intl.
+/company/533108/consolidated/	Bhilwara Tech
+/company/543518/	Eighty Jewellers
+/company/VASCONEQ/consolidated/	Vascon Engineers
+/company/RGL/consolidated/	Renaiss. Global
+/company/SWANENERGY/consolidated/	Swan Energy
+/company/543378/	CWD
+/company/540570/consolidated/	Variman Global
+/company/522091/	United Van Der
+/company/BAJAJHCARE/	Bajaj Healthcare
+/company/540686/	Smruthi Organic
+/company/526409/	KKalpana Inds.
+/company/LTF/consolidated/	L&T Finance Ltd
+/company/NIPPOBATRY/consolidated/	Indo National
+/company/543497/	Bhatia Colour
+/company/543765/	Earthstahl &All.
+/company/520123/	ABC India
+/company/MEDICAMEQ/consolidated/	Medicamen Biotec
+/company/531364/consolidated/	Ekansh Concept
+/company/511700/	Std. Capital Mkt
+/company/RICOAUTO/consolidated/	Rico Auto Inds
+/company/542850/consolidated/	Goblin India
+/company/543860/	J A Finance
+/company/539224/	HCKK Ventures
+/company/CAPTRUST/	Capital Trust
+/company/531810/	Metal Coatings
+/company/MDL/consolidated/	Marvel Decor
+/company/514128/consolidated/	Konark Synth
+/company/512229/consolidated/	Veritas (India)
+/company/VIRINCHI/consolidated/	Virinchi
+/company/PRUDMOULI/consolidated/	Pruden. Sugar
+/company/534639/	Vinayak Polycon
+/company/543172/	Cospower Engine.
+/company/531416/	Narendra Prop.
+/company/RAMCOCEM/consolidated/	The Ramco Cement
+/company/SAIL/consolidated/	S A I L
+/company/531380/	Centenial Surgic
+/company/DNAMEDIA/	Diligent Media
+/company/BHAGYANGR/consolidated/	Bhagyanagar Ind
+/company/GANECOS/consolidated/	Ganesha Ecosphe.
+/company/SALSTEEL/	S.A.L Steel
+/company/531771/	Shraddha Prime
+/company/NIRAJISPAT/	Niraj Ispat Ind.
+/company/543613/	Mafia Trends
+/company/500422/	Transchem
+/company/AMJLAND/consolidated/	AMJ Land Holdin.
+/company/530799/	Anna Infrastruct
+/company/SFL/consolidated/	Sheela Foam
+/company/512441/	Enbee Trade
+/company/542934/	Chandra Bhagat
+/company/NIDAN/	Nidan Laborator.
+/company/543997/consolidated/	Organic Recyclin
+/company/ATLANTAA/consolidated/	Atlantaa
+/company/INDUSINDBK/	IndusInd Bank
+/company/TTL/	T T
+/company/HYBRIDFIN/consolidated/	Hybrid Financial
+/company/540651/consolidated/	Jigar Cables
+/company/504882/	National Standar
+/company/MSPL/consolidated/	MSP Steel & Pow.
+/company/540132/consolidated/	Sabrimala Indus.
+/company/RETAIL/	JHS Svend.Retail
+/company/503127/	Raja Bahadur Int
+/company/STARTECK/consolidated/	Starteck Fin.
+/company/511585/	Regency Trust
+/company/522289/consolidated/	NMS Global
+/company/530689/consolidated/	Lykis
+/company/531802/consolidated/	Prerna Infra.
+/company/KOTAKBANK/consolidated/	Kotak Mah. Bank
+/company/STAR/consolidated/	Strides Pharma
+/company/539216/consolidated/	Garment Mantra
+/company/504000/consolidated/	Elpro Internatio
+/company/541701/	Supershakti Met.
+/company/544056/	Sahara
+/company/KHADIM/consolidated/	Khadim India
+/company/AETHER/	Aether Industri.
+/company/TATACHEM/consolidated/	Tata Chemicals
+/company/TERASOFT/	Tera Software
+/company/HIKAL/consolidated/	Hikal
+/company/531307/consolidated/	RRIL
+/company/523842/consolidated/	Super Tannery
+/company/AJOONI/	Ajooni Biotech
+/company/538451/	Worth Investment
+/company/526965/	Guj. Craft Inds
+/company/533101/	Suryaamba Spinni
+/company/UDAICEMENT/	Udaipur Cement
+/company/MRO-TEK/	MRO-TEK Realty
+/company/GNFC/	G N F C
+/company/AUBANK/	AU Small Finance
+/company/531210/	Colinz Labs
+/company/DECCANCE/	Deccan Cements
+/company/524582/	Tirupati Starch
+/company/HDFCBANK/consolidated/	HDFC Bank
+/company/ISFT/consolidated/	Intrasoft Tech.
+/company/NHPC/consolidated/	NHPC Ltd
+/company/531279/	Trishakti Indus
+/company/GIPCL/	Guj Inds. Power
+/company/533056/consolidated/	Vedavaag Systems
+/company/531157/	Organic Coatings
+/company/513422/	Bloom Industries
+/company/512600/	Astal Lab
+/company/CLEDUCATE/consolidated/	CL Educate
+/company/CINELINE/consolidated/	Cineline India
+/company/ICICIBANK/consolidated/	ICICI Bank
+/company/MUKTAARTS/consolidated/	Mukta Arts
+/company/MEGASOFT/consolidated/	Megasoft
+/company/541196/	Lex Nimble Solu.
+/company/SWASTIK/	Swastik Pipe
+/company/526211/consolidated/	Suraj Industries
+/company/513709/	Shilp Gravures
+/company/DMCC/consolidated/	DMCC Speciality
+/company/530627/consolidated/	Vipul Organics
+/company/PLAZACABLE/	Plaza Wires
+/company/531411/	Tuni Text. Mills
+/company/UMAEXPORTS/consolidated/	Uma Exports
+/company/DCBBANK/	DCB Bank
+/company/TFL/consolidated/	Transwar.Fin.
+/company/543902/	Retina Paints
+/company/507530/	Thakkers Group
+/company/ONDOOR/	On Door Concepts
+/company/AARTIIND/consolidated/	Aarti Industries
+/company/RANASUG/	Rana Sugars
+/company/PTL/	PTL Enterprises
+/company/507621/consolidated/	Milkfood
+/company/SCI/	S C I
+/company/539921/	Shanti Educat.
+/company/GOKUL/consolidated/	Gokul Refoils
+/company/513401/	Ashiana Ispat
+/company/NECCLTD/	North Eastn.Car.
+/company/RELINFRA/consolidated/	Reliance Infra.
+/company/519475/	Chordia Food
+/company/ORIENTCER/	Orient Ceratech
+/company/SAKAR/	Sakar Healthcare
+/company/504959/	Stovec Inds.
+/company/531091/	United Credit
+/company/526095/	Ravi Leela Gran
+/company/531153/	Diligent Indust.
+/company/538935/	Abhishek Finle.
+/company/519506/	NCC Blue Water
+/company/540254/	Marg Techno-Proj
+/company/531080/	Shri Krishna
+/company/SPLIL/	SPL Industries
+/company/RUBYMILLS/	Ruby Mills
+/company/532893/	VTM
+/company/VAKRANGEE/consolidated/	Vakrangee
+/company/SADHNANIQ/consolidated/	Sadhana Nitro
+/company/506313/	Sashwat Technoc
+/company/DEN/consolidated/	Den Networks
+/company/543341/	Sharpline Broadc
+/company/544013/	KK Shah Hospital
+/company/GOCLCORP/consolidated/	GOCL Corpn.
+/company/531661/	Hittco Tools
+/company/532001/	Inducto Steel
+/company/530929/	Euro Asia Export
+/company/543225/consolidated/	Altius Telecom
+/company/539991/consolidated/	Confidence Fut.
+/company/SAPPHIRE/consolidated/	Sapphire Foods
+/company/524218/	Resonance Speci.
+/company/542802/consolidated/	Galactico Corpo.
+/company/530309/	Chandra Pr. Intl
+/company/501298/consolidated/	Indl.& Prud.Inv.
+/company/507864/consolidated/	Pioneer Invest
+/company/540953/	Kenvi Jewels
+/company/GLOBALVECT/	Global Vectra
+/company/PARIN/consolidated/	Parin Enterpris.
+/company/GEECEE/consolidated/	GeeCee Vent.
+/company/TMB/	T N Merc. Bank
+/company/UMANGDAIRY/	Umang Dairies
+/company/531223/	Anjani Synth.
+/company/BPL/	BPL
+/company/MCX/consolidated/	Multi Comm. Exc.
+/company/LIBAS/consolidated/	Libas Consumer
+/company/RAJRILTD/	Raj Rayon Inds.
+/company/GOLDKART/	Goldkart Jewels
+/company/SOBHA/consolidated/	Sobha
+/company/BANARBEADS/	Banaras Beads
+/company/TOTAL/consolidated/	Total Transport
+/company/500009/consolidated/	Ambalal Sarabhai
+/company/INDIGRID/consolidated/	India Grid Trust
+/company/531304/	Nutech Global
+/company/LOTUSEYE/	Lotus Eye Hospit
+/company/503092/	Pasupati Spinng.
+/company/521226/consolidated/	Uniroyal Ind
+/company/FINOPB/	Fino Payments
+/company/511692/consolidated/	Ajcon Global
+/company/AXISBANK/consolidated/	Axis Bank
+/company/BANDHANBNK/	Bandhan Bank
+/company/543594/	Dipna Pharmachem
+/company/507645/	Polson
+/company/MAHASTEEL/consolidated/	Mahamaya Steel
+/company/HPIL/	Hindprakash Indu
+/company/531502/	Esaar (India)
+/company/530231/	Subhash Silk
+/company/TATASTEEL/consolidated/	Tata Steel
+/company/TATVA/consolidated/	Tatva Chintan
+/company/533477/	Enkei Wheels
+/company/530697/	Zenlabs Ethica
+/company/CAPITALSFB/	Capital Small
+/company/509597/	Hardcast.& Waud
+/company/532334/	HB Estate Devel.
+/company/531035/	Eraaya Lifespace
+/company/500016/	Aruna Hotels
+/company/PURVFLEXI/consolidated/	Purv Flexi
+/company/512018/	CNI Research
+/company/514302/	Vippy Spinpro
+/company/GRETEX/	Gretex Industrie
+/company/GREENPOWER/consolidated/	Orient Green
+/company/GSLSU/consolidated/	Global Surfaces
+/company/540259/	Shangar Decor
+/company/CSBBANK/	CSB Bank
+/company/531813/	Ganga Papers
+/company/FEDERALBNK/consolidated/	Federal Bank
+/company/IDFCFIRSTB/consolidated/	IDFC First Bank
+/company/KITEX/consolidated/	Kitex Garments
+/company/532145/	H. S. India
+/company/526891/	Market Creators
+/company/KARURVYSYA/	Karur Vysya Bank
+/company/541096/consolidated/	Bharat Parenter.
+/company/SMSLIFE/consolidated/	SMS Lifesciences
+/company/COSMOFIRST/consolidated/	Cosmo First
+/company/NYKAA/consolidated/	FSN E-Commerce
+/company/504258/	Lak. Electrical
+/company/507486/	Caprolactam Chem
+/company/509472/consolidated/	Cravatex
+/company/DAVANGERE/	Davangere Sugar
+/company/500388/	Sh. Krishna Pap.
+/company/530675/consolidated/	York Exports
+/company/511672/	Scan Steels
+/company/MAWANASUG/consolidated/	Mawana Sugars
+/company/531521/	Desh Rakshak
+/company/ARVEE/	Arvee Laborat.
+/company/SAMHI/consolidated/	Samhi Hotels
+/company/QFIL/	Quality Foils
+/company/PNBGILTS/	PNB Gilts
+/company/526161/	Spenta Intl.
+/company/531552/consolidated/	RTCL
+/company/ASPINWALL/consolidated/	Aspinwall & Co
+/company/IVC/consolidated/	IL&FS Inv.Manag.
+/company/JUNIPER/consolidated/	Juniper Hotels
+/company/543754/consolidated/	Transvoy Logist.
+/company/RAJSREESUG/	Rajshree Sugars
+/company/SANGAMIND/	Sangam India
+/company/539174/	Helpage Finlease
+/company/LLOYDSENT/consolidated/	Lloyds Enterpris
+/company/NATHBIOGEN/consolidated/	Nath Bio-Genes
+/company/530197/	Fundviser Capit.
+/company/500264/consolidated/	Mafatlal Inds.
+/company/RELCHEMQ/	Rel. Chemotex
+/company/511563/	Sanchay Finvest
+/company/JUBLPHARMA/consolidated/	Jubilant Pharmo
+/company/PARADEEP/consolidated/	Paradeep Phosph.
+/company/HERANBA/consolidated/	Heranba Inds
+/company/DCW/	DCW
+/company/SNOWMAN/	Snowman Logistic
+/company/530185/	Surat Trade
+/company/DALBHARAT/consolidated/	Dalmia BharatLtd
+/company/ENTERO/consolidated/	Entero Healthcar
+/company/BLBLIMITED/	BLB
+/company/530421/	Kuwer Industries
+/company/63MOONS/consolidated/	63 Moons Tech.
+/company/539562/	Aarnav Fashions
+/company/NFL/consolidated/	Natl.Fertilizer
+/company/514378/consolidated/	Yarn Syndicate
+/company/LAMBODHARA/	Lambodhara Text.
+/company/MEDPLUS/consolidated/	Medplus Health
+/company/531029/	Bharat Textiles
+/company/PRECOT/consolidated/	Precot
+/company/VINEETLAB/	Vineet Laborator
+/company/537707/	ETT Ltd
+/company/519234/consolidated/	Superior Indus.
+/company/AYMSYNTEX/	AYM Syntex
+/company/CANBK/consolidated/	Canara Bank
+/company/THEINVEST/consolidated/	The Invest.Trust
+/company/532407/consolidated/	Moschip Tech.
+/company/ZEEL/consolidated/	Zee Entertainmen
+/company/GENCON/	Generic Engineer
+/company/542670/	Artemis Electri.
+/company/GODIGIT/	Go Digit General
+/company/BIL/consolidated/	Bhartiya Intl.
+/company/HDFCLIFE/consolidated/	HDFC Life Insur.
+/company/541083/	Inflame Applian.
+/company/514442/consolidated/	Sri KPR Inds.
+/company/LAURUSLABS/consolidated/	Laurus Labs
+/company/DVL/consolidated/	Dhunseri Vent.
+/company/506597/consolidated/	Amal
+/company/RILINFRA/	Rachana Infra.
+/company/RUSTOMJEE/consolidated/	Keystone Realtor
+/company/CUB/	City Union Bank
+/company/526133/	Supertex Inds.
+/company/CONSOFINVT/	Cons. Finvest
+/company/GLOBALE/	Globale Tessile
+/company/UNIONBANK/consolidated/	Union Bank (I)
+/company/NLCINDIA/consolidated/	NLC India
+/company/531216/consolidated/	Comfort Intech
+/company/IXIGO/consolidated/	Le Travenues
+/company/JINDRILL/consolidated/	Jindal Drilling
+/company/SOFTTECH/consolidated/	Softtech Enginee
+/company/MINDSPACE/consolidated/	Mindspace Busine
+/company/530897/	N G Industries
+/company/526365/consolidated/	SwarnsaritaJewel
+/company/UFLEX/consolidated/	Uflex
+/company/538943/consolidated/	Sonal Mercantile
+/company/543590/	Rhetan TMT Ltd
+/company/531529/	Softrak Venture
+/company/530163/consolidated/	Kerala Ayurveda
+/company/COUNCODOS/	Country Condo
+/company/500142/	FGP
+/company/532304/consolidated/	KJMC Corporate
+/company/538770/	Crane Infra
+/company/517236/consolidated/	Calcom Vision
+/company/ROSSELLIND/	Rossell India
+/company/512443/	Ganon Products
+/company/MBLINFRA/consolidated/	MBL Infrast
+/company/GREENCHEF/	Greenchef Appli.
+/company/GMRINFRA/consolidated/	GMR Airports Inf
+/company/AATMAJ/	Aatmaj Health
+/company/531417/	Mega Corp.
+/company/EIFFL/	Euro India Fresh
+/company/QUADPRO/	Quadpro ITeS
+/company/540519/	Meera Industries
+/company/AVONMORE/consolidated/	Avonmore Capital
+/company/532123/consolidated/	BSEL ALGO
+/company/RML/consolidated/	Rane (Madras)
+/company/530883/	Super Crop Safe
+/company/BANKBARODA/consolidated/	Bank of Baroda
+/company/PROV/consolidated/	Proventus Agro.
+/company/JAIPURKURT/	Nandani Creation
+/company/531281/	Marble City
+/company/541112/	Shreeshay Engi.
+/company/532918/	Rathi Bars
+/company/505681/consolidated/	Bimetal Bearings
+/company/SCHAND/consolidated/	S Chand & Compan
+/company/507872/	Ashnoor Textile
+/company/504840/	Kaira Can
+/company/INFIBEAM/consolidated/	Infibeam Avenues
+/company/507515/	C J Gelatine
+/company/KTKBANK/	Karnataka Bank
+/company/540515/	Kanungo Financi.
+/company/IDBI/consolidated/	IDBI Bank
+/company/RBLBANK/	RBL Bank
+/company/AKI/	AKI India
+/company/AVALON/consolidated/	Avalon Tech
+/company/544205/	National Perox.
+/company/543934/	Machhar Industri
+/company/SOUTHBANK/	South Ind.Bank
+/company/539398/	Vishal Bearings
+/company/540829/	Chandrima Mercan
+/company/BAJEL/	Bajel Projects
+/company/AAREYDRUGS/	Aarey Drugs
+/company/532140/consolidated/	Mohite Industrie
+/company/517370/	Incap
+/company/NAGREEKEXP/	Nagreeka Exports
+/company/531847/consolidated/	Asian Star Co.
+/company/543799/	S. V. J. Enterp.
+/company/RCF/consolidated/	R C F
+/company/SBIN/consolidated/	St Bk of India
+/company/UNIDT/	United Drilling
+/company/540545/	Bhakti Gems
+/company/541865/	Add-Shop E-Reta.
+/company/SINDHUTRAD/consolidated/	Sindhu Trade
+/company/531257/	Pratiksha Chem.
+/company/530879/consolidated/	Capital India
+/company/PASUPTAC/	Pasupati Acrylon
+/company/516003/	Duroply Indust.
+/company/531397/	Polycon Intl.
+/company/531950/consolidated/	Vertex Secur.
+/company/SHIVALIK/consolidated/	Shivalik Rasayan
+/company/543914/	Swati Projects
+/company/VHL/consolidated/	Vardhman Hold.
+/company/REPRO/consolidated/	Repro India
+/company/542145/	Roni Households
+/company/543453/	Alkosign
+/company/526468/	Euro Leder Fash
+/company/530025/consolidated/	Samyak Internati
+/company/520131/	Coastal Roadways
+/company/524790/	Everest Organics
+/company/532410/consolidated/	Transcorp Intl.
+/company/539409/	Neeraj Paper Mkt
+/company/543623/	Vedant Asset
+/company/540147/	Shashijit Infra.
+/company/526554/	Salguti Industri
+/company/543541/	Sailani Tours N
+/company/COMPUSOFT/consolidated/	Compucom Soft.
+/company/524594/consolidated/	Aeonx Digital
+/company/ALKALI/	Alkali Metals
+/company/FSC/	Future Supply
+/company/PRECAM/consolidated/	Precision Camshf
+/company/NECLIFE/consolidated/	Nectar Lifesci.
+/company/511523/	Veerhealth Care
+/company/BIOCON/consolidated/	Biocon
+/company/KIRIINDUS/consolidated/	Kiri Industries
+/company/MAHICKRA/	Mahickra Chem.
+/company/INDIANB/consolidated/	Indian Bank
+/company/542123/consolidated/	Phosphate Co
+/company/531049/	Neelkanth Rock
+/company/531512/	Orient Tradelink
+/company/503804/consolidated/	Sh. Dinesh Mills
+/company/521105/	Olympia Industri
+/company/J&KBANK/consolidated/	J & K Bank
+/company/540243/	New Light Appare
+/company/540614/	G G Engineering
+/company/531869/	Sacheta Metals
+/company/538465/	Amarnath Sec.
+/company/ENIL/consolidated/	Ent.Network
+/company/531540/consolidated/	Maruti Infra.
+/company/SUNDARMHLD/consolidated/	Sundaram Fin.Hol
+/company/512048/	Luharuka Media
+/company/533078/consolidated/	Manjeera Constr.
+/company/YESBANK/consolidated/	Yes Bank
+/company/540730/	Mehai Technology
+/company/526717/consolidated/	HCP Plastene
+/company/JISLJALEQS/consolidated/	Jain Irrigation
+/company/531471/	Duke Offshore
+/company/542592/consolidated/	Humming Bird Edu
+/company/ELGIRUBCO/consolidated/	Elgi Rubber Co
+/company/539522/	Grovy India
+/company/512485/	Dhanlaxmi Cotex
+/company/ROLLT/consolidated/	Rollatainers
+/company/GSFC/consolidated/	G S F C
+/company/514454/	Southern Latex
+/company/BAGFILMS/consolidated/	BAG Films
+/company/MARINETRAN/consolidated/	Marinetrans Indi
+/company/DLF/consolidated/	DLF
+/company/GODREJPROP/consolidated/	Godrej Propert.
+/company/IRFC/	I R F C
+/company/526043/consolidated/	Polymechplast Ma
+/company/TRIGYN/consolidated/	Trigyn Techno.
+/company/VAISHALI/	Vaishali Pharma
+/company/DIL/	Debock Industrie
+/company/526961/consolidated/	Last Mile Enter.
+/company/531841/	Indus Finance
+/company/CHEMCON/	Chemcon Special.
+/company/GHCLTEXTIL/	GHCL Textiles
+/company/531168/	Associated Cera.
+/company/BANKINDIA/consolidated/	Bank of India
+/company/SUNFLAG/consolidated/	Sunflag Iron
+/company/QUICKHEAL/consolidated/	Quick Heal Tech
+/company/519216/	Ajanta Soya
+/company/523782/	Mitshi India
+/company/HERCULES/	Hercules Hoists
+/company/531288/	Lead Financial S
+/company/535387/	Lakhotia Poly.
+/company/BARBEQUE/consolidated/	Barbeque-Nation
+/company/531744/	Gini Silk Mills
+/company/HLVLTD/	HLV
+/company/PATINTLOG/	Patel Integrated
+/company/524687/	Basant Agro Tech
+/company/TRANSWIND/	Transwind Infra.
+/company/511533/	Sahara Housing
+/company/543241/	Veer Global Inf.
+/company/532355/consolidated/	Picturehouse
+/company/PSB/	Pun. & Sind Bank
+/company/GODREJIND/consolidated/	Godrej Industrie
+/company/512267/consolidated/	Media Matrix
+/company/508969/consolidated/	Sulabh Engineers
+/company/530065/	Lords Ishwar
+/company/523896/	AVI Products
+/company/513511/	Panchmahal Steel
+/company/SAGARDEEP/consolidated/	Sagardeep Alloys
+/company/SAKHTISUG/	Sakthi Sugars
+/company/526705/	Elegant Marbles
+/company/513043/	Remi Edelstahl
+/company/NAZARA/consolidated/	Nazara Technolo.
+/company/513456/	Kanishk Steel
+/company/PIONEEREMB/consolidated/	Pion. Embroider.
+/company/541735/	Vivanta Indust.
+/company/511110/	V B Desai Fin.
+/company/540146/	Aditya Consumer
+/company/PPLPHARMA/consolidated/	Piramal Pharma
+/company/ACCURACY/consolidated/	Accuracy Shippi.
+/company/AGARWALFT/	Agarwal Float
+/company/538607/consolidated/	Toyam Sports
+/company/PNB/consolidated/	Punjab Natl.Bank
+/company/538992/	Sar Auto Prod.
+/company/526231/	Standard Surfact
+/company/541945/	Ranjeet Mechatr.
+/company/NUVOCO/consolidated/	Nuvoco Vistas
+/company/IOB/	I O B
+/company/EMBASSY/consolidated/	Embassy Off.REIT
+/company/HARRMALAYA/consolidated/	Harri. Malayalam
+/company/519483/	Tai Industries
+/company/IGPL/	I G Petrochems
+/company/DHANBANK/	Dhanlaxmi Bank
+/company/MAHABANK/consolidated/	Bank of Maha
+/company/543637/	Pace E-Commerce
+/company/524703/	Sandu Pharma.
+/company/ASHOKAMET/consolidated/	Ashoka Metcast
+/company/SWELECTES/consolidated/	Swelect Energy
+/company/AARTECH/	Aartech Solonics
+/company/UCOBANK/	UCO Bank
+/company/531323/	Jayatma Industri
+/company/ANDHRSUGAR/consolidated/	Andhra Sugars
+/company/AGNI/	Agni Green
+/company/531694/	Rainbow Foundat.
+/company/ZYDUSWELL/consolidated/	Zydus Wellness
+/company/VERTEXPLUS/consolidated/	Vertexplus Tech.
+/company/531550/	Jhaveri Credits
+/company/TIMESGTY/	Times Guaranty
+/company/524743/consolidated/	Fischer Medical
+/company/526241/	Amrapali Inds.
+/company/CENTRALBK/consolidated/	Central Bank
+/company/533285/consolidated/	RDB Realty
+/company/AKG/consolidated/	AKG Exim
+/company/519174/	Ashiana Agro Ind
+/company/530979/	India Home Loans
+/company/519191/	Retro Green
+/company/538875/	Sellwin Traders
+/company/507817/	Wires & Fabriks
+/company/531215/consolidated/	RTS Power Corpn.
+/company/SHILPAMED/consolidated/	Shilpa Medicare
+/company/532378/consolidated/	Universal Arts
+/company/521141/	Aditya Spinners
+/company/526519/	Alpine Housing
+/company/542678/consolidated/	Cian Healthcare
+/company/MUNJALSHOW/	Munjal Showa
+/company/523062/	J J Finance Corp
+/company/541006/	Angel Fibers
+/company/530429/	Ashish Polyplast
+/company/SANGINITA/	Sanginita Chemi.
+/company/FIBERWEB/	Fiberweb (India)
+/company/LEMERITE/	Le Merite Export
+/company/523100/	Cosmo Ferrites
+/company/513713/	White Organic
+/company/539405/	Decorous Investm
+/company/531692/	Khyati Multimed.
+/company/531822/consolidated/	Rodium Realty
+/company/507753/	TGV Sraac
+/company/511756/	Abirami Fin.
+/company/BHAGERIA/	Bhageria Indust.
+/company/ELIN/consolidated/	Elin Electronics
+/company/AMBICAAGAR/	Ambica Agarbat.
+/company/540377/consolidated/	IFL Enterprises
+/company/TRIDHYA/consolidated/	Tridhya Tech
+/company/SAJHOTELS/consolidated/	Saj
+/company/511493/	Shrydus Indust.
+/company/SMARTLINK/consolidated/	Smartlink Hold.
+/company/AROGRANITE/	Aro Granite Inds
+/company/530407/	Epic Energy
+/company/512527/	Super Sales Ind.
+/company/PANSARI/consolidated/	Pansari Develop.
+/company/541771/	Amin Tannery
+/company/532344/consolidated/	Softsol India
+/company/DBOL/consolidated/	Dhampur Bio
+/company/539016/	Neil Industries
+/company/538965/consolidated/	Concord Drugs
+/company/521048/	Advance Lifes.
+/company/SJVN/consolidated/	SJVN
+/company/539310/	Thinkink Picture
+/company/519574/	Hindustan Agrig.
+/company/APEX/	Apex Frozen Food
+/company/BIOFILCHEM/	Biofil Chemicals
+/company/BUTTERFLY/	Butterfly Gan Ap
+/company/DYNPRO/consolidated/	Dynemic Products
+/company/SHAH/consolidated/	Shah Metacorp
+/company/516106/	Sh. Karthik Pap.
+/company/ISHAN/	Ishan Internat.
+/company/522237/	Shivagrico Impl.
+/company/543319/	AA Plus Trade
+/company/543346/	Aashka Hospitals
+/company/KOHINOOR/consolidated/	Kohinoor Foods
+/company/DHUNINV/consolidated/	Dhunseri Invest.
+/company/531893/	Sawaca Business
+/company/BCP/	B.C. Power
+/company/540269/	Super Fine Knit.
+/company/OMAXAUTO/	Omax Autos
+/company/MIRZAINT/consolidated/	Mirza Internatio
+/company/539408/	Kuber Udyog
+/company/534796/consolidated/	CDG Petchem
+/company/531441/	Lyons Corporate
+/company/ONMOBILE/consolidated/	OnMobile Global
+/company/531017/	Arihant's Secur.
+/company/531437/	Prakash Woollen
+/company/SINTERCOM/	Sintercom India
+/company/MURUDCERA/	Murudesh.Ceramic
+/company/530255/	Kay Power &Paper
+/company/JUSTDIAL/	Just Dial
+/company/ALEMBICLTD/consolidated/	Alembic
+/company/540360/	Leading Lea. Fin
+/company/GANGAFORGE/	Ganga Forging
+/company/HINDCOMPOS/	Hind.Composites
+/company/STLTECH/consolidated/	Sterlite Tech.
+/company/BIRET/consolidated/	Brookfield India
+/company/540063/	ECS Biztech
+/company/521062/	Perfect-Octave
+/company/MANALIPETC/consolidated/	Manali Petrochem
+/company/531370/	Sparc Electrex
+/company/IGARASHI/	Igarashi Motors
+/company/KANPRPLA/	Kanpur Plastipa.
+/company/TVSSCS/consolidated/	TVS Supply
+/company/530139/	Kreon Finnancial
+/company/SEPC/consolidated/	SEPC
+/company/NDGL/consolidated/	Naga Dhunseri
+/company/TREL/consolidated/	TransIndia Real
+/company/531260/consolidated/	Refex Renewables
+/company/PVRINOX/consolidated/	PVR Inox
+/company/542012/	A-1
+/company/526841/	Shakti Press
+/company/SUNTECK/consolidated/	Sunteck Realty
+/company/519612/	Mahaan Foods
+/company/BYKE/	The Byke Hospi.
+/company/NIITLTD/consolidated/	NIIT
+/company/544002/	Vivaa Tradecom
+/company/504076/	Jyoti
+/company/VIKASECO/consolidated/	Vikas Ecotech
+/company/KKVAPOW/	KKV Agro Powers
+/company/538918/consolidated/	Vani Commercials
+/company/COASTCORP/consolidated/	Coastal Corporat
+/company/524480/consolidated/	Riddhi Siddhi Gl
+/company/531996/consolidated/	Odyssey Corpn.
+/company/524654/consolidated/	Natural Capsules
+/company/531129/	Inani Marbles
+/company/511688/	Mathew Easow Res
+/company/JETFREIGHT/	Jet Freight
+/company/543211/	Bonlon Industrie
+/company/526751/	Gratex Industrie
+/company/538923/	Sofcom Systems
+/company/543305/	Navoday Enterpri
+/company/EXXARO/	Exxaro Tiles
+/company/MARALOVER/	Maral Overseas
+/company/526727/	Garnet Construct
+/company/531127/	Mena Mani Inds.
+/company/VILINBIO/	Vilin Bio Med
+/company/517264/	Fine Line Cir.
+/company/IMPAL/	India Motor Part
+/company/ARTNIRMAN/	Art Nirman Ltd
+/company/ASTERDM/consolidated/	Aster DM Health.
+/company/531582/	Beryl Securities
+/company/508980/	Frontier Capital
+/company/541347/	Parvati Sweetner
+/company/504356/	Multipurpose Trd
+/company/512024/	N D Metal Inds.
+/company/ASIANHOTNR/	Asian Hotels (N)
+/company/531977/	Chart.Logistics
+/company/CALSOFT/consolidated/	California Soft.
+/company/521242/	Kandagiri Spinng
+/company/SUPERHOUSE/consolidated/	Superhouse Ltd
+/company/530461/	Saboo Sodium
+/company/513303/	Modern Steels
+/company/502873/	H P Cotton Tex
+/company/533014/consolidated/	Sicagen India
+/company/SHANTHALA/	Shanthala
+/company/536710/	S R G Securities
+/company/DPSCLTD/consolidated/	India Power Corp
+/company/530931/	Stanpacks(India)
+/company/519500/	BKV Industries
+/company/531163/consolidated/	Kemistar Corp.
+/company/509760/	Modern Shares
+/company/511696/	Charter. Capital
+/company/GENUSPAPER/	Genus Paper & Bo
+/company/524204/	Teesta Agro Ind.
+/company/540174/consolidated/	Southern Infosys
+/company/540938/	Gujarat Hy-Spin
+/company/BIRDYS/	Grill Splendour
+/company/531737/	Greencrest Finan
+/company/530459/	Valson Industrie
+/company/SHARDACROP/consolidated/	Sharda Cropchem
+/company/ARENTERP/	Rajdarshan Inds
+/company/531913/	Gopal Iron Stl.
+/company/505729/	Singer India
+/company/INOXWIND/consolidated/	Inox Wind
+/company/TAINWALCHM/	Tainwala Chem.
+/company/539097/	UR Sugar
+/company/542459/consolidated/	Kranti Industrie
+/company/543256/	Rita Finance and
+/company/511176/	Parshwanath Corp
+/company/ATULAUTO/consolidated/	Atul Auto
+/company/512064/consolidated/	Vishvprabha Ven.
+/company/CARTRADE/consolidated/	Cartrade Tech
+/company/DREDGECORP/	Dredging Corpn.
+/company/539217/	Srestha Finvest
+/company/ALPHAGEO/consolidated/	Alphageo (India)
+/company/540613/	Gautam Exim
+/company/538395/	Nam Securities
+/company/PKTEA/consolidated/	Peria Kara. Tea
+/company/IWEL/consolidated/	Inox Wind Energy
+/company/543543/consolidated/	B-Right Real
+/company/537750/consolidated/	Kiran Vyapar
+/company/502589/	Vapi Enterprise
+/company/ADL/	Archidply Decor
+/company/530125/	Samrat Pharma
+/company/531878/consolidated/	Anjani Finance
+/company/542034/	S.M. Gold
+/company/526847/	Ashirwad Steels
+/company/OAL/consolidated/	Oriental Aromat.
+/company/JIWANRAM/	Jiwanram Sheo
+/company/513418/	Smiths & Founder
+/company/524238/	Guj. Inject(Ker)
+/company/500306/consolidated/	Jaykay Enter.
+/company/GUJRAFFIA/	Guj. Raffia Inds
+/company/519415/	KMG Milk Food
+/company/523638/consolidated/	IP Rings
+/company/513693/	KIC Metaliks
+/company/511549/	Morarka Finance
+/company/532056/	Adinath Exim Res
+/company/539559/	Deep Diamond
+/company/530141/	Gyan Developers
+/company/MANORG/	Mangalam Organic
+/company/539175/	Indra Industries
+/company/500360/	Rapicut Carbides
+/company/540159/	Purple Entertain
+/company/530665/	Zenith Health
+/company/SUPERSPIN/	Super Spinning
+/company/537573/	Polymac Thermof.
+/company/539012/	Megri Soft
+/company/ORIENTLTD/	Orient Press
+/company/LYKALABS/consolidated/	Lyka Labs
+/company/519566/consolidated/	Simran Farms
+/company/VIKASLIFE/consolidated/	Vikas Lifecare
+/company/526931/	Hariyana Ship
+/company/HARDWYN/	Hardwyn India
+/company/514140/	Suryavanshi Spg.
+/company/PEL/consolidated/	Piramal Enterp.
+/company/502865/consolidated/	Forbes & Co
+/company/EVERESTIND/consolidated/	Everest Inds.
+/company/HEXATRADEX/consolidated/	Hexa Tradex
+/company/SURANAT&P/consolidated/	Surana Telecom
+/company/514264/	Seasons Textiles
+/company/RIIL/	Rel. Indl. Infra
+/company/JAICORPLTD/consolidated/	Jai Corp
+/company/541444/	Palm Jewels
+/company/501700/consolidated/	IndiaNivesh
+/company/BRNL/consolidated/	Bharat Road
+/company/531283/consolidated/	Cindrella Fin.
+/company/524624/	Gagan Gases
+/company/511557/	Pro Fin Capital
+/company/524576/	Vivid Global
+/company/535279/	Bothra Metals
+/company/ASMS/	Bartronics India
+/company/PROZONER/consolidated/	Prozone Realty
+/company/531930/	Sarthak Industri
+/company/SWSOLAR/consolidated/	Sterling & Wils.
+/company/541445/consolidated/	Waa Solar
+/company/542911/consolidated/	Assam Entrade
+/company/SAH/	Sah Polymers
+/company/SPMLINFRA/consolidated/	SPML Infra
+/company/531673/	Anka India
+/company/521188/	United Textiles
+/company/530521/	Virat Industries
+/company/GREAVESCOT/consolidated/	Greaves Cotton
+/company/MODIRUBBER/consolidated/	Modi Rubber
+/company/517119/consolidated/	PCS Technology
+/company/ZUARIIND/consolidated/	Zuari Industries
+/company/531221/	Mayur Floorings
+/company/531651/	Natl. Gen. Inds.
+/company/TEJASNET/consolidated/	Tejas Networks
+/company/506734/consolidated/	Mysore Petro
+/company/INOXGREEN/consolidated/	Inox Green
+/company/539661/	Ace Men
+/company/LAXMICOT/	Laxmi Cotspin
+/company/540681/	Chothani Foods
+/company/531609/	KG Petrochem
+/company/531255/	Paragon Finance
+/company/NAUKRI/consolidated/	Info Edg.(India)
+/company/540332/	Tanvi Foods
+/company/526899/consolidated/	Himalaya Food
+/company/542694/	Parshva Enterpr.
+/company/530341/consolidated/	Mukesh Babu Fin.
+/company/MCL/	Madhav Copper
+/company/JALAN/	Jalan Transol.
+/company/CENTENKA/	Century Enka
+/company/512565/	Neelkanth
+/company/524640/consolidated/	Archit Organosys
+/company/531900/	CCL Internationa
+/company/AMDIND/	AMD Industries
+/company/513117/	Amforge Inds.
+/company/531235/	CitiPort Fin.
+/company/542176/	Aryan Share
+/company/YATRA/consolidated/	Yatra Online
+/company/522235/consolidated/	Minal Industries
+/company/514386/	Gujarat Cotex
+/company/531784/	KCL Infra
+/company/PARASPETRO/	Paras Petrofils
+/company/523483/consolidated/	Pacific Inds
+/company/DIGIDRIVE/consolidated/	Digidrive Dist.
+/company/511355/consolidated/	India Cem. Cap.
+/company/521003/	Shiva Suitings
+/company/BODALCHEM/consolidated/	Bodal Chemicals
+/company/EUREKAFORB/	Eureka Forbes
+/company/PRSMJOHNSN/consolidated/	Prism Johnson
+/company/526747/	PG Foils
+/company/507966/	Ras Resorts
+/company/BANKA/consolidated/	Banka Bioloo
+/company/DCMNVL/consolidated/	DCM Nouvelle
+/company/INDOWIND/consolidated/	Indowind Energy
+/company/542924/	Janus Corporatio
+/company/BHEL/consolidated/	B H E L
+/company/531099/	Checkpoint Trend
+/company/INDTERRAIN/	Indian Terrain
+/company/540151/	Diksat Transworl
+/company/RADIOCITY/	Music Broadcast
+/company/507808/	United Leasing
+/company/514266/	Zenith Fibres
+/company/532333/consolidated/	HB Portfolio
+/company/530547/	KEN Fin.Serv.
+/company/537582/	Unishire Urban
+/company/539506/	Adcon Capital
+/company/PNC/consolidated/	Prit Nandy Comm.
+/company/TOKYOPLAST/	Tokyo Plast Intl
+/company/ALLCARGO/consolidated/	Allcargo Logist.
+/company/GUJAPOLLO/consolidated/	Guj Apollo Inds
+/company/541338/	U. H. Zaveri
+/company/530577/consolidated/	Ladderup Finance
+/company/539406/	Swagtam Trading
+/company/534190/	Olympic Cards
+/company/530133/	Amco India
+/company/506981/	Bluechip Tex Ind
+/company/UPL/consolidated/	UPL
+/company/GLOSTERLTD/consolidated/	Gloster Ltd
+/company/531663/	Yuvraaj Hygiene
+/company/523537/	APM Industries
+/company/540914/	SRU Steels
+/company/543499/	Achyut Healthcar
+/company/538579/consolidated/	Zinema Media
+/company/530733/	Encode Packaging
+/company/539119/	Jain Marmo Inds
+/company/541634/	Raw Edge Indust.
+/company/542906/	Easun Capital Ma
+/company/GULPOLY/	Gulshan Polyols
+/company/RAJESHEXPO/consolidated/	Rajesh Exports
+/company/RUCHINFRA/consolidated/	Ruchi Infrastr.
+/company/VISAKAIND/consolidated/	Visaka Industrie
+/company/536868/	Integra Tele.
+/company/506414/consolidated/	Fermenta Biotec.
+/company/539680/	Ganga Pharma.
+/company/530289/	S P Capital Fin.
+/company/523712/	JMG Corporation
+/company/530959/	Diana Tea Co
+/company/540821/	Sadhna Broadcast
+/company/JPASSOCIAT/consolidated/	JP Associates
+/company/JINDALPOLY/consolidated/	Jindal Poly Film
+/company/RAMCOIND/consolidated/	Ramco Inds.
+/company/531923/consolidated/	Dhampur.Spl.Sug.
+/company/517467/	Marsons
+/company/500069/	Quest Capital
+/company/524174/	Kesar Petroprod.
+/company/539598/consolidated/	Credent Global
+/company/513540/	T N Steel Tubes
+/company/FCSSOFT/consolidated/	FCS Software
+/company/MAHEPC/	Mahindra EPC
+/company/UMESLTD/consolidated/	Usha Mart. Edu.
+/company/DANGEE/	Dangee Dums
+/company/508956/	HB Leasing &Fin.
+/company/538402/	SPS Finquest
+/company/524013/	Hind.Fluoro Carb
+/company/ENERGYDEV/consolidated/	Energy Devl.Co.
+/company/504340/	Longspur Intl
+/company/IMAGICAA/	Imagica. Enter.
+/company/MAHLOG/consolidated/	Mahindra Logis.
+/company/532167/	Omkar Pharmachem
+/company/509084/consolidated/	Photon Capital
+/company/538795/consolidated/	Sh. Ajit Pulp
+/company/542677/	Mahesh Developer
+/company/512115/consolidated/	Rose Merc.
+/company/531486/	Filmcity Media
+/company/539800/	CHD Chemicals
+/company/MFML/consolidated/	Mahalaxmi Fab.
+/company/523467/	Jai Mata Glass
+/company/513063/	Trans Freight
+/company/AKASH/consolidated/	Akash InfraProj.
+/company/537253/consolidated/	Sunil Healthcare
+/company/509845/	R J Shah & Co
+/company/540954/consolidated/	Indian Wood Prod
+/company/531357/consolidated/	Mercury EV-Tech
+/company/WINDMACHIN/consolidated/	Windsor Machines
+/company/543927/	Asian Warehous.
+/company/519097/	Ritesh Intl.
+/company/3PLAND/consolidated/	3P Land Hold.
+/company/500159/consolidated/	Metroglobal
+/company/RTNINDIA/consolidated/	RattanIndia Ent
+/company/539384/consolidated/	Krishna Capital
+/company/UNIINFO/consolidated/	Uniinfo Telecom
+/company/526373/	Cindrella Hotels
+/company/SAMBHAAV/consolidated/	Sambhaav Media
+/company/504746/	Indian Link Ch.
+/company/543366/	SBL Infratech
+/company/540204/	Eiko Lifescience
+/company/NHIT/consolidated/	National High
+/company/ANIKINDS/consolidated/	Anik Industries
+/company/531644/	Tokyo Finance
+/company/502587/	Nath Industries
+/company/531043/	Dhanvantri Jeev.
+/company/NDLVENTURE/	NDL Ventures
+/company/RHL/	Robust Hotels
+/company/506858/	Guj. Petrosynth.
+/company/531758/	G K Consultants
+/company/NAHARINDUS/	Nahar Indl. Ent.
+/company/539013/	Gita Renewable
+/company/GTECJAINX/consolidated/	G-Tec Janix
+/company/MINDPOOL/consolidated/	Mindpool Tech.
+/company/526315/	Divyashakti
+/company/ATFL/consolidated/	Agro Tech Foods.
+/company/530267/	Arigato Universe
+/company/531568/	Tridev Infra.
+/company/531433/	Sungold Capital
+/company/539939/consolidated/	Yash Chemex
+/company/HAVISHA/	Sri Havisha
+/company/532007/	Shreevatsaa Fin.
+/company/543804/	Amanaya Ventures
+/company/500028/	ATV Projects
+/company/SURANASOL/	Surana Solar
+/company/531274/	Kinetic Trust
+/company/SOMATEX/	Soma Textiles
+/company/535910/	Money Masters
+/company/511626/consolidated/	R R Fin. Cons.
+/company/509945/consolidated/	Thacker & Co.
+/company/531525/consolidated/	Ace Soft. Exp.
+/company/519003/consolidated/	Modi Naturals
+/company/542248/	Deccan Healthcar
+/company/543579/	Naturo Indiabull
+/company/539266/	Concrete Infra
+/company/533602/	Lesha Industries
+/company/ACCORD/	Accord Synergy
+/company/501148/	Dalal Street Inv
+/company/507970/	Paramount Cosmet
+/company/UCAL/consolidated/	Ucal
+/company/HGS/consolidated/	Hinduja Global
+/company/530533/consolidated/	Terai Tea Co
+/company/530053/	Real Eco-Energy
+/company/VHLTD/consolidated/	Viceroy Hotels
+/company/INDIANCARD/consolidated/	Indian CardCloth
+/company/KARMAENG/	Karma Energy Ltd
+/company/526481/consolidated/	Phoenix Intl.
+/company/514332/consolidated/	Neo Infracon
+/company/513430/consolidated/	Maitri Enterp.
+/company/KOTHARIPRO/consolidated/	Kothari Products
+/company/526568/	Longview Tea
+/company/AKUMS/consolidated/	Akums Drugs
+/company/SIMBHALS/consolidated/	Simbhaoli Sugar
+/company/SILLYMONKS/consolidated/	Silly Monks
+/company/526544/	Scanpoint Geoma
+/company/504351/consolidated/	Empower India
+/company/HINDMOTORS/	Hindustan Motors
+/company/523566/	Martin Burn
+/company/531109/	Ishan Dyes & Ch.
+/company/531306/	DHP India
+/company/543310/	Times Green Ener
+/company/543798/	Patron Exim
+/company/539593/consolidated/	Shivansh Finserv
+/company/532042/	Frontline Corp.
+/company/HATHWAY/consolidated/	Hathway Cable
+/company/SHIVAMAUTO/	Shivam Autotech
+/company/514324/	Omnitex Industri
+/company/538319/	GCM Capital
+/company/531959/consolidated/	Newtime Infra.
+/company/540703/	Pro CLB
+/company/531352/	Peeti Securities
+/company/521228/consolidated/	Tatia Global
+/company/MITTAL/	Mittal Life Styl
+/company/ZENITHEXPO/	Zenith Exports
+/company/RAJTV/	Raj Television
+/company/538765/	JLA Infraville
+/company/AMBANIORGO/consolidated/	Ambani Orgochem
+/company/540786/consolidated/	Sharika Enterpr.
+/company/539099/	Athena Construc.
+/company/541601/	Rajnish Wellness
+/company/538926/	Naturite Agro
+/company/530917/	R R Securities
+/company/539391/consolidated/	Acme Resources
+/company/502893/consolidated/	United Interacti
+/company/523650/	Yash Innoventure
+/company/517431/	Narmada Macplast
+/company/538922/	COSYN
+/company/506122/	Kairosoft AI
+/company/SILINV/consolidated/	SIL Investments
+/company/530677/consolidated/	Supreme Holdings
+/company/531137/	Gemstone Invest.
+/company/523116/	Sanco Trans
+/company/512097/	Saianand Commer.
+/company/539220/consolidated/	Mishka Exim
+/company/ACEINTEG/	Ace Integrated
+/company/538576/consolidated/	Bhanderi Infra.
+/company/511169/	RKD Agri
+/company/SADBHAV/consolidated/	Sadbhav Engg.
+/company/538742/	Panabyte Tech
+/company/MOTOGENFIN/consolidated/	Motor & Gen Fin
+/company/540936/	Gautam Gems
+/company/513149/	Acrow India
+/company/GINNIFILA/	Ginni Filaments
+/company/541703/	Raconteur Global
+/company/MAHLIFE/consolidated/	Mahindra Life.
+/company/PILANIINVS/consolidated/	Pilani Invest.
+/company/531328/	Kretto Syscon
+/company/532230/	Bengal Tea & Fab
+/company/526574/	Enterprise Intl.
+/company/539026/	SSPN FINANCE
+/company/503229/	Simplex Realty
+/company/522209/consolidated/	Yogi Infra Proj.
+/company/543545/	Veerkrupa Jewel
+/company/ORIENTPPR/	Orient Paper
+/company/539124/	Sarvottam Finve.
+/company/SIGNATURE/consolidated/	SignatureGlobal
+/company/514030/	Deepak Spinners
+/company/514010/	Rudra Ecovation
+/company/530439/consolidated/	Siddha Ventures
+/company/TARC/consolidated/	TARC Ltd
+/company/543500/	Evoq Remedies
+/company/519359/	Poona Dal & Oil
+/company/RAIN/consolidated/	Rain Industries
+/company/531578/	KMF Builders
+/company/539091/	Consecutive In&T
+/company/HIL/consolidated/	Hil Ltd
+/company/530295/	Sh. Rajiv. Oil
+/company/526251/	Mid East Port.
+/company/LOVABLE/	Lovable Lingerie
+/company/URJA/consolidated/	Urja Global
+/company/HUBTOWN/consolidated/	Hubtown
+/company/530881/	Arunjyoti Bio
+/company/530899/	Asia Pack
+/company/543207/	Natural Biocon
+/company/541702/consolidated/	Ashnisha Indus.
+/company/530235/consolidated/	KJMC Financial
+/company/540717/consolidated/	Polo Queen Ind.
+/company/543522/	Nanavati Venture
+/company/524458/	Indo Euro Indch.
+/company/538569/	Triveni Enterpri
+/company/POLYPLEX/consolidated/	Polyplex Corpn
+/company/543444/consolidated/	Fabino Enter
+/company/509546/consolidated/	Graviss Hospital
+/company/KANANIIND/consolidated/	Kanani Industrie
+/company/539545/	Apoorva Leasing
+/company/520155/consolidated/	Starlog Enterp.
+/company/540694/	ANG Lifesciences
+/company/530557/	NCL Res. & Finl.
+/company/500270/	Baroda Rayon
+/company/526813/consolidated/	Raghunath Intl.
+/company/BASML/consolidated/	Bannari Amm Spg.
+/company/526981/consolidated/	Sh. Bajrang All.
+/company/539526/	Suncare Traders
+/company/GVPTECH/	GVP Infotech
+/company/POLICYBZR/consolidated/	PB Fintech.
+/company/524522/	Laffans Petroch
+/company/SCILAL/	Shipping Land
+/company/531821/	Munoth Fin.Serv.
+/company/530217/	Swojas Energy
+/company/511593/consolidated/	Libord Finance
+/company/500285/	SpiceJet
+/company/530127/	NPR Finance
+/company/TATAINVEST/consolidated/	Tata Inv.Corpn.
+/company/TREJHARA/consolidated/	Trejhara Solutio
+/company/BHARATGEAR/	Bharat Gears
+/company/542376/consolidated/	SPA CAPT SER
+/company/539697/	Hiliks Technolog
+/company/538564/	James Warren Tea
+/company/530525/	Rajnish Retail
+/company/EXCELINDUS/consolidated/	Excel Industries
+/company/540718/	Aayush Art
+/company/543377/	AFLOAT Enterpris
+/company/543475/consolidated/	Ekennis Software
+/company/531472/	Cybele Industrie
+/company/GLFL/	Guj. Lease Fin.
+/company/538896/	Kanchi Karpooram
+/company/KOLTEPATIL/consolidated/	Kolte Patil Dev.
+/company/JIOFIN/consolidated/	Jio Financial
+/company/509486/	Caprihans India
+/company/STEL/consolidated/	STEL Holdings
+/company/532041/	Hind.Bio Science
+/company/506640/	Gujchem Distill
+/company/531592/consolidated/	Genpharmasec
+/company/NAVKARCORP/	Navkar Corporat.
+/company/PPAP/consolidated/	PPAP Automotive
+/company/TARMAT/	Tarmat
+/company/539946/	Bazel Internatio
+/company/UNIENTER/	Uniphos Enter.
+/company/530045/consolidated/	Titan Securities
+/company/GAYAHWS/consolidated/	Gayatri Highways
+/company/GRAPHITE/consolidated/	Graphite India
+/company/532090/	Vandana Knitwear
+/company/RPOWER/consolidated/	Reliance Power
+/company/531069/consolidated/	Vijay Solvex
+/company/543376/	Samor Reality
+/company/VIJIFIN/consolidated/	Viji Finance
+/company/COFFEEDAY/consolidated/	Coffee Day Enter
+/company/531506/	Shukra Bullions
+/company/514412/	Sarup Industries
+/company/SUMMITSEC/consolidated/	Summit Securitie
+/company/ASLIND/	ASL Industries
+/company/GODHA/	Godha Cabcon
+/company/526345/	Panjon
+/company/539470/	Shree Ganesh Bio
+/company/KHANDSE/	Khandwala Sec.
+/company/JOCIL/	Jocil
+/company/519532/consolidated/	Asian Tea & Exp
+/company/512149/consolidated/	Avance Tech.
+/company/530187/	Atharv Enter
+/company/530779/	Dynamic Portfol
+/company/SAGCEM/consolidated/	Sagar Cements
+/company/ANZEN/consolidated/	Anzen IYEP Trust
+/company/CAMLINFINE/consolidated/	Camlin Fine
+/company/GROBTEA/	Grob Tea Co
+/company/532855/	Haryana Capfin
+/company/531591/	BAMPSL Sec.
+/company/511501/	Bharat Bhushan
+/company/513403/	P.M. Telelinnks
+/company/PALREDTEC/consolidated/	Palred Technolog
+/company/KICL/consolidated/	Kalyani Invest.
+/company/500014/	Utique Enterp.
+/company/AGSTRA/consolidated/	AGS Transact
+/company/531676/	Vaghani Techno
+/company/511507/	Ushakiran Fin.
+/company/530909/consolidated/	ERP Soft Systems
+/company/MAGNUM/	Magnum Ventures
+/company/ASIANTILES/consolidated/	Asian Granito
+/company/539228/	Gala Global
+/company/532271/consolidated/	Orchasp Ltd
+/company/530805/	Onesource Ideas
+/company/535730/	Khoobsurat Ltd
+/company/GANGESSECU/consolidated/	Ganges Securitie
+/company/531409/consolidated/	Alchemist Corp.
+/company/538838/	Indo Cotspin
+/company/WELINV/	Welspun Investme
+/company/JYOTISTRUC/consolidated/	Jyoti Structures
+/company/500449/consolidated/	Hind.Organ.Chem.
+/company/514272/	Bhilwara Spinner
+/company/ZOMATO/consolidated/	Zomato Ltd
+/company/CCHHL/consolidated/	Country Club Hos
+/company/531834/	Natura Hue Chem
+/company/531909/	Croissance Ltd
+/company/KAKATCEM/	Kakatiya Cement
+/company/522292/	Candour Techtex
+/company/531396/	Pagaria Energy
+/company/521240/	Sambandam Spg.
+/company/535205/	Mystic Electron.
+/company/SURANI/	Surani Steel Tub
+/company/542524/	Ambassador Intra
+/company/542803/	Vaxfab Enterp.
+/company/ASAHISONG/consolidated/	Asahi Songwon
+/company/537839/consolidated/	Phoenix Township
+/company/517356/	ACI Infocom
+/company/FILATFASH/	Filatex Fash.
+/company/VALIANTORG/consolidated/	Valiant Organics
+/company/538520/	Shivamshree Busi
+/company/538597/	TTI Enterprise
+/company/539277/	Alstone Textiles
+/company/506543/	M P Agro Inds.
+/company/531494/	Navkar Urban.
+/company/523151/	OTCO Intl
+/company/507917/	East Buildtech
+/company/SHYAMCENT/	Shyam Century
+/company/NAHARCAP/consolidated/	Nahar Capital
+/company/503657/	Veer Energy
+/company/BOMDYEING/	Bombay Dyeing
+/company/DOLPHIN/consolidated/	Dolphin Offshore
+/company/ORIENTBELL/consolidated/	Orient Bell
+/company/532503/consolidated/	Rajapalayam Mill
+/company/538942/consolidated/	Mercantile Vent.
+/company/531341/	Ashtasidhhi Ind
+/company/531280/	Pankaj Polymers
+/company/NAHARSPING/	Nahar Spinning
+/company/538496/consolidated/	Tarini Internat.
+/company/TIPSFILMS/	Tips Films
+/company/509051/	Indian Infotech
+/company/514322/	Kamadgiri Fash.
+/company/537800/	Mangalam Industr
+/company/MAHSCOOTER/	Mah. Scooters
+/company/512624/	Regent Enterp.
+/company/531925/	52 Weeks Enter.
+/company/538895/	Mihika Industrie
+/company/519242/	Sarda Proteins
+/company/540062/	Golden Crest
+/company/GKWLIMITED/	GKW
+/company/534338/consolidated/	Max Heights
+/company/526853/consolidated/	Bilcare
+/company/524031/	Patidar Buildcon
+/company/543536/	Silver Pearl
+/company/539278/	Symbiox Investme
+/company/BAJAJHIND/consolidated/	Bajaj Hindusthan
+/company/543970/	Shoora Designs
+/company/532323/	Shiva Cement
+/company/542724/	Murae Organisor
+/company/530445/	Sumeru Industrie
+/company/RAMANEWS/	Shree Rama News.
+/company/532315/	Groarc Industrie
+/company/522165/consolidated/	Indsil Hydro
+/company/TVSELECT/	TVS Elec.
+/company/NSIL/consolidated/	Nalwa Sons Invst
+/company/513513/	Aditya Ispat
+/company/543286/	Jetmall Spices
+/company/526731/consolidated/	Bright Brothers
+/company/CUBEINVIT/consolidated/	Cube Highways
+/company/531219/	Shyama Computro.
+/company/JSWHL/consolidated/	JSW Holdings
+/company/MEGAFLEX/	Mega Flex Plast.
+/company/526983/	Ashoka Refinerie
+/company/540135/	A R C Finance
+/company/521222/	Sanblue Corp.
+/company/EXCEL/consolidated/	Excel Realty
+/company/531902/	Gallops Enterp.
+/company/GSS/consolidated/	GSS Infotech
+/company/543400/	Omnipotent
+/company/531752/	Biogen Pharma
+/company/512604/	Haria Exports
+/company/KANORICHEM/consolidated/	Kanoria Chem.
+/company/523425/consolidated/	Sunraj Diamond
+/company/OSWALSEEDS/consolidated/	Shreeoswal Seeds
+/company/539927/	Likhami Consult.
+/company/543941/	Ahasolar Technol
+/company/532164/	Minolta Finance
+/company/531156/	Alfavision Overs
+/company/517415/consolidated/	Lee & Nee Soft.
+/company/543540/	Pearl Green Club
+/company/508905/consolidated/	SMIFS Cap. Mkt.
+/company/539206/	Genomic Valley
+/company/539288/	AVI Polymers
+/company/503659/	SW Investments
+/company/NIACL/consolidated/	New India Assura
+/company/512618/	RLF
+/company/531775/	Cistro Telelink
+/company/VMART/	V-Mart Retail
+/company/532911/	Parle Industries
+/company/523722/	Svam Software
+/company/539495/	Rajkot Inv.Trust
+/company/530357/	KBS India
+/company/511012/	Yamini Invest
+/company/538556/	Arman Holdings
+/company/505216/consolidated/	Alfred Herbert
+/company/MOHITIND/consolidated/	Mohit Industries
+/company/OSWALAGRO/consolidated/	Oswal Agro Mills
+/company/543924/	Sonalis Consumer
+/company/531334/	Vikalp Securitie
+/company/531300/	Amit Internation
+/company/TEXINFRA/consolidated/	Texmaco Infrast.
+/company/NBIFIN/	NBI Indl. Fin.
+/company/MAXESTATES/consolidated/	Max Estates
+/company/OSWALGREEN/	Oswal Green Tech
+/company/SEQUENT/consolidated/	Sequent Scien.
+/company/541890/consolidated/	Space Incubatric
+/company/543436/	Wherrelz IT
+/company/535514/	Prime Capital Ma
+/company/539005/	Jayatma Enterp.
+/company/539584/	Sharanam Infra
+/company/SETUINFRA/	Setubandhan Inf.
+/company/500206/	Margo Finance
+/company/UNICHEMLAB/consolidated/	Unichem Labs.
+/company/543745/	SVS Ventures
+/company/519606/	Integ. Proteins
+/company/531585/	Devine Impex
+/company/536672/	VCU Data Managem
+/company/540695/	Dhruv Wellness
+/company/505523/	Mah. Corporation
+/company/TIRUMALCHM/consolidated/	Thirumalai Chem.
+/company/541799/	Sungold Media
+/company/542146/	Sh. Krish. Infr.
+/company/538540/	Ramchandra Leas.
+/company/539839/	Franklin Leasing
+/company/VITAL/consolidated/	Vital Chemtech
+/company/SUNDARAM/	Sundaram Multi.
+/company/RKDL/	Ravikumar Distll
+/company/530595/	TeleCanor Global
+/company/WALCHANNAG/	Walchan. Inds.
+/company/531553/	Disha Resources
+/company/538860/	Panafic Industri
+/company/535204/	Mukta Agricultur
+/company/LAKPRE/	Lak. Prec. Screw
+/company/511018/	MILGREY FIN.&INV
+/company/531918/consolidated/	Hind.Appliances
+/company/524444/	Evexia Lifecare
+/company/530571/	Explicit Finance
+/company/523790/	Shukra Jewellery
+/company/526821/consolidated/	Dai-ichi Karkari
+/company/539574/	Sunshine Capital
+/company/ABFRL/consolidated/	Aditya Bir. Fas.
+/company/526187/	Ashram Online
+/company/SAMPANN/consolidated/	Sampann Utpadan
+/company/514318/	Jattashankar Ind
+/company/526959/	Woodsvilla
+/company/538786/	Citizen Infoline
+/company/539040/	Tirupati Tyres
+/company/531980/	Senthil Infotek
+/company/SKIL/consolidated/	SKIL Infrastr
+/company/507836/consolidated/	Mac Charles(I)
+/company/538609/consolidated/	Gajanan Sec.Serv
+/company/SECL/	Salasar Exterior
+/company/514312/	Jaihind Synth
+/company/536073/	Julien Agro
+/company/538833/	Kaizen Agro
+/company/531051/	Vintage Secur.
+/company/526525/	Worldwide Alumi.
+/company/539835/	Superior Finleas
+/company/539190/	Decillion Financ
+/company/LOYALTEX/consolidated/	Loyal Textile
+/company/511000/	Madhusudan Sec.
+/company/512425/	Nirav Commercial
+/company/512036/	Kapil Cotex
+/company/538667/	Sirohia & Sons
+/company/530839/	CLIO Infotech
+/company/538180/	Goldline Intl.
+/company/514260/	Surbhi Industrie
+/company/HMVL/consolidated/	Hindustan Media
+/company/516032/	Tahmar Enterp.
+/company/539123/	V B Industries
+/company/532800/consolidated/	TV18 Broadcast
+/company/504398/	SJ Corp
+/company/526473/	Elegant Floricul
+/company/512499/	Shalimar Prod.
+/company/516108/	S I Paper Mills
+/company/543537/	Scarnose Inter.
+/company/523862/	Pacheli Indust.
+/company/531518/	Vikas Proppant
+/company/TREEHOUSE/	Tree House Edu.
+/company/536128/	VKJ Infradevelop
+/company/536709/	IND Renewable
+/company/540809/	MRC Agrotech
+/company/540903/	CRP Risk Mgt.
+/company/539492/	Garbi Finvest
+/company/511441/consolidated/	Guj. Credit Corp
+/company/539354/consolidated/	Polyspin Exports
+/company/531668/	Vision Corpn.
+/company/524818/	Dynamic Industri
+/company/538212/	Sharp Investment
+/company/526877/	Siddhes. Garment
+/company/MASKINVEST/	MASK INVESTMENTS
+/company/507833/	Computer Point
+/company/531310/consolidated/	Available Fin.
+/company/500389/	Silverline Tech
+/company/531175/	BLS Infotech
+/company/530263/	Global Cap.Mkt.
+/company/530723/consolidated/	Asit C Mehta Fin
+/company/DCAL/consolidated/	Dishman Carbogen
+/company/526471/	Winsome Brew.
+/company/526865/	Jainco Projects
+/company/531650/	Vax Housing Fin.
+/company/503675/	Wagend Infra
+/company/538928/	Karnavati Financ
+/company/501144/	Peoples Invest
+/company/526675/	Tirth Plastic
+/company/539486/	Geetanjali Cred.
+/company/539596/	Delta Industrial
+/company/539669/	R G F Capital
+/company/532744/consolidated/	GTN Textiles
+/company/542923/consolidated/	Tranway Technol.
+/company/531025/	Visagar Finan.
+/company/532362/consolidated/	Nagpur Power
+/company/NACLIND/consolidated/	NACL Industries
+/company/500298/	Naperol Invest.
+/company/SHEMAROO/consolidated/	Shemaroo Entert.
+/company/537709/	Shree Hanuman Sg
+/company/512217/	Prism Medico
+/company/534422/	Looks Health
+/company/503349/	Victoria Mills
+/company/540026/consolidated/	Ladam Affordab.
+/company/539679/	Kapil Raj Financ
+/company/530795/	Suncity Synth.
+/company/DEEPENR/consolidated/	Deep Energy
+/company/539599/	Kotia Enterprise
+/company/UCL/consolidated/	Ushanti Colour
+/company/526654/consolidated/	Thakkers Develp.
+/company/531635/consolidated/	Silver Oak (I)
+/company/542654/	V R Films & Stud
+/company/532072/	Interworld Digi.
+/company/501151/	Kartik Invest.
+/company/517063/consolidated/	Jetking Infotrai
+/company/506530/	Kemp & Co.
+/company/519331/	VSF Projects
+/company/536565/	Trimurthi
+/company/508860/	Diamant Infra.
+/company/NETWORK18/consolidated/	Netwrk.18 Media
+/company/MADHAV/consolidated/	Madhav Marbles
+/company/VLEGOV/	VL E-Governance
+/company/531515/	Mahan Industries
+/company/GFLLIMITED/consolidated/	GFL
+/company/SEYAIND/	Seya Industries
+/company/HTMEDIA/consolidated/	H T Media
+/company/SIMPLEXINF/consolidated/	Simplex Infra
+/company/VERANDA/consolidated/	Veranda Learning
+/company/532154/	Johnson Pharma
+/company/NAHARPOLY/consolidated/	Nahar Poly
+/company/539167/	VIRAT LEASING
+/company/538422/	Jackson Invest
+/company/507474/	Kothari Ferment.
+/company/503624/	Svaraj Trading
+/company/540181/	Salem Erode Inv.
+/company/TECHIN/	Techindia Nirman
+/company/530213/consolidated/	Fortune Interntl
+/company/SHIVATEX/	Shiva Texyarn
+/company/531432/	Systematix Sec.
+/company/526839/	Shelter Infra
+/company/539110/	Northlink Fiscal
+/company/ARCHIES/	Archies
+/company/543171/	R O Jewels
+/company/512215/	Stephanotis Fin.
+/company/524488/	SVC Industries
+/company/RSWM/consolidated/	RSWM Ltd
+/company/ACLGATI/consolidated/	Allcargo Gati
+/company/530771/consolidated/	KLG Capital
+/company/507609/	Olympic Oil Ind.
+/company/530713/consolidated/	Ajel
+/company/GOENKA/consolidated/	Goenka Diamond
+/company/532676/	P B A Infra.
+/company/539770/	Darjeeling Ropew
+/company/530537/	Manraj Hsg.Fin.
+/company/532402/consolidated/	USG Tech
+/company/542206/	Nivaka Fashions
+/company/531190/	Tavernier Res.
+/company/511463/	Alexander Stamps
+/company/526687/	Polo Hotels
+/company/511525/	Pan India Corpor
+/company/531346/	Eastern Treads
+/company/523652/	Kkalpana Plastic
+/company/504369/	Grandma Trading
+/company/AGRITECH/	Agri-Tech India
+/company/539682/	Lucent Industrie
+/company/AMJUMBO/	A and M Jumbo
+/company/539402/	Naksh Precious
+/company/534708/	Shanti Guru Inds
+/company/526532/consolidated/	Square Four Pro.
+/company/512279/	N2N Technologies
+/company/526873/	Rajasthan Gases
+/company/PFOCUS/consolidated/	Prime Focus
+/company/539149/consolidated/	Integ. Capital
+/company/ASTRON/	Astron Paper
+/company/DICIND/	DIC India
+/company/509563/	Garware Marine
+/company/543289/	Kuberan Global
+/company/506863/	Swadeshi Inds
+/company/512109/	Aviva Industries
+/company/539117/	Sujala Trading &
+/company/GOLDTECH/consolidated/	Aion-Tech Soluti
+/company/INDIACEM/consolidated/	India Cements
+/company/512297/	Shantai Indust.
+/company/526504/	Dolphin Medical
+/company/WOCKPHARMA/consolidated/	Wockhardt
+/company/532340/	Omni Ax's
+/company/534755/	Trio Merc. Trad.
+/company/VISESHINFO/consolidated/	Visesh Infotec.
+/company/502901/	Jamshri Realty
+/company/532879/	Sir Shadi Lal
+/company/516020/	Agio Paper
+/company/509887/	Sinnar Bidi Udy.
+/company/526433/consolidated/	ASM Technologies
+/company/531465/	Nouveau Global
+/company/509038/	Voltaire Leasing
+/company/530271/	Rich Universe
+/company/511644/	Omega Interactiv
+/company/511016/	Premier Cap Serv
+/company/511702/	Yogi Ltd
+/company/512359/	Sword-Edge Comm.
+/company/532320/consolidated/	Vaarad Ventures
+/company/538837/consolidated/	Jeevan Scienti.
+/company/514197/	S & T Corporatio
+/company/GANGOTRI/	Gangotri Textile
+/company/TCLCONS/consolidated/	Tantia Constr.
+/company/SANCO/	Sanco Industries
+/company/538857/consolidated/	Scintilla Comm
+/company/513488/	Sh. Steel Wire
+/company/530093/	ACE EduTremd Ltd
+/company/512493/consolidated/	Garnet Intl.
+/company/513536/consolidated/	Guj.Nat.Resour.
+/company/523144/consolidated/	Medi Caps
+/company/534612/consolidated/	Advance Meter.
+/company/540728/consolidated/	Sayaji Industr
+/company/533212/consolidated/	GKB Ophthalmics
+/company/539449/	IGC Industries
+/company/514240/	Kush Industries
+/company/531246/	Prima Industries
+/company/500450/	MPIL Corporation
+/company/502958/	Lakshmi Mills
+/company/533315/consolidated/	Innovassynth Inv
+/company/500202/	India Lease Dev.
+/company/531991/	Amraworld Agrico
+/company/505250/	G G Dandekar
+/company/526441/consolidated/	Vision Cinemas
+/company/540134/	Ishaan Infrastru
+/company/532957/consolidated/	Gokak Textiles
+/company/ORICONENT/consolidated/	Oricon Enterpris
+/company/532350/	Padmalaya Tele.
+/company/519439/	Pion. Agro Extr.
+/company/531870/	Popular Estate
+/company/508961/	Shricon Indus.
+/company/514400/	Garware Synth
+/company/HEMIPROP/	Hemisphere Prop
+/company/508494/consolidated/	Warren Tea
+/company/543769/	Indong Tea Co
+/company/WINPRO/	Winpro Industrie
+/company/509099/	Oswal Leasing
+/company/531265/	Progrex Ventures
+/company/521206/consolidated/	Samtex Fashion
+/company/502933/	Katare Spinning
+/company/531928/	Golden Carpets
+/company/506919/consolidated/	Makers Labs.
+/company/531533/consolidated/	Accedere
+/company/536738/	Stellar Capital
+/company/524514/	Tulasee Bio-Eth.
+/company/LCCINFOTEC/consolidated/	LCC Infotech
+/company/511401/consolidated/	Munoth Commun.
+/company/514460/	Oswal Yarns
+/company/VALIANTLAB/consolidated/	Valiant Laborato
+/company/MADHUCON/consolidated/	Madhucon Project
+/company/542801/	Misquita Engg.
+/company/538351/consolidated/	A F Enterprises
+/company/538382/	West Leisure
+/company/540310/	Classic Filament
+/company/JHS/consolidated/	JHS Sven.Lab.
+/company/539267/consolidated/	Samsrita Labs
+/company/531539/	Rish.Digh.Steel
+/company/530151/	Vijay Textiles
+/company/DELHIVERY/consolidated/	Delhivery
+/company/513721/	MFS Intercorp
+/company/PCJEWELLER/consolidated/	PC Jeweller
+/company/500370/	Salora Intl.
+/company/539895/	Shalimar Agencie
+/company/RVHL/consolidated/	Ravinder Heights
+/company/NGIL/	Nakoda Group
+/company/504273/consolidated/	Modulex Const.
+/company/EQUIPPP/consolidated/	Equippp Social
+/company/531840/consolidated/	IEC Education
+/company/539984/consolidated/	Hind.Urban Infra
+/company/532359/	Hit Kit Global
+/company/526755/	Velan Hotels
+/company/539922/	Rotographics (I)
+/company/532275/	Landmarc Leisur.
+/company/530821/consolidated/	SSPDL Ltd
+/company/SUNCLAY/consolidated/	Sundaram Clayton
+/company/TGBHOTELS/	TGB Banquets
+/company/BGLOBAL/consolidated/	Bharatiya Glob.
+/company/CHEMPLASTS/consolidated/	Chemplast Sanmar
+/company/SANWARIA/consolidated/	Sanwaria Consum.
+/company/531931/consolidated/	Sai Capital
+/company/KAVVERITEL/consolidated/	Kavveri Telecom
+/company/526139/consolidated/	Transgene Biotek
+/company/530173/	Oscar Global
+/company/KIOCL/	KIOCL
+/company/537392/consolidated/	Taaza Intern.
+/company/PVP/consolidated/	PVP Ventures
+/company/502294/	Nilachal Refract
+/company/514326/	Patspin India
+/company/539947/	Jindal Leasefin
+/company/509073/consolidated/	Hathway Bhawani
+/company/523277/consolidated/	G V Films
+/company/531240/	Shamrock Indl.
+/company/500426/	UTL Industries
+/company/ARSSINFRA/	ARSS Infra
+/company/IEL/consolidated/	Indiabulls Enter
+/company/535621/consolidated/	S V Global Mill
+/company/541178/	Benara Bearings
+/company/IFBAGRO/consolidated/	IFB Agro Inds.
+/company/532379/	First Fintec
+/company/ANTGRAPHIC/	Antarctica
+/company/APCL/consolidated/	Anjani Portland
+/company/531825/	RCC Cements
+/company/541337/	Milestone Furn.
+/company/506852/	Primo Chemicals
+/company/531158/consolidated/	Catvision Ltd
+/company/504397/	Ganesh Holdings
+/company/536965/	B P Capital
+/company/PALASHSECU/consolidated/	Palash Securi.
+/company/543520/	Global Longlife
+/company/KBCGLOBAL/consolidated/	KBC Global
+/company/NORBTEAEXP/	Norben Tea
+/company/CINEVISTA/consolidated/	Cinevista
+/company/505285/	Tulive Developer
+/company/PEARLPOLY/	Pearl Polymers
+/company/LORDSCHLO/	Lords Chloro
+/company/531387/	Hasti Finance
+/company/512479/	Virya Resources
+/company/519353/	Bansisons Tea
+/company/541299/	Dr Lalchand. Lab
+/company/TAPIFRUIT/	Tapi Fruit
+/company/531681/	Amerise BioScie
+/company/526179/	Ludlow Jute
+/company/540023/	Colorchips New
+/company/532425/consolidated/	Genus Prime
+/company/534741/consolidated/	Virtual Global
+/company/509196/	M M Rubber
+/company/511738/	Mehta Securities
+/company/540811/	Diggi Multitrade
+/company/530907/	S I Cap. & Fin.
+/company/539143/	Panth Infinity
+/company/SASTASUNDR/consolidated/	Sastasundar Ven.
+/company/500170/	GTN Industries
+/company/504092/	Indokem
+/company/BURNPUR/	Burnpur Cement
+/company/533167/	Coromandel Engg.
+/company/524038/	Venlon Enterpris
+/company/524752/consolidated/	Decipher Labs
+/company/519307/	Vikas Wsp
+/company/MOL/consolidated/	Meghmani Organi.
+/company/513629/consolidated/	Tulsyan NEC
+/company/BKMINDST/consolidated/	BKM Industries
+/company/VIPCLOTHNG/	VIP Clothing
+/company/535431/	GCM Securit.
+/company/SICALLOG/consolidated/	Sical Logistics
+/company/511451/	Dharani Finance
+/company/521036/	Source Industrie
+/company/523696/consolidated/	Fortis Malar
+/company/511131/consolidated/	Kamanwala Housin
+/company/540615/	7NR Retail Ltd
+/company/500192/consolidated/	Prag Bosimi Syn.
+/company/533407/	CIL Nova Petro.
+/company/539515/consolidated/	Quint Digital
+/company/513309/	Golkonda Alumin.
+/company/SGL/	STL Global
+/company/539982/	Advance Syntex
+/company/532723/consolidated/	MPDL Ltd
+/company/MARSHALL/	Marshall Machin.
+/company/526195/	Neogem India
+/company/513452/	Elango Industrie
+/company/508918/consolidated/	Ironwood Educa
+/company/SHIVAMILLS/	Shiva Mills
+/company/BLUECHIP/	Blue Chip India
+/company/538707/	Rajasthan Cylind
+/company/512344/	Aravali Sec
+/company/512047/	Royal India Corp
+/company/PANACEABIO/consolidated/	Panacea Biotec
+/company/511539/	Supra Trends
+/company/IDEA/consolidated/	Vodafone Idea
+/company/511246/	Bombay Talkies
+/company/EROSMEDIA/consolidated/	Eros Intl.Media
+/company/521234/	Sri Nacha. Cott.
+/company/512405/	I Power Solution
+/company/CMICABLES/	CMI
+/company/514171/	Ceeta Industries
+/company/505650/	Skyline Millars
+/company/519214/	Williamson Fin.
+/company/526859/	ISF
+/company/520081/	Eastcoast Steel
+/company/509046/	Triliance Poly
+/company/GUJALKALI/consolidated/	Gujarat Alkalies
+/company/508922/	MSR India
+/company/AKSHARCHEM/	AksharChem (I)
+/company/506105/consolidated/	Stanrose Mafat.
+/company/EMAMIREAL/consolidated/	Emami Realty Ltd
+/company/538568/	Fruition Venture
+/company/TRANSWORLD/consolidated/	Shreyas Shipping
+/company/538812/	Aanchal Ispat
+/company/533007/	LGB Forge
+/company/BORORENEW/consolidated/	Borosil Renew.
+/company/PODDARHOUS/consolidated/	Poddar Housing
+/company/512169/	Capricorn System
+/company/FIRSTCRY/consolidated/	Brainbees Solut.
+/company/504392/	Krishna Vent.
+/company/NURECA/consolidated/	Nureca
+/company/530443/	Kiran Syntex
+/company/543208/	Regis Industries
+/company/DCMFINSERV/consolidated/	DCM Financial
+/company/511200/	Munoth Capital
+/company/530313/	Kimia Bioscien.
+/company/540729/consolidated/	Vanta Bioscience
+/company/NDTV/consolidated/	NDTV
+/company/530201/	Kallam Textiles
+/company/SVPGLOB/consolidated/	SVP Global
+/company/531503/	Maris Spinners
+/company/501945/	Dhenu Buildcon
+/company/TARAPUR/	Tarapur Trans
+/company/INDORAMA/consolidated/	Indo Rama Synth.
+/company/531273/	Radhe Develop.
+/company/526588/	Photoquip India
+/company/ALOKINDS/consolidated/	Alok Industries
+/company/AHIMSA/	Ahimsa Industrie
+/company/511664/	BGIL Films & Tec
+/company/522267/consolidated/	Veejay Lak. Eng.
+/company/ASTEC/consolidated/	Astec Lifescienc
+/company/531960/	Kashyap TeleMed.
+/company/512587/	Zodiac-JRD MKJ
+/company/535917/	GCM Commodity
+/company/511601/consolidated/	Yash Mgmt & Sat.
+/company/523620/	Phaarmasia
+/company/514446/	LS Industries
+/company/RBA/consolidated/	Restaurant Brand
+/company/521210/	Cityman
+/company/509895/	Hindoo. Mills
+/company/BOHRAIND/	Bohra Industries
+/company/524748/	Link Pharma Chem
+/company/523660/	Waterbase
+/company/539544/consolidated/	Abhishek Infra.
+/company/AGROPHOS/	Agro Phos India
+/company/524808/	Phyto Chem (I)
+/company/511447/	Sylph Techno
+/company/ESTER/consolidated/	Ester Industries
+/company/517166/	Spel Semiconduct
+/company/526604/	Lippi Systems
+/company/DHANI/consolidated/	Dhani Services
+/company/PRAENG/consolidated/	Prajay Engineers
+/company/PARSVNATH/consolidated/	Parsvnath Devl.
+/company/500239/consolidated/	K G Denim
+/company/539383/consolidated/	Mahaveer Infoway
+/company/511187/consolidated/	Millen. Online
+/company/VASA/	Vasa Retail
+/company/523672/	Flex Foods
+/company/HDIL/	H D I L
+/company/532092/	Epuja Spiritech
+/company/SANGHIIND/	Sanghi Industrie
+/company/SHAHALLOYS/consolidated/	Shah Alloys
+/company/543843/	Command Polymers
+/company/SUBEXLTD/consolidated/	Subex
+/company/542666/	G K P Printing
+/company/501848/consolidated/	Global Offshore
+/company/543621/consolidated/	Cargosol Logist.
+/company/BANG/consolidated/	Bang Overseas
+/company/532124/	Reliable Ventur.
+/company/531979/consolidated/	Hind Aluminium
+/company/526500/consolidated/	Sterling Green
+/company/VIVO/	Vivo Collaborat.
+/company/512481/	Polytex India
+/company/526638/	Texel Industries
+/company/531039/	Swadha Nature
+/company/507759/	Lime Chemicals
+/company/514221/	K-Lifestyle
+/company/513361/	India Steel
+/company/TIJARIA/	Tijaria Polypipe
+/company/507813/	Natl. Oxygen
+/company/530853/	Hipolin
+/company/540597/	Containerway Int
+/company/526335/	Shreyas Interm.
+/company/RAMAPHO/	Rama Phosphates
+/company/519279/	Madhur Inds
+/company/SUULD/consolidated/	Suumaya Indust.
+/company/504648/	Bombay Wire
+/company/513502/	Baroda Extrusion
+/company/538596/	Quantum Build
+/company/530035/	Santosh Fin Fab
+/company/COMPINFO/consolidated/	Compuage Info.
+/company/CREATIVEYE/	Creative Eye
+/company/526001/consolidated/	Jauss Polymers
+/company/ACL/	Andhra Cements
+/company/530427/	Choksi Imaging
+/company/523113/	Futuristic Sec.
+/company/SUTLEJTEX/	Sutlej Textiles
+/company/530077/	Freshtrop Fruits
+/company/ORIENTALTL/	Oriental Trimex
+/company/531499/	Sybly Industries
+/company/541005/consolidated/	Kanco Tea
+/company/LASA/	Lasa Supergeneri
+/company/ROLTA/consolidated/	Rolta India
+/company/530055/	Harmony Capital
+/company/531862/	Bharat Agri Fert
+/company/539378/	Soni Medicare
+/company/506906/	Saptak Chem &
+/company/511740/consolidated/	Mehta Housg. Fin
+/company/538772/consolidated/	Niyogin Fintech
+/company/SIL/consolidated/	Standard Inds.
+/company/513397/	Vallabh Steels
+/company/512025/	Inertia Steel
+/company/542046/	Vivid Mercantile
+/company/MCLEODRUSS/consolidated/	Mcleod Russel
+/company/524156/consolidated/	TCM
+/company/505515/	Shyamkamal Inv
+/company/3IINFOLTD/consolidated/	3i Infotech
+/company/VISASTEEL/consolidated/	Visa Steel
+/company/526081/	SC Agrotech
+/company/504731/	Azad India
+/company/538092/consolidated/	Shri Vasuprada
+/company/531359/	Shriram AMC
+/company/517423/	Integra Switch
+/company/ZOTA/consolidated/	Zota Health Care
+/company/JCHAC/	Johnson Con. Hit
+/company/WILLAMAGOR/	Williamson Magor
+/company/504180/	Standard Battery
+/company/532336/	Baron Infotech
+/company/KHAICHEM/	Khaitan Chemical
+/company/542025/	Sun Retail
+/company/535657/	Objectone Inform
+/company/531505/	Indergiri Fin.
+/company/MAXIND/consolidated/	Max India Ltd
+/company/SECMARK/	Secmark Consult.
+/company/511411/consolidated/	Shristi Infra
+/company/531460/	Cont. Controls
+/company/531272/	Nikki Glob.Fin.
+/company/532262/	TCI Industries
+/company/JAYSREETEA/consolidated/	Jay Shree Tea
+/company/523465/	Ind Bank Housing
+/company/500236/	Kanel Indust.
+/company/531509/	Step Two Corp.
+/company/DELTAMAGNT/consolidated/	Delta Manufact.
+/company/526113/	Uniroyal Marine
+/company/523519/	Universal Office
+/company/530433/consolidated/	Shiva Global
+/company/MTNL/consolidated/	M T N L
+/company/ZODIACLOTH/consolidated/	Zodiac Cloth. Co
+/company/GILLANDERS/consolidated/	Gillanders Arbut
+/company/522207/	Rasandik Engg.
+/company/514087/	PBM Polytex
+/company/MTEDUCARE/consolidated/	MT Educare
+/company/NEXTMEDIA/consolidated/	Next Mediaworks
+/company/ITI/	ITI
+/company/524414/	Norris Medicines
+/company/509835/	Prem. Synthetic
+/company/PAYTM/consolidated/	One 97
+/company/514165/	Indian Acrylics
+/company/539724/	Hypersoft Tech.
+/company/526905/	Padmanabh Inds.
+/company/512301/	Chambal Brewer
+/company/539798/	Umiya Tubes
+/company/SOLARA/consolidated/	Solara Active
+/company/NSLNISP/	NMDC Steel
+/company/523387/consolidated/	Triton Corp.
+/company/524711/	Vista Pharma.
+/company/530111/	Raj Packaging
+/company/512068/consolidated/	Dec.Gold Mines
+/company/531929/	Innocorp
+/company/531583/	Rap Media
+/company/543194/consolidated/	Nirmitee Robotic
+/company/530177/	SPS Intl.
+/company/531686/	MPS Pharmaa
+/company/519413/	Datiware Mari.
+/company/531832/	Nag. Agri Tech.
+/company/538733/	Starlit Power
+/company/539032/	Fraser & Company
+/company/538897/	SHRI NIWAS L& F.
+/company/524663/	Bharat Immunolog
+/company/543622/consolidated/	Steelman Telecom
+/company/500346/	Punjab Commun.
+/company/505840/	Jaipan Industrie
+/company/526871/consolidated/	Intec Capital
+/company/521133/	Gem Spinners
+/company/540416/consolidated/	Octaware Tech.
+/company/505320/	Lynx Machinery
+/company/SRPL/	Shree Ram Prote.
+/company/500223/	JCT
+/company/YUDIZ/	Yudiz Solutions
+/company/543531/consolidated/	Tierra Agrotech
+/company/513544/	Mardia Samyoung
+/company/AARVEEDEN/	Aarvee Denims
+/company/CONTI/	Continental Seed
+/company/532403/	Fourth Gen.
+/company/SPENCERS/consolidated/	Spencer's Retail
+/company/534659/	Jointeca Educati
+/company/FCONSUMER/consolidated/	Future Consumer
+/company/OMKARCHEM/	Omkar Spl.Chem.
+/company/523732/	Ecoboard Inds.
+/company/FEL/	Future Enterp.
+/company/530611/	Sturdy Industrie
+/company/BRIGHT/	Bright Solar
+/company/EMBDL/consolidated/	Equinox India
+/company/520141/	Sibar Auto Parts
+/company/NOIDATOLL/consolidated/	Noida Tollbridg.
+/company/LLOYDS/	Lloyds Luxuries
+/company/531456/	Minaxi Textiles
+/company/518011/	Keerthi Indus
+/company/531178/	Hemang Resources
+/company/539767/	Mega Nirman
+/company/531413/	Kiran Print Pack
+/company/INDIFRA/	Indifra Ltd
+/company/532444/	T. Spiritual
+/company/518017/	Bheema Cements
+/company/532656/consolidated/	Facor Alloys
+/company/514223/	Ramgopal Polytex
+/company/DTL/	Diensten Tech
+/company/513515/	S R Industries
+/company/AURUM/consolidated/	Aurum Proptech
+/company/515085/	Restile Ceramics
+/company/538537/	Omansh Enterpri.
+/company/538919/	Skyline Ventures
+/company/521151/consolidated/	Dhanlaxmi Fabric
+/company/531126/consolidated/	Virtualsoft Sys.
+/company/526173/consolidated/	Andrew Yule & Co
+/company/530119/	Natraj Proteins
+/company/500246/	Envair Electrody
+/company/531203/	Tradewell Hold
+/company/SHANTI/consolidated/	Shanti Overseas
+/company/LEXUS/	Lexus Granito
+/company/524661/	Welcure Drugs
+/company/535719/	Ampvolts
+/company/506979/	Apt Packaging
+/company/538731/	Hanman Fit
+/company/BLUECOAST/consolidated/	Blu.Coast Hotel.
+/company/SHALPAINTS/consolidated/	Shalimar Paints
+/company/531406/	ANS Industries
+/company/524516/	Bacil Pharma
+/company/CEREBRAINT/consolidated/	Cerebra Integr.
+/company/ORTEL/	Ortel Commu.
+/company/530787/	Inland Printers
+/company/513119/	ABC Gas (Int.)
+/company/536493/	JK Agri Genetics
+/company/535647/	SDC Techmedia
+/company/NITCO/consolidated/	Nitco
+/company/541983/	Innovative Ideal
+/company/537840/	Raunaq Intl.
+/company/506520/	Jayshree Chem.
+/company/WEBELSOLAR/	Websol Energy
+/company/513566/	Nova Iron &Steel
+/company/543519/	Shashwat Furnis.
+/company/526477/consolidated/	South Asian Ent.
+/company/534733/consolidated/	Aerpace Indus
+/company/500166/	Goodricke Group
+/company/515127/	Ramasigns Indus.
+/company/SELMC/consolidated/	SEL Mfg. Co
+/company/542765/	Transpact Enter.
+/company/BGRENERGY/consolidated/	BGR Energy Sys.
+/company/513528/	Glittek Granites
+/company/511712/consolidated/	Relic Tech.
+/company/512175/consolidated/	Vama Industries
+/company/501314/	Prismx Global
+/company/SMVD/consolidated/	SMVD Poly Pack
+/company/RAJVIR/	Rajvir Inds.
+/company/513005/	Chrome Silicon
+/company/520121/	Arcee Industries
+/company/WINSOME/	Winsome Yarns
+/company/NIBL/	NRB Indl Bearing
+/company/GAYAPROJ/consolidated/	Gayatri Projects
+/company/531259/	Esha Media
+/company/532766/	Richa Industries
+/company/MANUGRAPH/	Manugraph India
+/company/530145/	Kisan Mouldings
+/company/526622/	MFL India
+/company/RHFL/	Reliance Home
+/company/539621/	BCL Enterprises
+/company/530825/	Daikaffil Chem
+/company/530985/consolidated/	JPT Securities
+/company/VELS/consolidated/	Vels Film
+/company/UNITECH/consolidated/	Unitech
+/company/531444/	Vardhman Concr.
+/company/MOXSH/	Moxsh Overseas
+/company/526225/	Bloom Dekor
+/company/522273/	Ahm. Steelcraft
+/company/IL&FSTRANS/	IL&FS Transport
+/company/538542/	Goldcoin Health
+/company/GEPIL/consolidated/	GE Power
+/company/524288/consolidated/	Aimco Pesticides
+/company/DIGJAMLMTD/	Digjam
+/company/507300/	The Ravalgaon
+/company/SUMEETINDS/consolidated/	Sumeet Industrie
+/company/519014/	Prashant India
+/company/524548/	Sharma E I Hosp.
+/company/521149/consolidated/	Prime Urban
+/company/ABMINTLLTD/consolidated/	A B M Internatl.
+/company/KREBSBIO/	Krebs Biochem
+/company/ZEEMEDIA/consolidated/	Zee Media
+/company/DTIL/consolidated/	Dhunseri Tea
+/company/538993/	Purohit Const.
+/company/XELPMOC/consolidated/	Xelpmoc Design
+/company/MIRCELECTR/	MIRC Electronics
+/company/A2ZINFRA/consolidated/	A2Z Infra Engg.
+/company/514177/	Rishabh Sp. Yarn
+/company/UNIVPHOTO/consolidated/	Universus Photo
+/company/531626/	Orosil Smiths
+/company/539111/	Sheshadri Indus.
+/company/VCL/	Vaxtex Cotfab
+/company/TAKE/consolidated/	Take Solutions
+/company/519285/	Tarai Foods
+/company/MEP/consolidated/	MEP Infrast.
+/company/507498/	Piccadily Sugar
+/company/KERNEX/consolidated/	Kernex Microsys.
+/company/SUPREMEENG/	Supreme Engg.
+/company/MORARJEE/consolidated/	Morarjee Text.
+/company/500322/	Panyam Cement
+/company/507962/	Rajath Finance
+/company/OMAXE/consolidated/	Omaxe
+/company/533289/consolidated/	Kesar Terminals
+/company/SABEVENTS/	SAB Events
+/company/OILCOUNTUB/	Oil Country
+/company/540108/	Tiaan Consumer
+/company/LPDC/	Landmark Prop.
+/company/530669/	Ace Engitech
+/company/539198/	Capfin India
+/company/539132/	Wardwizard Foods
+/company/531327/	Charms Industrie
+/company/543284/consolidated/	EKI Energy
+/company/531395/	Padam Cotton
+/company/BROOKS/consolidated/	Brooks Lab.
+/company/SUVIDHAA/consolidated/	Suvidhaa Info.
+/company/542728/	S K Internation.
+/company/526025/	Globus Power
+/company/530207/	Brawn Biotech
+/company/530037/	Sr. Jayala. Auto
+/company/539115/consolidated/	Alan Scott Inds.
+/company/544191/	Purple Finance
+/company/531083/consolidated/	Nihar Info Glob.
+/company/517397/	Pan Electronics
+/company/HEADSUP/	Heads UP Venture
+/company/521054/	Kakatiya Textile
+/company/531436/	Saffron Industri
+/company/526570/	Midwest Gold
+/company/524572/consolidated/	Pharmaids Pharma
+/company/531496/	Omkar Overseas
+/company/SEMAC/consolidated/	Semac Consul
+/company/HCL-INSYS/consolidated/	HCL Infosystems
+/company/FLEXITUFF/consolidated/	Flexituff Vent.
+/company/502133/	Hemadri Cements
+/company/513575/	Sterling Powerg.
+/company/512345/	Yash Trad.& Fin.
+/company/BALKRISHNA/	Balkrishna Paper
+/company/538539/	J Taparia Proj
+/company/OLAELEC/consolidated/	Ola Electric
+/company/514440/	Blue Pearl Agri
+/company/531319/	Maruti Sec.
+/company/AKSHOPTFBR/consolidated/	Aksh Optifibre
+/company/523120/consolidated/	Ador Multi Prod.
+/company/ANKITMETAL/	Ankit Met.Power
+/company/EUROTEXIND/	Eurotex Industri
+/company/533896/	Fervent Synerg.
+/company/543897/consolidated/	Sancode Tech.
+/company/524642/	Sikozy Realtors
+/company/SUVEN/consolidated/	Suven Life Scie.
+/company/532303/	Integ. Hitech
+/company/CBAZAAR/consolidated/	Net Avenue
+/company/542332/	Hi-Klass Trading
+/company/PRAXIS/	Praxis Home
+/company/ORTINGLOBE/	Ortin Labs.
+/company/530027/	Aadi Industries
+/company/513687/	Spectra Industri
+/company/538464/	Thirani Projects
+/company/524636/	Oxygenta Pharma
+/company/524322/	Kabra Drugs
+/company/532806/consolidated/	AI Champ.Inds.
+/company/524564/	Gayatri BioOrga.
+/company/517399/	VXL Instruments
+/company/BLAL/	BEML Land Assets
+/company/RAMCOSYS/consolidated/	Ramco Systems
+/company/531600/	Gogia Capital
+/company/533019/	Simplex Papers
+/company/537254/	RCI Industries
+/company/543521/	Fone4 Communica.
+/company/526869/	Kumbhat Fin.
+/company/TIL/consolidated/	TIL
+/company/SECURKLOUD/consolidated/	SecureKloud Tech
+/company/540756/	Kaarya Facilit.
+/company/524590/	Hemo Organic
+/company/QUINTEGRA/	Quintegra Soln.
+/company/531541/	Kobo Biotech
+/company/539337/	Waaree Tech.
+/company/500357/	Rama Paper Mills
+/company/533149/	Yunik Managing
+/company/514336/	Genesis IBRC
+/company/542910/	Valencia Nutrit.
+/company/509449/	Bhagawati Oxygen
+/company/540359/	Parmax Pharma
+/company/522245/	Iykot Hitech
+/company/539911/	Svarnim Trade Ud
+/company/531846/consolidated/	Trinity League
+/company/LYPSAGEMS/consolidated/	Lypsa Gems
+/company/505502/	PS IT Infra
+/company/502850/	Gaekwar Mills
+/company/505703/	Deccan Bearings
+/company/FLFL/consolidated/	Future Lifestyle
+/company/531594/	Incon Engineers
+/company/530179/	RSC Internl.
+/company/531812/	SGN Telecoms
+/company/519367/	Transglobe Foods
+/company/512197/	Silveroak Comm
+/company/531616/	Starcom Info.
+/company/KAYA/consolidated/	Kaya Ltd
+/company/532015/	Gravity (India)
+/company/538975/	Shree Securities
+/company/540955/	Tasty Dairy
+/company/VIVIDHA/	Visagar Polytex
+/company/540386/	Ontic Finserve
+/company/511577/	Savani Financial
+/company/509015/	Thakral Services
+/company/500248/	Krishna Fil. Ind
+/company/540715/	Sagar Diamonds
+/company/530251/	Risa Internatio.
+/company/532645/	Beeyu Overseas
+/company/SPARC/	SPARC
+/company/531537/	Jyothi Infra.
+/company/526799/	Union Qual. Pla.
+/company/CCCL/consolidated/	C C C L
+/company/523222/consolidated/	SRM Energy Ltd
+/company/538743/	Mudunuru
+/company/530219/	Nutricircle
+/company/516098/	Ventura Textiles
+/company/542667/consolidated/	White Organic Re
+/company/526967/	Heera Ispat
+/company/531324/	Roselabs Finance
+/company/512063/	Wardwizard Healt
+/company/531769/	PFL Infotech
+/company/531867/	Unitech Internat
+/company/REGENCERAM/	Regency Ceramics
+/company/531658/	Abate As Indust
+/company/531944/	Lexoraa Ind
+/company/530291/	Paos Industries
+/company/ESSARSHPNG/consolidated/	Essar Shipping
+/company/517044/	Intl. Data Mgt.
+/company/NAGAFERT/consolidated/	Nagarjuna Fert.
+/company/IMPEXFERRO/	Impex Ferro Tech
+/company/530565/	Popees Care
+/company/SHRENIK/	Shrenik
+/company/500458/	Kore Foods
+/company/522027/	EMA India
+/company/YAARI/consolidated/	Yaari Digital
+/company/UNIVAFOODS/	Univa Foods
+/company/521137/	Eureka Industrie
+/company/532217/	Siel Fin. Serv.
+/company/531155/	Epsom Properties
+/company/517320/	Magnus Retail
+/company/543274/	Suumaya Corp.
+/company/508963/	Trustwave
+/company/531252/	Aneri Fincap
+/company/524434/	Asian Petroprod.
+/company/SITINET/consolidated/	Siti Networks
+/company/523888/	V R Woodart
+/company/517230/	PAE
+/company/505797/	Mipco Seaml Ring
+/company/530281/	Quantum Digital
+/company/519287/	Modern Dairies
+/company/519479/	Omega Ag Seeds
+/company/532078/	Monind
+/company/519604/	Suryo Foods
+/company/531968/	IITL Projects
+/company/530161/	Garodia Chemical
+/company/503776/	Modipon
+/company/526193/	Royal Cush. Vin.
+/company/523874/	East India Drums
+/company/531207/	Raymed Labs
+/company/517201/	Switching Tech.
+/company/GTLINFRA/	GTL Infra.
+/company/530609/	Carnation Inds.
+/company/531144/	EL Forge
+/company/531574/	Vas Infra.
+/company/532160/	Guj. State Fin.
+/company/511116/	Quadrant Tele.
+/company/TCIFINANCE/	TCI Finance
+/company/501311/	Jayabharat Cred.
+/company/511716/	Invigorated Bus.
+/company/511734/	Pasupati Fincap
+/company/501622/	Amalgamated Elec
+/company/511660/	Premium Capital
+/company/505504/	Sindu Valley
+/company/503685/	Mediaone Global
+/company/531716/	Tricom Fruit
+/company/534064/	Alliance Integ.
+/company/530683/	Pithampur Poly
+/company/530063/	Yashraj Contain.
+/company/506003/	Sudal Industries
+/company/TNTELE/	T N Telecom.
+/company/SHYAMTEL/	Shyam Telecom
+/company/GTL/	GTL
+/company/532975/	Telogica
+/company/533110/	Shree Precoated
+/company/523832/	Mukat Pipes
+/company/PRAKASHSTL/	Prakash Steelage
+/company/504961/	Tayo Rolls
+/company/531989/	Deccan Polypacks
+/company/VARDMNPOLY/	Vardhman Polytex
+/company/500277/	Mid India Inds.
+/company/521161/	Sri Lak.Sar.Arni
+/company/526115/	Manor Estates
+/company/503772/	Modella Woollens
+/company/514144/	Uniworth
+/company/531613/	Meyer Apparel
+/company/524580/	Priya
+/company/532820/	E-Land Apparel
+/company/533018/	Simplex Mills
+/company/523242/	NB Footwear
+/company/526431/	Welterman Intl.
+/company/530755/	Coral Newsprints
+/company/JETAIRWAYS/	Jet Airways
+/company/506186/	Galaxy Cloud
+/company/EDUCOMP/	Educomp Sol.
+/company/INFOMEDIA/	Infomedia Press
+/company/513579/	Foundry Fuel
+/company/526143/	MPL Plastics
+/company/526823/	Rajeswari Infra.
+/company/532470/	MPF Systems
+/company/506975/	Rajas. Petro Syn
+/company/524622/	iStreet Network
+/company/531628/	Tejassvi Aaharam
+/company/503863/	Shree Mfg. Co.
+/company/535142/	Channel Nine
+/company/511634/	Dugar Housing
+/company/523351/	Standard Shoe
+/company/514060/	Markobenz Ventur
+/company/500421/	TPI India
+/company/505100/	India Radiators
+/company/TECILCHEM/	TECIL Chemical
+/company/GFSTEELS/	Grand Foundry
+/company/516062/	Natl. Plywood
+/company/522036/	Miven Mach. Tool
+/company/524604/	Adline Chem Lab
+/company/531647/	B J Duplex Board
+/company/FELDVR/	Future Ent. DVR
+/company/JISLDVREQS/	Jain Irrigat-DVR
+/company/539189/	Adhbhut Infra.
+/company/CMMIPL/	CMM Infraproj
+/company/ABAN/consolidated/	Aban Offshore
+/company/ALPSINDUS/consolidated/	Alps Industries
+/company/ANSALAPI/consolidated/	Ansal Properties
+/company/ARSHIYA/consolidated/	Arshiya
+/company/ASHIMASYN/consolidated/	Ashima
+/company/BINANIIND/consolidated/	Binani Industrie
+/company/512093/consolidated/	Cranes Software
+/company/DIACABS/consolidated/	Diamond Power
+/company/DISHTV/consolidated/	Dish TV India
+/company/GOLDENTOBC/consolidated/	Golden Tobacco
+/company/532467/consolidated/	Haz.Multi Proj.
+/company/HMT/consolidated/	HMT
+/company/IL&FSENGG/consolidated/	IL&FS Engg.
+/company/MBECL/consolidated/	McNally Bharat
+/company/501477/consolidated/	Muller & Phipps
+/company/511714/consolidated/	Nimbus Projects
+/company/533202/consolidated/	Satchmo Holdings
+/company/500358/consolidated/	Rama Petrochem
+/company/KRIDHANINF/consolidated/	Kridhan Infra
+/company/RCOM/consolidated/	Reliance Communi
+/company/513295/consolidated/	IMEC Services
+/company/533268/consolidated/	Sea TV Network
+/company/SABTNL/consolidated/	Sri Adhik. Bros.
+/company/STCINDIA/consolidated/	S T C
+/company/NTL/consolidated/	Neueon Towers
+/company/SUPREMEINF/consolidated/	Supreme Infra.
+/company/ZENITHSTL/consolidated/	Zenith Steel
+/company/539673/	Radhagobind Comm
+/company/NKIND/consolidated/	N K Industries
+/company/PREMIER/consolidated/	Premier
+/company/521113/consolidated/	Suditi Industrie
+/company/TVVISION/consolidated/	TV Vision
+/company/509162/consolidated/	Indag Rubber
+/company/514402/consolidated/	Eco Hotels
+/company/526125/consolidated/	BN Holdings
+/company/541741/consolidated/	FratelliVineyard
+/company/532035/consolidated/	Unistar Multim.
+/company/542155/	Diksha Greens
+/company/530617/consolidated/	Sampre Nutrition
+/company/540654/consolidated/	Globalspace Tech
+/company/TARSONS/consolidated/	Tarsons Products
+/company/523475/consolidated/	Lotus Chocolate
+/company/540079/consolidated/	Sprayking Ltd
+/company/PLADAINFO/	Plada Infotech S
+/company/REMUS/consolidated/	Remus Pharma.
+/company/544011/	Vrundavan Planta
+/company/MANGALAM/consolidated/	Mangalam Drugs
+/company/539291/consolidated/	Vasudhagama Ent.
+/company/JAINAM/consolidated/	Jainam Ferro
+/company/539607/consolidated/	Blue Cloud Soft.
+/company/CLOUD/consolidated/	Varanium Cloud
+/company/544108/	Gabriel Pet
+/company/544163/	Greenhitech
+/company/543943/consolidated/	Asarfi Hospital
+/company/MANDEEP/	Mandeep Auto
+/company/SHREEKARNI/consolidated/	Shree Karni
+/company/542727/consolidated/	City Pulse Multi
+/company/GSMFOILS/	GSM Foils
+/company/526530/consolidated/	IIRM Holdings
+/company/SKP/consolidated/	SKP Bearing
+/company/NDRINVIT/consolidated/	NDR INVIT Trust
+/company/SSFL/consolidated/	Srivari Spices &
+/company/TCL/consolidated/	Thaai
+/company/530457/consolidated/	Cinerad Communic
+/company/544166/consolidated/	Emmforce
+/company/544175/	TGIF Agribusines
+/company/543439/consolidated/	Brandbucket Med.
+/company/543678/consolidated/	Ambo Agritec
+/company/544143/consolidated/	Royal
+/company/BHINVIT/consolidated/	Bharat Hig.InvIT
+/company/544195/	United Cotfab
+/company/BOROSCI/consolidated/	Borosil Scienti.
+/company/MASON/	Mason
+/company/544005/consolidated/	Intellig Sup Tru
+/company/MIEL/	Manglam Infra
+/company/CHETANA/	Chetana
+/company/PPSL/	Picturepost
+/company/544231/	Broach
+/company/532159/consolidated/	Trescon
+/company/517554/consolidated/	NHC Foods
+/company/531652/consolidated/	Thirdwave Fin.
+/company/540788/consolidated/	Aspira Pathlab
+/company/OBCL/consolidated/	Orissa Bengal
+/company/GLOBE/consolidated/	Globe Textiles
+/company/540266/consolidated/	Globe Commercial
+/company/IDEALTECHO/	Ideal
+/company/FORCAS/	Forcas
+/company/IPHL/consolidated/	Indian Phosphate
+/company/544248/consolidated/	Mach Conferences
+/company/NAMOEWASTE/consolidated/	Namo eWaste
+/company/TOLINS/consolidated/	Tolins
+/company/PELATRO/consolidated/	Pelatro
+/company/SANOFICONR/	Sanofi Consumer
+/company/VIESL/consolidated/	Vision Infra
+/company/543461/consolidated/	Safa Systems
+/company/PARAMOUNT/	Paramount Dye
