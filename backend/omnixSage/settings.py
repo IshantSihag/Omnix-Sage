@@ -39,8 +39,18 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    'rest_framework.authtoken',
     "api",
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
 
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -128,3 +138,10 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+
+
+PREDEFINED_USERS = [
+    {'username': 'user1', 'email': 'user1@example.com', 'password': 'password123'},
+    {'username': 'user2', 'email': 'user2@example.com', 'password': 'password456'},
+    # Add more users as needed
+]
