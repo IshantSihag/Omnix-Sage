@@ -39,6 +39,20 @@ const DisclaimerPopup = ({ onAgree, onDisagree }) => (
   <div className="disclaimer-popup">
     <h2>Disclaimer - NO INVESTMENT ADVICE PROVIDED</h2>
     <p>This software is designed for informational purposes only and is not intended to provide personalized investment advice. The information and data provided through this software are for general guidance and educational purposes.</p>
+    <p>While reasonable endeavors have been made to present reliable data in the report / presentation, but Omnix Sage
+does not guarantee the accuracy or completeness of the data in the report / presentation. Omnix Sage or any of
+its connected persons including its subsidiaries or associates or partners or employees shall not be in any way responsible for any loss or
+damage that may arise to any person from any inadvertent error in the information contained, views and opinions expressed in this
+report / presentation. Past performance should not be taken as an indication or guarantee of future performance, and no rereport / presentation or
+warranty, express or implied, is made regarding future performance. Information, opinions and estimates contained in this report / presentation
+reflect a judgment of its original date of publication by Omnix Sage and are subject to change without
+notice. This report / presentation is not directed or intended for distribution to, or use by, any person or entity who is a citizen or resident of or
+located in any locality, state, country or other jurisdiction, where such distribution, publication, availability or use would be contrary to local
+law, regulation or which would subject Omnix Sage and its affiliates to any registration or licensing
+requirement within such jurisdiction The product described herein may or may not be eligible for sale in all jurisdictions or to certain
+category of investors. Persons in whose possession this report / presentation may come are required to inform themselves of and to observe
+such restrictions. Before making any investments, the readers are advised to seek independent professional advice, verify the contents in
+order to arrive at an informed investment decision.</p>
     <button className="home-button" onClick={onAgree}>Agree</button>
     <button className="home-button" onClick={onDisagree}>Disagree</button>
   </div>
